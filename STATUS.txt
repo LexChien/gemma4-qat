@@ -6,5 +6,5 @@
 [3/7] 已撰寫 .gitignore、README、src/gemma 說明、publish log
 [4/7] 已同步更新原專案 docs/logs 索引（僅新增 log 與索引，不改其餘檔）
 [5/7] 安全掃描完成：無金鑰／無政策正文；User-Agent 含 lex@xsoin.com（已註記）
-[ ] 本地 git commit
-[ ] 建立公開 GitHub repo 並 push（gh 未安裝；改用已驗證的 git SSH + GitHub connector）
+[6/7] 本地 git commit d825cc278d71b923c100e27bbf3f8286725f12a0
+[7/7] 已建立公開倉庫 https://github.com/LexChien/gemma4-qat 並 push main

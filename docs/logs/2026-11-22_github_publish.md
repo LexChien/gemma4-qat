@@ -36,5 +36,10 @@
 
 ## 上傳紀錄
 
-- 本機 `gh` 未安裝；GitHub SSH（`git@github.com`）已能以 `LexChien` 驗證。
-- 建立公開 repo 與 push 的結果寫於本段後續更新（commit SHA、URL、檔案數／體積）。
+- 本機 `gh` 未安裝；GitHub SSH（`git@github.com`）已能以 `LexChien` 驗證。建立空倉庫改用已登入的 GitHub connector（`create_repository`，`private=false`），再用 git SSH 推送。
+- 公開倉庫：https://github.com/LexChien/gemma4-qat （visibility=public）
+- 分支：`main`
+- 初始 commit：`d825cc278d71b923c100e27bbf3f8286725f12a0`（2026-11-22 20:19:32 Asia/Taipei）
+  - 1038 個檔案，234,609 行新增
+  - 工作樹（不含 `.git`）約 67.22 MiB；git pack 約 21.55 MiB
+- 作者：Lex Chien `<Lex@xsoin.com>`
