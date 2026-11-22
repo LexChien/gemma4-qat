@@ -1,0 +1,66 @@
+{
+ "layers.0.self_attn.q_proj.weight": {
+  "repo_q4_0 (d=-m/8, fp16 d)": 0.2587,
+  "d=max(-min/8,max/7) f32": 0.4366,
+  "d=max(-min/8,max/7) fp16": 0.4366,
+  "d=max(-min/8,max/7) bf16": 0.3927,
+  "d=absmax/8": 0.2587,
+  "d=absmax/7": 0.1718
+ },
+ "layers.0.mlp.gate_proj.weight": {
+  "repo_q4_0 (d=-m/8, fp16 d)": 0.2725,
+  "d=max(-min/8,max/7) f32": 0.4572,
+  "d=max(-min/8,max/7) fp16": 0.4572,
+  "d=max(-min/8,max/7) bf16": 0.4268,
+  "d=absmax/8": 0.2725,
+  "d=absmax/7": 0.1841
+ },
+ "layers.0.mlp.down_proj.weight": {
+  "repo_q4_0 (d=-m/8, fp16 d)": 0.2727,
+  "d=max(-min/8,max/7) f32": 0.4589,
+  "d=max(-min/8,max/7) fp16": 0.4589,
+  "d=max(-min/8,max/7) bf16": 0.4297,
+  "d=absmax/8": 0.2727,
+  "d=absmax/7": 0.1833
+ },
+ "layers.4.self_attn.o_proj.weight": {
+  "repo_q4_0 (d=-m/8, fp16 d)": 0.2596,
+  "d=max(-min/8,max/7) f32": 0.4431,
+  "d=max(-min/8,max/7) fp16": 0.4431,
+  "d=max(-min/8,max/7) bf16": 0.3984,
+  "d=absmax/8": 0.2596,
+  "d=absmax/7": 0.1754
+ },
+ "layers.3.per_layer_input_gate.weight": {
+  "repo_q4_0 (d=-m/8, fp16 d)": 0.2822,
+  "d=max(-min/8,max/7) f32": 0.4478,
+  "d=max(-min/8,max/7) fp16": 0.4478,
+  "d=max(-min/8,max/7) bf16": 0.4129,
+  "d=absmax/8": 0.2822,
+  "d=absmax/7": 0.1574
+ },
+ "per_layer_model_projection.weight": {
+  "repo_q4_0 (d=-m/8, fp16 d)": 0.26,
+  "d=max(-min/8,max/7) f32": 0.4403,
+  "d=max(-min/8,max/7) fp16": 0.4403,
+  "d=max(-min/8,max/7) bf16": 0.4056,
+  "d=absmax/8": 0.26,
+  "d=absmax/7": 0.1719
+ },
+ "embed_tokens.weight": {
+  "repo_q4_0 (d=-m/8, fp16 d)": 0.2803,
+  "d=max(-min/8,max/7) f32": 0.4941,
+  "d=max(-min/8,max/7) fp16": 0.4941,
+  "d=max(-min/8,max/7) bf16": 0.4583,
+  "d=absmax/8": 0.2803,
+  "d=absmax/7": 0.208
+ },
+ "embed_tokens_per_layer.weight": {
+  "repo_q4_0 (d=-m/8, fp16 d)": 0.2464,
+  "d=max(-min/8,max/7) f32": 0.4343,
+  "d=max(-min/8,max/7) fp16": 0.4343,
+  "d=max(-min/8,max/7) bf16": 0.3737,
+  "d=absmax/8": 0.2463,
+  "d=absmax/7": 0.1718
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "name": "mlx-qat-mobile-g64",
+ "path": "out/m0/mlx-qat-mobile-g64",
+ "framework": "mlx",
+ "mlx": "0.32.4",
+ "load_lazy_s": 2.4011904579992915,
+ "load_s": 2.402047415999732,
+ "mem_after_load_GB": 2.160687806,
+ "n_params_bytes_GB": 2.160564806,
+ "gen_tokens": 128,
+ "gen_tps": 123.68171978911118,
+ "prompt_tokens": 36,
+ "prompt_tps": 909.2985092738844,
+ "gen_peak_mem_GB": 2.25635867,
+ "gen_text": "<|channel>thought\nTaiwan's geography, history, and culture are a rich topic. The request requires at least five paragraphs, covering different aspects while remaining comprehensive. I'll aim to structure the content by grouping different elements: geography (island and its features), history (archaeology and major historical periods), and culture (food, festivals, and the people's diverse heritage).\n\n    1.  **Geography & Environment:** Physical landscape, its position in the island, and its impact on its unique climate and biodiversity.\n    2.  **History & Archaeology:** The original and modern historical periods, focusing on the cultural layers",
+ "max_rss_GB": 3.384131584
+}

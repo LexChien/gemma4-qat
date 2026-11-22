@@ -1,0 +1,23 @@
+{
+ "name": "m3-conv-it-bf16",
+ "path": "out/m3/it-bf16",
+ "framework": "mlx",
+ "mlx": "0.32.4",
+ "load_lazy_s": 3.4150153330010653,
+ "load_s": 3.415615042000354,
+ "mem_after_load_GB": 9.257138878,
+ "n_params_bytes_GB": 9.257138758,
+ "gen_tokens": 128,
+ "gen_tps": 55.48926868693285,
+ "prompt_tokens": 36,
+ "prompt_tps": 642.0030495116249,
+ "gen_peak_mem_GB": 9.307410988,
+ "gen_text": "<|channel>thought\nHere's a thinking process that leads to the suggested response:\n\n1.  **Analyze the Request:**\n    *   **Topic:** Taiwan (台灣).\n    *   **Required Content:** Geography (地理), History (歷史), and Culture (文化).\n    *   **Format Requirement:** Detailed introduction (詳細介紹), at least five paragraphs (至少寫五段).\n    *   **Language:** Traditional Chinese (繁體中文).\n\n2.  **Determine the Structure (Five Paragraphs Minimum):** A good structure will cover the three main themes logically.\n\n    *   *Paragraph ",
+ "ppl_wikitext": 155.37998142141421,
+ "ppl_wikitext_tokens": 40960,
+ "ppl_zh_tw": 139.37559557468995,
+ "ppl_zh_tw_tokens": 20480,
+ "ppl_time_s": 168.40967958299916,
+ "ppl_peak_mem_GB": 12.23196839,
+ "max_rss_GB": 10.47642112
+}

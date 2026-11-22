@@ -1,0 +1,34 @@
+loaded {'jax': '0.11.2', 'devices': ['cpu:0'], 'steps': 30, 'seq': 128, 'lr': 0.0003, 'method': 'Q4_0_ABSMAX', 'nseq': 8, 'batch': 1, 'load_s': 14.3, 'tree_equal_to_model_init': False, 'tree_keys_equal': False, 'tree_shapes_equal': True, 'tree_dtype_diff': [], 'tree_key_diff': ["['layer_0']['mlp']['gating_einsum']", "['layer_0']['mlp']['gating_einsum']['w']", "['layer_0']['mlp']['linear']", "['layer_0']['mlp']['linear']['w']", "['layer_1']['mlp']['gating_einsum']", "['layer_1']['mlp']['gating_einsum']['w']"], 'n_leaves': 530, 'n_params': 4647449891, 'rss_after_load_gb': 6.07}
+{'held_loss_fp_before': 6.183581352233887, 'held_loss_qat_before': 7.281591892242432, 'train_loss_qat_before_seq0': 5.422029495239258}
+step 0 loss 5.4222 30.87s peak 28.2GB
+step 1 loss 5.7079 9.73s peak 28.22GB
+step 2 loss 4.3642 9.35s peak 33.77GB
+step 3 loss 4.6687 9.25s peak 33.79GB
+step 4 loss 4.2115 9.3s peak 33.79GB
+step 5 loss 4.0393 9.46s peak 33.79GB
+step 6 loss 3.7610 9.28s peak 33.79GB
+step 7 loss 4.4898 9.42s peak 33.79GB
+step 8 loss 2.3994 9.71s peak 33.79GB
+step 9 loss 2.6583 9.55s peak 33.79GB
+step 10 loss 2.5218 9.63s peak 33.79GB
+step 11 loss 2.5075 9.51s peak 33.79GB
+step 12 loss 2.5965 10.94s peak 33.79GB
+step 13 loss 2.5144 9.86s peak 33.79GB
+step 14 loss 2.3555 10.73s peak 33.79GB
+step 15 loss 2.6403 10.4s peak 33.79GB
+step 16 loss 1.1388 10.26s peak 33.79GB
+step 17 loss 1.4347 9.52s peak 33.79GB
+step 18 loss 1.3245 9.89s peak 33.79GB
+step 19 loss 1.3224 9.77s peak 33.79GB
+step 20 loss 1.2119 10.2s peak 33.79GB
+step 21 loss 1.0580 10.89s peak 33.79GB
+step 22 loss 1.2681 10.58s peak 33.79GB
+step 23 loss 1.2783 10.66s peak 33.79GB
+step 24 loss 0.6149 11.07s peak 33.79GB
+step 25 loss 0.6226 10.62s peak 33.79GB
+step 26 loss 0.5132 10.44s peak 33.79GB
+step 27 loss 0.5592 10.48s peak 33.79GB
+step 28 loss 0.4382 10.73s peak 33.79GB
+step 29 loss 0.6168 10.62s peak 33.79GB
+{'held_loss_qat_after': 5.089823246002197, 'held_loss_fp_after': 4.703958511352539, 'train_loss_qat_after_seq0': 0.4561859369277954}
+DONE

@@ -1,0 +1,12 @@
+m9 --packed-q4 1 --prefill 4 --threads 2 :: complete 中華民國的國父是**蔣介石**。
+m9 --packed-q4 0 --prefill 4 --threads 2 :: complete 中華民國的國父是**蔣介石**。
+m9 --packed-q4 1 --prefill 32 --threads 2 :: complete 中華民國的國父是**蔣介石**。
+m9 --packed-q4 0 --prefill 4 --threads 2 --driver reference :: complete 中華民國的國父是**蔣介石**。
+m9 --packed-q4 1 --prefill 4 --threads 8 :: {"code":"config","event":"error","message":"Target profile permits 1 or 2 inference threads"}
+ 
+m8 --packed-q4 1 --prefill 4 --threads 2 :: complete 中華民國的國父是**孫中山**。
+m8 --packed-q4 0 --prefill 4 --threads 2 :: complete 中華民國的國父是**孫中山**。
+m8 --packed-q4 1 --prefill 32 --threads 2 :: complete 中華民國的國父是**蔣介石**。
+m8 --packed-q4 0 --prefill 4 --threads 2 --driver reference :: complete 中華民國的國父是**孫中山**。
+m8 --packed-q4 1 --prefill 4 --threads 8 :: {"code":"config","event":"error","message":"Target profile permits 1 or 2 inference threads"}
+ 

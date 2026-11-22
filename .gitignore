@@ -1,0 +1,40 @@
+# Virtualenvs, caches, editor junk
+.DS_Store
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+node_modules/
+.idea/
+.vscode/
+*.swp
+
+# Local credentials
+.env
+.env.*
+*.pem
+id_rsa
+id_ed25519
+
+# Model weights and run outputs (too large for GitHub; not published)
+weights/
+out/
+*.sbs
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Website policy envelopes (private prompt text). Regenerate locally
+# with docs/Plan/m13/tools/m13_envelopes.mjs from the website helpers.
+docs/Plan/m13/raw/envelopes.json
+docs/Plan/m13/raw/envelopes_txt.json
+
+# Upstream google-deepmind/gemma checkout; see src/gemma/README.md
+src/gemma/*
+!src/gemma/README.md

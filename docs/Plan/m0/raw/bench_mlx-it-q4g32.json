@@ -1,0 +1,23 @@
+{
+ "name": "mlx-it-q4g32",
+ "path": "out/m0/mlx-it-q4g32",
+ "framework": "mlx",
+ "mlx": "0.32.4",
+ "load_lazy_s": 2.5690242500004388,
+ "load_s": 2.569907791999867,
+ "mem_after_load_GB": 2.894805694,
+ "n_params_bytes_GB": 2.893249094,
+ "gen_tokens": 128,
+ "gen_tps": 110.03672475690279,
+ "prompt_tokens": 36,
+ "prompt_tps": 831.3671692122234,
+ "gen_peak_mem_GB": 2.99277032,
+ "gen_text": "<|channel>thought\nHere's a thinking process that leads to the suggested response:\n\n1.  **Analyze the Request:**\n    *   **Topic:** Taiwan (地理, 歷史, 文化 - Geography, History, Culture).\n    *   **Format:** Detailed introduction (詳細介紹).\n    *   **Length Requirement:** At least five paragraphs (至少寫五段).\n    *   **Language:** Traditional Chinese (繁體中文).\n\n2.  **Determine the Structure (The Five Paragraph Flow):** A good introduction needs a logical progression.\n    *   *Paragraph 1:* Introduction & Geography (",
+ "ppl_wikitext": 160.933714264148,
+ "ppl_wikitext_tokens": 40960,
+ "ppl_zh_tw": 157.5253838090774,
+ "ppl_zh_tw_tokens": 20480,
+ "ppl_time_s": 432.34414845899937,
+ "ppl_peak_mem_GB": 5.991794519,
+ "max_rss_GB": 4.122984448
+}

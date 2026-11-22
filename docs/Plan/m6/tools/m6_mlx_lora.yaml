@@ -1,0 +1,28 @@
+# M6: MLX-LM LoRA alone on the official QAT weights (bf16 text-only dir; QLoRA on the g32 exact base crashed in M5)
+model: out/m5/qat-text-hf
+train: true
+data: docs/Plan/m5/raw/mlx_data          # wikitext-2 train + zh-TW Wikipedia (CC BY-SA), BOS-prefixed 512-token chunks
+fine_tune_type: lora
+optimizer: adamw
+num_layers: -1
+batch_size: 1
+iters: 1500
+learning_rate: 5.0e-5
+lr_schedule:
+  name: cosine_decay
+  warmup: 50
+  warmup_init: 1.0e-7
+  arguments: [5.0e-5, 1500, 5.0e-6]
+max_seq_length: 512
+steps_per_report: 25
+steps_per_eval: 250
+val_batches: 8
+save_every: 100
+grad_checkpoint: true
+adapter_path: out/m6/mlx_lora
+seed: 0
+lora_parameters:
+  keys: ["self_attn.q_proj", "self_attn.k_proj", "self_attn.v_proj", "self_attn.o_proj", "mlp.gate_proj", "mlp.up_proj", "mlp.down_proj"]
+  rank: 16
+  scale: 2.0
+  dropout: 0.0

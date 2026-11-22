@@ -1,0 +1,99 @@
+N:Am8                base zh 35/40 en 40/40 | hard zh 14/20 en 20/20 | total zh 49/60 en 60/60 (n=120)
+N:Am9                base zh 34/40 en 40/40 | hard zh 14/20 en 20/20 | total zh 48/60 en 60/60 (n=120)
+N:Am9s150            base zh 33/40 en 40/40 | hard zh 13/20 en 20/20 | total zh 46/60 en 60/60 (n=120)
+N:Am9s246            base zh 32/40 en 40/40 | hard zh 13/20 en 20/20 | total zh 45/60 en 60/60 (n=120)
+N:ft100              base zh 34/40 en 40/40 | hard zh 14/20 en 20/20 | total zh 48/60 en 60/60 (n=120)
+N:ft185              base zh 34/40 en 40/40 | hard zh 12/20 en 19/20 | total zh 46/60 en 59/60 (n=120)
+N:m11m8              base zh 34/40 en 40/40 | hard zh 14/20 en 19/20 | total zh 48/60 en 59/60 (n=120)
+N:m11m9              base zh 33/40 en 40/40 | hard zh  0/20 en  0/20 | total zh 33/60 en 40/60 (n=80)
+N:orig               base zh 33/40 en 39/40 | hard zh 15/20 en 20/20 | total zh 48/60 en 59/60 (n=120)
+W:Am8                base zh 28/40 en 39/40 | hard zh 10/20 en 17/20 | total zh 38/60 en 56/60 (n=120)
+W:Am9                base zh 26/40 en 39/40 | hard zh 10/20 en 18/20 | total zh 36/60 en 57/60 (n=120)
+W:ft100              base zh 32/40 en 39/40 | hard zh 13/20 en 16/20 | total zh 45/60 en 55/60 (n=120)
+W:ft185              base zh 34/40 en 39/40 | hard zh 14/20 en 17/20 | total zh 48/60 en 56/60 (n=120)
+W:orig               base zh 27/40 en 37/40 | hard zh 10/20 en 18/20 | total zh 37/60 en 55/60 (n=120)
+T:Am8                base zh 31/40 en 39/40 | hard zh 11/20 en 18/20 | total zh 42/60 en 57/60 (n=120)
+T:Am9                base zh 29/40 en 36/40 | hard zh 12/20 en 17/20 | total zh 41/60 en 53/60 (n=120)
+T:orig               base zh 25/40 en 40/40 | hard zh 13/20 en 18/20 | total zh 38/60 en 58/60 (n=120)
+X:m8_a16             base zh 34/40 en 40/40 | hard zh 14/20 en 20/20 | total zh 48/60 en 60/60 (n=120)
+X:m8_a8all           base zh 33/40 en 40/40 | hard zh 15/20 en 19/20 | total zh 48/60 en 59/60 (n=120)
+X:m9_a16             base zh 35/40 en 40/40 | hard zh 14/20 en 20/20 | total zh 49/60 en 60/60 (n=120)
+X:m9_a8all           base zh 35/40 en 40/40 | hard zh 13/20 en 20/20 | total zh 48/60 en 60/60 (n=120)
+X:m9s150_a16         base zh 35/40 en 40/40 | hard zh 13/20 en 20/20 | total zh 48/60 en 60/60 (n=120)
+X:m9s246_a16         base zh 35/40 en 40/40 | hard zh 13/20 en 20/20 | total zh 48/60 en 60/60 (n=120)
+X:qat_a16            base zh 33/40 en 40/40 | hard zh 15/20 en 20/20 | total zh 48/60 en 60/60 (n=120)
+
+items wrong in any run:
+       0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23
+z01    .   X   X   X   .   X   .   X   .   X   X   X   .   X   X   X   X   .   X   .   .   .   .   .
+z02    X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X
+z03    X   .   .   .   .   X   X   .   .   .   .   X   X   .   .   .   .   X   X   .   .   .   .   .
+z04    X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X
+z05    .   .   X   .   X   .   .   X   .   X   X   .   .   .   X   X   X   X   X   .   .   .   .   .
+z06    .   .   .   .   .   .   .   .   .   X   .   X   X   .   .   .   .   .   .   .   .   .   .   .
+z08    .   .   .   .   .   .   .   .   .   .   .   X   .   .   .   .   .   .   .   .   .   .   .   .
+z09    X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X
+z10    X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X
+z11    .   .   .   .   .   .   .   .   .   .   X   .   .   X   .   .   .   .   .   .   .   .   .   .
+z12    .   .   .   .   .   .   .   .   .   X   X   .   .   X   X   X   X   .   .   .   .   .   .   .
+z17    .   .   .   .   .   .   .   .   .   .   X   .   .   X   .   .   .   .   .   .   .   .   .   .
+z19    .   .   .   .   .   .   .   .   .   X   X   .   .   .   .   .   .   .   .   .   .   .   .   .
+z20    .   .   .   X   .   .   .   .   X   .   .   .   .   .   .   .   .   .   .   .   .   .   .   X
+z22    .   X   X   .   .   .   .   X   X   .   .   .   .   .   .   .   X   .   .   X   X   X   X   X
+z23    .   .   .   .   .   .   .   .   .   X   X   .   .   X   .   .   .   .   .   .   .   .   .   .
+z26    .   .   .   X   .   .   .   .   .   X   X   .   .   X   X   X   X   .   .   .   .   .   .   .
+z27    .   .   .   X   .   .   X   .   .   .   X   .   .   X   .   X   X   .   .   .   .   .   .   .
+z28    .   .   .   .   X   .   .   .   X   .   .   .   .   .   .   .   .   .   .   .   .   .   .   X
+z29    .   .   .   .   .   .   .   .   .   .   .   .   .   X   .   .   X   .   .   .   .   .   .   .
+z30    .   .   .   .   .   .   .   .   .   .   .   .   .   .   X   X   X   .   .   .   .   .   .   .
+z32    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   X   .   .   .   .   .   .   .
+z35    .   .   .   .   .   .   .   .   .   X   X   .   .   X   .   X   X   .   .   .   .   .   .   .
+z39    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   X   .   .   .   .   .   .   .
+z41    .   .   .   .   .   .   .   -   .   X   .   X   .   .   X   .   .   .   .   .   .   .   .   .
+z44    X   X   X   X   X   X   X   -   .   X   X   X   X   X   X   X   X   X   X   X   X   X   X   .
+z45    .   .   .   .   .   .   .   -   .   X   X   .   .   .   X   .   .   .   .   .   .   .   .   .
+z46    .   X   X   X   .   X   X   -   X   X   X   .   .   X   X   X   X   X   .   X   X   X   X   X
+z47    X   X   X   X   X   X   X   -   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X
+z48    X   X   X   X   X   X   X   -   X   .   .   X   X   .   X   X   .   X   X   X   X   X   X   X
+z49    X   X   X   X   X   X   X   -   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X
+z54    .   .   .   .   .   .   .   -   .   X   .   .   .   X   .   .   .   .   .   .   .   .   .   .
+z55    .   .   .   .   .   .   .   -   .   .   X   .   .   X   .   .   .   .   .   .   .   .   .   .
+z56    .   .   .   .   .   .   .   -   .   X   X   .   .   X   .   .   .   .   .   .   .   .   .   .
+z57    X   X   X   X   X   X   X   -   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X
+z58    X   .   .   .   X   X   .   -   .   X   X   X   X   X   X   X   X   .   .   .   .   .   .   .
+z60    .   .   X   X   .   X   .   -   .   .   X   .   .   X   .   X   X   .   .   .   X   X   X   .
+e03    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   X   .   .   .   .   .   .   .   .
+e22    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   X   .   .   .   .   .   .   .   .
+e25    .   .   .   .   .   .   .   .   .   .   .   .   .   X   .   .   .   .   .   .   .   .   .   .
+e26    .   .   .   .   .   .   .   .   .   X   X   X   X   X   .   X   .   .   .   .   .   .   .   .
+e39    .   .   .   .   .   .   .   .   X   .   .   .   .   X   X   X   .   .   .   .   .   .   .   .
+e41    .   .   .   .   .   .   .   -   .   X   .   .   .   .   .   .   .   .   .   .   .   .   .   .
+e44    .   .   .   .   .   X   X   -   .   .   .   .   .   .   .   .   .   .   X   .   .   .   .   .
+e45    .   .   .   .   .   .   .   -   .   X   X   X   X   X   X   X   X   .   .   .   .   .   .   .
+e52    .   .   .   .   .   .   .   -   .   .   .   X   .   .   .   .   .   .   .   .   .   .   .   .
+e59    .   .   .   .   .   .   .   -   .   X   X   X   X   X   X   X   X   .   .   .   .   .   .   .
+e60    .   .   .   .   .   .   .   -   .   .   .   X   X   .   .   X   .   .   .   .   .   .   .   .
+0 N:Am8
+1 N:Am9
+2 N:Am9s150
+3 N:Am9s246
+4 N:ft100
+5 N:ft185
+6 N:m11m8
+7 N:m11m9
+8 N:orig
+9 W:Am8
+10 W:Am9
+11 W:ft100
+12 W:ft185
+13 W:orig
+14 T:Am8
+15 T:Am9
+16 T:orig
+17 X:m8_a16
+18 X:m8_a8all
+19 X:m9_a16
+20 X:m9_a8all
+21 X:m9s150_a16
+22 X:m9s246_a16
+23 X:qat_a16

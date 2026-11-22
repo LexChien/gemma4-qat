@@ -1,0 +1,116 @@
++ cd /Users/lexchien/Documents/AI/gemma4-qat
++ PY=.venv-m0/bin/python
++ W=weights
++ for src in it:gemma-4-E2B-it qat:gemma-4-E2B-it-qat-q4_0-unquantized
++ n=it
++ d=gemma-4-E2B-it
++ for g in 64 32
++ '[' -d out/m0/mlx-it-q4g64 ']'
++ .venv-m0/bin/python -m mlx_lm convert --hf-path weights/gemma-4-E2B-it --mlx-path out/m0/mlx-it-q4g64 -q --q-bits 4 --q-group-size 64
+[INFO] Loading
+[INFO] Using dtype: bfloat16
+[INFO] Quantizing
+[INFO] Quantized model with 4.501 bits per weight.
++ for g in 64 32
++ '[' -d out/m0/mlx-it-q4g32 ']'
++ .venv-m0/bin/python -m mlx_lm convert --hf-path weights/gemma-4-E2B-it --mlx-path out/m0/mlx-it-q4g32 -q --q-bits 4 --q-group-size 32
+[INFO] Loading
+[INFO] Using dtype: bfloat16
+[INFO] Quantizing
+[INFO] Quantized model with 5.001 bits per weight.
++ for src in it:gemma-4-E2B-it qat:gemma-4-E2B-it-qat-q4_0-unquantized
++ n=qat
++ d=gemma-4-E2B-it-qat-q4_0-unquantized
++ for g in 64 32
++ '[' -d out/m0/mlx-qat-q4g64 ']'
++ .venv-m0/bin/python -m mlx_lm convert --hf-path weights/gemma-4-E2B-it-qat-q4_0-unquantized --mlx-path out/m0/mlx-qat-q4g64 -q --q-bits 4 --q-group-size 64
+[INFO] Loading
+[INFO] Using dtype: bfloat16
+[INFO] Quantizing
+[INFO] Quantized model with 4.501 bits per weight.
++ for g in 64 32
++ '[' -d out/m0/mlx-qat-q4g32 ']'
++ .venv-m0/bin/python -m mlx_lm convert --hf-path weights/gemma-4-E2B-it-qat-q4_0-unquantized --mlx-path out/m0/mlx-qat-q4g32 -q --q-bits 4 --q-group-size 32
+[INFO] Loading
+[INFO] Using dtype: bfloat16
+[INFO] Quantizing
+[INFO] Quantized model with 5.001 bits per weight.
++ '[' -d out/m0/mlx-qat-safe-g64 ']'
++ .venv-m0/bin/python docs/Plan/m0/tools/m0_quant_mixed.py --hf weights/gemma-4-E2B-it-qat-q4_0-unquantized --out out/m0/mlx-qat-safe-g64 --profile safe --group 64
+[INFO] Loading
+[INFO] Using dtype: bfloat16
+[INFO] Quantizing
+[INFO] Quantized model with 4.501 bits per weight.
+bits histogram: Counter({4: 278})
++ '[' -d out/m0/mlx-qat-mobile-g64 ']'
++ .venv-m0/bin/python docs/Plan/m0/tools/m0_quant_mixed.py --hf weights/gemma-4-E2B-it-qat-q4_0-unquantized --out out/m0/mlx-qat-mobile-g64 --profile mobile --group 64
+[INFO] Loading
+[INFO] Using dtype: bfloat16
+[INFO] Quantizing
+Traceback (most recent call last):
+  File "/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m0/tools/m0_quant_mixed.py", line 26, in <module>
+    convert(hf_path=a.hf, mlx_path=a.out, quantize=True, q_bits=4, q_group_size=a.group, quant_predicate=predicate)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/convert.py", line 152, in convert
+    model, config = quantize_model(
+                    ~~~~~~~~~~~~~~^
+        model,
+        ^^^^^^
+    ...<4 lines>...
+        quant_predicate=quant_predicate,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/utils.py", line 1077, in quantize_model
+    nn.quantize(
+    ~~~~~~~~~~~^
+        model,
+        ^^^^^^
+    ...<3 lines>...
+        class_predicate=wrapped_predicate,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/quantized.py", line 101, in quantize
+    leaves = tree_map_with_path(_maybe_quantize, leaves, is_leaf=Module.is_module)
+  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/utils.py", line 110, in tree_map_with_path
+    k: tree_map_with_path(
+       ~~~~~~~~~~~~~~~~~~^
+        fn, child, *(r[k] for r in rest), is_leaf=is_leaf, path=f"{prefix}{k}"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/utils.py", line 110, in tree_map_with_path
+    k: tree_map_with_path(
+       ~~~~~~~~~~~~~~~~~~^
+        fn, child, *(r[k] for r in rest), is_leaf=is_leaf, path=f"{prefix}{k}"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/utils.py", line 110, in tree_map_with_path
+    k: tree_map_with_path(
+       ~~~~~~~~~~~~~~~~~~^
+        fn, child, *(r[k] for r in rest), is_leaf=is_leaf, path=f"{prefix}{k}"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/utils.py", line 96, in tree_map_with_path
+    return fn(path, tree, *rest)
+  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/quantized.py", line 89, in _maybe_quantize
+    return m.to_quantized(**bool_or_params)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/embedding.py", line 55, in to_quantized
+    return QuantizedEmbedding.from_embedding(self, group_size, bits, mode)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/quantized.py", line 196, in from_embedding
+    ql = cls(embedding_dims, dims, group_size, bits, mode=mode)
+  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/quantized.py", line 141, in __init__
+    self.weight, self.scales, *biases = mx.quantize(
+                                        ~~~~~~~~~~~^
+        weight, group_size, bits, mode=mode
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+ValueError: [quantize] The requested group size 256 is not supported. The supported group sizes are 32, 64, and 128.
++ echo CONVERT_ALL_DONE
+CONVERT_ALL_DONE

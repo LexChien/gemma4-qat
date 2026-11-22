@@ -1,0 +1,786 @@
+-- The C compiler identification is Clang 20.1.2
+-- The CXX compiler identification is Clang 20.1.2
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/zig - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/zig - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17
+-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17 - Success
+-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20
+-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20 - Success
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- [--------------------] 0% | dependency 1/5: highway -- fetching and configuring, please wait
+CMake Deprecation Warning at /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/highway-src/CMakeLists.txt:28 (cmake_policy):
+  The OLD behavior for policy CMP0111 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Performing Test ATOMICS_LOCK_FREE_INSTRUCTIONS
+-- Performing Test ATOMICS_LOCK_FREE_INSTRUCTIONS - Success
+-- Performing Test HWY_EMSCRIPTEN
+-- Performing Test HWY_EMSCRIPTEN - Failed
+-- Performing Test HWY_RISCV
+-- Performing Test HWY_RISCV - Failed
+-- Looking for sys/auxv.h
+-- Looking for sys/auxv.h - found
+-- Looking for asm/hwcap.h
+-- Looking for asm/hwcap.h - not found
+-- Looking for elf_aux_info
+-- Looking for elf_aux_info - not found
+--          highway ready (15s)
+-- [====----------------] 20% | dependency 2/5: sentencepiece -- fetching and configuring, please wait
+-- VERSION: 0.2.2
+-- Not Found TCMalloc: TCMALLOC_LIB-NOTFOUND
+--          sentencepiece ready (0s)
+-- [========------------] 40% | dependency 3/5: json -- fetching and configuring, please wait
+-- Using the multi-header code from /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/json-src/include/
+--          json ready (0s)
+-- OpenSSL not found, HTTPS support disabled
+-- [============--------] 60% | dependency 4/5: httplib -- fetching and configuring, please wait
+--          httplib ready (0s)
+-- [================----] 80% | dependency 5/5: benchmark -- fetching and configuring, please wait
+-- Failed to find LLVM FileCheck
+-- Found Git: /opt/homebrew/bin/git (found version "2.52.0")
+-- git version: v1.8.2 normalized to 1.8.2
+-- Google Benchmark version: 1.8.2
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - found
+-- Performing Test HAVE_CXX_FLAG_WALL
+-- Performing Test HAVE_CXX_FLAG_WALL - Success
+-- Performing Test HAVE_CXX_FLAG_WEXTRA
+-- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+-- Performing Test HAVE_CXX_FLAG_WSHADOW
+-- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST - Success
+-- Performing Test HAVE_CXX_FLAG_WERROR
+-- Performing Test HAVE_CXX_FLAG_WERROR - Success
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Success
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED - Success
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WD654
+-- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Success
+-- Enabling additional flags: -DINCLUDE_DIRECTORIES=/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/include
+-- Cross-compiling to test HAVE_THREAD_SAFETY_ATTRIBUTES
+CMake Warning at /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
+  If you see build failures due to cross compilation, try setting
+  HAVE_THREAD_SAFETY_ATTRIBUTES to 0
+Call Stack (most recent call first):
+  /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:217 (cxx_feature_check)
+
+
+-- Performing Test HAVE_THREAD_SAFETY_ATTRIBUTES -- success
+-- Performing Test HAVE_CXX_FLAG_COVERAGE
+-- Performing Test HAVE_CXX_FLAG_COVERAGE - Failed
+-- Cross-compiling to test HAVE_STD_REGEX
+CMake Warning at /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
+  If you see build failures due to cross compilation, try setting
+  HAVE_STD_REGEX to 0
+Call Stack (most recent call first):
+  /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:295 (cxx_feature_check)
+
+
+-- Performing Test HAVE_STD_REGEX -- success
+-- Cross-compiling to test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Cross-compiling to test HAVE_POSIX_REGEX
+CMake Warning at /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
+  If you see build failures due to cross compilation, try setting
+  HAVE_POSIX_REGEX to 0
+Call Stack (most recent call first):
+  /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:297 (cxx_feature_check)
+
+
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Cross-compiling to test HAVE_STEADY_CLOCK
+CMake Warning at /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
+  If you see build failures due to cross compilation, try setting
+  HAVE_STEADY_CLOCK to 0
+Call Stack (most recent call first):
+  /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:306 (cxx_feature_check)
+
+
+-- Performing Test HAVE_STEADY_CLOCK -- success
+-- Cross-compiling to test HAVE_PTHREAD_AFFINITY
+CMake Warning at /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
+  If you see build failures due to cross compilation, try setting
+  HAVE_PTHREAD_AFFINITY to 0
+Call Stack (most recent call first):
+  /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:310 (cxx_feature_check)
+
+
+-- Performing Test HAVE_PTHREAD_AFFINITY -- success
+--          benchmark ready (8s)
+-- Configuring done (70.1s)
+-- Generating done (0.7s)
+-- Build files have been written to: /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/build-linux
+[  0%] Building CXX object absl/absl/base/CMakeFiles/absl_spinlock_wait.dir/internal/spinlock_wait.cc.o
+[  0%] Building CXX object absl/absl/types/CMakeFiles/absl_source_location.dir/source_location.cc.o
+[  1%] Building CXX object absl/absl/base/CMakeFiles/absl_log_severity.dir/log_severity.cc.o
+[  1%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/arena.cc.o
+[  1%] Linking CXX static library libabsl_source_location.a
+[  1%] Linking CXX static library libabsl_spinlock_wait.a
+[  1%] Built target absl_source_location
+[  1%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/arenastring.cc.o
+[  1%] Built target absl_spinlock_wait
+[  1%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/bytestream.cc.o
+[  1%] Linking CXX static library libabsl_log_severity.a
+[  1%] Built target absl_log_severity
+[  2%] Building CXX object absl/absl/random/CMakeFiles/absl_random_internal_platform.dir/internal/randen_round_keys.cc.o
+[  2%] Building CXX object absl/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/internal/utf8_for_code_point.cc.o
+[  2%] Linking CXX static library libabsl_random_internal_platform.a
+[  2%] Linking CXX static library libabsl_utf8_for_code_point.a
+[  2%] Built target absl_random_internal_platform
+[  2%] Built target absl_utf8_for_code_point
+[  3%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/coded_stream.cc.o
+[  5%] Building CXX object absl/absl/time/CMakeFiles/absl_civil_time.dir/internal/cctz/src/civil_time_detail.cc.o
+[  5%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_fixed.cc.o
+[  6%] Building C object CMakeFiles/native_sqlite.dir/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/sqlite-amalgamation-3500400/sqlite3.c.o
+[  6%] Linking CXX static library libabsl_civil_time.a
+[  6%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_format.cc.o
+[  6%] Built target absl_civil_time
+[  6%] Building CXX object absl/absl/base/CMakeFiles/absl_strerror.dir/internal/strerror.cc.o
+[  6%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/common.cc.o
+[  7%] Linking CXX static library libabsl_strerror.a
+[  7%] Built target absl_strerror
+[  7%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_if.cc.o
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/common.cc:185:47: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+  185 | static std::atomic<int> log_silencer_count_ = ATOMIC_VAR_INIT(0);
+      |                                               ^
+/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+   22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
+      |                                           ^
+1 warning generated.
+[  7%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/extension_set.cc.o
+[  7%] Building CXX object absl/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o
+[  8%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_impl.cc.o
+[  8%] Linking CXX static library libabsl_exponential_biased.a
+[  8%] Built target absl_exponential_biased
+[  8%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/generated_enum_util.cc.o
+[  8%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_info.cc.o
+[  8%] Building CXX object absl/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.o
+[  8%] Linking CXX static library libabsl_leak_check.a
+[  8%] Built target absl_leak_check
+[  8%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/generated_message_table_driven_lite.cc.o
+[  8%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_libc.cc.o
+[  8%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_lookup.cc.o
+[ 10%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_posix.cc.o
+[ 11%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/generated_message_util.cc.o
+[ 11%] Building CXX object absl/absl/flags/CMakeFiles/absl_flags_commandlineflag_internal.dir/internal/commandlineflag.cc.o
+[ 12%] Linking CXX static library libabsl_flags_commandlineflag_internal.a
+[ 12%] Built target absl_flags_commandlineflag_internal
+[ 12%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/implicit_weak_message.cc.o
+[ 12%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/zone_info_source.cc.o
+[ 12%] Linking CXX static library libabsl_time_zone.a
+[ 12%] Built target absl_time_zone
+[ 12%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/int128.cc.o
+[ 12%] Building CXX object absl/absl/log/CMakeFiles/absl_log_internal_nullguard.dir/internal/nullguard.cc.o
+[ 14%] Linking CXX static library libabsl_log_internal_nullguard.a
+[ 14%] Built target absl_log_internal_nullguard
+[ 14%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/io_win32.cc.o
+[ 14%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/abort.cc.o
+[ 14%] Building CXX object absl/absl/base/CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o
+[ 15%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/message_lite.cc.o
+[ 15%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/aligned_allocator.cc.o
+[ 15%] Linking CXX static library libabsl_raw_logging_internal.a
+[ 15%] Built target absl_raw_logging_internal
+[ 15%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/parse_context.cc.o
+[ 15%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/nanobenchmark.cc.o
+[ 15%] Building CXX object absl/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/internal/randen_hwaes.cc.o
+[ 15%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/repeated_field.cc.o
+[ 16%] Linking CXX static library libabsl_random_internal_randen_hwaes_impl.a
+[ 16%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/os_rng.cc.o
+[ 16%] Built target absl_random_internal_randen_hwaes_impl
+[ 16%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/status.cc.o
+[ 17%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/per_target.cc.o
+[ 17%] Building CXX object absl/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/internal/randen_slow.cc.o
+[ 17%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/statusor.cc.o
+[ 17%] Linking CXX static library libabsl_random_internal_randen_slow.a
+[ 17%] Built target absl_random_internal_randen_slow
+[ 17%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/perf_counters.cc.o
+[ 17%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/print.cc.o
+[ 19%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/stringpiece.cc.o
+[ 19%] Building CXX object absl/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/internal/randen_detect.cc.o
+[ 19%] Linking CXX static library libabsl_random_internal_randen_hwaes.a
+[ 19%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/profiler.cc.o
+[ 19%] Built target absl_random_internal_randen_hwaes
+[ 19%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/stringprintf.cc.o
+[ 19%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/structurally_valid.cc.o
+[ 20%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/stats.cc.o
+[ 20%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/strutil.cc.o
+[ 20%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/targets.cc.o
+[ 20%] Building CXX object absl/absl/strings/CMakeFiles/absl_cordz_functions.dir/internal/cordz_functions.cc.o
+[ 20%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/timer.cc.o
+[ 20%] Linking CXX static library libabsl_cordz_functions.a
+[ 20%] Built target absl_cordz_functions
+[ 21%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/time.cc.o
+[ 21%] Building CXX object absl/absl/base/CMakeFiles/absl_base.dir/casts.cc.o
+[ 21%] Linking CXX static library libhwy.a
+[ 21%] Built target hwy
+[ 21%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/wire_format_lite.cc.o
+[ 21%] Building CXX object absl/absl/base/CMakeFiles/absl_base.dir/internal/cycleclock.cc.o
+[ 21%] Building CXX object absl/absl/base/CMakeFiles/absl_throw_delegate.dir/throw_delegate.cc.o
+[ 21%] Building CXX object absl/absl/base/CMakeFiles/absl_base.dir/internal/spinlock.cc.o
+[ 23%] Linking CXX static library libabsl_throw_delegate.a
+[ 23%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/zero_copy_stream.cc.o
+[ 23%] Linking C static library libnative_sqlite.a
+[ 23%] Built target absl_throw_delegate
+[ 23%] Building CXX object absl/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.o
+[ 23%] Built target native_sqlite
+[ 23%] Building CXX object absl/absl/base/CMakeFiles/absl_base.dir/internal/sysinfo.cc.o
+[ 23%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/zero_copy_stream_impl.cc.o
+[ 24%] Building CXX object absl/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/seed_gen_exception.cc.o
+[ 24%] Building CXX object absl/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.o
+[ 25%] Building CXX object absl/absl/base/CMakeFiles/absl_base.dir/internal/thread_identity.cc.o
+[ 25%] Linking CXX static library libabsl_random_seed_gen_exception.a
+[ 25%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/zero_copy_stream_impl_lite.cc.o
+[ 26%] Building CXX object absl/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.o
+[ 26%] Built target absl_random_seed_gen_exception
+[ 26%] Building CXX object absl/absl/base/CMakeFiles/absl_base.dir/internal/unscaledcycleclock.cc.o
+[ 28%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/builtin_pb/sentencepiece.pb.cc.o
+[ 28%] Linking CXX static library libabsl_base.a
+[ 28%] Built target absl_base
+[ 28%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/builtin_pb/sentencepiece_model.pb.cc.o
+[ 28%] Linking CXX static library libabsl_debugging_internal.a
+[ 28%] Building CXX object absl/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o
+[ 28%] Built target absl_debugging_internal
+[ 28%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/bpe_model.cc.o
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece.pb.cc:41:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+   41 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_NBestSentencePieceText_sentencepiece_2eproto}, {
+      |       ^
+/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+   22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
+      |                                           ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece.pb.cc:55:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+   55 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_SentencePieceText_sentencepiece_2eproto}, {
+      |       ^
+/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+   22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
+      |                                           ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece.pb.cc:69:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+   69 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_SentencePieceText_SentencePiece_sentencepiece_2eproto}, {}};
+      |       ^
+/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+   22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
+      |                                           ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:56:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+   56 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 4, 0, InitDefaultsscc_info_ModelProto_sentencepiece_5fmodel_2eproto}, {
+      |       ^
+/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+   22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
+      |                                           ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:73:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+   73 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_ModelProto_SentencePiece_sentencepiece_5fmodel_2eproto}, {}};
+      |       ^
+/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+   22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
+      |                                           ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:86:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+   86 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_NormalizerSpec_sentencepiece_5fmodel_2eproto}, {}};
+      |       ^
+/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+   22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
+      |                                           ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:99:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+   99 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_SelfTestData_sentencepiece_5fmodel_2eproto}, {
+      |       ^
+/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+   22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
+      |                                           ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:113:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+  113 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_SelfTestData_Sample_sentencepiece_5fmodel_2eproto}, {}};
+      |       ^
+/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+   22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
+      |                                           ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:126:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+  126 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_TrainerSpec_sentencepiece_5fmodel_2eproto}, {}};
+      |       ^
+/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+   22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
+      |                                           ^
+3 warnings generated.
+[ 28%] Building CXX object CMakeFiles/native_state.dir/state.cc.o
+[ 29%] Linking CXX static library libabsl_random_internal_randen.a
+[ 29%] Built target absl_random_internal_randen
+[ 29%] Building CXX object absl/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o
+6 warnings generated.
+[ 29%] Building CXX object absl/absl/hash/CMakeFiles/absl_city.dir/internal/city.cc.o
+[ 29%] Linking CXX static library libabsl_crc_cpu_detect.a
+[ 29%] Built target absl_crc_cpu_detect
+[ 29%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/char_model.cc.o
+[ 29%] Linking CXX static library libabsl_city.a
+[ 29%] Built target absl_city
+[ 30%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/filesystem.cc.o
+[ 30%] Building CXX object absl/absl/log/CMakeFiles/absl_log_internal_conditions.dir/internal/conditions.cc.o
+[ 30%] Linking CXX static library libabsl_log_internal_conditions.a
+[ 30%] Built target absl_log_internal_conditions
+[ 30%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_128a.cc.o
+[ 32%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_128d.cc.o
+[ 32%] Linking CXX static library libnative_state.a
+[ 32%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/init.cc.o
+[ 32%] Built target native_state
+[ 32%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_f16a.cc.o
+[ 32%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/model_factory.cc.o
+[ 32%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/model_interface.cc.o
+[ 32%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/normalizer.cc.o
+[ 32%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_f16d.cc.o
+[ 33%] Building CXX object absl/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o
+[ 34%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/sentencepiece_processor.cc.o
+[ 34%] Linking CXX static library libabsl_malloc_internal.a
+[ 34%] Built target absl_malloc_internal
+[ 34%] Building CXX object absl/absl/base/CMakeFiles/absl_tracing_internal.dir/internal/tracing.cc.o
+[ 34%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_f32a.cc.o
+[ 34%] Linking CXX static library libabsl_tracing_internal.a
+[ 34%] Built target absl_tracing_internal
+[ 34%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/unigram_model.cc.o
+[ 34%] Building CXX object absl/absl/numeric/CMakeFiles/absl_int128.dir/int128.cc.o
+[ 34%] Linking CXX static library libabsl_int128.a
+[ 34%] Built target absl_int128
+[ 35%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_f32d.cc.o
+[ 35%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/ostringstream.cc.o
+[ 35%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/util.cc.o
+[ 37%] Building CXX object absl/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o
+[ 37%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/utf8.cc.o
+[ 38%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/escaping.cc.o
+[ 38%] Linking CXX static library libabsl_stacktrace.a
+[ 38%] Built target absl_stacktrace
+[ 38%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_f64a.cc.o
+[ 38%] Linking CXX static library libabsl_strings_internal.a
+[ 38%] Built target absl_strings_internal
+[ 38%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/word_model.cc.o
+[ 38%] Building CXX object absl/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/internal/decode_rust_punycode.cc.o
+[ 38%] Building CXX object absl/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o
+[ 38%] Linking CXX static library libabsl_decode_rust_punycode.a
+[ 38%] Built target absl_decode_rust_punycode
+[ 38%] Building CXX object absl/absl/crc/CMakeFiles/absl_crc_internal.dir/internal/crc.cc.o
+[ 38%] Linking CXX static library libabsl_graphcycles_internal.a
+[ 38%] Built target absl_graphcycles_internal
+[ 38%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings.dir/ascii.cc.o
+[ 38%] Linking CXX static library libsentencepiece.a
+[ 38%] Built target sentencepiece-static
+[ 38%] Building CXX object absl/absl/debugging/CMakeFiles/absl_demangle_rust.dir/internal/demangle_rust.cc.o
+[ 39%] Building CXX object absl/absl/crc/CMakeFiles/absl_crc_internal.dir/internal/crc_x86_arm_combined.cc.o
+[ 39%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings.dir/charconv.cc.o
+[ 39%] Linking CXX static library libabsl_demangle_rust.a
+[ 39%] Built target absl_demangle_rust
+[ 39%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_f64d.cc.o
+[ 39%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings.dir/escaping.cc.o
+[ 39%] Linking CXX static library libabsl_crc_internal.a
+[ 41%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_bigint.cc.o
+[ 41%] Built target absl_crc_internal
+[ 41%] Building CXX object absl/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o
+[ 41%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings.dir/internal/damerau_levenshtein_distance.cc.o
+[ 41%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_parse.cc.o
+[ 41%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings.dir/internal/memutil.cc.o
+[ 41%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings.dir/internal/stringify_sink.cc.o
+[ 42%] Linking CXX static library libabsl_demangle_internal.a
+[ 42%] Built target absl_demangle_internal
+[ 42%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_have.cc.o
+[ 42%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_i16a.cc.o
+[ 43%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings.dir/match.cc.o
+[ 43%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings.dir/numbers.cc.o
+[ 43%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings.dir/str_cat.cc.o
+[ 44%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_i16d.cc.o
+[ 44%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_i32a.cc.o
+[ 44%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings.dir/str_replace.cc.o
+[ 44%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings.dir/str_split.cc.o
+[ 46%] Building CXX object absl/absl/strings/CMakeFiles/absl_strings.dir/substitute.cc.o
+[ 46%] Linking CXX static library libabsl_strings.a
+[ 46%] Built target absl_strings
+[ 46%] Building CXX object absl/absl/random/CMakeFiles/absl_random_internal_seed_material.dir/internal/seed_material.cc.o
+[ 46%] Linking CXX static library libabsl_random_internal_seed_material.a
+[ 46%] Built target absl_random_internal_seed_material
+[ 46%] Building CXX object absl/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.o
+[ 46%] Linking CXX static library libabsl_symbolize.a
+[ 46%] Built target absl_symbolize
+[ 46%] Building CXX object absl/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.o
+[ 46%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_i32d.cc.o
+[ 46%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_i64a.cc.o
+[ 46%] Building CXX object absl/absl/time/CMakeFiles/absl_time.dir/clock.cc.o
+[ 46%] Building CXX object absl/absl/time/CMakeFiles/absl_time.dir/duration.cc.o
+[ 46%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_i64d.cc.o
+[ 46%] Building CXX object absl/absl/time/CMakeFiles/absl_time.dir/format.cc.o
+[ 47%] Building CXX object absl/absl/time/CMakeFiles/absl_time.dir/time.cc.o
+[ 48%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_kv128a.cc.o
+[ 48%] Linking CXX static library libabsl_time.a
+[ 48%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_kv128d.cc.o
+[ 48%] Built target absl_time
+[ 48%] Building CXX object absl/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/arg.cc.o
+[ 50%] Building CXX object absl/absl/hash/CMakeFiles/absl_hash.dir/internal/hash.cc.o
+[ 50%] Building CXX object absl/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/bind.cc.o
+[ 50%] Linking CXX static library libabsl_hash.a
+[ 50%] Built target absl_hash
+[ 50%] Building CXX object absl/absl/debugging/CMakeFiles/absl_examine_stack.dir/internal/examine_stack.cc.o
+[ 50%] Building CXX object absl/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/extension.cc.o
+[ 51%] Building CXX object absl/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/float_conversion.cc.o
+[ 51%] Linking CXX static library libabsl_examine_stack.a
+[ 51%] Built target absl_examine_stack
+[ 51%] Building CXX object absl/absl/flags/CMakeFiles/absl_flags_commandlineflag.dir/commandlineflag.cc.o
+[ 51%] Linking CXX static library libabsl_flags_commandlineflag.a
+[ 51%] Built target absl_flags_commandlineflag
+[ 51%] Building CXX object absl/absl/log/CMakeFiles/absl_log_internal_globals.dir/internal/globals.cc.o
+[ 51%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_kv64a.cc.o
+[ 51%] Linking CXX static library libabsl_log_internal_globals.a
+[ 51%] Building CXX object absl/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/output.cc.o
+[ 51%] Built target absl_log_internal_globals
+[ 51%] Building CXX object absl/absl/log/CMakeFiles/absl_log_internal_proto.dir/internal/proto.cc.o
+[ 51%] Building CXX object absl/absl/log/CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.o
+[ 51%] Linking CXX static library libabsl_log_internal_fnmatch.a
+[ 51%] Built target absl_log_internal_fnmatch
+[ 51%] Building CXX object absl/absl/random/CMakeFiles/absl_random_distributions.dir/discrete_distribution.cc.o
+[ 51%] Linking CXX static library libabsl_log_internal_proto.a
+[ 51%] Building CXX object absl/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/parser.cc.o
+[ 51%] Built target absl_log_internal_proto
+[ 51%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_kv64d.cc.o
+[ 52%] Building CXX object absl/absl/random/CMakeFiles/absl_random_distributions.dir/gaussian_distribution.cc.o
+[ 52%] Linking CXX static library libabsl_str_format_internal.a
+[ 52%] Built target absl_str_format_internal
+[ 53%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_u16a.cc.o
+[ 53%] Linking CXX static library libabsl_random_distributions.a
+[ 53%] Built target absl_random_distributions
+[ 55%] Building CXX object absl/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/internal/kernel_timeout.cc.o
+[ 55%] Linking CXX static library libabsl_kernel_timeout_internal.a
+[ 55%] Built target absl_kernel_timeout_internal
+[ 55%] Building CXX object absl/absl/crc/CMakeFiles/absl_crc32c.dir/crc32c.cc.o
+[ 56%] Building CXX object absl/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o
+[ 56%] Building CXX object absl/absl/flags/CMakeFiles/absl_flags_marshalling.dir/marshalling.cc.o
+[ 56%] Building CXX object absl/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o
+[ 56%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_u16d.cc.o
+[ 56%] Linking CXX static library libabsl_flags_marshalling.a
+[ 56%] Built target absl_flags_marshalling
+[ 56%] Building CXX object absl/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o
+[ 56%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_u32a.cc.o
+[ 56%] Linking CXX static library libabsl_crc32c.a
+[ 56%] Built target absl_crc32c
+[ 57%] Building CXX object absl/absl/flags/CMakeFiles/absl_flags_private_handle_accessor.dir/internal/private_handle_accessor.cc.o
+[ 57%] Linking CXX static library libabsl_flags_private_handle_accessor.a
+[ 57%] Built target absl_flags_private_handle_accessor
+[ 58%] Building CXX object absl/absl/log/CMakeFiles/absl_log_internal_format.dir/internal/log_format.cc.o
+[ 58%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_u32d.cc.o
+[ 58%] Linking CXX static library libabsl_log_internal_format.a
+[ 58%] Built target absl_log_internal_format
+[ 60%] Building CXX object absl/absl/log/CMakeFiles/absl_log_entry.dir/log_entry.cc.o
+[ 60%] Linking CXX static library libabsl_log_entry.a
+[ 60%] Built target absl_log_entry
+[ 60%] Building CXX object absl/absl/log/CMakeFiles/absl_log_internal_structured_proto.dir/internal/structured_proto.cc.o
+[ 60%] Linking CXX static library libabsl_log_internal_structured_proto.a
+[ 60%] Built target absl_log_internal_structured_proto
+[ 60%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_u64a.cc.o
+[ 60%] Building CXX object absl/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.o
+[ 61%] Building CXX object absl/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.o
+[ 61%] Building CXX object absl/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.o
+[ 61%] Building CXX object absl/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/futex_waiter.cc.o
+[ 61%] Building CXX object absl/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.o
+[ 62%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort_u64d.cc.o
+[ 64%] Building CXX object absl/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/pthread_waiter.cc.o
+[ 64%] Building CXX object absl/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/sem_waiter.cc.o
+[ 64%] Building CXX object absl/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/stdcpp_waiter.cc.o
+[ 64%] Building CXX object absl/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter_base.cc.o
+[ 64%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/coder/range_coder.cc.o
+[ 64%] Building CXX object absl/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/win32_waiter.cc.o
+[ 65%] Building CXX object absl/absl/crc/CMakeFiles/absl_crc_cord_state.dir/internal/crc_cord_state.cc.o
+[ 66%] Building CXX object absl/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.o
+[ 66%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/iguana/ans.cc.o
+[ 66%] Building CXX object absl/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.o
+[ 66%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/iguana/iguana.cc.o
+[ 66%] Linking CXX static library libabsl_crc_cord_state.a
+[ 66%] Built target absl_crc_cord_state
+[ 66%] Building CXX object absl/absl/log/CMakeFiles/absl_log_sink.dir/log_sink.cc.o
+[ 66%] Linking CXX static library libabsl_synchronization.a
+[ 66%] Built target absl_synchronization
+[ 67%] Building CXX object absl/absl/random/CMakeFiles/absl_random_internal_entropy_pool.dir/internal/entropy_pool.cc.o
+[ 67%] Linking CXX static library libabsl_log_sink.a
+[ 67%] Built target absl_log_sink
+[ 69%] Building CXX object absl/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.o
+[ 70%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/hash/phast.cc.o
+[ 70%] Linking CXX static library libabsl_random_internal_entropy_pool.a
+[ 70%] Built target absl_random_internal_entropy_pool
+[ 70%] Building CXX object absl/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_internal.cc.o
+[ 70%] Building CXX object absl/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.o
+[ 70%] Linking CXX static library libabsl_hashtablez_sampler.a
+[ 70%] Built target absl_hashtablez_sampler
+[ 70%] Building CXX object absl/absl/strings/CMakeFiles/absl_cordz_handle.dir/internal/cordz_handle.cc.o
+[ 70%] Building CXX object absl/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree.cc.o
+[ 71%] Building CXX object absl/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_navigator.cc.o
+[ 71%] Linking CXX static library libabsl_cordz_handle.a
+[ 71%] Built target absl_cordz_handle
+[ 71%] Building CXX object absl/absl/flags/CMakeFiles/absl_flags_program_name.dir/internal/program_name.cc.o
+[ 71%] Building CXX object absl/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_reader.cc.o
+[ 71%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/hash/shardmul.cc.o
+[ 71%] Linking CXX static library libabsl_flags_program_name.a
+[ 71%] Built target absl_flags_program_name
+[ 71%] Building CXX object absl/absl/log/CMakeFiles/absl_vlog_config_internal.dir/internal/vlog_config.cc.o
+[ 71%] Building CXX object absl/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_crc.cc.o
+[ 71%] Building CXX object absl/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_consume.cc.o
+[ 71%] Linking CXX static library libabsl_vlog_config_internal.a
+[ 71%] Built target absl_vlog_config_internal
+[ 71%] Building CXX object absl/absl/random/CMakeFiles/absl_random_seed_sequences.dir/seed_sequences.cc.o
+[ 73%] Linking CXX static library libabsl_cord_internal.a
+[ 73%] Built target absl_cord_internal
+[ 73%] Linking CXX static library libabsl_random_seed_sequences.a
+[ 73%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/hash/cuckoo2x2.cc.o
+[ 73%] Built target absl_random_seed_sequences
+[ 74%] Building CXX object absl/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o
+[ 74%] Linking CXX static library libabsl_cordz_info.a
+[ 74%] Built target absl_cordz_info
+[ 74%] Building CXX object absl/absl/flags/CMakeFiles/absl_flags_config.dir/usage_config.cc.o
+[ 74%] Linking CXX static library libabsl_flags_config.a
+[ 74%] Built target absl_flags_config
+[ 74%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/image/image.cc.o
+[ 74%] Building CXX object absl/absl/log/CMakeFiles/absl_log_globals.dir/globals.cc.o
+[ 74%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/sort/vqsort.cc.o
+[ 75%] Linking CXX static library libabsl_log_globals.a
+[ 76%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/thread_pool/thread_pool.cc.o
+[ 76%] Built target absl_log_globals
+[ 76%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/thread_pool/topology.cc.o
+/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/highway-src/hwy/contrib/thread_pool/topology.cc:291:22: warning: implicit conversion loses integer precision: 'unsigned long' to 'const int' [-Wshorten-64-to-32]
+  291 |   const int is_set = CPU_ISSET(static_cast<int>(lp), set);
+      |             ~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libc/include/generic-musl/sched.h:131:27: note: expanded from macro 'CPU_ISSET'
+  131 | #define CPU_ISSET(i, set) CPU_ISSET_S(i,sizeof(cpu_set_t),set)
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libc/include/generic-musl/sched.h:98:60: note: expanded from macro 'CPU_ISSET_S'
+   98 | #define CPU_ISSET_S(i, size, set) __CPU_op_S(i, size, set, &)
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libc/include/generic-musl/sched.h:94:48: note: expanded from macro '__CPU_op_S'
+   94 |         (((unsigned long *)(set))[(i)/8/sizeof(long)] op (1UL<<((i)%(8*sizeof(long))))) )
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 78%] Building CXX object absl/absl/strings/CMakeFiles/absl_cord.dir/cord.cc.o
+[ 78%] Building CXX object absl/absl/flags/CMakeFiles/absl_flags_internal.dir/internal/flag.cc.o
+1 warning generated.
+[ 78%] Building CXX object absl/absl/strings/CMakeFiles/absl_cord.dir/cord_analysis.cc.o
+[ 79%] Linking CXX static library libabsl_flags_internal.a
+[ 79%] Built target absl_flags_internal
+[ 79%] Building CXX object absl/absl/log/CMakeFiles/absl_log_internal_log_sink_set.dir/internal/log_sink_set.cc.o
+[ 79%] Linking CXX static library libhwy_contrib.a
+[ 79%] Building CXX object absl/absl/log/CMakeFiles/absl_log_initialize.dir/initialize.cc.o
+[ 79%] Built target hwy_contrib
+[ 80%] Linking CXX static library libabsl_log_internal_log_sink_set.a
+[ 80%] Linking CXX static library libabsl_cord.a
+[ 80%] Built target absl_log_internal_log_sink_set
+[ 80%] Building CXX object absl/absl/log/CMakeFiles/absl_log_internal_message.dir/internal/log_message.cc.o
+[ 80%] Linking CXX static library libabsl_log_initialize.a
+[ 80%] Built target absl_cord
+[ 80%] Building CXX object absl/absl/status/CMakeFiles/absl_status.dir/internal/status_internal.cc.o
+[ 82%] Building CXX object absl/absl/container/CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.o
+[ 82%] Built target absl_log_initialize
+[ 82%] Building CXX object absl/absl/status/CMakeFiles/absl_status.dir/status.cc.o
+[ 82%] Linking CXX static library libabsl_log_internal_message.a
+[ 82%] Built target absl_log_internal_message
+[ 83%] Building CXX object absl/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.o
+[ 83%] Building CXX object absl/absl/log/CMakeFiles/absl_log_internal_check_op.dir/internal/check_op.cc.o
+[ 83%] Linking CXX static library libabsl_raw_hash_set.a
+[ 83%] Built target absl_raw_hash_set
+[ 84%] Building CXX object absl/absl/flags/CMakeFiles/absl_flags_reflection.dir/reflection.cc.o
+[ 85%] Linking CXX static library libabsl_log_internal_check_op.a
+[ 85%] Linking CXX static library libabsl_status.a
+[ 85%] Built target absl_log_internal_check_op
+[ 85%] Built target absl_status
+[ 85%] Building CXX object absl/absl/status/CMakeFiles/absl_status_builder.dir/status_builder.cc.o
+[ 85%] Linking CXX static library libabsl_flags_reflection.a
+[ 85%] Built target absl_flags_reflection
+[ 85%] Linking CXX static library libabsl_status_builder.a
+[ 85%] Building CXX object absl/absl/flags/CMakeFiles/absl_flags_usage_internal.dir/internal/usage.cc.o
+[ 85%] Built target absl_status_builder
+[ 87%] Linking CXX static library libabsl_flags_usage_internal.a
+[ 87%] Built target absl_flags_usage_internal
+[ 87%] Building CXX object absl/absl/flags/CMakeFiles/absl_flags_usage.dir/usage.cc.o
+[ 87%] Linking CXX static library libabsl_flags_usage.a
+[ 87%] Built target absl_flags_usage
+[ 87%] Building CXX object absl/absl/flags/CMakeFiles/absl_flags_parse.dir/parse.cc.o
+[ 87%] Linking CXX static library libabsl_flags_parse.a
+[ 87%] Built target absl_flags_parse
+[ 87%] Building CXX object kernels/CMakeFiles/libgemma.dir/compression/compress.cc.o
+[ 87%] Building CXX object kernels/CMakeFiles/libgemma.dir/deepseek/deepseek_spec.cc.o
+[ 87%] Building CXX object kernels/CMakeFiles/libgemma.dir/deepseek/deepseek_tensors.cc.o
+[ 88%] Building CXX object kernels/CMakeFiles/libgemma.dir/deepseek/deepseek.cc.o
+[ 88%] Building CXX object kernels/CMakeFiles/libgemma.dir/deepseek/dsv4_tokenizer.cc.o
+[ 88%] Building CXX object kernels/CMakeFiles/libgemma.dir/evals/benchmark_helper.cc.o
+[ 89%] Building CXX object kernels/CMakeFiles/libgemma.dir/evals/cross_entropy.cc.o
+[ 89%] Building CXX object kernels/CMakeFiles/libgemma.dir/gemma/attention.cc.o
+[ 89%] Building CXX object kernels/CMakeFiles/libgemma.dir/gemma/configs.cc.o
+[ 89%] Building CXX object kernels/CMakeFiles/libgemma.dir/gemma/flash_attention.cc.o
+[ 89%] Building CXX object kernels/CMakeFiles/libgemma.dir/gemma/gemma.cc.o
+[ 91%] Building CXX object kernels/CMakeFiles/libgemma.dir/gemma/gemma4_moe.cc.o
+[ 91%] Building CXX object kernels/CMakeFiles/libgemma.dir/gemma/kv_cache.cc.o
+[ 91%] Building CXX object kernels/CMakeFiles/libgemma.dir/gemma/kv_transcoding.cc.o
+[ 91%] Building CXX object kernels/CMakeFiles/libgemma.dir/gemma/model_store.cc.o
+[ 92%] Building CXX object kernels/CMakeFiles/libgemma.dir/gemma/tensor_info.cc.o
+[ 92%] Building CXX object kernels/CMakeFiles/libgemma.dir/gemma/tiled_attention.cc.o
+[ 92%] Building CXX object kernels/CMakeFiles/libgemma.dir/gemma/tokenizer.cc.o
+[ 92%] Building CXX object kernels/CMakeFiles/libgemma.dir/gemma/vit.cc.o
+[ 92%] Building CXX object kernels/CMakeFiles/libgemma.dir/gemma/vit_gemma4.cc.o
+[ 93%] Building CXX object kernels/CMakeFiles/libgemma.dir/gemma/weights.cc.o
+[ 93%] Building CXX object kernels/CMakeFiles/libgemma.dir/io/blob_store.cc.o
+[ 93%] Building CXX object kernels/CMakeFiles/libgemma.dir/io/fields.cc.o
+[ 93%] Building CXX object kernels/CMakeFiles/libgemma.dir/io/io_win.cc.o
+[ 94%] Building CXX object kernels/CMakeFiles/libgemma.dir/io/io.cc.o
+[ 94%] Building CXX object kernels/CMakeFiles/libgemma.dir/ops/gilbert.cc.o
+[ 94%] Building CXX object kernels/CMakeFiles/libgemma.dir/ops/matmul_static_bf16.cc.o
+[ 94%] Building CXX object kernels/CMakeFiles/libgemma.dir/ops/matmul_static_f32.cc.o
+[ 94%] Building CXX object kernels/CMakeFiles/libgemma.dir/ops/matmul_static_mxfp4.cc.o
+[ 96%] Building CXX object kernels/CMakeFiles/libgemma.dir/ops/matmul_static_nuq.cc.o
+[ 96%] Building CXX object kernels/CMakeFiles/libgemma.dir/ops/matmul_static_sfp.cc.o
+[ 96%] Building CXX object kernels/CMakeFiles/libgemma.dir/ops/matmul_static_i8.cc.o
+[ 96%] Building CXX object kernels/CMakeFiles/libgemma.dir/ops/matmul_static_q4_0.cc.o
+[ 97%] Building CXX object kernels/CMakeFiles/libgemma.dir/ops/matmul.cc.o
+[ 97%] Building CXX object kernels/CMakeFiles/libgemma.dir/paligemma/image.cc.o
+[ 97%] Building CXX object kernels/CMakeFiles/libgemma.dir/paligemma/paligemma_helper.cc.o
+[ 97%] Building CXX object kernels/CMakeFiles/libgemma.dir/tokenizer/bpe_tokenizer.cc.o
+[ 97%] Building CXX object kernels/CMakeFiles/libgemma.dir/tokenizer/sentencepiece_tokenizer.cc.o
+[ 98%] Building CXX object kernels/CMakeFiles/libgemma.dir/util/allocator.cc.o
+[ 98%] Building CXX object kernels/CMakeFiles/libgemma.dir/util/basics.cc.o
+In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/tokenizer/sentencepiece_tokenizer.cc:28:
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:562:33: warning: 'SampleEncodeAndScore' is deprecated: WARNING: SampleEncodeAndScore is deprecated and will be removed. [-Wdeprecated-declarations]
+  562 |     DEFINE_SPP_DIRECT_FUNC_IMPL(SampleEncodeAndScore, _T, input, num_samples,
+      |                                 ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:400:5: note: 'SampleEncodeAndScore' has been explicitly marked deprecated here
+  400 |   [[deprecated(
+      |     ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:570:33: warning: 'SampleEncodeAndScore' is deprecated: WARNING: SampleEncodeAndScore is deprecated and will be removed. [-Wdeprecated-declarations]
+  570 |     DEFINE_SPP_DIRECT_FUNC_IMPL(SampleEncodeAndScore, _T, input, num_samples,
+      |                                 ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:408:5: note: 'SampleEncodeAndScore' has been explicitly marked deprecated here
+  408 |   [[deprecated(
+      |     ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:590:33: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+  590 |     DEFINE_SPP_DIRECT_FUNC_IMPL(Decode, std::string, pieces);
+      |                                 ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:321:5: note: 'Decode' has been explicitly marked deprecated here
+  321 |   [[deprecated(
+      |     ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:595:33: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+  595 |     DEFINE_SPP_DIRECT_FUNC_IMPL(Decode, std::string, pieces);
+      |                                 ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:329:5: note: 'Decode' has been explicitly marked deprecated here
+  329 |   [[deprecated(
+      |     ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:600:33: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+  600 |     DEFINE_SPP_DIRECT_FUNC_IMPL(Decode, std::string, ids);
+      |                                 ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:337:5: note: 'Decode' has been explicitly marked deprecated here
+  337 |   [[deprecated(
+      |     ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:605:33: warning: 'CalculateEntropy' is deprecated: WARNING: CalculateEntropy is deprecated and will be removed. [-Wdeprecated-declarations]
+  605 |     DEFINE_SPP_DIRECT_FUNC_IMPL(CalculateEntropy, float, text, alpha);
+      |                                 ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:420:5: note: 'CalculateEntropy' has been explicitly marked deprecated here
+  420 |   [[deprecated("WARNING: CalculateEntropy is deprecated and will be removed.")]]
+      |     ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:633:38: warning: 'SampleEncodeAndScore' is deprecated: WARNING: SampleEncodeAndScore is deprecated and will be removed. [-Wdeprecated-declarations]
+  633 |     DEFINE_SPP_SERIALIZED_PROTO_IMPL(SampleEncodeAndScore,
+      |                                      ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:446:5: note: 'SampleEncodeAndScore' has been explicitly marked deprecated here
+  446 |   [[deprecated(
+      |     ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:647:38: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+  647 |     DEFINE_SPP_SERIALIZED_PROTO_IMPL(Decode, ImmutableSentencePieceText,
+      |                                      ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:463:5: note: 'Decode' has been explicitly marked deprecated here
+  463 |   [[deprecated(
+      |     ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:653:38: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+  653 |     DEFINE_SPP_SERIALIZED_PROTO_IMPL(Decode, ImmutableSentencePieceText,
+      |                                      ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:471:5: note: 'Decode' has been explicitly marked deprecated here
+  471 |   [[deprecated(
+      |     ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:659:38: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+  659 |     DEFINE_SPP_SERIALIZED_PROTO_IMPL(Decode, ImmutableSentencePieceText, ids);
+      |                                      ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:479:5: note: 'Decode' has been explicitly marked deprecated here
+  479 |   [[deprecated(
+      |     ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:723:37: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+  723 |     DEFINE_SPP_IMMUTABLE_PROTO_IMPL(Decode, ImmutableSentencePieceText, ids);
+      |                                     ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:479:5: note: 'Decode' has been explicitly marked deprecated here
+  479 |   [[deprecated(
+      |     ^
+/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/tokenizer/sentencepiece_tokenizer.cc:54:17: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+   54 |     return spp_.Decode(std::vector<int>(ids.begin(), ids.end()),
+      |                 ^
+/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:337:5: note: 'Decode' has been explicitly marked deprecated here
+  337 |   [[deprecated(
+      |     ^
+12 warnings generated.
+[ 98%] Building CXX object kernels/CMakeFiles/libgemma.dir/util/mat.cc.o
+[ 98%] Building CXX object kernels/CMakeFiles/libgemma.dir/util/threading_context.cc.o
+[ 98%] Building CXX object kernels/CMakeFiles/libgemma.dir/util/threading.cc.o
+[100%] Building CXX object kernels/CMakeFiles/libgemma.dir/util/topology.cc.o
+[100%] Building CXX object kernels/CMakeFiles/libgemma.dir/util/zones.cc.o
+[100%] Linking CXX static library libgemma.a
+[100%] Built target libgemma
+[100%] Building CXX object CMakeFiles/native_executor.dir/executor.cc.o
+In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma-native/executor.cc:5:
+In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma.h:25:
+In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/activations.h:28:
+In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./deepseek/deepseek_dims.h:25:
+/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/configs.h:373:37: warning: unused parameter 'model' [-Wunused-parameter]
+  373 | static inline bool IsInternal(Model model) { return false; }
+      |                                     ^
+/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/configs.h:390:36: warning: unused parameter 'visitor' [-Wunused-parameter]
+  390 |   void VisitFields(IFieldsVisitor& visitor) override {
+      |                                    ^
+/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/configs.h:625:36: warning: unused parameter 'visitor' [-Wunused-parameter]
+  625 |   void VisitFields(IFieldsVisitor& visitor) override {
+      |                                    ^
+In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma-native/executor.cc:5:
+In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma.h:25:
+In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/activations.h:31:
+In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma_args.h:35:
+In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./util/threading_context.h:30:
+/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./util/threading.h:156:32: warning: unused parameter 'pkg_idx' [-Wunused-parameter]
+  156 |   hwy::ThreadPool& Pool(size_t pkg_idx = 0) {
+      |                                ^
+In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma-native/executor.cc:5:
+In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma.h:25:
+/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/activations.h:79:63: warning: unused parameter 'runtime_config' [-Wunused-parameter]
+   79 |       size_t batch_size, size_t seq_len, const RuntimeConfig& runtime_config,
+      |                                                               ^
+In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma-native/executor.cc:5:
+In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma.h:34:
+/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./ops/matmul.h:86:20: warning: unused parameter 'inner_tasks' [-Wunused-parameter]
+   86 |             size_t inner_tasks, size_t cluster_idx, const Func& func) const {
+      |                    ^
+/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./ops/matmul.h:505:19: warning: unused parameter 'M' [-Wunused-parameter]
+  505 |   MMConfig(size_t M, size_t K, size_t N, size_t mr, size_t mc, size_t kc,
+      |                   ^
+7 warnings generated.
+[100%] Linking CXX static library libnative_executor.a
+[100%] Built target native_executor
+[100%] Building CXX object CMakeFiles/gemma_native.dir/main.cc.o
+[100%] Linking CXX executable gemma_native
+[100%] Built target gemma_native
+BUILD_DONE linux

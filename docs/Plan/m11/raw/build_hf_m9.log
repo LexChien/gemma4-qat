@@ -1,0 +1,16 @@
+dequant 0/278 model.language_model.embed_tokens.weight
+dequant 20/278 model.language_model.layers.10.mlp.down_proj.weight
+dequant 40/278 model.language_model.layers.12.mlp.up_proj.weight
+dequant 60/278 model.language_model.layers.14.per_layer_projection.weight
+dequant 80/278 model.language_model.layers.17.mlp.gate_proj.weight
+dequant 100/278 model.language_model.layers.2.mlp.down_proj.weight
+dequant 120/278 model.language_model.layers.21.per_layer_projection.weight
+dequant 140/278 model.language_model.layers.24.per_layer_input_gate.weight
+dequant 160/278 model.language_model.layers.27.mlp.up_proj.weight
+dequant 180/278 model.language_model.layers.3.mlp.gate_proj.weight
+dequant 200/278 model.language_model.layers.31.self_attn.o_proj.weight
+dequant 220/278 model.language_model.layers.34.per_layer_projection.weight
+dequant 240/278 model.language_model.layers.5.self_attn.v_proj.weight
+dequant 260/278 model.language_model.layers.8.mlp.gate_proj.weight
+tensors 540
+BUILD_HF_DONE out/m11/work/m9-hf-text.safetensors

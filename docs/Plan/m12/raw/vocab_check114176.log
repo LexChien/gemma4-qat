@@ -1,0 +1,35 @@
+[
+ {
+  "set": "eval50+facts",
+  "texts": 72,
+  "identical_token_seq": 72,
+  "tokens_orig": 968,
+  "tokens_trim": 968,
+  "inflation": 1.0,
+  "examples_changed": []
+ },
+ {
+  "set": "wikitext2-test",
+  "texts": 2891,
+  "identical_token_seq": 2013,
+  "tokens_orig": 292281,
+  "tokens_trim": 294411,
+  "inflation": 1.0072875075697703,
+  "examples_changed": [
+   " He had a recurring role in 2003 on two episodes of The Bill , as character \" Co",
+   " Traditional Chinese literary criticism emphasized the life of the author when i",
+   " In the early 730s , he travelled in the Jiangsu / Zhejiang area ; his earliest ",
+   " In 746 , he moved to the capital in an attempt to resurrect his official career",
+   " In 755 , he received an appointment as Registrar of the Right Commandant 's off"
+  ]
+ },
+ {
+  "set": "xsoin-site-zh-lines",
+  "texts": 20000,
+  "identical_token_seq": 20000,
+  "tokens_orig": 1273510,
+  "tokens_trim": 1273510,
+  "inflation": 1.0,
+  "examples_changed": []
+ }
+]

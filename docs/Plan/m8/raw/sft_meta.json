@@ -1,0 +1,31 @@
+{
+ "n_train": 971,
+ "n_valid": 51,
+ "rejected": {
+  "simplified": 27,
+  "english": 50,
+  "no_refusal": 10,
+  "len>1024": 2
+ },
+ "dropped_eval_overlap": 86,
+ "max_eval_4gram_jaccard": 0.654,
+ "s2twp_changed_answers": 377,
+ "by_cat": {
+  "unans_think": 32,
+  "inst": 176,
+  "gib": 110,
+  "know": 324,
+  "unans": 81,
+  "know_think": 95,
+  "inst_think": 18,
+  "read": 144,
+  "read_think": 42
+ },
+ "target_tokens": 167744,
+ "total_tokens": 217279,
+ "sources": {
+  "prompts": "self-written topics/templates/programmatic (project-owned); zh-TW Wikipedia leads via zetavg/zh-tw-wikipedia (CC BY-SA 3.0/4.0)",
+  "answers": "distilled from official Gemma 4 E2B QAT (thinking on, zh-TW guide system prompt; Gemma Terms of Use) + programmatic/self-written",
+  "postprocess": "OpenCC s2twp (Apache-2.0)"
+ }
+}

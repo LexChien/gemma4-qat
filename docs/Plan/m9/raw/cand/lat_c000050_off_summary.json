@@ -1,0 +1,59 @@
+{
+ "model": "out/m9/cand/step_000050",
+ "tag": "c000050_off",
+ "think": "off",
+ "stride": 1,
+ "kv_bits": null,
+ "max_tokens": 256,
+ "think_budget": null,
+ "load_s": 2.72,
+ "runs": {
+  "1": {
+   "prefill_tps": {
+    "median": 203.9,
+    "p90": 296.4
+   },
+   "ttft_s": {
+    "median": 0.1071,
+    "p90": 0.1341
+   },
+   "think_s": {
+    "median": 0.0,
+    "p90": 0.0
+   },
+   "think_tokens": {
+    "median": 0,
+    "p90": 0
+   },
+   "ttfa_s": {
+    "median": 0.1071,
+    "p90": 0.1341
+   },
+   "answer_s": {
+    "median": 0.698,
+    "p90": 7.542
+   },
+   "answer_tokens": {
+    "median": 26,
+    "p90": 256
+   },
+   "decode_tps": {
+    "median": 36.1,
+    "p90": 40.8
+   },
+   "total_s": {
+    "median": 0.799,
+    "p90": 7.654
+   },
+   "n_hit_max": 8,
+   "n_forced_close": 0,
+   "cold_first_prompt": {
+    "ttft_s": 0.189,
+    "ttfa_s": 0.189,
+    "total_s": 0.297,
+    "prompt_tokens": 16
+   }
+  }
+ },
+ "peak_mem_gb": 3.08
+}

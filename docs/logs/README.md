@@ -1,0 +1,16 @@
+# 工作紀錄索引
+- [2026-10-15_setup.md](2026-10-15_setup.md)：專案建立、腳本、研究、權重下載與驗證
+- [2026-10-16_trace.md](2026-10-16_trace.md)：Trace code 文件（10-16 初版因 box 重置遺失，10-17 在 Mac 重建）＋ orbax vs HF 數值比對
+- [2026-10-17_M0.md](2026-10-17_M0.md)：M0 基準量測（MLX 4-bit、官方 ct、PPL／速度／記憶體）
+- [2026-10-17_M3.md](2026-10-17_M3.md)：M3 JAX(orbax)→HF 轉換器（it/pt bit-exact、sha1 相同）
+- [2026-10-17_M4.md](2026-10-17_M4.md)：M4（第一部分）gemma repo 的 QAT 支援 Gemma 4 E2B（wrapper、Q4 格點、STE、冒煙訓練、MLX 2.5GB）
+- [2026-10-17_M5.md](2026-10-17_M5.md)：M5 Mac 上 LoRA-QAT、exact-grid 打包、PEFT/MLX 失敗紀錄
+- [2026-10-17_M6.md](2026-10-17_M6.md)：M6 MLX LoRA 訓練與 Metal 錯誤、對話評測、延遲量測
+- [2026-10-18_M7.md](2026-10-18_M7.md)：M7 chat template 追蹤、思考關重測、M6 勘誤、nothink-default 打包
+- [2026-10-18_M8.md](2026-10-18_M8.md)：M8 MLX 可合併 LoRA-QAT 移植（JAX parity）、zh-TW 蒸餾 SFT 資料、訓練（Metal 0000000e 修正：micro-batch＋分塊 lm_head）、export（無損 2.89GB）／eval 完成（風格改善、PPL 與知識退化）
+- [2026-10-18_M9.md](2026-10-18_M9.md)：M9 資料清理（維基 fact-check、思考 trace 去指引、改用 s2tw）、rank 8 LoRA-QAT＋KL-to-teacher 一般文本、多 checkpoint 選點、eval 完成（選 step 100；PPL +0.03%／+0.17%、知識 12/15，目標達成）→ `../Plan/09_zhtw_sft_kl_M9.md`
+- [2026-11-04_M10.md](2026-11-04_M10.md)：M10 任務 1–2 完成（G3 自建 ct 2.55GiB 可被 transformers 載入；PPL 47.01／40.67 對齊 M9 MLX、優於官方 mobile-ct 59.56／61.72，Q2 ✅；P1／P3 由 M9 MLX 達成）。C-1 套件骨架完成（`src/g4qat` CLI＋grid 測試）；任務 3–5 與重構 B／A 未開始
+- [2026-11-20_M11_sbs.md](2026-11-20_M11_sbs.md)：M11 M9／M8 轉成 gemma.cpp SBS（重現原網站檔 sha256 相同；Q4_0 block 逐 bit 等於 MLX，verify PASS）；gemma_native 網站 profile 50 題：原檔 12/14/7、M9 11/15/10、M8 12/15/10（知識／指令／亂問題），M9 k08 在 native 答錯國父
+- [2026-11-20_M12_sbs_2gb.md](2026-11-20_M12_sbs_2gb.md)：M12 SBS < 2GB：原版 gemma_native 寫死 vocab=262144，最小只能到 2.62GB（候選 A）；裁詞表到 154,624＋改 3 行重編 binary（out/m12/bin）→ M8 版 1,984,823,296 B（1.849 GiB），事實題 19/22、國父答對；國父差異追蹤（near-tie＋native 數值路徑）→ `../Plan/m12/01_trace.md`
+- [2026-11-21_M13_quality.md](2026-11-21_M13_quality.md)：M13 現有 binary、≤2.62GB 提升中英品質：A-M8 build、zh60/en60 評測集＋網站 envelope 評測、診斷（損失主要是 E2B 知識上限，非 native 數值或 Q4 head）；網站 envelope 蒸餾微調 ft100／ft185（各 2,622,554,112 B，stock gemma_native 可載入）：envelope zh 37→48/60，建議 ft185（sha256 3a22d313…1050），國父僅 envelope 下答對
+- [2026-11-22_github_publish.md](2026-11-22_github_publish.md)：整理公開副本（排除權重／SBS／網站政策 envelope），於 GitHub 建立 LexChien/gemma4-qat 公開專案並上傳

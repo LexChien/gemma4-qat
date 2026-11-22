@@ -1,0 +1,10 @@
+{
+ "snap": true,
+ "tensors": 278,
+ "blocks": 144633856,
+ "blocks_on_grid": 144633856,
+ "fallback_blocks": 0,
+ "max_abs_err_vs_hf": 0.0,
+ "missing_hf": [],
+ "on_grid_frac": 1.0
+}

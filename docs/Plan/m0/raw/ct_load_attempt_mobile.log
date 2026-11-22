@@ -1,0 +1,45 @@
+W1017 13:48:08.415000 61817 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Could not match `model.language_model.layers.31.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.31.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.20.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.25.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.16.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.21.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.29.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.27.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.15.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.34.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.24.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.23.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.19.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.17.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.29.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.22.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.23.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.16.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.28.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.20.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.33.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.32.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.15.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.30.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.24.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.25.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.18.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.26.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.33.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.21.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.30.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.22.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.32.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.18.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.34.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.27.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.19.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.28.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.26.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.17.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Applying quantization config:   0%|          | 0/462 [00:00<?, ?it/s]Applying quantization config:  36%|███▌      | 167/462 [00:00<00:00, 1668.41it/s]Applying quantization config:  79%|███████▉  | 364/462 [00:00<00:00, 1842.04it/s]Applying quantization config: 100%|██████████| 462/462 [00:00<00:00, 1841.96it/s]
+Compressing model:   0%|          | 0/462 [00:00<?, ?it/s]Compressing model:  42%|████▏     | 193/462 [00:00<00:00, 1927.34it/s]Compressing model: 100%|██████████| 462/462 [00:00<00:00, 3002.92it/s]
+/opt/homebrew/Cellar/python@3.13/3.13.16/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:479: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-c6zqct79'}
+  warnings.warn(

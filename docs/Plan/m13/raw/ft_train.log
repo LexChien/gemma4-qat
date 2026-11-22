@@ -1,0 +1,54 @@
+=== attempt 1 2026-11-21 02:25:25
+setup 9.6s deployed-dense 278 qat-lora 205 rank 8 trainable 12079104 train 737 valid 40 general 800 steps/epoch 185 total 185 lr 4e-05 beta 1.0
+step 0 val 0.5276
+=== stopped at setup (02:28): training slowed the concurrent text-policy native eval 3-4x; restarting after it
+=== attempt 1 2026-11-21 02:50:01
+setup 7.6s deployed-dense 278 qat-lora 205 rank 8 trainable 12079104 train 737 valid 40 general 800 steps/epoch 185 total 185 lr 4e-05 beta 1.0
+step 0 val 0.5276
+step 1/185 sft 0.2760 kl 0.0016 gen_ce 4.914 lr 1.00e-07 tok/s 29 s/step 36.3 peak 12.6GB
+step 5/185 sft 0.4821 kl 0.0023 gen_ce 5.308 lr 1.07e-05 tok/s 21 s/step 35.3 peak 12.7GB
+step 10/185 sft 0.7364 kl 0.0030 gen_ce 5.235 lr 2.40e-05 tok/s 22 s/step 39.6 peak 12.7GB
+step 15/185 sft 0.4520 kl 0.0020 gen_ce 5.116 lr 3.73e-05 tok/s 22 s/step 41.2 peak 12.7GB
+step 20/185 sft 0.9189 kl 0.0039 gen_ce 5.152 lr 4.00e-05 tok/s 22 s/step 40.8 peak 12.7GB
+step 25/185 sft 1.0878 kl 0.0039 gen_ce 5.024 lr 3.98e-05 tok/s 19 s/step 40.6 peak 12.7GB
+step 25 val 0.5203
+step 30/185 sft 0.5678 kl 0.0021 gen_ce 4.366 lr 3.94e-05 tok/s 13 s/step 61.5 peak 12.7GB
+step 35/185 sft 0.5023 kl 0.0085 gen_ce 4.484 lr 3.89e-05 tok/s 19 s/step 40.1 peak 12.7GB
+step 40/185 sft 0.5093 kl 0.0379 gen_ce 4.647 lr 3.83e-05 tok/s 22 s/step 38.7 peak 12.7GB
+step 45/185 sft 0.3443 kl 0.0340 gen_ce 4.967 lr 3.75e-05 tok/s 22 s/step 41.1 peak 12.8GB
+step 50/185 sft 0.5303 kl 0.0405 gen_ce 4.764 lr 3.66e-05 tok/s 21 s/step 41.4 peak 12.8GB
+step 50 val 0.3788
+step 55/185 sft 0.4643 kl 0.0335 gen_ce 5.023 lr 3.55e-05 tok/s 11 s/step 58.8 peak 12.8GB
+step 60/185 sft 0.4050 kl 0.0243 gen_ce 5.354 lr 3.44e-05 tok/s 21 s/step 39.3 peak 12.8GB
+step 65/185 sft 0.2774 kl 0.0146 gen_ce 5.191 lr 3.31e-05 tok/s 21 s/step 40.1 peak 12.8GB
+step 70/185 sft 0.4337 kl 0.0132 gen_ce 4.800 lr 3.18e-05 tok/s 17 s/step 39.8 peak 12.8GB
+step 75/185 sft 0.3628 kl 0.0126 gen_ce 5.051 lr 3.03e-05 tok/s 20 s/step 37.0 peak 12.8GB
+step 75 val 0.3520
+step 80/185 sft 0.6350 kl 0.0113 gen_ce 5.297 lr 2.88e-05 tok/s 13 s/step 59.7 peak 12.8GB
+step 85/185 sft 0.8989 kl 0.0109 gen_ce 5.103 lr 2.72e-05 tok/s 22 s/step 38.0 peak 12.8GB
+step 90/185 sft 0.5338 kl 0.0112 gen_ce 4.704 lr 2.56e-05 tok/s 23 s/step 37.9 peak 12.8GB
+step 95/185 sft 0.3472 kl 0.0105 gen_ce 4.406 lr 2.40e-05 tok/s 21 s/step 39.8 peak 12.8GB
+step 100/185 sft 0.2796 kl 0.0125 gen_ce 4.061 lr 2.23e-05 tok/s 22 s/step 35.3 peak 12.8GB
+step 100 val 0.3548
+step 105/185 sft 0.3524 kl 0.0118 gen_ce 4.904 lr 2.07e-05 tok/s 15 s/step 60.2 peak 12.8GB
+step 110/185 sft 0.4486 kl 0.0107 gen_ce 4.745 lr 1.90e-05 tok/s 21 s/step 36.3 peak 12.8GB
+step 115/185 sft 0.6425 kl 0.0078 gen_ce 4.881 lr 1.74e-05 tok/s 27 s/step 37.9 peak 12.8GB
+step 120/185 sft 0.5054 kl 0.0114 gen_ce 4.768 lr 1.58e-05 tok/s 27 s/step 33.6 peak 12.8GB
+step 125/185 sft 0.7094 kl 0.0096 gen_ce 5.052 lr 1.43e-05 tok/s 22 s/step 36.8 peak 12.8GB
+step 125 val 0.3505
+step 130/185 sft 0.9022 kl 0.0123 gen_ce 4.999 lr 1.28e-05 tok/s 16 s/step 57.3 peak 12.8GB
+step 135/185 sft 0.4478 kl 0.0102 gen_ce 4.998 lr 1.14e-05 tok/s 25 s/step 37.6 peak 12.8GB
+step 140/185 sft 0.7570 kl 0.0112 gen_ce 4.500 lr 1.01e-05 tok/s 23 s/step 37.4 peak 12.8GB
+step 145/185 sft 0.4082 kl 0.0119 gen_ce 4.804 lr 8.92e-06 tok/s 26 s/step 36.8 peak 12.8GB
+step 150/185 sft 0.4092 kl 0.0103 gen_ce 4.528 lr 7.84e-06 tok/s 24 s/step 33.2 peak 12.8GB
+step 150 val 0.3566
+step 155/185 sft 0.6562 kl 0.0116 gen_ce 4.795 lr 6.87e-06 tok/s 14 s/step 60.0 peak 12.8GB
+step 160/185 sft 0.4678 kl 0.0135 gen_ce 4.564 lr 6.04e-06 tok/s 20 s/step 34.2 peak 12.8GB
+step 165/185 sft 0.3535 kl 0.0122 gen_ce 4.709 lr 5.34e-06 tok/s 20 s/step 35.4 peak 12.8GB
+step 170/185 sft 0.3172 kl 0.0109 gen_ce 4.799 lr 4.78e-06 tok/s 25 s/step 33.1 peak 12.8GB
+step 175/185 sft 0.5275 kl 0.0109 gen_ce 5.384 lr 4.37e-06 tok/s 25 s/step 35.7 peak 12.8GB
+step 175 val 0.3545
+step 180/185 sft 0.3363 kl 0.0129 gen_ce 4.403 lr 4.11e-06 tok/s 13 s/step 58.6 peak 12.8GB
+step 185/185 sft 0.5229 kl 0.0106 gen_ce 4.894 lr 4.00e-06 tok/s 28 s/step 30.9 peak 12.8GB
+step 185 val 0.3533
+TRAIN_DONE

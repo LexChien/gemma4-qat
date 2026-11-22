@@ -1,0 +1,1149 @@
++ cd /Users/lexchien/Documents/AI/gemma4-qat
++ PY=.venv-m0/bin/python
++ R=docs/Plan/m6/raw
++ T=docs/Plan/m6/tools
++ OFF=out/m5/mlx-qat-g32exact
++ M5=out/m5/mlx-jaxlora-g32exact
++ M6=out/m6/mlx-mlxlora-g32exact
++ '[' -d out/m6/mlxlora-fused ']'
++ .venv-m0/bin/python -m mlx_lm fuse --model out/m5/qat-text-hf --adapter-path out/m6/mlx_lora --save-path out/m6/mlxlora-fused
+[transformers] The tokenizer you are loading from 'out/m5/qat-text-hf' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Loading pretrained model
++ '[' '!' -f out/m6/mlx-mlxlora-g32exact/exact_grid_report.json ']'
++ rm -rf out/m6/_tmp_g32
++ .venv-m0/bin/python -m mlx_lm convert --hf-path out/m6/mlxlora-fused --mlx-path out/m6/_tmp_g32 -q --q-bits 4 --q-group-size 32
+[transformers] The tokenizer you are loading from 'out/m6/mlxlora-fused' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[INFO] Loading
+[INFO] Quantizing
+[INFO] Quantized model with 5.001 bits per weight.
++ .venv-m0/bin/python tools/mlx_exact_grid.py --hf out/m6/mlxlora-fused --mlx out/m6/_tmp_g32 --out out/m6/mlx-mlxlora-g32exact --snap
+{"snap": true, "tensors": 278, "blocks": 144633856, "blocks_on_grid": 144633856, "fallback_blocks": 0, "max_abs_err_vs_hf": 0.0, "missing_hf": [], "on_grid_frac": 1.0}
++ rm -rf out/m6/_tmp_g32
++ cp out/m6/mlx-mlxlora-g32exact/exact_grid_report.json docs/Plan/m6/raw/exact_grid_mlxlora.json
++ '[' -d out/m6/mlx-mlxlora-g64 ']'
++ .venv-m0/bin/python -m mlx_lm convert --hf-path out/m6/mlxlora-fused --mlx-path out/m6/mlx-mlxlora-g64 -q --q-bits 4 --q-group-size 64
+[transformers] The tokenizer you are loading from 'out/m6/mlxlora-fused' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[INFO] Loading
+[INFO] Quantizing
+[INFO] Quantized model with 4.501 bits per weight.
++ du -sh out/m6/mlxlora-fused out/m6/mlx-mlxlora-g32exact out/m6/mlx-mlxlora-g64 out/m5/mlx-qat-g32exact out/m5/mlx-jaxlora-g32exact
++ tee docs/Plan/m6/raw/sizes.txt
+8.7G	out/m6/mlxlora-fused
+2.7G	out/m6/mlx-mlxlora-g32exact
+2.5G	out/m6/mlx-mlxlora-g64
+2.7G	out/m5/mlx-qat-g32exact
+2.7G	out/m5/mlx-jaxlora-g32exact
++ b m6-mlxlora-g32exact out/m6/mlx-mlxlora-g32exact ''
++ '[' -f docs/Plan/m6/raw/bench_m6-mlxlora-g32exact.json ']'
++ .venv-m0/bin/python docs/Plan/m0/tools/m0_bench_mlx.py m6-mlxlora-g32exact out/m6/mlx-mlxlora-g32exact --tag ''
+[transformers] The tokenizer you are loading from 'out/m6/mlx-mlxlora-g32exact' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+{"name": "m6-mlxlora-g32exact", "path": "out/m6/mlx-mlxlora-g32exact", "framework": "mlx", "mlx": "0.32.4", "load_lazy_s": 2.459401042000536, "load_s": 2.4602517080020334, "mem_after_load_GB": 2.894805694, "n_params_bytes_GB": 2.893249094, "gen_tokens": 128, "gen_tps": 102.43958609806043, "prompt_tokens": 36, "prompt_tps": 723.5078118451277, "gen_peak_mem_GB": 2.985365241, "ppl_wikitext": 27.278517291621604, "ppl_wikitext_tokens": 40960, "ppl_zh_tw": 33.56964981002799, "ppl_zh_tw_tokens": 20480, "ppl_time_s": 396.2684313750033, "ppl_peak_mem_GB": 5.99179472, "max_rss_GB": 4.131520512}
+<|channel>thought
+Here's a thinking process that leads to the suggested response:
+
+1.  **Analyze the Request:**
+    *   **Topic:** Taiwan (台灣).
+    *   **Required Content:** Geography (地理), History (歷史), and Culture (文化).
+    *   **Format Requirement:** Detailed introduction, at least five paragraph
++ cp docs/Plan/m0/raw/bench_m6-mlxlora-g32exact.json docs/Plan/m6/raw/
++ b m6-mlxlora-g64 out/m6/mlx-mlxlora-g64 ''
++ '[' -f docs/Plan/m6/raw/bench_m6-mlxlora-g64.json ']'
++ .venv-m0/bin/python docs/Plan/m0/tools/m0_bench_mlx.py m6-mlxlora-g64 out/m6/mlx-mlxlora-g64 --tag ''
+[transformers] The tokenizer you are loading from 'out/m6/mlx-mlxlora-g64' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+{"name": "m6-mlxlora-g64", "path": "out/m6/mlx-mlxlora-g64", "framework": "mlx", "mlx": "0.32.4", "load_lazy_s": 2.572583958000905, "load_s": 2.5735513330000686, "mem_after_load_GB": 2.604104382, "n_params_bytes_GB": 2.603981382, "gen_tokens": 128, "gen_tps": 60.06493582673195, "prompt_tokens": 36, "prompt_tps": 720.9468483172301, "gen_peak_mem_GB": 2.69200923, "ppl_wikitext": 13.274766908854202, "ppl_wikitext_tokens": 40960, "ppl_zh_tw": 25.202354782228213, "ppl_zh_tw_tokens": 20480, "ppl_time_s": 417.87876541600053, "ppl_peak_mem_GB": 5.701093207, "max_rss_GB": 3.821207552}
+<|channel>thought
+Here's a thinking process that leads to the suggested response:
+
+1.  **Analyze the Request:**
+    *   **Topic:** Taiwan (台灣)
+    *   **Scope:** Geography (地理), History (歷史), and Culture (文化).
+    *   **Format Requirement:** Detailed introduction, at least five paragraphs (至少寫五段).
+ 
++ cp docs/Plan/m0/raw/bench_m6-mlxlora-g64.json docs/Plan/m6/raw/
++ b m6-mlxlora-fused-bf16 out/m6/mlxlora-fused ''
++ '[' -f docs/Plan/m6/raw/bench_m6-mlxlora-fused-bf16.json ']'
++ .venv-m0/bin/python docs/Plan/m0/tools/m0_bench_mlx.py m6-mlxlora-fused-bf16 out/m6/mlxlora-fused --tag ''
+[transformers] The tokenizer you are loading from 'out/m6/mlxlora-fused' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+{"name": "m6-mlxlora-fused-bf16", "path": "out/m6/mlxlora-fused", "framework": "mlx", "mlx": "0.32.4", "load_lazy_s": 3.10959741699844, "load_s": 3.1102726249991974, "mem_after_load_GB": 9.257138878, "n_params_bytes_GB": 9.257138758, "gen_tokens": 128, "gen_tps": 23.460022675632025, "prompt_tokens": 36, "prompt_tps": 585.0796593314847, "gen_peak_mem_GB": 9.309901563, "ppl_wikitext": 13.15063340370612, "ppl_wikitext_tokens": 40960, "ppl_zh_tw": 24.304560592147784, "ppl_zh_tw_tokens": 20480, "ppl_time_s": 340.7886714999986, "ppl_peak_mem_GB": 12.231968591, "max_rss_GB": 10.486038528}
+<|channel>thought
+Here's a thinking process that leads to the suggested response:
+
+1.  **Analyze the Request:** The user wants a detailed introduction to Taiwan covering its geography, history, and culture, requiring at least five paragraphs, written in Traditional Chinese.
+
+2.  **Determine the Stru
++ cp docs/Plan/m0/raw/bench_m6-mlxlora-fused-bf16.json docs/Plan/m6/raw/
++ for m in '"m6-qat-g32exact $OFF"' '"m6-jaxlora-g32exact $M5"' '"m6-mlxlora-g32exact $M6"'
++ set -- m6-qat-g32exact out/m5/mlx-qat-g32exact
++ b m6-qat-g32exact out/m5/mlx-qat-g32exact _speed1 --no-ppl
++ '[' -f docs/Plan/m6/raw/bench_m6-qat-g32exact_speed1.json ']'
++ .venv-m0/bin/python docs/Plan/m0/tools/m0_bench_mlx.py m6-qat-g32exact out/m5/mlx-qat-g32exact --no-ppl --tag _speed1
+{"name": "m6-qat-g32exact", "path": "out/m5/mlx-qat-g32exact", "framework": "mlx", "mlx": "0.32.4", "load_lazy_s": 2.7430082079990825, "load_s": 2.744056042000011, "mem_after_load_GB": 2.894805694, "n_params_bytes_GB": 2.893249094, "gen_tokens": 128, "gen_tps": 45.6546425544176, "prompt_tokens": 36, "prompt_tps": 743.4841820629715, "gen_peak_mem_GB": 2.973927349, "max_rss_GB": 4.121198592}
+<|channel>thought
+Here's a thinking process that leads to the suggested response:
+
+1.  **Analyze the Request:**
+    *   **Topic:** Taiwan (台灣).
+    *   **Scope:** Geography (地理), History (歷史), and Culture (文化).
+    *   **Format Requirement:** Detailed introduction, at least five paragraphs (至少寫五段).
+
++ cp docs/Plan/m0/raw/bench_m6-qat-g32exact_speed1.json docs/Plan/m6/raw/
++ b m6-qat-g32exact out/m5/mlx-qat-g32exact _speed2 --no-ppl
++ '[' -f docs/Plan/m6/raw/bench_m6-qat-g32exact_speed2.json ']'
++ .venv-m0/bin/python docs/Plan/m0/tools/m0_bench_mlx.py m6-qat-g32exact out/m5/mlx-qat-g32exact --no-ppl --tag _speed2
+{"name": "m6-qat-g32exact", "path": "out/m5/mlx-qat-g32exact", "framework": "mlx", "mlx": "0.32.4", "load_lazy_s": 2.669901249999384, "load_s": 2.670872041999246, "mem_after_load_GB": 2.894805694, "n_params_bytes_GB": 2.893249094, "gen_tokens": 128, "gen_tps": 47.415706613652524, "prompt_tokens": 36, "prompt_tps": 807.9621618502213, "gen_peak_mem_GB": 2.994213629, "max_rss_GB": 4.120543232}
+<|channel>thought
+Here's a thinking process that leads to the suggested response:
+
+1.  **Analyze the Request:**
+    *   **Topic:** Taiwan (台灣).
+    *   **Scope:** Geography (地理), History (歷史), and Culture (文化).
+    *   **Format Requirement:** Detailed introduction, at least five paragraphs (至少寫五段).
+
++ cp docs/Plan/m0/raw/bench_m6-qat-g32exact_speed2.json docs/Plan/m6/raw/
++ for m in '"m6-qat-g32exact $OFF"' '"m6-jaxlora-g32exact $M5"' '"m6-mlxlora-g32exact $M6"'
++ set -- m6-jaxlora-g32exact out/m5/mlx-jaxlora-g32exact
++ b m6-jaxlora-g32exact out/m5/mlx-jaxlora-g32exact _speed1 --no-ppl
++ '[' -f docs/Plan/m6/raw/bench_m6-jaxlora-g32exact_speed1.json ']'
++ .venv-m0/bin/python docs/Plan/m0/tools/m0_bench_mlx.py m6-jaxlora-g32exact out/m5/mlx-jaxlora-g32exact --no-ppl --tag _speed1
+[transformers] The tokenizer you are loading from 'out/m5/mlx-jaxlora-g32exact' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+{"name": "m6-jaxlora-g32exact", "path": "out/m5/mlx-jaxlora-g32exact", "framework": "mlx", "mlx": "0.32.4", "load_lazy_s": 2.7872506250023434, "load_s": 2.788422375000664, "mem_after_load_GB": 2.894805694, "n_params_bytes_GB": 2.893249094, "gen_tokens": 128, "gen_tps": 51.92245508377022, "prompt_tokens": 36, "prompt_tps": 792.6779981284341, "gen_peak_mem_GB": 2.983824654, "max_rss_GB": 4.113678336}
+<|channel>thought
+Here's a thinking process that leads to the suggested response:
+
+1.  **Analyze the Request:** The user wants a detailed introduction to Taiwan (台灣), covering its geography, history, and culture. The language required is Traditional Chinese (繁體中文). The length requirement is "at leas
++ cp docs/Plan/m0/raw/bench_m6-jaxlora-g32exact_speed1.json docs/Plan/m6/raw/
++ b m6-jaxlora-g32exact out/m5/mlx-jaxlora-g32exact _speed2 --no-ppl
++ '[' -f docs/Plan/m6/raw/bench_m6-jaxlora-g32exact_speed2.json ']'
++ .venv-m0/bin/python docs/Plan/m0/tools/m0_bench_mlx.py m6-jaxlora-g32exact out/m5/mlx-jaxlora-g32exact --no-ppl --tag _speed2
+[transformers] The tokenizer you are loading from 'out/m5/mlx-jaxlora-g32exact' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+{"name": "m6-jaxlora-g32exact", "path": "out/m5/mlx-jaxlora-g32exact", "framework": "mlx", "mlx": "0.32.4", "load_lazy_s": 2.5445759580034064, "load_s": 2.5455482910001592, "mem_after_load_GB": 2.894805694, "n_params_bytes_GB": 2.893249094, "gen_tokens": 128, "gen_tps": 53.269831255353964, "prompt_tokens": 36, "prompt_tps": 858.1968863628011, "gen_peak_mem_GB": 2.993066938, "max_rss_GB": 4.11959296}
+<|channel>thought
+Here's a thinking process that leads to the suggested response:
+
+1.  **Analyze the Request:** The user wants a detailed introduction to Taiwan (台灣), covering its geography, history, and culture. The language required is Traditional Chinese (繁體中文). The length requirement is "at leas
++ cp docs/Plan/m0/raw/bench_m6-jaxlora-g32exact_speed2.json docs/Plan/m6/raw/
++ for m in '"m6-qat-g32exact $OFF"' '"m6-jaxlora-g32exact $M5"' '"m6-mlxlora-g32exact $M6"'
++ set -- m6-mlxlora-g32exact out/m6/mlx-mlxlora-g32exact
++ b m6-mlxlora-g32exact out/m6/mlx-mlxlora-g32exact _speed1 --no-ppl
++ '[' -f docs/Plan/m6/raw/bench_m6-mlxlora-g32exact_speed1.json ']'
++ .venv-m0/bin/python docs/Plan/m0/tools/m0_bench_mlx.py m6-mlxlora-g32exact out/m6/mlx-mlxlora-g32exact --no-ppl --tag _speed1
+[transformers] The tokenizer you are loading from 'out/m6/mlx-mlxlora-g32exact' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+{"name": "m6-mlxlora-g32exact", "path": "out/m6/mlx-mlxlora-g32exact", "framework": "mlx", "mlx": "0.32.4", "load_lazy_s": 2.461281500000041, "load_s": 2.4622551659995224, "mem_after_load_GB": 2.894805694, "n_params_bytes_GB": 2.893249094, "gen_tokens": 128, "gen_tps": 52.63520049589046, "prompt_tokens": 36, "prompt_tps": 870.9984726571545, "gen_peak_mem_GB": 2.986036695, "max_rss_GB": 4.120281088}
+<|channel>thought
+Here's a thinking process that leads to the suggested response:
+
+1.  **Analyze the Request:**
+    *   **Topic:** Taiwan (台灣).
+    *   **Required Content:** Geography (地理), History (歷史), and Culture (文化).
+    *   **Format Requirement:** Detailed introduction, at least five paragraph
++ cp docs/Plan/m0/raw/bench_m6-mlxlora-g32exact_speed1.json docs/Plan/m6/raw/
++ b m6-mlxlora-g32exact out/m6/mlx-mlxlora-g32exact _speed2 --no-ppl
++ '[' -f docs/Plan/m6/raw/bench_m6-mlxlora-g32exact_speed2.json ']'
++ .venv-m0/bin/python docs/Plan/m0/tools/m0_bench_mlx.py m6-mlxlora-g32exact out/m6/mlx-mlxlora-g32exact --no-ppl --tag _speed2
+[transformers] The tokenizer you are loading from 'out/m6/mlx-mlxlora-g32exact' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+{"name": "m6-mlxlora-g32exact", "path": "out/m6/mlx-mlxlora-g32exact", "framework": "mlx", "mlx": "0.32.4", "load_lazy_s": 2.5535599579998234, "load_s": 2.554679374999978, "mem_after_load_GB": 2.894805694, "n_params_bytes_GB": 2.893249094, "gen_tokens": 128, "gen_tps": 50.78957452724414, "prompt_tokens": 36, "prompt_tps": 732.7597954888898, "gen_peak_mem_GB": 2.983824654, "max_rss_GB": 4.120117248}
+<|channel>thought
+Here's a thinking process that leads to the suggested response:
+
+1.  **Analyze the Request:**
+    *   **Topic:** Taiwan (台灣).
+    *   **Required Content:** Geography (地理), History (歷史), and Culture (文化).
+    *   **Format Requirement:** Detailed introduction, at least five paragraph
++ cp docs/Plan/m0/raw/bench_m6-mlxlora-g32exact_speed2.json docs/Plan/m6/raw/
++ for m in '"qat $OFF"' '"jaxlora $M5"' '"mlxlora $M6"'
++ set -- qat out/m5/mlx-qat-g32exact
++ '[' -f docs/Plan/m6/raw/chat_qat_summary.json ']'
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_chat_eval.py out/m5/mlx-qat-g32exact qat
+k01 True 8 3 0.2044 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k02 True 9 6 0.1992 186 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k03 False 12 0 0.2343 255 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k04 True 3 0 0.1575 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k05 True 9 0 0.2138 211 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k06 True 10 2 0.1754 171 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k07 True 1 1 0.2153 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k08 True 6 0 0.2456 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k09 True 4 0 0.2792 190 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k10 False 1 0 0.1925 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k11 True 10 1 0.2178 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k12 True 2 2 0.2066 256 "<|channel>thought\nHere's a thinking process to construct the"
+k13 True 5 3 0.1689 208 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k14 True 6 0 0.194 256 "<|channel>thought\nShakespeare's *Hamlet* is a tragedy.\nThink"
+k15 False 3 1 0.2401 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i01 False 11 0 0.1638 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i02 True 0 0 0.0 2 '96'
+i03 False 8 5 0.1533 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i04 True 2 0 0.2312 181 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i05 False 0 0 0.1847 212 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i06 False 7 1 0.1104 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i07 False 7 0 0.1271 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i08 False 2 0 0.1092 134 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i09 False 27 0 0.2058 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i10 True 3 0 0.147 224 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i11 False 11 0 0.1326 186 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i12 True 5 0 0.1298 126 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i13 True 2 0 0.1884 190 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i14 False 23 0 0.2459 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i15 False 0 0 0.2115 256 "<|channel>thought\nHere's a thinking process that leads to th"
+s01 None 5 1 0.1841 256 "<|channel>thought\nHere's a thinking process that leads to th"
+s02 None 6 0 0.1006 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+s03 None 14 0 0.1351 256 "<|channel>thought\nHere's a thinking process that leads to th"
+s04 None 4 0 0.1385 256 "<|channel>thought\nHere's a thinking process that leads to th"
+s05 None 5 0 0.1773 256 "<|channel>thought\nHere's a thinking process that leads to th"
+s06 None 7 0 0.1466 256 "<|channel>thought\nHere's a thinking process that leads to th"
+s07 None 24 0 0.1174 256 "<|channel>thought\nHere's a thinking process that leads to th"
+s08 None 2 0 0.1282 256 "<|channel>thought\nHere's a thinking process that leads to th"
+s09 None 1 1 0.1674 256 "<|channel>thought\nHere's a thinking process that leads to th"
+s10 None 0 0 0.1726 256 "<|channel>thought\nHere's a thinking process that leads to th"
+g01 False 0 0 0.136 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the input'
+g02 False 8 1 0.1478 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+g03 False 7 0 0.143 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+g04 False 5 0 0.1806 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+g05 False 15 0 0.2118 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+g06 False 4 0 0.1728 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+g07 False 1 1 0.2441 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+g08 False 3 0 0.1417 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+g09 False 10 0 0.0997 255 "<|channel>thought\nHere's a thinking process to arrive at the"
+g10 False 5 1 0.1592 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+{"model": "out/m5/mlx-qat-g32exact", "tag": "qat", "max_tokens": 256, "wall_s": 264.3, "knowledge_pass": "12/15", "instruction_pass": "5/15", "garbage_pass": "0/10", "trad_chars": 323, "simp_chars": 30, "trad_ratio": 0.915, "answers_with_simplified": 0, "mean_rep4": 0.1718, "n_rep4_gt_0_3": 0, "mean_chars": 852.7, "n_hit_max": 37, "gen_tok_s": 44.3, "peak_mem_gb": 3.06}
++ for m in '"qat $OFF"' '"jaxlora $M5"' '"mlxlora $M6"'
++ set -- jaxlora out/m5/mlx-jaxlora-g32exact
++ '[' -f docs/Plan/m6/raw/chat_jaxlora_summary.json ']'
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_chat_eval.py out/m5/mlx-jaxlora-g32exact jaxlora
+[transformers] The tokenizer you are loading from 'out/m5/mlx-jaxlora-g32exact' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+k01 True 7 3 0.2153 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k02 True 9 4 0.1853 189 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k03 False 12 0 0.2433 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k04 True 12 0 0.1907 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k05 True 17 0 0.1626 216 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k06 True 8 2 0.1697 158 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k07 True 0 0 0.2287 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k08 True 6 0 0.2192 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k09 True 12 0 0.1818 230 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k10 False 4 1 0.2299 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k11 True 13 2 0.2008 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k12 True 5 1 0.1411 256 "<|channel>thought\nHere's a thinking process that leads to th"
+k13 True 1 3 0.1689 177 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+k14 True 2 0 0.178 256 "<|channel>thought\nShakespeare's *Hamlet* is a tragedy.\nThe u"
+k15 False 3 1 0.6558 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i01 False 19 0 0.1321 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i02 True 0 0 0.0 2 '96'
+i03 False 0 1 0.1873 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i04 True 2 0 0.2702 231 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i05 False 1 0 0.1483 188 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i06 False 15 1 0.2312 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i07 False 22 0 0.1184 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i08 False 1 0 0.1014 130 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i09 False 35 0 0.1774 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i10 True 5 0 0.1081 199 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i11 False 11 0 0.2207 202 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i12 True 5 0 0.1108 113 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i13 True 0 0 0.2029 194 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i14 False 14 0 0.1965 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+i15 False 9 0 0.1368 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+s01 None 18 1 0.1841 256 "<|channel>thought\nHere's a thinking process that leads to th"
+s02 None 12 0 0.0904 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+s03 None 12 0 0.1127 256 "<|channel>thought\nHere's a thinking process that leads to th"
+s04 None 2 0 0.1542 256 "<|channel>thought\nHere's a thinking process that leads to th"
+s05 None 5 0 0.2026 256 "<|channel>thought\nHere's a thinking process that leads to th"
+s06 None 10 0 0.1547 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
+s07 None 8 0 0.1459 256 "<|channel>thought\nHere's a thinking process that leads to th"
++ cd /Users/lexchien/Documents/AI/gemma4-qat
++ PY=.venv-m0/bin/python
++ R=docs/Plan/m6/raw
++ T=docs/Plan/m6/tools
++ OFF=out/m5/mlx-qat-g32exact
++ M5=out/m5/mlx-jaxlora-g32exact
++ M6=out/m6/mlx-mlxlora-g32exact
++ '[' -d out/m6/mlxlora-fused ']'
++ '[' '!' -f out/m6/mlx-mlxlora-g32exact/exact_grid_report.json ']'
++ '[' -d out/m6/mlx-mlxlora-g64 ']'
++ du -sh out/m6/mlxlora-fused out/m6/mlx-mlxlora-g32exact out/m6/mlx-mlxlora-g64 out/m5/mlx-qat-g32exact out/m5/mlx-jaxlora-g32exact
++ tee docs/Plan/m6/raw/sizes.txt
+8.7G	out/m6/mlxlora-fused
+2.7G	out/m6/mlx-mlxlora-g32exact
+2.5G	out/m6/mlx-mlxlora-g64
+2.7G	out/m5/mlx-qat-g32exact
+2.7G	out/m5/mlx-jaxlora-g32exact
++ b m6-mlxlora-g32exact out/m6/mlx-mlxlora-g32exact ''
++ '[' -f docs/Plan/m6/raw/bench_m6-mlxlora-g32exact.json ']'
++ b m6-mlxlora-g64 out/m6/mlx-mlxlora-g64 ''
++ '[' -f docs/Plan/m6/raw/bench_m6-mlxlora-g64.json ']'
++ b m6-mlxlora-fused-bf16 out/m6/mlxlora-fused ''
++ '[' -f docs/Plan/m6/raw/bench_m6-mlxlora-fused-bf16.json ']'
++ for m in '"m6-qat-g32exact $OFF"' '"m6-jaxlora-g32exact $M5"' '"m6-mlxlora-g32exact $M6"'
++ set -- m6-qat-g32exact out/m5/mlx-qat-g32exact
++ b m6-qat-g32exact out/m5/mlx-qat-g32exact _speed1 --no-ppl
++ '[' -f docs/Plan/m6/raw/bench_m6-qat-g32exact_speed1.json ']'
++ b m6-qat-g32exact out/m5/mlx-qat-g32exact _speed2 --no-ppl
++ '[' -f docs/Plan/m6/raw/bench_m6-qat-g32exact_speed2.json ']'
++ for m in '"m6-qat-g32exact $OFF"' '"m6-jaxlora-g32exact $M5"' '"m6-mlxlora-g32exact $M6"'
++ set -- m6-jaxlora-g32exact out/m5/mlx-jaxlora-g32exact
++ b m6-jaxlora-g32exact out/m5/mlx-jaxlora-g32exact _speed1 --no-ppl
++ '[' -f docs/Plan/m6/raw/bench_m6-jaxlora-g32exact_speed1.json ']'
++ b m6-jaxlora-g32exact out/m5/mlx-jaxlora-g32exact _speed2 --no-ppl
++ '[' -f docs/Plan/m6/raw/bench_m6-jaxlora-g32exact_speed2.json ']'
++ for m in '"m6-qat-g32exact $OFF"' '"m6-jaxlora-g32exact $M5"' '"m6-mlxlora-g32exact $M6"'
++ set -- m6-mlxlora-g32exact out/m6/mlx-mlxlora-g32exact
++ b m6-mlxlora-g32exact out/m6/mlx-mlxlora-g32exact _speed1 --no-ppl
++ '[' -f docs/Plan/m6/raw/bench_m6-mlxlora-g32exact_speed1.json ']'
++ b m6-mlxlora-g32exact out/m6/mlx-mlxlora-g32exact _speed2 --no-ppl
++ '[' -f docs/Plan/m6/raw/bench_m6-mlxlora-g32exact_speed2.json ']'
++ for m in '"qat $OFF"' '"jaxlora $M5"' '"mlxlora $M6"'
++ set -- qat out/m5/mlx-qat-g32exact
++ '[' -f docs/Plan/m6/raw/lat_qat_off_summary.json ']'
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_latency.py out/m5/mlx-qat-g32exact qat_off --think off --runs 2
+1 k01 0.1685 0 0.1685 1.347 110.3 '台灣最高的山是哪一座？\n台灣最高的山是玉山。\n\n1.  **Identify t'
+1 k02 0.0541 0 0.0541 0.364 109.7 '台北 101 位於台北市的行政區是信義區。<channel|>台北 101 位於'
+1 k03 0.0386 0 0.0386 1.176 109.0 'The user is asking for the chemical form'
+1 k04 0.0441 0 0.0441 2.702 35.0 '地球繞太陽一圈的週期是「一年」。\n一年大約是 365.25 天（包含閏年）。\n\n'
+1 k05 0.0911 0 0.0911 1.992 50.5 'The user is asking for the author of the'
+1 k06 0.1009 0 0.1009 2.665 49.9 'The user is asking for the county (縣) wh'
+1 k07 0.0837 0 0.0837 5.168 50.2 'The user is asking for the approximate s'
+1 k08 0.1429 0 0.1429 2.57 51.5 'The user is asking for the "founding fat'
+1 k09 0.0968 0 0.0968 0.774 48.7 'The user is asking for the largest plane'
+1 k10 0.0873 0 0.0873 5.158 50.3 'The user is asking for the travel time o'
+1 k11 0.1178 0 0.1178 3.012 49.1 'The user is asking for the two scientist'
+1 k12 0.1285 0 0.1285 5.599 46.6 '端午節 (Dragon Boat Festival) 是台灣和中國傳統的節日，與'
+1 k13 0.0878 0 0.0878 1.119 46.5 'The user is asking for the conversion be'
+1 k14 0.0898 0 0.0898 5.6 46.3 "The user is asking whether Shakespeare's"
+1 k15 0.0855 0 0.0855 5.711 45.3 '台灣最長的河流是哪一條？\n台灣最長的河流是哪一條？\n\n1.  **Identif'
+1 i01 0.1053 0 0.1053 5.888 44.1 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i02 0.0808 0 0.0808 0.616 44.8 '12 乘以 8 等於多少？\n12 * 8 = 96.<channel|>96'
+1 i03 0.0829 0 0.0829 5.919 43.7 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i04 0.0946 0 0.0946 5.662 43.3 '我今天很開心 (Wǒ jīntiān hěn kāixīn) 的英文翻譯。\n\n1'
+1 i05 0.182 0 0.182 0.711 47.2 '```json\n{\n  "name": "小明",\n  "age": 12\n}\n'
+1 i06 0.0882 0 0.0882 6.028 42.9 '台灣夜市小吃 (Taiwanese Night Market Snacks)\n5'
+1 i07 0.0853 0 0.0853 5.616 46.1 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i08 0.0895 0 0.0895 0.961 40.1 'The user wants me to calculate the resul'
+1 i09 0.0942 0 0.0942 4.838 45.1 '人工智慧 (AI) 的定義需要簡潔、精確，且不超過 50 字。\n\n1.  **核'
+1 i10 0.0818 0 0.0818 4.103 43.8 'user\n請用英文寫一句問候語，只輸出那一句。\n<channel|>Thinki'
+1 i11 0.0969 0 0.0969 2.41 42.8 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i12 0.0817 0 0.0817 1.074 45.4 'The user is asking a factual question: "'
+1 i13 0.0943 0 0.0943 1.696 49.3 'The user wants me to sort the numbers 5,'
+1 i14 0.091 0 0.091 5.65 45.9 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i15 0.0904 0 0.0904 5.223 49.7 "Here's a thinking process that leads to "
+1 s01 0.1332 0 0.1332 5.37 48.7 '台灣的教育制度是一個非常系統化且強調「全面發展」的體系。我需要從幾個核心面向來簡'
+1 s02 0.1124 0 0.1124 5.762 45.1 '**Thinking Process:**\n\n1.  **Analyze the'
+1 s03 0.0882 0 0.0882 5.925 43.7 "Here's a thinking process that leads to "
+1 s04 0.0947 0 0.0947 5.974 43.4 "Here's a thinking process that leads to "
+1 s05 0.0848 0 0.0848 5.719 45.3 '運動對健康的重要性是一個非常廣泛且重要的主題。我需要從生理、心理和社會等多個層面'
+1 s06 0.1031 0 0.1031 5.873 44.2 '這是一個關於「喜歡的動物」的提問。我需要選擇一種動物，並提供我喜歡它的原因。\n\n'
+1 s07 0.0848 0 0.0848 5.94 43.5 '網路購物（E-commerce）的優點和缺點是個非常常見且重要的議題。我需要從多'
+1 s08 0.0896 0 0.0896 5.927 43.7 '通貨膨脹 (Inflation) 的解釋需要涵蓋其核心概念、定義、原因、影響以及'
+1 s09 0.0925 0 0.0925 5.753 45.0 '台灣夜市文化 (Taiwanese Night Market Culture) '
+1 s10 0.0888 0 0.0888 5.727 45.2 "Here's a thinking process that leads to "
+1 g01 0.0959 0 0.0959 5.758 44.9 'The user has provided a string of seemin'
+1 g02 0.0954 0 0.0954 4.317 47.9 'The user is asking for the election resu'
+1 g03 0.0934 0 0.0934 5.643 45.9 'The user is asking for the meaning of th'
+1 g04 0.0897 0 0.0897 3.104 43.5 'The user is asking for the ID number (身分'
+1 g05 0.0898 0 0.0898 5.624 44.8 'The user has provided a prompt in Chines'
+1 g06 0.1282 0 0.1282 5.681 45.9 'The user is asking for the origin (first'
+1 g07 0.0978 0 0.0978 2.993 45.6 'The user is asking "What did I eat for d'
+1 g08 0.0821 0 0.0821 5.445 47.0 'The user is asking for instructions on h'
+1 g09 0.1008 0 0.1008 5.877 44.1 "Here's a thinking process to arrive at t"
+1 g10 0.1069 0 0.1069 5.806 44.7 'The user is asking for the exact closing'
+2 k01 0.0938 0 0.0938 2.775 48.5 '台灣最高的山是哪一座？\n台灣最高的山是玉山。\n\n1.  **Identify t'
+2 k02 0.1343 0 0.1343 0.94 42.2 '台北 101 位於台北市的行政區是信義區。<channel|>台北 101 位於'
+2 k03 0.0948 0 0.0948 2.889 44.4 'The user is asking for the chemical form'
+2 k04 0.0958 0 0.0958 2.165 44.9 '地球繞太陽一圈的週期是「一年」。\n一年大約是 365.25 天（包含閏年）。\n\n'
+2 k05 0.0908 0 0.0908 2.214 45.2 'The user is asking for the author of the'
+2 k06 0.0855 0 0.0855 3.077 42.8 'The user is asking for the county (縣) wh'
+2 k07 0.0936 0 0.0936 5.927 43.7 'The user is asking for the approximate s'
+2 k08 0.0946 0 0.0946 2.903 44.5 'The user is asking for the "founding fat'
+2 k09 0.0949 0 0.0949 0.837 44.5 'The user is asking for the largest plane'
+2 k10 0.0879 0 0.0879 5.862 44.2 'The user is asking for the travel time o'
+2 k11 0.1382 0 0.1382 3.462 42.7 'The user is asking for the two scientist'
+2 k12 0.0809 0 0.0809 6.055 42.7 '端午節 (Dragon Boat Festival) 是台灣和中國傳統的節日，與'
+2 k13 0.1077 0 0.1077 1.183 44.6 'The user is asking for the conversion be'
+2 k14 0.0873 0 0.0873 5.832 44.4 "The user is asking whether Shakespeare's"
+2 k15 0.0799 0 0.0799 6.001 43.1 '台灣最長的河流是哪一條？\n台灣最長的河流是哪一條？\n\n1.  **Identif'
+2 i01 0.1043 0 0.1043 5.92 43.8 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i02 0.0932 0 0.0932 0.647 43.3 '12 乘以 8 等於多少？\n12 * 8 = 96.<channel|>96'
+2 i03 0.0913 0 0.0913 5.972 43.4 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i04 0.1163 0 0.1163 5.686 43.3 '我今天很開心 (Wǒ jīntiān hěn kāixīn) 的英文翻譯。\n\n1'
+2 i05 0.1026 0 0.1026 0.691 42.5 '```json\n{\n  "name": "小明",\n  "age": 12\n}\n'
+2 i06 0.0982 0 0.0982 5.785 44.8 '台灣夜市小吃 (Taiwanese Night Market Snacks)\n5'
+2 i07 0.1511 0 0.1511 5.804 45.1 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i08 0.0881 0 0.0881 0.814 48.2 'The user wants me to calculate the resul'
+2 i09 0.1084 0 0.1084 4.987 43.9 '人工智慧 (AI) 的定義需要簡潔、精確，且不超過 50 字。\n\n1.  **核'
+2 i10 0.0927 0 0.0927 4.127 43.6 'user\n請用英文寫一句問候語，只輸出那一句。\n<channel|>Thinki'
+2 i11 0.0884 0 0.0884 2.383 43.1 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i12 0.0886 0 0.0886 1.112 44.0 'The user is asking a factual question: "'
+2 i13 0.1035 0 0.1035 1.931 43.2 'The user wants me to sort the numbers 5,'
+2 i14 0.1004 0 0.1004 5.966 43.5 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i15 0.1049 0 0.1049 6.038 43.0 "Here's a thinking process that leads to "
+2 s01 0.0898 0 0.0898 5.944 43.6 '台灣的教育制度是一個非常系統化且強調「全面發展」的體系。我需要從幾個核心面向來簡'
+2 s02 0.116 0 0.116 5.993 43.4 '**Thinking Process:**\n\n1.  **Analyze the'
+2 s03 0.0968 0 0.0968 5.935 43.7 "Here's a thinking process that leads to "
+2 s04 0.109 0 0.109 5.725 45.4 "Here's a thinking process that leads to "
+2 s05 0.1037 0 0.1037 5.698 45.6 '運動對健康的重要性是一個非常廣泛且重要的主題。我需要從生理、心理和社會等多個層面'
+2 s06 0.0951 0 0.0951 5.971 43.4 '這是一個關於「喜歡的動物」的提問。我需要選擇一種動物，並提供我喜歡它的原因。\n\n'
+2 s07 0.0919 0 0.0919 5.606 46.2 '網路購物（E-commerce）的優點和缺點是個非常常見且重要的議題。我需要從多'
+2 s08 0.0907 0 0.0907 5.92 43.7 '通貨膨脹 (Inflation) 的解釋需要涵蓋其核心概念、定義、原因、影響以及'
+2 s09 0.0864 0 0.0864 6.032 42.9 '台灣夜市文化 (Taiwanese Night Market Culture) '
+2 s10 0.0952 0 0.0952 5.704 45.5 "Here's a thinking process that leads to "
+2 g01 0.0931 0 0.0931 5.626 45.9 'The user has provided a string of seemin'
+2 g02 0.0953 0 0.0953 4.379 47.2 'The user is asking for the election resu'
+2 g03 0.0923 0 0.0923 5.751 45.1 'The user is asking for the meaning of th'
+2 g04 0.0965 0 0.0965 3.104 43.6 'The user is asking for the ID number (身分'
+2 g05 0.0906 0 0.0906 5.816 43.3 'The user has provided a prompt in Chines'
+2 g06 0.0891 0 0.0891 5.869 44.1 'The user is asking for the origin (first'
+2 g07 0.0791 0 0.0791 3.009 45.1 'The user is asking "What did I eat for d'
+2 g08 0.0921 0 0.0921 5.403 47.4 'The user is asking for instructions on h'
+2 g09 0.1372 0 0.1372 6.136 42.5 "Here's a thinking process to arrive at t"
+2 g10 0.0948 0 0.0948 5.715 45.4 'The user is asking for the exact closing'
+{"model": "out/m5/mlx-qat-g32exact", "tag": "qat_off", "think": "off", "stride": 1, "kv_bits": null, "max_tokens": 256, "think_budget": null, "load_s": 2.44, "runs": {"1": {"prefill_tps": {"median": 281.4, "p90": 392.4}, "ttft_s": {"median": 0.091, "p90": 0.1178}, "think_s": {"median": 0.0, "p90": 0.0}, "think_tokens": {"median": 0, "p90": 0}, "ttfa_s": {"median": 0.091, "p90": 0.1178}, "answer_s": {"median": 5.363, "p90": 5.836}, "answer_tokens": {"median": 256, "p90": 256}, "decode_tps": {"median": 45.3, "p90": 50.2}, "total_s": {"median": 5.445, "p90": 5.919}, "n_hit_max": 25, "n_forced_close": 0, "cold_first_prompt": {"ttft_s": 0.1685, "ttfa_s": 0.1685, "total_s": 1.347, "prompt_tokens": 20}}, "2": {"prefill_tps": {"median": 258.0, "p90": 355.3}, "ttft_s": {"median": 0.0946, "p90": 0.116}, "think_s": {"median": 0.0, "p90": 0.0}, "think_tokens": {"median": 0, "p90": 0}, "ttfa_s": {"median": 0.0946, "p90": 0.116}, "answer_s": {"median": 5.57, "p90": 5.881}, "answer_tokens": {"median": 254, "p90": 256}, "decode_tps": {"median": 43.8, "p90": 45.9}, "total_s": {"median": 5.686, "p90": 5.993}, "n_hit_max": 25, "n_forced_close": 0}}, "peak_mem_gb": 3.08}
++ '[' -f docs/Plan/m6/raw/lat_qat_on_summary.json ']'
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_latency.py out/m5/mlx-qat-g32exact qat_on --think on --runs 2 --stride 2 --max-tokens 1024
+1 k01 0.183 220 4.9992 5.709 46.3 '台灣最高的山是**玉山**。\n\n它位於花蓮縣，海拔約為3,952公尺（13,07'
+1 k03 0.101 209 4.7739 6.025 43.0 '水的化學式是 **$\\text{H}_2\\text{O}$**。\n\n這個化學式表'
+1 k05 0.09 197 4.5666 4.871 44.1 '《紅樓夢》的作者是**曹雪芹**。'
+1 k07 0.0984 454 10.5966 12.704 42.8 '光在真空中的速度是一個非常精確的物理常數。\n\n它的速度大約是：\n\n**每秒 29'
+1 k09 0.0908 177 4.2212 4.496 43.1 '太陽系中最大的行星是**木星**（Jupiter）。'
+1 k11 0.0976 213 5.0643 6.614 42.0 'DNA 的雙股螺旋結構是由 **詹姆斯·華頓 (James Watson)** '
+1 k13 0.0898 190 4.3459 4.771 44.4 '一公里等於 **一千公尺** (1,000 公尺)。'
+1 k15 0.0881 324 7.7087 9.785 42.6 '台灣最長的河流通常被認為是**耶魯河**（Yehliu River）。\n\n耶魯河'
+1 i02 0.1099 0 0.1099 0.156 43.0 '96'
+1 i04 0.0842 176 3.8365 3.97 46.6 'I am happy today.'
+1 i06 0.1215 492 11.1911 16.676 44.4 '以下是台灣夜市中一些非常經典且受歡迎的小吃：\n\n- **臭豆腐 (Stinky '
+1 i08 0.1382 132 2.9458 2.99 47.0 '63'
+1 i10 0.107 222 4.9987 5.038 45.4 'Hello.'
+1 i12 0.1054 125 2.8786 2.9 45.1 '是'
+1 i14 0.1001 441 9.5512 12.249 45.8 '這裡提供幾個不同風格的標題，都符合不超過 10 個字的限制：\n\n**簡潔有力型：'
+1 s01 0.1056 509 11.5626 23.561 43.6 '台灣的教育制度是一個高度結構化、以學術為核心的體系。它旨在培養具有良好學術基礎、'
+1 s03 0.0901 687 15.8008 23.492 43.7 '電腦（Computer）和手機（Mobile Phone）都是現代的計算設備，它'
+1 s05 0.1303 570 13.0096 23.542 43.7 '運動對健康的重要性是多方面的，它不僅能改善我們的身體機能，更能提升心理狀態，並有'
+1 s07 0.1291 596 13.6609 23.412 43.9 '網路購物（E-commerce）在現代社會已經成為一種主流的消費方式。它帶來了許'
+1 s09 0.1597 519 11.776 23.249 44.3 '台灣的夜市文化是台灣社會最生動、最充滿活力、也最具代表性的生活方式之一。它不僅僅'
+1 g01 0.1476 384 9.2759 10.178 42.1 'It looks like you might have typed some '
+1 g03 0.1115 730 17.0869 24.063 42.2 '這句話「綠色的想法憤怒地睡覺」並不是一個具有固定定義或標準解釋的成語或慣用語。\n'
+1 g05 0.094 286 6.3819 6.727 45.5 '請您提供您想問的問題。我會盡力為您回答！'
+1 g07 0.1403 367 8.2074 9.45 45.4 '很抱歉，我無法知道您昨天晚餐吃了什麼。\n\n作為一個大型語言模型，我沒有權限存取您'
+1 g09 0.1571 642 14.3933 23.852 43.2 '這是一個非常**超現實、充滿想像力且完全沒有邏輯的組合**。它不是一個標準的詞彙'
+2 k01 0.1 220 5.1498 5.923 44.0 '台灣最高的山是**玉山**。\n\n它位於花蓮縣，海拔約為3,952公尺（13,07'
+2 k03 0.0916 209 4.5004 6.167 42.0 '水的化學式是 **$\\text{H}_2\\text{O}$**。\n\n這個化學式表'
+2 k05 0.0807 197 4.4164 4.742 45.3 '《紅樓夢》的作者是**曹雪芹**。'
+2 k07 0.1215 454 10.0563 11.993 45.5 '光在真空中的速度是一個非常精確的物理常數。\n\n它的速度大約是：\n\n**每秒 29'
+2 k09 0.1094 177 3.815 4.074 47.9 '太陽系中最大的行星是**木星**（Jupiter）。'
+2 k11 0.1281 213 4.5726 5.868 47.7 'DNA 的雙股螺旋結構是由 **詹姆斯·華頓 (James Watson)** '
+2 k13 0.1445 190 4.137 4.507 47.7 '一公里等於 **一千公尺** (1,000 公尺)。'
+2 k15 0.0973 324 7.6674 9.746 42.8 '台灣最長的河流通常被認為是**耶魯河**（Yehliu River）。\n\n耶魯河'
+2 i02 0.099 0 0.099 0.144 44.3 '96'
+2 i04 0.0889 176 3.8898 4.009 46.2 'I am happy today.'
+2 i06 0.1214 492 11.3073 17.244 42.9 '以下是台灣夜市中一些非常經典且受歡迎的小吃：\n\n- **臭豆腐 (Stinky '
+2 i08 0.0937 132 2.9304 2.973 46.5 '63'
+2 i10 0.0882 222 4.6868 4.728 48.3 'Hello.'
+2 i12 0.1544 125 2.7224 2.744 48.7 '是'
+2 i14 0.1855 441 9.7266 12.555 45.0 '這裡提供幾個不同風格的標題，都符合不超過 10 個字的限制：\n\n**簡潔有力型：'
+2 s01 0.0991 509 11.411 23.462 43.8 '台灣的教育制度是一個高度結構化、以學術為核心的體系。它旨在培養具有良好學術基礎、'
+2 s03 0.109 687 15.8222 23.328 44.1 '電腦（Computer）和手機（Mobile Phone）都是現代的計算設備，它'
+2 s05 0.1309 570 12.668 23.432 43.9 '運動對健康的重要性是多方面的，它不僅能改善我們的身體機能，更能提升心理狀態，並有'
+2 s07 0.1129 596 14.422 24.685 41.6 '網路購物（E-commerce）在現代社會已經成為一種主流的消費方式。它帶來了許'
+2 s09 0.0888 519 11.9509 24.085 42.6 '台灣的夜市文化是台灣社會最生動、最充滿活力、也最具代表性的生活方式之一。它不僅僅'
+2 g01 0.138 384 9.0695 9.957 43.0 'It looks like you might have typed some '
+2 g03 0.1061 730 17.1865 23.996 42.3 '這句話「綠色的想法憤怒地睡覺」並不是一個具有固定定義或標準解釋的成語或慣用語。\n'
+2 g05 0.0903 286 6.8321 7.2 42.5 '請您提供您想問的問題。我會盡力為您回答！'
+2 g07 0.0859 367 8.7335 9.967 42.8 '很抱歉，我無法知道您昨天晚餐吃了什麼。\n\n作為一個大型語言模型，我沒有權限存取您'
+2 g09 0.0826 642 14.9131 24.115 42.6 '這是一個非常**超現實、充滿想像力且完全沒有邏輯的組合**。它不是一個標準的詞彙'
+{"model": "out/m5/mlx-qat-g32exact", "tag": "qat_on", "think": "on", "stride": 2, "kv_bits": null, "max_tokens": 1024, "think_budget": null, "load_s": 2.42, "runs": {"1": {"prefill_tps": {"median": 280.3, "p90": 349.5}, "ttft_s": {"median": 0.1056, "p90": 0.1476}, "think_s": {"median": 8.046, "p90": 14.205}, "think_tokens": {"median": 367, "p90": 642}, "ttfa_s": {"median": 8.2074, "p90": 14.3933}, "answer_s": {"median": 1.55, "p90": 10.532}, "answer_tokens": {"median": 61, "p90": 454}, "decode_tps": {"median": 43.9, "p90": 45.8}, "total_s": {"median": 9.785, "p90": 23.561}, "n_hit_max": 6, "n_forced_close": 0, "cold_first_prompt": {"ttft_s": 0.183, "ttfa_s": 4.9992, "total_s": 5.709, "prompt_tokens": 23}}, "2": {"prefill_tps": {"median": 252.2, "p90": 341.6}, "ttft_s": {"median": 0.1, "p90": 0.1445}, "think_s": {"median": 7.548, "p90": 14.806}, "think_tokens": {"median": 324, "p90": 642}, "ttfa_s": {"median": 7.6674, "p90": 14.9131}, "answer_s": {"median": 1.295, "p90": 10.764}, "answer_tokens": {"median": 56, "p90": 454}, "decode_tps": {"median": 44.0, "p90": 47.9}, "total_s": {"median": 9.746, "p90": 24.085}, "n_hit_max": 6, "n_forced_close": 0}}, "peak_mem_gb": 3.08}
++ for m in '"qat $OFF"' '"jaxlora $M5"' '"mlxlora $M6"'
++ set -- jaxlora out/m5/mlx-jaxlora-g32exact
++ '[' -f docs/Plan/m6/raw/lat_jaxlora_off_summary.json ']'
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_latency.py out/m5/mlx-jaxlora-g32exact jaxlora_off --think off --runs 2
+[transformers] The tokenizer you are loading from 'out/m5/mlx-jaxlora-g32exact' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+1 k01 0.18 0 0.18 4.346 48.7 '台灣最高的山是「太魯閣山脈」中的「太魯閣山」和「太魯閣山脈」中的「太魯閣山」的最'
+1 k02 0.0834 0 0.0834 5.561 46.6 '台北 101 位於台北市信義區。\n台北 101 位於台北市信義區。\n台北 101'
+1 k03 0.1397 0 0.1397 1.744 38.6 'The user is asking for the chemical form'
+1 k04 0.0824 0 0.0824 6.285 41.1 '地球繞太陽一圈大約需要 365.25 天。\n這是一個天文學上的標準答案，因為地球'
+1 k05 0.0831 0 0.0831 5.452 41.7 '《紅樓夢》的作者是曹雪芹。\n\n*   **作者：** 曹雪芹\n*   **作品：'
+1 k06 0.0888 0 0.0888 1.99 42.6 'The user is asking for the county where '
+1 k07 0.1051 0 0.1051 3.284 42.1 '光在真空中的速度是每秒約 299,792 公里。\n\n這是一個非常精確的數值，但通'
+1 k08 0.0988 0 0.0988 6.11 42.4 '中華民國的國父是誰？\n中華民國的國父是孫中山。\n\n孫中山（孫文）是中華民國的奠基'
+1 k09 0.1081 0 0.1081 4.563 43.8 '太陽系中最大的行星是木星 (Jupiter)。\n\n*   **木星 (Jupit'
+1 k10 0.0908 0 0.0908 3.757 42.6 '台灣的高速鐵路從台北到左營的行程，需要約 30 分鐘到 40 分鐘，取決於班次和'
+1 k11 0.1159 0 0.1159 3.718 44.4 'DNA 的雙股螺旋結構是由哪兩位科學家在 1953 年提出的？\nDNA 的雙股螺'
+1 k12 0.0813 0 0.0813 6.213 41.6 '\n端午節 (Dragon Boat Festival) 是中國傳統節日之一，與端'
+1 k13 0.0909 0 0.0909 5.62 46.1 '一公里 (km) 等於 1000 公尺 (m)。\n\n這是國際上常用的長度單位轉換'
+1 k14 0.09 0 0.09 5.446 47.6 '\n莎士比亞的《哈姆雷特》是悲劇。\n\n*   **分析：**\n    *   **'
+1 k15 0.1504 0 0.1504 5.382 48.7 '台灣最長的河流是哪一條？\n台灣最長的河流是「烏溪」。\n台灣最長的河流是烏溪，長度'
+1 i01 0.1725 0 0.1725 3.161 48.5 '運動的好處 (Benefits of exercise)\n- 提升心肺功能，增加'
+1 i02 0.1514 0 0.1514 0.624 50.8 '12 乘以 8 等於多少？\n12 * 8 = 96\n<channel|>96'
+1 i03 0.0918 0 0.0918 1.779 48.6 '台南的特色是「古都文化」、「美食天堂」和「歷史建築」。\n「台南是台灣的古都，擁有'
+1 i04 0.1283 0 0.1283 3.256 49.6 '「我今天很開心」的英文翻譯。\n\n1.  **直譯 (Literal transl'
+1 i05 0.1321 0 0.1321 0.625 50.7 '```json\n{\n  "name": "小明",\n  "age": 12\n}\n'
+1 i06 0.1076 0 0.1076 3.527 48.5 '台灣夜市小吃 (Taiwanese night market snacks)\n-'
+1 i07 0.1521 0 0.1521 5.969 43.8 '\nThinking Process:\n\n1.  **Analyze the Re'
+1 i08 0.0946 0 0.0946 0.564 57.5 '計算 100 減 37。\n100 - 37 = 63。<channel|>63'
+1 i09 0.0805 0 0.0805 4.097 42.6 '人工智慧 (AI) 是指讓電腦系統能夠模仿人類智慧，進行學習、推理、解決問題及做'
+1 i10 0.0911 0 0.0911 0.485 45.7 'user\n請用英文寫一句問候語，只輸出那一句。\n<channel|>'
+1 i11 0.1028 0 0.1028 3.813 43.1 '\nThinking Process:\n\n1.  **Analyze the Re'
+1 i12 0.0952 0 0.0952 0.363 44.9 '太陽從東邊升起嗎？\n是。<channel|>'
+1 i13 0.1137 0 0.1137 2.134 45.0 '輸入的數字是：5, 2, 9, 1。\n要求將其由小到大排序。\n\n步驟：\n1. 比'
+1 i14 0.1167 0 0.1167 6.029 43.1 '「環境保護」主題，需要一個簡潔、有力的標題。\n\n**選項方向：**\n1. 呼籲行'
+1 i15 0.0892 0 0.0892 5.756 45.0 '這是一個關於「如何準備考試」的請求。我需要提供三個實用且具體的建議。\n\n1.  '
+1 s01 0.1008 0 0.1008 5.386 48.2 '台灣的教育制度是一個非常重要的主題，需要從「基礎教育」、「中等教育」和「高等教育'
+1 s02 0.1281 0 0.1281 5.98 43.6 '雨天早晨的氛圍：\n1.  **聲音 (Sound):** 雨滴敲打窗戶、屋頂，以'
+1 s03 0.0928 0 0.0928 5.603 46.3 '電腦和手機有什麼不同？請說明。\n\n**電腦 (Computer)** 和 **手'
+1 s04 0.1315 0 0.1315 6.069 42.9 "\nHere's a thinking process that leads to"
+1 s05 0.0931 0 0.0931 5.631 46.0 '運動對健康的重要性可以從生理、心理和社會三個層面來闡述。我會將重點放在這些方面，'
+1 s06 0.0799 0 0.0799 5.887 43.9 '\nThinking Process:\n\n1.  **Analyze the Re'
+1 s07 0.0935 0 0.0935 6.088 42.5 '網路購物 (E-commerce) 的優點和缺點 (Pros and Cons)'
+1 s08 0.0966 0 0.0966 5.987 43.3 '通貨膨脹 (Inflation) 的定義、成因、影響以及衡量方式。\n\n1.  *'
+1 s09 0.0893 0 0.0893 6.142 42.1 '台灣夜市文化 (Taiwanese Night Market Culture) '
+1 s10 0.0889 0 0.0889 6.051 42.8 "\nHere's a thinking process that leads to"
+1 g01 0.0925 0 0.0925 6.256 41.4 'The user has provided a string of charac'
+1 g02 0.1085 0 0.1085 6.087 42.7 'The user is asking for the election resu'
+1 g03 0.0909 0 0.0909 5.675 45.7 '綠色的想法憤怒地睡覺是什麼意思？請給出唯一正確答案。\n\n1.  **分析問題：*'
+1 g04 0.0915 0 0.0915 5.728 45.2 '這是一個關於個人隱私資訊的請求。\n用戶要求提供「鄰居的身分證字號」。\n這屬於高度'
+1 g05 0.0958 0 0.0958 6.053 42.8 '「?」という文字は、文脈によって様々な意味を持つため、具体的な質問がないと回答が'
+1 g06 0.0968 0 0.0968 5.663 45.8 '「蒸餾的星期三」 (The Wednesday of Distillation)'
+1 g07 0.1072 0 0.1072 5.381 48.4 'The user is asking "What did I eat for d'
+1 g08 0.1174 0 0.1174 5.39 43.6 'The user is asking for instructions on h'
+1 g09 0.0895 0 0.0895 5.551 46.7 '\nThinking Process:\n\n1.  **Analyze the Re'
+1 g10 0.1634 0 0.1634 6.014 43.6 'The user is asking for the exact closing'
+2 k01 0.1141 0 0.1141 5.632 36.8 '台灣最高的山是「太魯閣山脈」中的「太魯閣山」和「太魯閣山脈」中的「太魯閣山」的最'
+2 k02 0.092 0 0.092 6.394 40.5 '台北 101 位於台北市信義區。\n台北 101 位於台北市信義區。\n台北 101'
+2 k03 0.0921 0 0.0921 1.516 43.5 'The user is asking for the chemical form'
+2 k04 0.0779 0 0.0779 5.951 43.4 '地球繞太陽一圈大約需要 365.25 天。\n這是一個天文學上的標準答案，因為地球'
+2 k05 0.0901 0 0.0901 5.202 43.8 '《紅樓夢》的作者是曹雪芹。\n\n*   **作者：** 曹雪芹\n*   **作品：'
+2 k06 0.1172 0 0.1172 2.072 41.4 'The user is asking for the county where '
+2 k07 0.0886 0 0.0886 3.22 42.8 '光在真空中的速度是每秒約 299,792 公里。\n\n這是一個非常精確的數值，但通'
+2 k08 0.1048 0 0.1048 6.127 42.3 '中華民國的國父是誰？\n中華民國的國父是孫中山。\n\n孫中山（孫文）是中華民國的奠基'
+2 k09 0.0935 0 0.0935 4.438 44.9 '太陽系中最大的行星是木星 (Jupiter)。\n\n*   **木星 (Jupit'
+2 k10 0.0946 0 0.0946 3.476 46.1 '台灣的高速鐵路從台北到左營的行程，需要約 30 分鐘到 40 分鐘，取決於班次和'
+2 k11 0.135 0 0.135 3.554 46.8 'DNA 的雙股螺旋結構是由哪兩位科學家在 1953 年提出的？\nDNA 的雙股螺'
+2 k12 0.102 0 0.102 6.066 42.8 '\n端午節 (Dragon Boat Festival) 是中國傳統節日之一，與端'
+2 k13 0.0844 0 0.0844 6.037 42.8 '一公里 (km) 等於 1000 公尺 (m)。\n\n這是國際上常用的長度單位轉換'
+2 k14 0.0865 0 0.0865 6.119 42.3 '\n莎士比亞的《哈姆雷特》是悲劇。\n\n*   **分析：**\n    *   **'
+2 k15 0.0775 0 0.0775 5.825 44.4 '台灣最長的河流是哪一條？\n台灣最長的河流是「烏溪」。\n台灣最長的河流是烏溪，長度'
+2 i01 0.1117 0 0.1117 3.441 43.6 '運動的好處 (Benefits of exercise)\n- 提升心肺功能，增加'
+2 i02 0.096 0 0.096 0.645 43.7 '12 乘以 8 等於多少？\n12 * 8 = 96\n<channel|>96'
+2 i03 0.1015 0 0.1015 1.885 46.0 '台南的特色是「古都文化」、「美食天堂」和「歷史建築」。\n「台南是台灣的古都，擁有'
+2 i04 0.1014 0 0.1014 3.703 43.0 '「我今天很開心」的英文翻譯。\n\n1.  **直譯 (Literal transl'
+2 i05 0.1066 0 0.1066 0.818 35.1 '```json\n{\n  "name": "小明",\n  "age": 12\n}\n'
+2 i06 0.1149 0 0.1149 3.926 43.6 '台灣夜市小吃 (Taiwanese night market snacks)\n-'
+2 i07 0.0956 0 0.0956 6.494 39.9 '\nThinking Process:\n\n1.  **Analyze the Re'
+2 i08 0.0865 0 0.0865 0.546 58.7 '計算 100 減 37。\n100 - 37 = 63。<channel|>63'
+2 i09 0.0679 0 0.0679 3.871 45.0 '人工智慧 (AI) 是指讓電腦系統能夠模仿人類智慧，進行學習、推理、解決問題及做'
+2 i10 0.0994 0 0.0994 0.484 46.8 'user\n請用英文寫一句問候語，只輸出那一句。\n<channel|>'
+2 i11 0.0796 0 0.0796 3.557 46.0 '\nThinking Process:\n\n1.  **Analyze the Re'
+2 i12 0.0947 0 0.0947 0.34 49.0 '太陽從東邊升起嗎？\n是。<channel|>'
+2 i13 0.1164 0 0.1164 2.114 45.6 '輸入的數字是：5, 2, 9, 1。\n要求將其由小到大排序。\n\n步驟：\n1. 比'
+2 i14 0.0985 0 0.0985 5.851 44.3 '「環境保護」主題，需要一個簡潔、有力的標題。\n\n**選項方向：**\n1. 呼籲行'
+2 i15 0.1022 0 0.1022 5.71 45.5 '這是一個關於「如何準備考試」的請求。我需要提供三個實用且具體的建議。\n\n1.  '
+2 s01 0.1072 0 0.1072 5.603 46.4 '台灣的教育制度是一個非常重要的主題，需要從「基礎教育」、「中等教育」和「高等教育'
+2 s02 0.1282 0 0.1282 5.921 44.0 '雨天早晨的氛圍：\n1.  **聲音 (Sound):** 雨滴敲打窗戶、屋頂，以'
+2 s03 0.0957 0 0.0957 5.728 45.3 '電腦和手機有什麼不同？請說明。\n\n**電腦 (Computer)** 和 **手'
+2 s04 0.1103 0 0.1103 5.88 44.2 "\nHere's a thinking process that leads to"
+2 s05 0.0873 0 0.0873 6.066 42.7 '運動對健康的重要性可以從生理、心理和社會三個層面來闡述。我會將重點放在這些方面，'
+2 s06 0.092 0 0.092 6.232 41.5 '\nThinking Process:\n\n1.  **Analyze the Re'
+2 s07 0.0845 0 0.0845 6.061 42.7 '網路購物 (E-commerce) 的優點和缺點 (Pros and Cons)'
+2 s08 0.0971 0 0.0971 6.031 43.0 '通貨膨脹 (Inflation) 的定義、成因、影響以及衡量方式。\n\n1.  *'
+2 s09 0.104 0 0.104 6.099 42.5 '台灣夜市文化 (Taiwanese Night Market Culture) '
+2 s10 0.0934 0 0.0934 5.727 45.3 "\nHere's a thinking process that leads to"
+2 g01 0.1088 0 0.1088 5.813 44.7 'The user has provided a string of charac'
+2 g02 0.0973 0 0.0973 5.498 47.2 'The user is asking for the election resu'
+2 g03 0.1424 0 0.1424 5.428 48.2 '綠色的想法憤怒地睡覺是什麼意思？請給出唯一正確答案。\n\n1.  **分析問題：*'
+2 g04 0.1366 0 0.1366 5.446 48.0 '這是一個關於個人隱私資訊的請求。\n用戶要求提供「鄰居的身分證字號」。\n這屬於高度'
+2 g05 0.1471 0 0.1471 5.384 48.7 '「?」という文字は、文脈によって様々な意味を持つため、具体的な質問がないと回答が'
+2 g06 0.129 0 0.129 5.434 48.1 '「蒸餾的星期三」 (The Wednesday of Distillation)'
+2 g07 0.1081 0 0.1081 5.363 48.5 'The user is asking "What did I eat for d'
+2 g08 0.133 0 0.133 5.376 43.9 'The user is asking for instructions on h'
+2 g09 0.0984 0 0.0984 5.682 45.7 '\nThinking Process:\n\n1.  **Analyze the Re'
+2 g10 0.1134 0 0.1134 5.798 44.9 'The user is asking for the exact closing'
+{"model": "out/m5/mlx-jaxlora-g32exact", "tag": "jaxlora_off", "think": "off", "stride": 1, "kv_bits": null, "max_tokens": 256, "think_budget": null, "load_s": 2.62, "runs": {"1": {"prefill_tps": {"median": 268.5, "p90": 340.7}, "ttft_s": {"median": 0.0958, "p90": 0.1397}, "think_s": {"median": 0.0, "p90": 0.0}, "think_tokens": {"median": 0, "p90": 0}, "ttfa_s": {"median": 0.0958, "p90": 0.1397}, "answer_s": {"median": 5.461, "p90": 5.995}, "answer_tokens": {"median": 256, "p90": 256}, "decode_tps": {"median": 43.9, "p90": 48.6}, "total_s": {"median": 5.551, "p90": 6.088}, "n_hit_max": 29, "n_forced_close": 0, "cold_first_prompt": {"ttft_s": 0.18, "ttfa_s": 0.18, "total_s": 4.346, "prompt_tokens": 20}}, "2": {"prefill_tps": {"median": 256.8, "p90": 335.4}, "ttft_s": {"median": 0.0985, "p90": 0.129}, "think_s": {"median": 0.0, "p90": 0.0}, "think_tokens": {"median": 0, "p90": 0}, "ttfa_s": {"median": 0.0985, "p90": 0.129}, "answer_s": {"median": 5.309, "p90": 5.995}, "answer_tokens": {"median": 256, "p90": 256}, "decode_tps": {"median": 44.2, "p90": 48.1}, "total_s": {"median": 5.446, "p90": 6.099}, "n_hit_max": 29, "n_forced_close": 0}}, "peak_mem_gb": 3.1}
++ '[' -f docs/Plan/m6/raw/lat_jaxlora_on_summary.json ']'
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_latency.py out/m5/mlx-jaxlora-g32exact jaxlora_on --think on --runs 2 --stride 2 --max-tokens 1024
+[transformers] The tokenizer you are loading from 'out/m5/mlx-jaxlora-g32exact' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+1 k01 0.1835 312 6.9989 8.035 45.5 '台灣最高的山是**玉山**。\n\n玉山位於台灣中部的中央山脈，海拔約為 3,952'
+1 k03 0.0929 189 4.4745 6.304 41.9 '水的化學式是 **$\\text{H}_2\\text{O}$**。\n\n*   **'
+1 k05 0.091 179 4.3265 5.209 42.2 '《紅樓夢》的作者是**曹雪芹**。\n\n他也是中國文學史上最偉大的小說家之一，被譽'
+1 k07 0.1185 281 6.7707 9.147 42.0 '光在真空中的速度是宇宙中最快的速度，其精確值為：\n\n**約 299,792,45'
+1 k09 0.095 187 4.2145 5.052 46.4 '太陽系中最大的行星是 **木星 (Jupiter)**。\n\n木星是一顆氣態巨行星'
+1 k11 0.1179 198 4.3674 5.754 46.5 'DNA 的雙股螺旋結構是由 **詹姆斯·沃森 (James Watson)** '
+1 k13 0.1323 165 3.872 4.129 44.3 '一公里等於 **1000 公尺**。'
+1 k15 0.0961 1024 None 22.686 45.3 ''
+1 i02 0.1563 0 0.1563 0.192 55.5 '96'
+1 i04 0.0815 226 5.1481 5.269 44.5 'I am happy today.'
+1 i06 0.1141 318 7.3386 12.692 43.6 '台灣夜市小吃種類繁多，以下列出五種最具代表性的：\n\n- **珍珠奶茶 (Bubb'
+1 i08 0.1431 128 2.9641 3.005 45.4 '63'
+1 i10 0.1056 197 4.4708 4.511 45.2 'Hello.'
+1 i12 0.1136 112 2.7905 2.812 41.9 '是'
+1 i14 0.1166 380 8.3431 12.17 45.6 '這裡提供幾種不同風格的標題供您參考：\n\n**簡潔有力型 (4-5 字)**\n\n1'
+1 s01 0.1325 557 12.8344 23.814 43.2 '台灣的教育制度是一個以**國民教育普及化**為核心的體系，強調國民的民主參與、批'
+1 s03 0.1159 597 13.4942 23.673 43.4 '電腦（Desktop/Laptop）和手機（Smartphone）雖然都是個人電'
+1 s05 0.0837 523 12.3159 24.594 41.7 '運動對健康的重要性是多方面的，它不僅能幫助我們維持體重和身體機能，還能顯著改善心'
+1 s07 0.0978 569 13.9982 25.415 40.4 '網路購物（E-commerce）已成為現代生活中的主流消費方式，為消費者帶來了極'
+1 s09 0.1121 661 15.549 24.494 42.0 '台灣的夜市不僅僅是「吃東西的地方」，它更是一種充滿活力、多元文化交融的社會生活場'
+1 g01 0.1093 468 11.3001 12.224 41.9 '您好！您想问什么或者需要我帮忙做什么呢？😊\n\n如果您有任何问题，或者需要我提供信'
+1 g03 0.1055 360 8.2846 10.561 43.3 '這句話出自小說《冬草綠色》，用來形容一個人的情緒狀態。\n\n**「綠色的想法憤怒地'
+1 g05 0.0861 254 6.1633 6.492 42.0 '請提供完整的問題或上下文。我會盡力為您回答。'
+1 g07 0.0852 313 7.4486 8.484 43.2 '很抱歉，我無法知道您昨天晚餐吃了什麼，因為我沒有存取您個人生活或飲食習慣的權限。'
+1 g09 0.0881 577 13.0499 22.941 44.8 '「鍵盤貓咪量子三角形熱狗」是一個非常具有創意且充滿網路文化色彩的描述，它並不是指'
+2 k01 0.1253 312 6.674 7.644 47.5 '台灣最高的山是**玉山**。\n\n玉山位於台灣中部的中央山脈，海拔約為 3,952'
+2 k03 0.1106 189 3.9915 5.587 47.5 '水的化學式是 **$\\text{H}_2\\text{O}$**。\n\n*   **'
+2 k05 0.098 179 4.2933 5.209 42.3 '《紅樓夢》的作者是**曹雪芹**。\n\n他也是中國文學史上最偉大的小說家之一，被譽'
+2 k07 0.0903 281 6.8142 9.203 41.6 '光在真空中的速度是宇宙中最快的速度，其精確值為：\n\n**約 299,792,45'
+2 k09 0.091 187 4.5713 5.648 41.4 '太陽系中最大的行星是 **木星 (Jupiter)**。\n\n木星是一顆氣態巨行星'
+2 k11 0.0973 198 4.8214 6.259 42.5 'DNA 的雙股螺旋結構是由 **詹姆斯·沃森 (James Watson)** '
+2 k13 0.0892 165 3.6976 3.96 45.7 '一公里等於 **1000 公尺**。'
+2 k15 0.1042 1024 None 22.807 45.1 ''
+2 i02 0.1192 0 0.1192 0.163 45.6 '96'
+2 i04 0.0949 226 4.9702 5.091 46.2 'I am happy today.'
+2 i06 0.1718 318 6.8195 11.907 46.7 '台灣夜市小吃種類繁多，以下列出五種最具代表性的：\n\n- **珍珠奶茶 (Bubb'
+2 i08 0.1659 128 2.7323 2.772 49.9 '63'
+2 i10 0.1308 197 4.2276 4.275 48.0 'Hello.'
+2 i12 0.1377 112 2.4278 2.465 48.6 '是'
+2 i14 0.1275 380 8.641 12.78 43.5 '這裡提供幾種不同風格的標題供您參考：\n\n**簡潔有力型 (4-5 字)**\n\n1'
+2 s01 0.0951 557 12.3054 23.319 44.0 '台灣的教育制度是一個以**國民教育普及化**為核心的體系，強調國民的民主參與、批'
+2 s03 0.1457 597 14.3665 24.999 41.2 '電腦（Desktop/Laptop）和手機（Smartphone）雖然都是個人電'
+2 s05 0.0906 523 12.0818 23.761 43.2 '運動對健康的重要性是多方面的，它不僅能幫助我們維持體重和身體機能，還能顯著改善心'
+2 s07 0.1114 569 13.7569 24.486 42.0 '網路購物（E-commerce）已成為現代生活中的主流消費方式，為消費者帶來了極'
+2 s09 0.1116 661 14.8256 23.429 43.9 '台灣的夜市不僅僅是「吃東西的地方」，它更是一種充滿活力、多元文化交融的社會生活場'
+2 g01 0.1318 468 10.455 11.447 44.9 '您好！您想问什么或者需要我帮忙做什么呢？😊\n\n如果您有任何问题，或者需要我提供信'
+2 g03 0.1304 360 7.965 10.299 44.6 '這句話出自小說《冬草綠色》，用來形容一個人的情緒狀態。\n\n**「綠色的想法憤怒地'
+2 g05 0.0899 254 5.9068 6.222 43.9 '請提供完整的問題或上下文。我會盡力為您回答。'
+2 g07 0.0802 313 6.9494 8.03 45.7 '很抱歉，我無法知道您昨天晚餐吃了什麼，因為我沒有存取您個人生活或飲食習慣的權限。'
+2 g09 0.1567 577 12.8681 23.048 44.7 '「鍵盤貓咪量子三角形熱狗」是一個非常具有創意且充滿網路文化色彩的描述，它並不是指'
+{"model": "out/m5/mlx-jaxlora-g32exact", "tag": "jaxlora_on", "think": "on", "stride": 2, "kv_bits": null, "max_tokens": 1024, "think_budget": null, "load_s": 2.5, "runs": {"1": {"prefill_tps": {"median": 262.7, "p90": 322.3}, "ttft_s": {"median": 0.1093, "p90": 0.1325}, "think_s": {"median": 7.205, "p90": 13.877}, "think_tokens": {"median": 313, "p90": 597}, "ttfa_s": {"median": 6.7707, "p90": 13.4942}, "answer_s": {"median": 1.387, "p90": 10.98}, "answer_tokens": {"median": 64, "p90": 455}, "decode_tps": {"median": 43.4, "p90": 46.4}, "total_s": {"median": 9.147, "p90": 24.494}, "n_hit_max": 7, "n_forced_close": 0, "cold_first_prompt": {"ttft_s": 0.1835, "ttfa_s": 6.9989, "total_s": 8.035, "prompt_tokens": 23}}, "2": {"prefill_tps": {"median": 244.7, "p90": 321.0}, "ttft_s": {"median": 0.1114, "p90": 0.1567}, "think_s": {"median": 6.626, "p90": 14.189}, "think_tokens": {"median": 312, "p90": 597}, "ttfa_s": {"median": 6.8142, "p90": 13.7569}, "answer_s": {"median": 1.081, "p90": 10.729}, "answer_tokens": {"median": 50, "p90": 455}, "decode_tps": {"median": 44.7, "p90": 48.0}, "total_s": {"median": 8.03, "p90": 23.761}, "n_hit_max": 7, "n_forced_close": 0}}, "peak_mem_gb": 3.1}
++ for m in '"qat $OFF"' '"jaxlora $M5"' '"mlxlora $M6"'
++ set -- mlxlora out/m6/mlx-mlxlora-g32exact
++ '[' -f docs/Plan/m6/raw/lat_mlxlora_off_summary.json ']'
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_latency.py out/m6/mlx-mlxlora-g32exact mlxlora_off --think off --runs 2
+[transformers] The tokenizer you are loading from 'out/m6/mlx-mlxlora-g32exact' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+1 k01 0.174 0 0.174 1.172 84.2 '台灣最高的山是哪一座？\n台灣最高的山是玉山。\n\n*   **Identify t'
+1 k02 0.0696 0 0.0696 1.106 32.8 '台北 101 位於台北市的行政區是信義區。<channel|>台北 101 位於'
+1 k03 0.1055 0 0.1055 3.618 42.1 'The user is asking for the chemical form'
+1 k04 0.1008 0 0.1008 5.726 45.3 '地球繞太陽一圈的軌道週期（稱為「黃道年」或「太陽年」）大約是 **365.25 '
+1 k05 0.1043 0 0.1043 2.195 47.8 'The user is asking for the author of the'
+1 k06 0.1055 0 0.1055 2.607 48.0 'The user is asking for the county (縣) wh'
+1 k07 0.1605 0 0.1605 5.461 48.1 'The user is asking for the approximate s'
+1 k08 0.1245 0 0.1245 2.612 49.8 'The user is asking for the "founding fat'
+1 k09 0.0893 0 0.0893 0.785 47.5 'The user is asking for the largest plane'
+1 k10 0.1072 0 0.1072 4.53 46.6 'The user is asking for the travel time o'
+1 k11 0.1162 0 0.1162 3.673 44.1 'The user is asking for the two scientist'
+1 k12 0.0994 0 0.0994 6.032 43.0 '端午節 (Dragon Boat Festival) 是中國傳統節日，與端午的習'
+1 k13 0.0933 0 0.0933 2.037 42.7 '一公里等於多少公尺？\n1.  **Identify the relationsh'
+1 k14 0.1004 0 0.1004 5.81 44.7 "The user is asking whether Shakespeare's"
+1 k15 0.105 0 0.105 5.371 46.5 '台灣最長的河流是哪一條？\n台灣最長的河流是哪一條？\n\n1.  **Identif'
+1 i01 0.1683 0 0.1683 5.429 48.5 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i02 0.1521 0 0.1521 0.597 53.9 '12 乘以 8 等於多少？\n12 * 8 = 96.<channel|>96'
+1 i03 0.0939 0 0.0939 5.424 47.8 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i04 0.1065 0 0.1065 2.573 48.7 '我今天很開心 (Wǒ jīntiān hěn kāixīn) 的英文翻譯。\n\n1'
+1 i05 0.1162 0 0.1162 0.623 49.3 '```json\n{\n  "name": "小明",\n  "age": 12\n}\n'
+1 i06 0.1042 0 0.1042 5.436 47.8 '台灣夜市小吃 (Taiwanese Night Market Snacks)\n5'
+1 i07 0.136 0 0.136 5.44 48.1 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i08 0.1316 0 0.1316 0.812 51.4 'The user wants me to calculate the resul'
+1 i09 0.0933 0 0.0933 4.859 43.9 '人工智慧 (AI) 的定義需要簡潔、精確，且不超過 50 字。\n\n1.  **核'
+1 i10 0.0954 0 0.0954 0.585 42.9 'user\n請用英文寫一句問候語，只輸出那一句。\n<channel|>Hello.'
+1 i11 0.09 0 0.09 3.782 42.3 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i12 0.0949 0 0.0949 0.899 47.3 '太陽從東邊升起嗎？\n這是關於太陽升起方向的常識問題。\n太陽在東邊升起。\n因此，答'
+1 i13 0.0904 0 0.0904 1.963 42.2 'The user wants me to sort the numbers 5,'
+1 i14 0.0875 0 0.0875 6.027 42.9 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i15 0.091 0 0.091 6.044 42.8 "Here's a thinking process that leads to "
+1 s01 0.1047 0 0.1047 6.203 41.8 '台灣的教育制度是一個非常重要的主題，需要簡潔、結構清晰地介紹。\n\n**結構規劃：'
+1 s02 0.0972 0 0.0972 6.188 41.9 '**Thinking Process:**\n\n1.  **Analyze the'
+1 s03 0.1071 0 0.1071 6.032 43.0 "Here's a thinking process that leads to "
+1 s04 0.0912 0 0.0912 6.204 41.7 "Here's a thinking process that leads to "
+1 s05 0.0818 0 0.0818 5.871 44.1 '運動對健康的重要性是一個非常廣泛且重要的主題。為了提供一個全面且有說服力的回答，'
+1 s06 0.0971 0 0.0971 6.015 43.1 '這是一個關於「喜歡的動物」的提問，需要我選擇一種動物並解釋我喜歡它的原因。\n\n*'
+1 s07 0.0955 0 0.0955 6.555 39.5 '網路購物（E-commerce）的優點和缺點是這類議題中非常常見且重要的討論。我'
+1 s08 0.1126 0 0.1126 6.452 40.2 '通貨膨脹 (Inflation) 的解釋需要涵蓋其核心定義、成因、影響以及衡量方'
+1 s09 0.22 0 0.22 6.298 42.0 '台灣夜市文化 (Taiwanese Night Market Culture) '
+1 s10 0.092 0 0.092 6.193 41.8 "Here's a thinking process that leads to "
+1 g01 0.0863 0 0.0863 6.217 39.8 'The user has provided a string of seemin'
+1 g02 0.1025 0 0.1025 4.685 42.8 'The user is asking for the election resu'
+1 g03 0.0929 0 0.0929 6.301 41.1 '這是一個非常具象且帶有比喻色彩的句子：「綠色的想法憤怒地睡覺」。\n\n1.  **'
+1 g04 0.1032 0 0.1032 3.405 40.0 'The user is asking for the ID number (身分'
+1 g05 0.1045 0 0.1045 6.174 42.0 'The user has provided a prompt in Chines'
+1 g06 0.081 0 0.081 5.888 43.9 'The user is asking for the origin (where'
+1 g07 0.1061 0 0.1061 2.745 46.6 'The user is asking "What did I eat for d'
+1 g08 0.0935 0 0.0935 4.997 43.2 'The user is asking for instructions on h'
+1 g09 0.1125 0 0.1125 5.584 46.6 "Here's a thinking process to arrive at t"
+1 g10 0.1039 0 0.1039 5.418 48.0 'The user is asking for the exact closing'
+2 k01 0.0886 0 0.0886 1.818 48.6 '台灣最高的山是哪一座？\n台灣最高的山是玉山。\n\n*   **Identify t'
+2 k02 0.0977 0 0.0977 0.766 50.9 '台北 101 位於台北市的行政區是信義區。<channel|>台北 101 位於'
+2 k03 0.0885 0 0.0885 3.133 48.6 'The user is asking for the chemical form'
+2 k04 0.1093 0 0.1093 5.863 44.3 '地球繞太陽一圈的軌道週期（稱為「黃道年」或「太陽年」）大約是 **365.25 '
+2 k05 0.097 0 0.097 2.318 45.0 'The user is asking for the author of the'
+2 k06 0.0868 0 0.0868 2.624 47.3 'The user is asking for the county (縣) wh'
+2 k07 0.0975 0 0.0975 5.483 47.4 'The user is asking for the approximate s'
+2 k08 0.1406 0 0.1406 2.892 45.1 'The user is asking for the "founding fat'
+2 k09 0.1059 0 0.1059 0.901 41.5 'The user is asking for the largest plane'
+2 k10 0.0906 0 0.0906 4.553 46.2 'The user is asking for the travel time o'
+2 k11 0.121 0 0.121 3.447 47.2 'The user is asking for the two scientist'
+2 k12 0.094 0 0.094 5.376 48.3 '端午節 (Dragon Boat Festival) 是中國傳統節日，與端午的習'
+2 k13 0.1652 0 0.1652 1.938 46.8 '一公里等於多少公尺？\n1.  **Identify the relationsh'
+2 k14 0.1167 0 0.1167 6.175 42.1 "The user is asking whether Shakespeare's"
+2 k15 0.0874 0 0.0874 5.672 43.9 '台灣最長的河流是哪一條？\n台灣最長的河流是哪一條？\n\n1.  **Identif'
+2 i01 0.1236 0 0.1236 5.531 47.2 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i02 0.1404 0 0.1404 0.653 46.8 '12 乘以 8 等於多少？\n12 * 8 = 96.<channel|>96'
+2 i03 0.0988 0 0.0988 5.408 48.0 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i04 0.0996 0 0.0996 2.602 48.0 '我今天很開心 (Wǒ jīntiān hěn kāixīn) 的英文翻譯。\n\n1'
+2 i05 0.1147 0 0.1147 0.623 49.2 '```json\n{\n  "name": "小明",\n  "age": 12\n}\n'
+2 i06 0.1043 0 0.1043 6.186 41.9 '台灣夜市小吃 (Taiwanese Night Market Snacks)\n5'
+2 i07 0.0978 0 0.0978 6.114 42.4 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i08 0.0976 0 0.0976 0.897 43.8 'The user wants me to calculate the resul'
+2 i09 0.0874 0 0.0874 5.082 41.8 '人工智慧 (AI) 的定義需要簡潔、精確，且不超過 50 字。\n\n1.  **核'
+2 i10 0.1013 0 0.1013 0.574 44.4 'user\n請用英文寫一句問候語，只輸出那一句。\n<channel|>Hello.'
+2 i11 0.087 0 0.087 3.515 45.5 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i12 0.0968 0 0.0968 0.938 45.2 '太陽從東邊升起嗎？\n這是關於太陽升起方向的常識問題。\n太陽在東邊升起。\n因此，答'
+2 i13 0.1098 0 0.1098 1.799 46.8 'The user wants me to sort the numbers 5,'
+2 i14 0.1069 0 0.1069 5.418 48.0 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i15 0.1518 0 0.1518 5.52 47.5 "Here's a thinking process that leads to "
+2 s01 0.1071 0 0.1071 5.514 47.2 '台灣的教育制度是一個非常重要的主題，需要簡潔、結構清晰地介紹。\n\n**結構規劃：'
+2 s02 0.1144 0 0.1144 5.987 43.4 '**Thinking Process:**\n\n1.  **Analyze the'
+2 s03 0.0853 0 0.0853 5.596 46.3 "Here's a thinking process that leads to "
+2 s04 0.1459 0 0.1459 5.657 46.3 "Here's a thinking process that leads to "
+2 s05 0.0961 0 0.0961 5.862 44.2 '運動對健康的重要性是一個非常廣泛且重要的主題。為了提供一個全面且有說服力的回答，'
+2 s06 0.1048 0 0.1048 5.788 44.9 '這是一個關於「喜歡的動物」的提問，需要我選擇一種動物並解釋我喜歡它的原因。\n\n*'
+2 s07 0.108 0 0.108 6.021 43.1 '網路購物（E-commerce）的優點和缺點是這類議題中非常常見且重要的討論。我'
+2 s08 0.0906 0 0.0906 5.76 45.0 '通貨膨脹 (Inflation) 的解釋需要涵蓋其核心定義、成因、影響以及衡量方'
+2 s09 0.0906 0 0.0906 5.807 44.6 '台灣夜市文化 (Taiwanese Night Market Culture) '
+2 s10 0.099 0 0.099 5.635 46.1 "Here's a thinking process that leads to "
+2 g01 0.1053 0 0.1053 5.649 44.0 'The user has provided a string of seemin'
+2 g02 0.0877 0 0.0877 4.346 46.0 'The user is asking for the election resu'
+2 g03 0.1199 0 0.1199 5.515 47.3 '這是一個非常具象且帶有比喻色彩的句子：「綠色的想法憤怒地睡覺」。\n\n1.  **'
+2 g04 0.1403 0 0.1403 2.906 47.7 'The user is asking for the ID number (身分'
+2 g05 0.1072 0 0.1072 5.782 44.9 'The user has provided a prompt in Chines'
+2 g06 0.1025 0 0.1025 5.792 44.8 'The user is asking for the origin (where'
+2 g07 0.097 0 0.097 2.647 48.2 'The user is asking "What did I eat for d'
+2 g08 0.1357 0 0.1357 4.544 48.1 'The user is asking for instructions on h'
+2 g09 0.1364 0 0.1364 5.517 47.4 "Here's a thinking process to arrive at t"
+2 g10 0.1066 0 0.1066 5.825 44.6 'The user is asking for the exact closing'
+{"model": "out/m6/mlx-mlxlora-g32exact", "tag": "mlxlora_off", "think": "off", "stride": 1, "kv_bits": null, "max_tokens": 256, "think_budget": null, "load_s": 2.48, "runs": {"1": {"prefill_tps": {"median": 246.3, "p90": 355.1}, "ttft_s": {"median": 0.1025, "p90": 0.1316}, "think_s": {"median": 0.0, "p90": 0.0}, "think_tokens": {"median": 0, "p90": 0}, "ttfa_s": {"median": 0.1025, "p90": 0.1316}, "answer_s": {"median": 5.301, "p90": 6.101}, "answer_tokens": {"median": 256, "p90": 256}, "decode_tps": {"median": 43.9, "p90": 48.5}, "total_s": {"median": 5.424, "p90": 6.204}, "n_hit_max": 25, "n_forced_close": 0, "cold_first_prompt": {"ttft_s": 0.174, "ttfa_s": 0.174, "total_s": 1.172, "prompt_tokens": 20}}, "2": {"prefill_tps": {"median": 244.8, "p90": 330.6}, "ttft_s": {"median": 0.1025, "p90": 0.1403}, "think_s": {"median": 0.0, "p90": 0.0}, "think_tokens": {"median": 0, "p90": 0}, "ttfa_s": {"median": 0.1025, "p90": 0.1403}, "answer_s": {"median": 5.309, "p90": 5.766}, "answer_tokens": {"median": 245, "p90": 256}, "decode_tps": {"median": 46.1, "p90": 48.2}, "total_s": {"median": 5.408, "p90": 5.863}, "n_hit_max": 25, "n_forced_close": 0}}, "peak_mem_gb": 3.1}
++ '[' -f docs/Plan/m6/raw/lat_mlxlora_on_summary.json ']'
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_latency.py out/m6/mlx-mlxlora-g32exact mlxlora_on --think on --runs 2 --stride 2 --max-tokens 1024
+[transformers] The tokenizer you are loading from 'out/m6/mlx-mlxlora-g32exact' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+1 k01 0.1796 244 5.2233 5.735 48.2 '台灣最高的山是**玉山**。\n\n它的海拔高度為 **3,952 公尺**。'
+1 k03 0.0861 199 4.5827 5.553 44.8 '水的化學式是 **$\\text{H}_2\\text{O}$**。\n\n這個化學式表'
+1 k05 0.1482 188 4.4767 4.799 43.4 '《紅樓夢》的作者是**曹雪芹**。'
+1 k07 0.0973 422 9.6733 13.695 43.9 '光在真空中的速度是一個非常固定的物理常數，其精確值是：\n\n**約 299,792'
+1 k09 0.0975 211 4.6613 4.955 46.1 '太陽系中最大的行星是**木星**（Jupiter）。'
+1 k11 0.1203 279 6.9536 8.389 41.1 'DNA 的雙股螺旋結構是由 **詹姆斯·沃森 (James Watson)** '
+1 k13 0.0682 194 4.4407 4.94 44.5 '一公里等於 **一千公尺**。\n\n（1 km = 1,000 m）'
+1 k15 0.0923 313 7.0749 8.889 45.2 '台灣最長的河流通常被認為是**耶ļu河**（Yehliu River）。\n\n耶ļ'
+1 i02 0.1555 0 0.1555 0.193 52.9 '96'
+1 i04 0.0895 205 4.359 4.479 48.1 'I am very happy today.'
+1 i06 0.1494 449 9.7798 14.953 44.7 '以下是台灣夜市中一些非常受歡迎的小吃：\n\n- 臭豆腐：一種用臭豆腐製作的油炸小吃'
+1 i08 0.0924 132 3.2448 3.286 42.0 '63'
+1 i10 0.1251 230 5.2357 5.277 45.0 'Hello.'
+1 i12 0.1046 122 2.7134 2.735 46.8 '是'
+1 i14 0.1276 410 9.0606 12.042 44.7 '這裡提供幾個不同風格的標題供您選擇：\n\n**簡潔有力型 (最推薦)**\n\n1. '
+1 s01 0.0935 518 12.3366 26.108 39.3 '台灣的教育制度是一個結構完整、強調基礎教育和學術嚴謹性的體系。它旨在培養具有批判'
+1 s03 0.0971 533 13.3995 24.684 41.6 '電腦（Computer）和手機（Mobile Phone）雖然都是電子設備，但它'
+1 s05 0.157 613 13.4743 23.458 43.9 '運動對健康的重要性是多方面的，它不僅能讓我們的身體在生理層面上變得更強壯，還能深'
+1 s07 0.0961 453 10.7553 23.728 43.3 '網路購物（E-commerce）在現代生活和消費模式中扮演著極為重要的角色。它為'
+1 s09 0.1455 551 12.6421 23.764 43.3 '台灣的夜市不僅僅是一個「吃東西的地方」，它是一種充滿活力、融合了歷史、美食、社群'
+1 g01 0.1857 364 8.8491 9.682 42.2 '您好！您的输入看起来像是随机的字符和一些声音。\n\n请问您有什么想问的或者想聊的话'
+1 g03 0.1034 655 16.0316 22.482 41.5 '這句話「綠色的想法憤怒地睡覺」並不是一個標準的成語或固定表達，它更像是一種**高'
+1 g05 0.1145 306 6.5588 6.98 47.3 '您好，請您提供您想問的問題。我會盡力為您回答！'
+1 g07 0.1385 380 8.7642 10.084 43.8 '很抱歉，我無法知道您昨天晚餐吃了什麼。\n\n作為一個大型語言模型，我沒有存取您個人'
+1 g09 0.0968 648 14.8171 23.44 43.8 '這是一個非常**超現實、充滿組合和意象**的詞組，它本身並不是一個標準的詞彙、產'
+2 k01 0.142 244 5.1607 5.684 48.4 '台灣最高的山是**玉山**。\n\n它的海拔高度為 **3,952 公尺**。'
+2 k03 0.1437 199 4.3703 5.368 46.9 '水的化學式是 **$\\text{H}_2\\text{O}$**。\n\n這個化學式表'
+2 k05 0.1012 188 4.075 4.475 46.2 '《紅樓夢》的作者是**曹雪芹**。'
+2 k07 0.1032 422 10.4697 14.484 41.5 '光在真空中的速度是一個非常固定的物理常數，其精確值是：\n\n**約 299,792'
+2 k09 0.0978 211 4.7705 5.05 45.2 '太陽系中最大的行星是**木星**（Jupiter）。'
+2 k11 0.145 279 6.2291 7.73 44.8 'DNA 的雙股螺旋結構是由 **詹姆斯·沃森 (James Watson)** '
+2 k13 0.0956 194 4.4867 5.049 43.8 '一公里等於 **一千公尺**。\n\n（1 km = 1,000 m）'
+2 k15 0.1065 313 6.9716 8.824 45.7 '台灣最長的河流通常被認為是**耶ļu河**（Yehliu River）。\n\n耶ļ'
+2 i02 0.1543 0 0.1543 0.192 52.5 '96'
+2 i04 0.0897 205 4.5119 4.635 46.4 'I am very happy today.'
+2 i06 0.105 449 10.1822 15.35 43.4 '以下是台灣夜市中一些非常受歡迎的小吃：\n\n- 臭豆腐：一種用臭豆腐製作的油炸小吃'
+2 i08 0.0945 132 3.1139 3.159 43.7 '63'
+2 i10 0.1012 230 5.0637 5.109 46.3 'Hello.'
+2 i12 0.1091 122 3.0104 3.026 42.2 '是'
+2 i14 0.0936 410 9.1673 12.649 42.4 '這裡提供幾個不同風格的標題供您選擇：\n\n**簡潔有力型 (最推薦)**\n\n1. '
+2 s01 0.094 518 12.5148 24.78 41.4 '台灣的教育制度是一個結構完整、強調基礎教育和學術嚴謹性的體系。它旨在培養具有批判'
+2 s03 0.1287 533 12.6033 24.244 42.4 '電腦（Computer）和手機（Mobile Phone）雖然都是電子設備，但它'
+2 s05 0.1593 613 13.5974 22.989 44.8 '運動對健康的重要性是多方面的，它不僅能讓我們的身體在生理層面上變得更強壯，還能深'
+2 s07 0.1219 453 10.905 24.75 41.5 '網路購物（E-commerce）在現代生活和消費模式中扮演著極為重要的角色。它為'
+2 s09 0.103 551 13.4511 24.769 41.5 '台灣的夜市不僅僅是一個「吃東西的地方」，它是一種充滿活力、融合了歷史、美食、社群'
+2 g01 0.1079 364 8.2756 9.093 44.6 '您好！您的输入看起来像是随机的字符和一些声音。\n\n请问您有什么想问的或者想聊的话'
+2 g03 0.1333 655 15.0288 21.699 43.0 '這句話「綠色的想法憤怒地睡覺」並不是一個標準的成語或固定表達，它更像是一種**高'
+2 g05 0.0999 306 7.1204 7.508 43.9 '您好，請您提供您想問的問題。我會盡力為您回答！'
+2 g07 0.0819 380 8.4381 9.656 45.5 '很抱歉，我無法知道您昨天晚餐吃了什麼。\n\n作為一個大型語言模型，我沒有存取您個人'
+2 g09 0.164 648 15.1546 23.946 43.0 '這是一個非常**超現實、充滿組合和意象**的詞組，它本身並不是一個標準的詞彙、產'
+{"model": "out/m6/mlx-mlxlora-g32exact", "tag": "mlxlora_on", "think": "on", "stride": 2, "kv_bits": null, "max_tokens": 1024, "think_budget": null, "load_s": 2.53, "runs": {"1": {"prefill_tps": {"median": 267.7, "p90": 346.1}, "ttft_s": {"median": 0.1046, "p90": 0.1555}, "think_s": {"median": 8.602, "p90": 13.295}, "think_tokens": {"median": 364, "p90": 613}, "ttfa_s": {"median": 8.7642, "p90": 13.4743}, "answer_s": {"median": 1.436, "p90": 11.285}, "answer_tokens": {"median": 61, "p90": 491}, "decode_tps": {"median": 43.9, "p90": 47.3}, "total_s": {"median": 9.682, "p90": 23.764}, "n_hit_max": 6, "n_forced_close": 0, "cold_first_prompt": {"ttft_s": 0.1796, "ttfa_s": 5.2233, "total_s": 5.735, "prompt_tokens": 23}}, "2": {"prefill_tps": {"median": 255.2, "p90": 367.9}, "ttft_s": {"median": 0.105, "p90": 0.1543}, "think_s": {"median": 6.999, "p90": 13.414}, "think_tokens": {"median": 313, "p90": 613}, "ttfa_s": {"median": 7.1204, "p90": 13.5974}, "answer_s": {"median": 1.218, "p90": 11.64}, "answer_tokens": {"median": 56, "p90": 491}, "decode_tps": {"median": 43.9, "p90": 46.9}, "total_s": {"median": 8.824, "p90": 24.75}, "n_hit_max": 6, "n_forced_close": 0}}, "peak_mem_gb": 3.08}
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_grade.py qat_off jaxlora_off mlxlora_off qat_on jaxlora_on mlxlora_on
+{"tag": "qat_off", "n": 50, "knowledge_pass": "12/15", "instruction_pass": "4/15", "garbage_pass": "5/10", "trad_chars": 884, "simp_chars": 71, "trad_ratio": 0.9257, "answers_mostly_simplified": 1, "answers_with_any_simplified": 19, "mean_rep4": 0.1479, "n_rep4_gt_0_3": 1, "mean_chars": 604.4, "n_hit_max": 25}
+{"tag": "jaxlora_off", "n": 50, "knowledge_pass": "11/15", "instruction_pass": "3/15", "garbage_pass": "4/10", "trad_chars": 1763, "simp_chars": 129, "trad_ratio": 0.9318, "answers_mostly_simplified": 0, "answers_with_any_simplified": 17, "mean_rep4": 0.2093, "n_rep4_gt_0_3": 10, "mean_chars": 460.5, "n_hit_max": 29}
+{"tag": "mlxlora_off", "n": 50, "knowledge_pass": "11/15", "instruction_pass": "3/15", "garbage_pass": "5/10", "trad_chars": 1020, "simp_chars": 54, "trad_ratio": 0.9497, "answers_mostly_simplified": 1, "answers_with_any_simplified": 17, "mean_rep4": 0.1475, "n_rep4_gt_0_3": 1, "mean_chars": 570.9, "n_hit_max": 25}
+{"tag": "qat_on", "n": 25, "knowledge_pass": "6/8", "instruction_pass": "6/7", "garbage_pass": "2/5", "trad_chars": 1116, "simp_chars": 38, "trad_ratio": 0.9671, "answers_mostly_simplified": 0, "answers_with_any_simplified": 11, "mean_rep4": 0.0299, "n_rep4_gt_0_3": 0, "mean_chars": 243.0, "n_hit_max": 6}
+{"tag": "jaxlora_on", "n": 25, "knowledge_pass": "6/8", "instruction_pass": "6/7", "garbage_pass": "3/5", "trad_chars": 1067, "simp_chars": 51, "trad_ratio": 0.9544, "answers_mostly_simplified": 1, "answers_with_any_simplified": 11, "mean_rep4": 0.0533, "n_rep4_gt_0_3": 0, "mean_chars": 236.5, "n_hit_max": 7}
+{"tag": "mlxlora_on", "n": 25, "knowledge_pass": "6/8", "instruction_pass": "6/7", "garbage_pass": "3/5", "trad_chars": 1194, "simp_chars": 64, "trad_ratio": 0.9491, "answers_mostly_simplified": 1, "answers_with_any_simplified": 12, "mean_rep4": 0.0368, "n_rep4_gt_0_3": 0, "mean_chars": 257.0, "n_hit_max": 6}
++ '[' -f docs/Plan/m6/raw/lat_lever_kv8_off_summary.json ']'
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_latency.py out/m5/mlx-qat-g32exact lever_kv8_off --think off --runs 2 --kv-bits 8
+1 k01 0.1696 0 0.1696 2.538 54.9 '台灣最高的山是哪一座？\n台灣最高的山是玉山。\n\n1.  **Identify t'
+1 k02 0.095 0 0.095 0.947 39.9 '台北 101 位於台北市的行政區是信義區。<channel|>台北 101 位於'
+1 k03 0.0926 0 0.0926 2.823 45.4 'The user is asking for the chemical form'
+1 k04 0.0894 0 0.0894 2.397 40.3 '地球繞太陽一圈的週期是「一年」。\n一年大約是 365.25 天（包含閏年）。\n\n'
+1 k05 0.0982 0 0.0982 2.283 43.9 'The user is asking for the author of the'
+1 k06 0.0945 0 0.0945 3.096 42.6 'The user is asking for the county (縣) wh'
+1 k07 0.0952 0 0.0952 6.176 41.9 'The user is asking for the approximate s'
+1 k08 0.0896 0 0.0896 3.079 41.8 'The user is asking for the "founding fat'
+1 k09 0.0864 0 0.0864 1.272 27.8 'The user is asking for the largest plane'
+1 k10 0.1116 0 0.1116 6.099 42.6 'The user is asking for the travel time o'
+1 k11 0.0949 0 0.0949 3.384 43.2 'The user is asking for the two scientist'
+1 k12 0.0995 0 0.0995 6.24 41.5 '端午節 (Dragon Boat Festival) 是台灣和中國傳統的節日，與'
+1 k13 0.0926 0 0.0926 1.149 45.5 'The user is asking for the conversion be'
+1 k14 0.0899 0 0.0899 5.894 43.9 "The user is asking whether Shakespeare's"
+1 k15 0.095 0 0.095 6.142 42.2 '台灣最長的河流是哪一條？\n台灣最長的河流是哪一條？\n\n1.  **Identif'
+1 i01 0.1205 0 0.1205 5.958 43.7 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i02 0.0966 0 0.0966 0.602 47.5 '12 乘以 8 等於多少？\n12 * 8 = 96.<channel|>96'
+1 i03 0.0957 0 0.0957 6.17 42.0 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i04 0.0945 0 0.0945 5.348 45.9 '我今天很開心 (Wǒ jīntiān hěn kāixīn) 的英文翻譯。\n\n1'
+1 i05 0.156 0 0.156 0.634 52.3 '```json\n{\n  "name": "小明",\n  "age": 12\n}\n'
+1 i06 0.1007 0 0.1007 5.48 47.4 '台灣夜市小吃 (Taiwanese Night Market Snacks)\n5'
+1 i07 0.1555 0 0.1555 5.801 45.2 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i08 0.0968 0 0.0968 0.868 45.4 'The user wants me to calculate the resul'
+1 i09 0.0984 0 0.0984 4.709 46.4 '人工智慧 (AI) 的定義需要簡潔、精確，且不超過 50 字。\n\n1.  **核'
+1 i10 0.1586 0 0.1586 3.773 48.7 'user\n請用英文寫一句問候語，只輸出那一句。\n<channel|>Thinki'
+1 i11 0.1422 0 0.1422 2.157 49.1 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i12 0.1455 0 0.1455 1.082 48.0 'The user is asking a factual question: "'
+1 i13 0.1217 0 0.1217 1.704 49.9 'The user wants me to sort the numbers 5,'
+1 i14 0.155 0 0.155 5.489 47.8 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i15 0.1392 0 0.1392 5.522 47.4 "Here's a thinking process that leads to "
+1 s01 0.0892 0 0.0892 5.478 47.3 '台灣的教育制度是一個非常系統化且強調「全面發展」的體系。我需要從幾個核心面向來簡'
+1 s02 0.1228 0 0.1228 5.695 45.8 '**Thinking Process:**\n\n1.  **Analyze the'
+1 s03 0.0928 0 0.0928 6.051 42.8 "Here's a thinking process that leads to "
+1 s04 0.1012 0 0.1012 6.174 42.0 "Here's a thinking process that leads to "
+1 s05 0.1057 0 0.1057 6.221 41.7 '運動對健康的重要性是一個非常廣泛且重要的主題。我需要從生理、心理和社會等多個層面'
+1 s06 0.0866 0 0.0866 5.78 44.8 '這是一個關於「喜歡的動物」的提問。我需要選擇一種動物，並提供我喜歡它的原因。\n\n'
+1 s07 0.1077 0 0.1077 5.484 47.4 '網路購物（E-commerce）的優點和缺點是個非常常見且重要的議題。我需要從多'
+1 s08 0.1521 0 0.1521 5.466 48.0 '通貨膨脹 (Inflation) 的解釋需要涵蓋其核心概念、定義、原因、影響以及'
+1 s09 0.1142 0 0.1142 5.513 47.2 '台灣夜市文化 (Taiwanese Night Market Culture) '
+1 s10 0.1371 0 0.1371 6.061 43.0 "Here's a thinking process that leads to "
+1 g01 0.081 0 0.081 5.753 44.8 'The user has provided a string of seemin'
+1 g02 0.1584 0 0.1584 4.45 47.1 'The user is asking for the election resu'
+1 g03 0.1009 0 0.1009 5.451 47.7 'The user is asking for the meaning of th'
+1 g04 0.1433 0 0.1433 2.839 48.6 'The user is asking for the ID number (身分'
+1 g05 0.0912 0 0.0912 5.85 43.1 'The user has provided a prompt in Chines'
+1 g06 0.1037 0 0.1037 6.106 42.5 'The user is asking for the origin (first'
+1 g07 0.0878 0 0.0878 3.064 44.4 'The user is asking "What did I eat for d'
+1 g08 0.2253 0 0.2253 5.796 45.2 'The user is asking for instructions on h'
+1 g09 0.098 0 0.098 5.447 47.7 "Here's a thinking process to arrive at t"
+1 g10 0.1281 0 0.1281 5.445 48.0 'The user is asking for the exact closing'
+2 k01 0.1281 0 0.1281 2.962 45.9 '台灣最高的山是哪一座？\n台灣最高的山是玉山。\n\n1.  **Identify t'
+2 k02 0.098 0 0.098 1.013 37.2 '台北 101 位於台北市的行政區是信義區。<channel|>台北 101 位於'
+2 k03 0.1092 0 0.1092 2.831 45.6 'The user is asking for the chemical form'
+2 k04 0.0871 0 0.0871 2.22 43.6 '地球繞太陽一圈的週期是「一年」。\n一年大約是 365.25 天（包含閏年）。\n\n'
+2 k05 0.0961 0 0.0961 2.2 45.6 'The user is asking for the author of the'
+2 k06 0.0926 0 0.0926 2.722 48.7 'The user is asking for the county (縣) wh'
+2 k07 0.1617 0 0.1617 5.778 45.4 'The user is asking for the approximate s'
+2 k08 0.0985 0 0.0985 2.917 44.4 'The user is asking for the "founding fat'
+2 k09 0.0887 0 0.0887 0.704 53.6 'The user is asking for the largest plane'
+2 k10 0.099 0 0.099 5.625 46.1 'The user is asking for the travel time o'
+2 k11 0.1437 0 0.1437 3.143 47.3 'The user is asking for the two scientist'
+2 k12 0.091 0 0.091 5.481 47.3 '端午節 (Dragon Boat Festival) 是台灣和中國傳統的節日，與'
+2 k13 0.1101 0 0.1101 1.203 43.9 'The user is asking for the conversion be'
+2 k14 0.1007 0 0.1007 6.11 42.4 "The user is asking whether Shakespeare's"
+2 k15 0.0885 0 0.0885 5.934 43.6 '台灣最長的河流是哪一條？\n台灣最長的河流是哪一條？\n\n1.  **Identif'
+2 i01 0.1067 0 0.1067 5.784 44.9 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i02 0.0949 0 0.0949 0.618 45.9 '12 乘以 8 等於多少？\n12 * 8 = 96.<channel|>96'
+2 i03 0.094 0 0.094 6.076 42.6 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i04 0.094 0 0.094 5.742 42.7 '我今天很開心 (Wǒ jīntiān hěn kāixīn) 的英文翻譯。\n\n1'
+2 i05 0.1092 0 0.1092 0.703 42.1 '```json\n{\n  "name": "小明",\n  "age": 12\n}\n'
+2 i06 0.1016 0 0.1016 6.21 41.7 '台灣夜市小吃 (Taiwanese Night Market Snacks)\n5'
+2 i07 0.0946 0 0.0946 5.881 44.1 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i08 0.0921 0 0.0921 0.863 45.4 'The user wants me to calculate the resul'
+2 i09 0.1029 0 0.1029 4.763 45.9 '人工智慧 (AI) 的定義需要簡潔、精確，且不超過 50 字。\n\n1.  **核'
+2 i10 0.0987 0 0.0987 4.398 40.9 'user\n請用英文寫一句問候語，只輸出那一句。\n<channel|>Thinki'
+2 i11 0.088 0 0.088 2.416 42.5 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i12 0.0979 0 0.0979 1.035 48.0 'The user is asking a factual question: "'
+2 i13 0.0937 0 0.0937 2.118 39.0 'The user wants me to sort the numbers 5,'
+2 i14 0.0968 0 0.0968 5.895 44.0 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i15 0.1017 0 0.1017 6.567 39.4 "Here's a thinking process that leads to "
+2 s01 0.0906 0 0.0906 6.234 41.5 '台灣的教育制度是一個非常系統化且強調「全面發展」的體系。我需要從幾個核心面向來簡'
+2 s02 0.1096 0 0.1096 6.188 42.0 '**Thinking Process:**\n\n1.  **Analyze the'
+2 s03 0.0919 0 0.0919 6.442 40.2 "Here's a thinking process that leads to "
+2 s04 0.0904 0 0.0904 6.264 41.3 "Here's a thinking process that leads to "
+2 s05 0.1186 0 0.1186 6.46 40.2 '運動對健康的重要性是一個非常廣泛且重要的主題。我需要從生理、心理和社會等多個層面'
+2 s06 0.1019 0 0.1019 6.225 41.6 '這是一個關於「喜歡的動物」的提問。我需要選擇一種動物，並提供我喜歡它的原因。\n\n'
+2 s07 0.0947 0 0.0947 6.195 41.8 '網路購物（E-commerce）的優點和缺點是個非常常見且重要的議題。我需要從多'
+2 s08 0.0972 0 0.0972 6.325 40.9 '通貨膨脹 (Inflation) 的解釋需要涵蓋其核心概念、定義、原因、影響以及'
+2 s09 0.0938 0 0.0938 6.281 41.2 '台灣夜市文化 (Taiwanese Night Market Culture) '
+2 s10 0.2087 0 0.2087 6.43 41.0 "Here's a thinking process that leads to "
+2 g01 0.093 0 0.093 5.925 43.6 'The user has provided a string of seemin'
+2 g02 0.0888 0 0.0888 4.882 42.1 'The user is asking for the election resu'
+2 g03 0.0887 0 0.0887 5.695 45.5 'The user is asking for the meaning of th'
+2 g04 0.1311 0 0.1311 2.819 48.7 'The user is asking for the ID number (身分'
+2 g05 0.1655 0 0.1655 5.851 43.6 'The user has provided a prompt in Chines'
+2 g06 0.1004 0 0.1004 5.886 44.1 'The user is asking for the origin (first'
+2 g07 0.0922 0 0.0922 3.196 42.5 'The user is asking "What did I eat for d'
+2 g08 0.0956 0 0.0956 5.821 44.0 'The user is asking for instructions on h'
+2 g09 0.111 0 0.111 6.061 42.9 "Here's a thinking process to arrive at t"
+2 g10 0.0937 0 0.0937 6.2 41.8 'The user is asking for the exact closing'
+{"model": "out/m5/mlx-qat-g32exact", "tag": "lever_kv8_off", "think": "off", "stride": 1, "kv_bits": 8, "max_tokens": 256, "think_budget": null, "load_s": 2.52, "runs": {"1": {"prefill_tps": {"median": 246.7, "p90": 317.6}, "ttft_s": {"median": 0.0995, "p90": 0.155}, "think_s": {"median": 0.0, "p90": 0.0}, "think_tokens": {"median": 0, "p90": 0}, "ttfa_s": {"median": 0.0995, "p90": 0.155}, "answer_s": {"median": 5.349, "p90": 6.047}, "answer_tokens": {"median": 256, "p90": 256}, "decode_tps": {"median": 45.2, "p90": 48.0}, "total_s": {"median": 5.466, "p90": 6.142}, "n_hit_max": 25, "n_forced_close": 0, "cold_first_prompt": {"ttft_s": 0.1696, "ttfa_s": 0.1696, "total_s": 2.538, "prompt_tokens": 20}}, "2": {"prefill_tps": {"median": 259.0, "p90": 348.9}, "ttft_s": {"median": 0.0968, "p90": 0.1281}, "think_s": {"median": 0.0, "p90": 0.0}, "think_tokens": {"median": 0, "p90": 0}, "ttfa_s": {"median": 0.0968, "p90": 0.1281}, "answer_s": {"median": 5.617, "p90": 6.187}, "answer_tokens": {"median": 254, "p90": 256}, "decode_tps": {"median": 43.6, "p90": 47.3}, "total_s": {"median": 5.742, "p90": 6.281}, "n_hit_max": 25, "n_forced_close": 0}}, "peak_mem_gb": 3.1}
++ '[' -f docs/Plan/m6/raw/lat_lever_kv4_off_summary.json ']'
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_latency.py out/m5/mlx-qat-g32exact lever_kv4_off --think off --runs 2 --kv-bits 4
+1 k01 0.1785 0 0.1785 2.55 54.8 '台灣最高的山是哪一座？\n台灣最高的山是玉山。\n\n1.  **Identify t'
+1 k02 0.1102 0 0.1102 0.942 40.9 '台北 101 位於台北市的行政區是信義區。<channel|>台北 101 位於'
+1 k03 0.0908 0 0.0908 2.945 43.4 'The user is asking for the chemical form'
+1 k04 0.1003 0 0.1003 2.291 42.5 '地球繞太陽一圈的週期是「一年」。\n一年大約是 365.25 天（包含閏年）。\n\n'
+1 k05 0.0806 0 0.0806 2.358 42.2 'The user is asking for the author of the'
+1 k06 0.0918 0 0.0918 3.11 42.4 'The user is asking for the county (縣) wh'
+1 k07 0.1024 0 0.1024 5.935 43.7 'The user is asking for the approximate s'
+1 k08 0.0952 0 0.0952 2.912 44.4 'The user is asking for the "founding fat'
+1 k09 0.0793 0 0.0793 0.767 48.0 'The user is asking for the largest plane'
+1 k10 0.1696 0 0.1696 6.108 42.9 'The user is asking for the travel time o'
+1 k11 0.0958 0 0.0958 3.221 45.4 'The user is asking for the two scientist'
+1 k12 0.099 0 0.099 5.919 43.8 '端午節 (Dragon Boat Festival) 是台灣和中國傳統的節日，與'
+1 k13 0.0894 0 0.0894 1.166 44.6 'The user is asking for the conversion be'
+1 k14 0.0967 0 0.0967 6.004 43.2 "The user is asking whether Shakespeare's"
+1 k15 0.0904 0 0.0904 5.745 45.1 '台灣最長的河流是哪一條？\n台灣最長的河流是哪一條？\n\n1.  **Identif'
+1 i01 0.1178 0 0.1178 5.988 43.4 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i02 0.0865 0 0.0865 0.636 43.7 '12 乘以 8 等於多少？\n12 * 8 = 96.<channel|>96'
+1 i03 0.0871 0 0.0871 6.022 43.0 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i04 0.0928 0 0.0928 5.439 45.1 '我今天很開心 (Wǒ jīntiān hěn kāixīn) 的英文翻譯。\n\n1'
+1 i05 0.1242 0 0.1242 0.658 46.8 '```json\n{\n  "name": "小明",\n  "age": 12\n}\n'
+1 i06 0.1161 0 0.1161 5.874 44.3 '台灣夜市小吃 (Taiwanese Night Market Snacks)\n5'
+1 i07 0.0989 0 0.0989 5.697 45.5 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i08 0.089 0 0.089 0.774 51.1 'The user wants me to calculate the resul'
+1 i09 0.1021 0 0.1021 4.62 47.4 '人工智慧 (AI) 的定義需要簡潔、精確，且不超過 50 字。\n\n1.  **核'
+1 i10 0.1336 0 0.1336 3.805 47.9 'user\n請用英文寫一句問候語，只輸出那一句。\n<channel|>Thinki'
+1 i11 0.1506 0 0.1506 2.437 43.3 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i12 0.1047 0 0.1047 1.095 45.5 'The user is asking a factual question: "'
+1 i13 0.1117 0 0.1117 2.003 41.8 'The user wants me to sort the numbers 5,'
+1 i14 0.107 0 0.107 5.807 44.7 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i15 0.0939 0 0.0939 5.412 47.9 "Here's a thinking process that leads to "
+1 s01 0.1404 0 0.1404 5.605 46.7 '台灣的教育制度是一個非常系統化且強調「全面發展」的體系。我需要從幾個核心面向來簡'
+1 s02 0.1238 0 0.1238 6.133 42.4 '**Thinking Process:**\n\n1.  **Analyze the'
+1 s03 0.1031 0 0.1031 6.212 41.7 "Here's a thinking process that leads to "
+1 s04 0.0905 0 0.0905 6.41 40.4 "Here's a thinking process that leads to "
+1 s05 0.0925 0 0.0925 6.266 41.3 '運動對健康的重要性是一個非常廣泛且重要的主題。我需要從生理、心理和社會等多個層面'
+1 s06 0.0958 0 0.0958 5.971 43.4 '這是一個關於「喜歡的動物」的提問。我需要選擇一種動物，並提供我喜歡它的原因。\n\n'
+1 s07 0.1007 0 0.1007 5.911 43.9 '網路購物（E-commerce）的優點和缺點是個非常常見且重要的議題。我需要從多'
+1 s08 0.0975 0 0.0975 5.725 45.3 '通貨膨脹 (Inflation) 的解釋需要涵蓋其核心概念、定義、原因、影響以及'
+1 s09 0.108 0 0.108 5.884 44.2 '台灣夜市文化 (Taiwanese Night Market Culture) '
+1 s10 0.1177 0 0.1177 5.706 45.6 "Here's a thinking process that leads to "
+1 g01 0.1389 0 0.1389 5.499 47.4 'The user has provided a string of seemin'
+1 g02 0.1038 0 0.1038 5.089 40.5 'The user is asking for the election resu'
+1 g03 0.0987 0 0.0987 6.221 41.7 'The user is asking for the meaning of th'
+1 g04 0.0924 0 0.0924 3.306 40.8 'The user is asking for the ID number (身分'
+1 g05 0.0847 0 0.0847 5.898 42.7 'The user has provided a prompt in Chines'
+1 g06 0.1228 0 0.1228 5.879 44.3 'The user is asking for the origin (first'
+1 g07 0.0928 0 0.0928 3.098 43.9 'The user is asking "What did I eat for d'
+1 g08 0.0923 0 0.0923 5.607 45.7 'The user is asking for instructions on h'
+1 g09 0.0903 0 0.0903 5.475 47.4 "Here's a thinking process to arrive at t"
+1 g10 0.1472 0 0.1472 5.646 46.4 'The user is asking for the exact closing'
+2 k01 0.1043 0 0.1043 2.957 45.6 '台灣最高的山是哪一座？\n台灣最高的山是玉山。\n\n1.  **Identify t'
+2 k02 0.0869 0 0.0869 0.818 46.5 '台北 101 位於台北市的行政區是信義區。<channel|>台北 101 位於'
+2 k03 0.0968 0 0.0968 2.816 45.6 'The user is asking for the chemical form'
+2 k04 0.1035 0 0.1035 2.004 48.9 '地球繞太陽一圈的週期是「一年」。\n一年大約是 365.25 天（包含閏年）。\n\n'
+2 k05 0.1442 0 0.1442 2.103 49.0 'The user is asking for the author of the'
+2 k06 0.1235 0 0.1235 3.252 40.9 'The user is asking for the county (縣) wh'
+2 k07 0.1059 0 0.1059 5.839 44.5 'The user is asking for the approximate s'
+2 k08 0.0892 0 0.0892 3.191 40.3 'The user is asking for the "founding fat'
+2 k09 0.0869 0 0.0869 0.846 43.5 'The user is asking for the largest plane'
+2 k10 0.0941 0 0.0941 6.316 41.0 'The user is asking for the travel time o'
+2 k11 0.1116 0 0.1116 3.339 44.0 'The user is asking for the two scientist'
+2 k12 0.0826 0 0.0826 5.893 43.9 '端午節 (Dragon Boat Festival) 是台灣和中國傳統的節日，與'
+2 k13 0.1129 0 0.1129 1.157 46.0 'The user is asking for the conversion be'
+2 k14 0.0956 0 0.0956 5.574 46.5 "The user is asking whether Shakespeare's"
+2 k15 0.1058 0 0.1058 5.94 43.7 '台灣最長的河流是哪一條？\n台灣最長的河流是哪一條？\n\n1.  **Identif'
+2 i01 0.1116 0 0.1116 6.091 42.6 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i02 0.1171 0 0.1171 0.711 40.4 '12 乘以 8 等於多少？\n12 * 8 = 96.<channel|>96'
+2 i03 0.1034 0 0.1034 6.553 39.5 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i04 0.0982 0 0.0982 5.814 42.2 '我今天很開心 (Wǒ jīntiān hěn kāixīn) 的英文翻譯。\n\n1'
+2 i05 0.0963 0 0.0963 0.758 37.8 '```json\n{\n  "name": "小明",\n  "age": 12\n}\n'
+2 i06 0.1097 0 0.1097 6.425 40.4 '台灣夜市小吃 (Taiwanese Night Market Snacks)\n5'
+2 i07 0.1608 0 0.1608 6.502 40.2 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i08 0.1299 0 0.1299 1.023 39.2 'The user wants me to calculate the resul'
+2 i09 0.1007 0 0.1007 5.295 41.2 '人工智慧 (AI) 的定義需要簡潔、精確，且不超過 50 字。\n\n1.  **核'
+2 i10 0.084 0 0.084 4.17 43.1 'user\n請用英文寫一句問候語，只輸出那一句。\n<channel|>Thinki'
+2 i11 0.1133 0 0.1133 2.578 40.2 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i12 0.0896 0 0.0896 1.166 41.8 'The user is asking a factual question: "'
+2 i13 0.108 0 0.108 1.904 44.0 'The user wants me to sort the numbers 5,'
+2 i14 0.0978 0 0.0978 6.399 40.5 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i15 0.098 0 0.098 6.441 40.2 "Here's a thinking process that leads to "
+2 s01 0.1031 0 0.1031 6.342 40.9 '台灣的教育制度是一個非常系統化且強調「全面發展」的體系。我需要從幾個核心面向來簡'
+2 s02 0.0978 0 0.0978 6.391 40.5 '**Thinking Process:**\n\n1.  **Analyze the'
+2 s03 0.1 0 0.1 6.332 40.9 "Here's a thinking process that leads to "
+2 s04 0.0922 0 0.0922 6.444 40.1 "Here's a thinking process that leads to "
+2 s05 0.0957 0 0.0957 6.375 40.6 '運動對健康的重要性是一個非常廣泛且重要的主題。我需要從生理、心理和社會等多個層面'
+2 s06 0.0966 0 0.0966 5.869 44.2 '這是一個關於「喜歡的動物」的提問。我需要選擇一種動物，並提供我喜歡它的原因。\n\n'
+2 s07 0.0972 0 0.0972 5.908 43.9 '網路購物（E-commerce）的優點和缺點是個非常常見且重要的議題。我需要從多'
+2 s08 0.0909 0 0.0909 5.913 43.8 '通貨膨脹 (Inflation) 的解釋需要涵蓋其核心概念、定義、原因、影響以及'
+2 s09 0.0982 0 0.0982 6.016 43.1 '台灣夜市文化 (Taiwanese Night Market Culture) '
+2 s10 0.1014 0 0.1014 5.918 43.8 "Here's a thinking process that leads to "
+2 g01 0.0979 0 0.0979 5.843 44.2 'The user has provided a string of seemin'
+2 g02 0.1119 0 0.1119 4.289 48.4 'The user is asking for the election resu'
+2 g03 0.1128 0 0.1128 5.675 45.8 'The user is asking for the meaning of th'
+2 g04 0.1017 0 0.1017 3.027 44.8 'The user is asking for the ID number (身分'
+2 g05 0.0824 0 0.0824 5.529 45.5 'The user has provided a prompt in Chines'
+2 g06 0.1429 0 0.1429 5.663 46.2 'The user is asking for the origin (first'
+2 g07 0.0883 0 0.0883 2.832 48.1 'The user is asking "What did I eat for d'
+2 g08 0.0908 0 0.0908 5.336 48.0 'The user is asking for instructions on h'
+2 g09 0.1386 0 0.1386 5.406 48.4 "Here's a thinking process to arrive at t"
+2 g10 0.1411 0 0.1411 5.439 48.1 'The user is asking for the exact closing'
+{"model": "out/m5/mlx-qat-g32exact", "tag": "lever_kv4_off", "think": "off", "stride": 1, "kv_bits": 4, "max_tokens": 256, "think_budget": null, "load_s": 2.52, "runs": {"1": {"prefill_tps": {"median": 254.0, "p90": 326.0}, "ttft_s": {"median": 0.0989, "p90": 0.1336}, "think_s": {"median": 0.0, "p90": 0.0}, "think_tokens": {"median": 0, "p90": 0}, "ttfa_s": {"median": 0.0989, "p90": 0.1336}, "answer_s": {"median": 5.465, "p90": 5.938}, "answer_tokens": {"median": 256, "p90": 256}, "decode_tps": {"median": 43.9, "p90": 47.4}, "total_s": {"median": 5.605, "p90": 6.108}, "n_hit_max": 25, "n_forced_close": 0, "cold_first_prompt": {"ttft_s": 0.1785, "ttfa_s": 0.1785, "total_s": 2.55, "prompt_tokens": 20}}, "2": {"prefill_tps": {"median": 245.5, "p90": 327.1}, "ttft_s": {"median": 0.1, "p90": 0.1299}, "think_s": {"median": 0.0, "p90": 0.0}, "think_tokens": {"median": 0, "p90": 0}, "ttfa_s": {"median": 0.1, "p90": 0.1299}, "answer_s": {"median": 5.447, "p90": 6.301}, "answer_tokens": {"median": 254, "p90": 256}, "decode_tps": {"median": 43.7, "p90": 48.1}, "total_s": {"median": 5.529, "p90": 6.399}, "n_hit_max": 25, "n_forced_close": 0}}, "peak_mem_gb": 3.1}
++ '[' -f docs/Plan/m6/raw/lat_lever_g64_off_summary.json ']'
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_latency.py out/m0/mlx-qat-q4g64 lever_g64_off --think off --runs 2
+1 k01 0.1523 0 0.1523 5.121 51.3 '台灣最高的山是哪一座？\n台灣最高的山是哪一座？\n\n1.  **Identify '
+1 k02 0.084 0 0.084 2.668 46.8 'The user is asking for the administrativ'
+1 k03 0.1241 0 0.1241 3.378 44.6 'The user is asking for the chemical form'
+1 k04 0.0944 0 0.0944 3.616 43.4 '地球繞太陽一圈的軌道週期（繞太陽一圈）是**一年**。\n\n一年大約是 **365'
+1 k05 0.0879 0 0.0879 2.268 45.4 'The user is asking for the author of the'
+1 k06 0.0889 0 0.0889 2.657 44.8 'The user is asking for the county in Tai'
+1 k07 0.095 0 0.095 6.081 42.6 'The user is asking for the speed of ligh'
+1 k08 0.089 0 0.089 3.882 43.2 'The user is asking for the founder of th'
+1 k09 0.0976 0 0.0976 1.723 43.7 'The user is asking for the largest plane'
+1 k10 0.0814 0 0.0814 5.492 47.1 'The user is asking about the travel time'
+1 k11 0.1239 0 0.1239 5.298 49.3 'The user is asking for the two scientist'
+1 k12 0.1039 0 0.1039 5.321 48.9 'The user is asking about traditional foo'
+1 k13 0.0852 0 0.0852 3.147 47.4 '一公里 (km) 等於多少公尺 (m)？\n\n1.  **理解單位關係：** 公里'
+1 k14 0.0969 0 0.0969 5.351 48.5 "The user is asking whether Shakespeare's"
+1 k15 0.1426 0 0.1426 5.333 49.1 '台灣最長的河流是哪一條？\n台灣最長的河流是哪一條？\n\n1.  **Identif'
+1 i01 0.1202 0 0.1202 5.264 49.6 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i02 0.1165 0 0.1165 0.565 53.5 '12 乘以 8 等於多少？\n12 * 8 = 96.<channel|>96'
+1 i03 0.1077 0 0.1077 5.28 49.3 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i04 0.1073 0 0.1073 4.477 49.4 'The user wants me to translate the Chine'
+1 i05 0.1392 0 0.1392 0.626 51.3 '```json\n{\n  "name": "小明",\n  "age": 12\n}\n'
+1 i06 0.1097 0 0.1097 5.308 49.1 '台灣夜市小吃 (Taiwanese night market snacks)\n5'
+1 i07 0.1151 0 0.1151 5.455 47.8 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i08 0.0806 0 0.0806 1.168 52.4 'The user wants me to calculate the resul'
+1 i09 0.0913 0 0.0913 5.358 48.4 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i10 0.1169 0 0.1169 3.639 50.5 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i11 0.0981 0 0.0981 3.642 49.7 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i12 0.1212 0 0.1212 0.55 53.6 'The user is asking a factual question ab'
+1 i13 0.1266 0 0.1266 1.58 50.9 'The user wants me to sort the given numb'
+1 i14 0.1015 0 0.1015 5.276 49.3 'Thinking Process:\n\n1.  **Analyze the Req'
+1 i15 0.1164 0 0.1164 5.297 49.2 "Here's a thinking process that leads to "
+1 s01 0.1215 0 0.1215 5.46 47.8 '台灣的教育制度是一個複雜且持續發展的系統，需要從幾個核心面向來簡要介紹。\n\n1.'
+1 s02 0.1093 0 0.1093 5.449 47.8 'Thinking Process:\n\n1.  **Analyze the Req'
+1 s03 0.1002 0 0.1002 5.258 49.4 "Here's a thinking process that leads to "
+1 s04 0.1085 0 0.1085 5.718 45.5 "Here's a thinking process that leads to "
+1 s05 0.1126 0 0.1126 5.814 44.7 '運動對健康的重要性是一個廣泛且重要的主題。我需要從生理、心理和社會等多個層面來解'
+1 s06 0.0929 0 0.0929 5.624 46.1 "Here's a thinking process that leads to "
+1 s07 0.0856 0 0.0856 5.562 46.6 '網路購物 (Online Shopping) 的優點和缺點 (Pros and '
+1 s08 0.1215 0 0.1215 5.241 49.8 '通貨膨脹 (Inflation) 的解釋需要涵蓋其定義、原因、影響以及衡量方式。'
+1 s09 0.1043 0 0.1043 5.243 49.6 '台灣夜市文化 (Taiwanese Night Market Culture) '
+1 s10 0.0956 0 0.0956 5.243 49.5 "Here's a thinking process that leads to "
+1 g01 0.1127 0 0.1127 5.228 49.9 'The user has provided a string of charac'
+1 g02 0.1066 0 0.1066 5.307 49.0 'The user is asking for the election resu'
+1 g03 0.123 0 0.123 5.496 47.5 'The user is asking for the meaning of th'
+1 g04 0.1154 0 0.1154 5.305 49.1 'The user is asking for the ID number (身分'
+1 g05 0.1085 0 0.1085 2.279 50.7 'The user has provided a prompt in Chines'
+1 g06 0.1223 0 0.1223 5.392 48.4 '「蒸餾的星期三」 (Wednesday of Distillation) 這個標'
+1 g07 0.0977 0 0.0977 3.103 47.3 'The user is asking "What did I eat for d'
+1 g08 0.0948 0 0.0948 5.342 48.6 'The user is asking for instructions on h'
+1 g09 0.1017 0 0.1017 5.5 47.2 "Here's a thinking process to arrive at t"
+1 g10 0.1003 0 0.1003 5.323 48.8 'The user is asking for the exact closing'
+2 k01 0.1194 0 0.1194 5.675 45.9 '台灣最高的山是哪一座？\n台灣最高的山是哪一座？\n\n1.  **Identify '
+2 k02 0.0949 0 0.0949 2.83 44.2 'The user is asking for the administrativ'
+2 k03 0.0951 0 0.0951 3.295 45.3 'The user is asking for the chemical form'
+2 k04 0.0876 0 0.0876 3.337 47.1 '地球繞太陽一圈的軌道週期（繞太陽一圈）是**一年**。\n\n一年大約是 **365'
+2 k05 0.1201 0 0.1201 2.179 48.1 'The user is asking for the author of the'
+2 k06 0.0906 0 0.0906 2.462 48.5 'The user is asking for the county in Tai'
+2 k07 0.1254 0 0.1254 5.337 48.9 'The user is asking for the speed of ligh'
+2 k08 0.1001 0 0.1001 3.466 48.7 'The user is asking for the founder of th'
+2 k09 0.1286 0 0.1286 1.485 52.3 'The user is asking for the largest plane'
+2 k10 0.1186 0 0.1186 5.345 48.8 'The user is asking about the travel time'
+2 k11 0.1175 0 0.1175 5.35 48.7 'The user is asking for the two scientist'
+2 k12 0.1334 0 0.1334 5.321 49.2 'The user is asking about traditional foo'
+2 k13 0.1296 0 0.1296 3.037 49.9 '一公里 (km) 等於多少公尺 (m)？\n\n1.  **理解單位關係：** 公里'
+2 k14 0.1125 0 0.1125 5.406 48.2 "The user is asking whether Shakespeare's"
+2 k15 0.1236 0 0.1236 5.369 48.6 '台灣最長的河流是哪一條？\n台灣最長的河流是哪一條？\n\n1.  **Identif'
+2 i01 0.1378 0 0.1378 5.393 48.5 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i02 0.1261 0 0.1261 0.581 52.7 '12 乘以 8 等於多少？\n12 * 8 = 96.<channel|>96'
+2 i03 0.1331 0 0.1331 5.321 49.2 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i04 0.1413 0 0.1413 4.523 49.3 'The user wants me to translate the Chine'
+2 i05 0.1389 0 0.1389 0.621 51.9 '```json\n{\n  "name": "小明",\n  "age": 12\n}\n'
+2 i06 0.097 0 0.097 5.35 48.5 '台灣夜市小吃 (Taiwanese night market snacks)\n5'
+2 i07 0.1149 0 0.1149 5.374 48.5 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i08 0.1195 0 0.1195 1.227 51.5 'The user wants me to calculate the resul'
+2 i09 0.1083 0 0.1083 5.425 48.0 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i10 0.1261 0 0.1261 3.765 48.9 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i11 0.1062 0 0.1062 3.696 49.0 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i12 0.108 0 0.108 0.554 51.6 'The user is asking a factual question ab'
+2 i13 0.1024 0 0.1024 1.659 47.6 'The user wants me to sort the given numb'
+2 i14 0.1035 0 0.1035 5.646 46.0 'Thinking Process:\n\n1.  **Analyze the Req'
+2 i15 0.1364 0 0.1364 6.036 43.2 "Here's a thinking process that leads to "
+2 s01 0.0925 0 0.0925 5.567 46.6 '台灣的教育制度是一個複雜且持續發展的系統，需要從幾個核心面向來簡要介紹。\n\n1.'
+2 s02 0.1169 0 0.1169 5.624 46.3 'Thinking Process:\n\n1.  **Analyze the Req'
+2 s03 0.1126 0 0.1126 5.657 46.0 "Here's a thinking process that leads to "
+2 s04 0.0959 0 0.0959 5.342 48.6 "Here's a thinking process that leads to "
+2 s05 0.0998 0 0.0998 5.445 47.7 '運動對健康的重要性是一個廣泛且重要的主題。我需要從生理、心理和社會等多個層面來解'
+2 s06 0.1191 0 0.1191 5.361 48.6 "Here's a thinking process that leads to "
+2 s07 0.1237 0 0.1237 5.289 49.4 '網路購物 (Online Shopping) 的優點和缺點 (Pros and '
+2 s08 0.1287 0 0.1287 5.303 49.3 '通貨膨脹 (Inflation) 的解釋需要涵蓋其定義、原因、影響以及衡量方式。'
+2 s09 0.0887 0 0.0887 5.49 47.2 '台灣夜市文化 (Taiwanese Night Market Culture) '
+2 s10 0.1165 0 0.1165 5.381 48.4 "Here's a thinking process that leads to "
+2 g01 0.1216 0 0.1216 5.385 48.5 'The user has provided a string of charac'
+2 g02 0.1026 0 0.1026 5.463 47.6 'The user is asking for the election resu'
+2 g03 0.1189 0 0.1189 5.281 49.4 'The user is asking for the meaning of th'
+2 g04 0.1086 0 0.1086 5.481 47.5 'The user is asking for the ID number (身分'
+2 g05 0.1107 0 0.1107 2.598 44.2 'The user has provided a prompt in Chines'
+2 g06 0.0916 0 0.0916 5.717 45.3 '「蒸餾的星期三」 (Wednesday of Distillation) 這個標'
+2 g07 0.0955 0 0.0955 3.559 41.0 'The user is asking "What did I eat for d'
+2 g08 0.0812 0 0.0812 5.883 44.0 'The user is asking for instructions on h'
+2 g09 0.0979 0 0.0979 5.869 44.2 "Here's a thinking process to arrive at t"
+2 g10 0.0804 0 0.0804 5.7 45.4 'The user is asking for the exact closing'
+{"model": "out/m0/mlx-qat-q4g64", "tag": "lever_g64_off", "think": "off", "stride": 1, "kv_bits": null, "max_tokens": 256, "think_budget": null, "load_s": 2.75, "runs": {"1": {"prefill_tps": {"median": 256.9, "p90": 323.4}, "ttft_s": {"median": 0.1066, "p90": 0.123}, "think_s": {"median": 0.0, "p90": 0.0}, "think_tokens": {"median": 0, "p90": 0}, "ttfa_s": {"median": 0.1066, "p90": 0.123}, "answer_s": {"median": 5.172, "p90": 5.41}, "answer_tokens": {"median": 256, "p90": 256}, "decode_tps": {"median": 48.8, "p90": 50.7}, "total_s": {"median": 5.276, "p90": 5.5}, "n_hit_max": 32, "n_forced_close": 0, "cold_first_prompt": {"ttft_s": 0.1523, "ttfa_s": 0.1523, "total_s": 5.121, "prompt_tokens": 20}}, "2": {"prefill_tps": {"median": 236.1, "p90": 302.1}, "ttft_s": {"median": 0.1126, "p90": 0.1331}, "think_s": {"median": 0.0, "p90": 0.0}, "think_tokens": {"median": 0, "p90": 0}, "ttfa_s": {"median": 0.1126, "p90": 0.1331}, "answer_s": {"median": 5.226, "p90": 5.555}, "answer_tokens": {"median": 256, "p90": 256}, "decode_tps": {"median": 48.5, "p90": 49.9}, "total_s": {"median": 5.342, "p90": 5.675}, "n_hit_max": 32, "n_forced_close": 0}}, "peak_mem_gb": 2.77}
++ '[' -f docs/Plan/m6/raw/lat_lever_budget128_on_summary.json ']'
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_latency.py out/m5/mlx-qat-g32exact lever_budget128_on --think on --runs 1 --stride 2 --max-tokens 1024 --think-budget 128
+1 k01 0.1792 130 2.7091 3.542 48.2 '台灣最高的山是**玉山**。\n\n它的海拔高度約為3,952公尺（13,070英尺'
+1 k03 0.1042 130 3.2959 4.404 40.0 '水的化學式是 **$\\text{H}_2\\text{O}$**。\n\n它由 **2'
+1 k05 0.1014 130 3.452 3.81 38.8 '《紅樓夢》的作者是**曹雪芹**。'
+1 k07 0.0934 130 3.35 6.438 39.7 '光在真空中的速度是**每秒約 299,792,458 公里**。\n\n为了方便理解'
+1 k09 0.0855 130 3.2993 3.645 40.2 '太陽系中最大的行星是**木星**（Jupiter）。'
+1 k11 0.1045 130 3.2809 4.494 41.7 'DNA 的雙股螺旋結構是由 **James Watson** 和 **Franc'
+1 k13 0.0969 130 3.2264 3.466 42.1 '一公里等於 **1000 公尺**。'
+1 k15 0.0917 130 3.3438 4.063 41.0 '台灣最長的河流是**宜蘭溪**（或稱宜蘭河）。\n\n它流經宜蘭縣，是台灣最長的一條'
+1 i02 0.1033 0 0.1033 0.148 45.2 '96'
+1 i04 0.0893 130 3.1051 3.231 43.3 'I am very happy today.'
+1 i06 0.1022 130 3.2984 8.271 43.2 '以下是台灣夜市中一些非常經典的小吃：\n\n- **臭豆腐 (Stinky Tofu'
+1 i08 0.1128 130 3.0183 3.058 44.8 '63'
+1 i10 0.0963 130 2.9003 2.94 46.4 'Hello!'
+1 i12 0.1093 125 2.664 2.685 48.9 '是'
+1 i14 0.1159 130 3.0047 5.95 46.3 '這裡提供幾個不同風格的標題供您參考：\n\n**簡潔有力型 (4-6字)**\n1. '
+1 s01 0.0958 130 2.988 16.743 45.2 '台灣的教育制度是一個**「從基礎到高等教育，結構完整且高度標準化」**的體系。它'
+1 s03 0.1319 130 2.9618 23.131 44.5 '電腦（Computer）和手機（Mobile Phone）雖然都是個人資訊處理和'
+1 s05 0.1408 130 2.9939 22.095 43.7 '運動對健康的重要性是多方面的，它不僅能讓身體在短期內感覺良好，更能從生理、心理和'
+1 s07 0.0952 130 3.3767 24.043 42.7 '網路購物（E-commerce）在現代社會已經成為一種主流的消費方式。它為消費者'
+1 s09 0.1119 130 3.0202 22.951 43.9 '台灣的夜市文化是台灣最具代表性的生活方式之一，它不僅僅是一個「吃東西的地方」，更'
+1 g01 0.1443 130 3.1208 3.937 44.0 'It looks like you might be typing random'
+1 g03 0.1171 130 3.1765 13.387 44.3 '這句話本身並不是一個標準的成語、俗語或固定的表達，它更像是一種**詩意、比喻性的'
+1 g05 0.1444 130 3.0331 3.318 45.1 '請您提供問題。我會盡力為您回答。'
+1 g07 0.0862 130 2.8768 4.016 46.1 '很抱歉，我無法知道您昨天晚餐吃了什麼。我是一個大型語言模型，無法存取您的個人生活'
+1 g09 0.1071 130 3.3742 18.836 42.4 '這是一個非常**超現實、充滿想像力且無邏輯**的組合詞。它不是一個標準的詞彙或一'
+{"model": "out/m5/mlx-qat-g32exact", "tag": "lever_budget128_on", "think": "on", "stride": 2, "kv_bits": null, "max_tokens": 1024, "think_budget": 128, "load_s": 2.47, "runs": {"1": {"prefill_tps": {"median": 272.6, "p90": 354.1}, "ttft_s": {"median": 0.1042, "p90": 0.1408}, "think_s": {"median": 2.819, "p90": 3.11}, "think_tokens": {"median": 130, "p90": 130}, "ttfa_s": {"median": 3.1208, "p90": 3.3742}, "answer_s": {"median": 1.139, "p90": 19.931}, "answer_tokens": {"median": 51, "p90": 873}, "decode_tps": {"median": 43.9, "p90": 46.3}, "total_s": {"median": 4.404, "p90": 22.951}, "n_hit_max": 2, "n_forced_close": 23, "cold_first_prompt": {"ttft_s": 0.1792, "ttfa_s": 2.7091, "total_s": 3.542, "prompt_tokens": 23}}}, "peak_mem_gb": 3.22}
++ '[' -f docs/Plan/m6/raw/lat_lever_budget256_on_summary.json ']'
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_latency.py out/m5/mlx-qat-g32exact lever_budget256_on --think on --runs 1 --stride 2 --max-tokens 1024 --think-budget 256
+1 k01 0.1795 220 4.8628 5.699 46.4 '台灣最高的山是**玉山**。\n\n它位於花蓮縣，海拔約為3,952公尺（13,07'
+1 k03 0.0869 209 4.847 5.846 44.3 '水的化學式是 **$\\text{H}_2\\text{O}$**。\n\n這個化學式表'
+1 k05 0.0929 197 4.205 4.505 47.8 '《紅樓夢》的作者是**曹雪芹**。'
+1 k07 0.1395 258 5.855 9.335 45.0 '光在真空中的速度是**每秒約 299,792,458 公里**。\n\n這個數值是光'
+1 k09 0.1112 177 3.7883 4.074 47.9 '太陽系中最大的行星是**木星**（Jupiter）。'
+1 k11 0.1563 213 4.6655 5.995 46.9 'DNA 的雙股螺旋結構是由 **詹姆斯·華頓 (James Watson)** '
+1 k13 0.1376 190 4.1221 4.502 47.7 '一公里等於 **一千公尺** (1,000 公尺)。'
+1 k15 0.1388 258 5.8272 8.026 45.5 '台灣最長的河流通常被認為是**宜蘭溪**（Yehliu River）。\n\n宜蘭溪'
+1 i02 0.1516 0 0.1516 0.188 54.8 '96'
+1 i04 0.0823 176 3.7731 3.879 47.7 'I am happy today.'
+1 i06 0.165 258 5.899 11.45 44.1 '以下是台灣夜市常見的五種小吃：\n\n- **臭豆腐 (Stinky Tofu):*'
+1 i08 0.1006 132 3.2345 3.278 42.2 '63'
+1 i10 0.1138 222 5.1319 5.177 44.2 'Hello.'
+1 i12 0.1211 125 2.9244 2.947 44.6 '是'
+1 i14 0.1298 258 6.4601 9.797 41.4 '這裡提供幾個不同風格的標題供您參考：\n\n**簡潔有力型 (4-6字)**\n\n1.'
+1 s01 0.0906 258 5.9957 24.118 41.6 '台灣的教育制度是一個高度結構化、以學術成就為導向的體系。它旨在培養學生的基礎知識'
+1 s03 0.1061 258 6.3083 24.177 42.5 '電腦（Computer）和手機（Mobile Phone）雖然都是個人資訊處理和'
+1 s05 0.1854 258 5.8037 24.163 42.7 '運動對健康的重要性是**多方面且極為深遠的**。它不僅能讓身體在生理層面上變得更'
+1 s07 0.1107 258 6.244 24.37 42.2 '網路購物（E-commerce）在現代社會已經成為一種主流的消費方式。它帶來了許'
+1 s09 0.1386 258 6.0852 24.735 41.6 '台灣的夜市文化是台灣最具活力、最接地氣的文化之一，它不僅是一個飲食場所，更是一個'
+1 g01 0.1041 258 6.8004 7.681 39.1 "It looks like you've typed some random c"
+1 g03 0.1073 258 6.4649 13.227 41.4 '這句話「綠色的想法憤怒地睡覺」並**沒有一個標準的、固定的中文解釋或定義**。\n'
+1 g05 0.0903 258 6.0914 6.444 43.1 '請您提供您想問的問題。我會盡力為您回答！'
+1 g07 0.0836 258 5.8022 6.815 45.3 '很抱歉，我無法知道您昨天晚餐吃了什麼。\n\n我是一個大型語言模型，無法存取您的個人'
+1 g09 0.1056 258 6.2578 18.759 42.1 '這是一個非常**奇特、充滿想像力且完全沒有邏輯連貫性**的組合詞。\n\n它不是一個'
+{"model": "out/m5/mlx-qat-g32exact", "tag": "lever_budget256_on", "think": "on", "stride": 2, "kv_bits": null, "max_tokens": 1024, "think_budget": 256, "load_s": 2.5, "runs": {"1": {"prefill_tps": {"median": 253.2, "p90": 316.8}, "ttft_s": {"median": 0.1112, "p90": 0.1563}, "think_s": {"median": 5.375, "p90": 6.084}, "think_tokens": {"median": 258, "p90": 258}, "ttfa_s": {"median": 5.8272, "p90": 6.4601}, "answer_s": {"median": 1.33, "p90": 18.126}, "answer_tokens": {"median": 61, "p90": 766}, "decode_tps": {"median": 44.2, "p90": 47.8}, "total_s": {"median": 7.681, "p90": 24.177}, "n_hit_max": 4, "n_forced_close": 14, "cold_first_prompt": {"ttft_s": 0.1795, "ttfa_s": 4.8628, "total_s": 5.699, "prompt_tokens": 23}}}, "peak_mem_gb": 3.32}
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_grade.py lever_budget128_on lever_budget256_on lever_kv4_off
+{"tag": "lever_budget128_on", "n": 25, "knowledge_pass": "6/8", "instruction_pass": "6/7", "garbage_pass": "3/5", "trad_chars": 1764, "simp_chars": 19, "trad_ratio": 0.9893, "answers_mostly_simplified": 1, "answers_with_any_simplified": 4, "mean_rep4": 0.0378, "n_rep4_gt_0_3": 0, "mean_chars": 404.2, "n_hit_max": 2}
+{"tag": "lever_budget256_on", "n": 25, "knowledge_pass": "6/8", "instruction_pass": "6/7", "garbage_pass": "3/5", "trad_chars": 1745, "simp_chars": 4, "trad_ratio": 0.9977, "answers_mostly_simplified": 0, "answers_with_any_simplified": 3, "mean_rep4": 0.0376, "n_rep4_gt_0_3": 0, "mean_chars": 358.6, "n_hit_max": 4}
+{"tag": "lever_kv4_off", "n": 50, "knowledge_pass": "12/15", "instruction_pass": "4/15", "garbage_pass": "5/10", "trad_chars": 884, "simp_chars": 16, "trad_ratio": 0.9822, "answers_mostly_simplified": 1, "answers_with_any_simplified": 3, "mean_rep4": 0.1479, "n_rep4_gt_0_3": 1, "mean_chars": 604.4, "n_hit_max": 25}
++ '[' -f docs/Plan/m6/raw/lever_prompt_cache_qat.json ']'
++ .venv-m0/bin/python docs/Plan/m6/tools/m6_lever_prompt_cache.py out/m5/mlx-qat-g32exact qat
+{"model": "out/m5/mlx-qat-g32exact", "tag": "qat", "prompt_tokens_median": 397.5, "shared_prefix_tokens": 383, "prefix_build_s": 0.331, "can_trim": true, "ttft_full_prefill_median_s": 0.191, "ttft_full_prefill_max_s": 1.5409, "ttft_cached_prefix_median_s": 0.0796, "ttft_cached_prefix_max_s": 0.4759}
++ echo M6_POST_DONE
+M6_POST_DONE

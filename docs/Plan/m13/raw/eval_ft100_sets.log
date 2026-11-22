@@ -1,0 +1,121 @@
+z01 complete 2.588 True 中華民國的國父是**孫中山**。
+z02 complete 4.573 False 中華民國沒有明確的「國父」概念。  中華民國的建國過程是多方參與的，通常將其建國的領導者視為中華民國的奠基人。
+z03 complete 1.229 True 台灣最高的山是**玉山**。
+z04 complete 2.11 False 臺灣最長的河流是**淡水河**（或稱淡水河系統）。
+z05 complete 1.459 False 日月潭位於臺灣的**花蓮縣**。
+z06 complete 1.659 True 台北101位於臺北市**信義區**。
+z07 complete 1.853 True 臺灣使用的法定貨幣是**新臺幣**（NTD）。
+z08 complete 1.874 True 中華民國國慶日是**10月10日**。
+z09 complete 0.786 False 臺南站。
+z10 complete 1.792 False 澎湖群島位於台灣本島的**東邊**。
+z11 complete 1.745 True 《紅樓夢》的作者是**曹雪芹**。
+z12 complete 1.29 True 這句詩出自**李白**。
+z13 complete 1.856 True 《論語》主要記錄**孔子**的思想和言行。
+z14 complete 2.181 True 中國古代四大發明中，用來辨別方向的是**指南針**。
+z15 complete 1.752 True 端午節最具代表性的傳統食物是**粽子**。
+z16 complete 1.766 True 中秋節最具代表性的傳統食物是**月餅**。
+z17 complete 0.544 True 東京。
+z18 complete 0.551 True 巴黎。
+z19 complete 1.256 True 澳洲的首都是**堪培拉**。
+z20 complete 0.726 True 渥太華。
+z21 complete 0.555 True 太平洋。
+z22 complete 1.262 True 珠穆朗瑪峰（Mount Everest）。
+z23 complete 1.141 True 大約 365 天。
+z24 complete 2.027 True 水的化學式是 $\text{H}_2\text{O}$。
+z25 complete 2.438 True 植物進行光合作用時主要吸收**二氧化碳**（$\text{CO}_2$）。
+z26 complete 0.454 True 皮膚
+z27 complete 3.22 True 美國宇航局（NASA）的**阿波羅11號**任務上的**阿姆斯特朗（Neil Armstrong）**。
+z28 complete 8.224 False 相對論是由**艾薩克·牛頓 (Isaac Newton)** 和 **史蒂芬·海森堡 (Stephen Hawking)** 共同提出的。 
+z29 complete 0.749 True 1000
+z30 complete 0.518 True 24
+z31 complete 0.647 True 391
+z32 complete 0.533 True 12
+z33 complete 0.555 True 63
+z34 complete 0.561 True 63
+z35 complete 0.513 True 12
+z36 complete 0.563 True 藍色
+z37 complete 0.465 True Apple
+z38 complete 0.564 True Thank you
+z39 complete 0.421 True 七
+z40 complete 0.652 True 180
+z41 complete 0.619 True 星期六
+z42 complete 0.682 True 20
+z43 complete 0.643 True 40
+z44 complete 0.86 False 紅、黃、藍
+z45 complete 0.761 True 1024
+z46 complete 1.846 True 《三國演義》的作者是**羅貫中**。
+z47 complete 1.453 False 這句詩出自**王之素**。
+z48 complete 1.559 False 中華民國的最高行政機關是**總統**。
+z49 complete 0.734 False 2000
+z50 complete 1.263 True 台灣位於**太平洋**的西側。
+z51 complete 0.465 True 七
+z52 complete 0.725 True 100
+z53 complete 0.545 True 早安
+z54 complete 0.895 True 一舉兩得
+z55 complete 0.631 True 鯨魚
+z56 complete 1.159 True 光年是**距離單位**。
+z57 complete 0.424 False 1
+z58 complete 0.432 False 1
+z59 complete 0.696 True 水星。
+z60 complete 2.264 True 光合作用是植物利用太陽光、水和二氧化碳，製造食物的過程。
+e01 complete 0.432 True Paris
+e02 complete 0.432 True Tokyo
+e03 complete 0.535 True Canberra
+e04 complete 0.422 True Ottawa
+e05 complete 1.005 True The capital of Germany is Berlin.
+e06 complete 1.361 True The largest ocean on Earth is the Pacific Ocean.
+e07 complete 0.654 True Mount Everest.
+e08 complete 1.111 True William Shakespeare wrote "Romeo and Juliet."
+e09 complete 1.129 True Albert Einstein developed the theory of relativity.
+e10 complete 1.543 True Neil Armstrong was the first person to walk on the Moon.
+e11 complete 0.446 True Au
+e12 complete 1.456 True $\text{H}_2\text{O}$
+e13 complete 2.223 True Plants absorb **carbon dioxide** ($\text{CO}_2$) from the air for phot
+e14 complete 0.463 True Mars
+e15 complete 0.487 True Jupiter
+e16 complete 0.462 True 7
+e17 complete 0.448 True 0
+e18 complete 0.681 True 100
+e19 complete 1.158 True Leonardo da Vinci painted the Mona Lisa.
+e20 complete 0.495 True Egypt
+e21 complete 1.327 True The largest mammal on Earth is the blue whale.
+e22 complete 1.032 True Diamond is the hardest natural substance.
+e23 complete 0.599 True Taipei
+e24 complete 0.933 True Jade Mountain (Yushan).
+e25 complete 0.825 True Japanese Yen (¥).
+e26 complete 1.972 True Sun Yat-sen is known as the founding father of the Republic of China.
+e27 complete 0.446 True 6
+e28 complete 0.656 True 391
+e29 complete 0.595 True 12
+e30 complete 0.566 True 63
+e31 complete 0.651 True 366
+e32 complete 0.567 True 60
+e33 complete 0.561 True Thank you
+e34 complete 0.465 True Cold
+e35 complete 0.464 True Portuguese
+e36 complete 1.227 True The heart pumps blood through the human body.
+e37 complete 1.651 True J.K. Rowling wrote the "Harry Potter" books.
+e38 complete 1.329 True The longest river in the world is the Nile.
+e39 complete 1.678 True Approximately 299,792 kilometers per second.
+e40 complete 0.462 True Hydrogen
+e41 complete 0.542 True Saturday
+e42 complete 0.7 True 20
+e43 complete 0.676 True 40
+e44 complete 0.835 True Red, Green, Blue
+e45 complete 0.78 True 1024
+e46 complete 1.116 True Jane Austen wrote "Pride and Prejudice."
+e47 complete 1.556 True George Orwell wrote the novel "Nineteen Eighty-Four."
+e48 complete 0.452 True 2
+e49 complete 0.676 True 206
+e50 complete 0.463 True Mercury
+e51 complete 0.461 True Seoul
+e52 complete 1.99 True India has the largest population in the world as of 2024.
+e53 complete 0.669 True Good morning
+e54 complete 0.568 True Mice
+e55 complete 0.486 True Distance
+e56 complete 0.61 True 11
+e57 complete 0.646 True 886
+e58 complete 0.742 True 212
+e59 complete 0.76 True Yellow and ripe.
+e60 complete 2.016 True Photosynthesis is how plants use sunlight, water, and carbon dioxide t
+EVAL_DONE ft100 sets

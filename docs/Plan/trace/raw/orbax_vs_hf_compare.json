@@ -1,0 +1,4397 @@
+{
+ "it/L0/q_proj": {
+  "cands": {
+   "q.transpose(0,2,1).reshape(N*H,D)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999656677246094,
+    "norm_ratio": 1.0
+   },
+   "q.reshape(N*D,H)": {
+    "shape_mismatch": [
+     [
+      12288,
+      256
+     ],
+     [
+      2048,
+      1536
+     ]
+    ]
+   },
+   "q.reshape(N,D,H)->(D,N*H).T?": {
+    "shape_mismatch": [
+     [
+      1536,
+      2048
+     ],
+     [
+      2048,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "q.transpose(0,2,1).reshape(N*H,D)"
+  ]
+ },
+ "it/L0/k_proj": {
+  "cands": {
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000048875808716,
+    "norm_ratio": 1.0
+   },
+   "kv[0,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      256
+     ],
+     [
+      256,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)"
+  ]
+ },
+ "it/L0/v_proj": {
+  "cands": {
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000054836273193,
+    "norm_ratio": 1.0
+   },
+   "kv[1,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      256
+     ],
+     [
+      256,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)"
+  ]
+ },
+ "it/L0/o_proj": {
+  "cands": {
+   "o.reshape(N*H,D).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.999965488910675,
+    "norm_ratio": 1.0
+   },
+   "o.transpose(1,0,2).reshape.T": {
+    "exact": false,
+    "max_abs": 0.5634765625,
+    "rel_l2": 1.4134392738342285,
+    "cos": 0.0010828771628439426,
+    "norm_ratio": 1.0000007152557373
+   }
+  },
+  "exact": [
+   "o.reshape(N*H,D).T"
+  ]
+ },
+ "it/L0/gate_proj": {
+  "cands": {
+   "g[0] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999246597290039,
+    "norm_ratio": 1.0
+   },
+   "g[1]": {
+    "exact": false,
+    "max_abs": 0.8515625,
+    "rel_l2": 1.3935526609420776,
+    "cos": 0.0014475302305072546,
+    "norm_ratio": 0.9720600843429565
+   }
+  },
+  "exact": [
+   "g[0] (no T)"
+  ]
+ },
+ "it/L0/up_proj": {
+  "cands": {
+   "g[1] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999244213104248,
+    "norm_ratio": 1.0
+   },
+   "g[0]": {
+    "exact": false,
+    "max_abs": 0.8515625,
+    "rel_l2": 1.433607578277588,
+    "cos": 0.0014475302305072546,
+    "norm_ratio": 1.028743028640747
+   }
+  },
+  "exact": [
+   "g[1] (no T)"
+  ]
+ },
+ "it/L0/down_proj": {
+  "cands": {
+   "linear.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999333620071411,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "linear.T"
+  ]
+ },
+ "it/L0/per_layer_input_gate": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000004529953003,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "it/L0/per_layer_projection": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000003695487976,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "it/L0/input_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.0915314331650734,
+    "cos": 0.9992231726646423,
+    "norm_ratio": 1.0818358659744263
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.25,
+    "rel_l2": 0.07862357795238495,
+    "cos": 0.9994324445724487,
+    "norm_ratio": 0.9283910989761353
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L0/post_attention_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999998807907104,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.05651356652379036,
+    "cos": 0.9985768795013428,
+    "norm_ratio": 1.0172719955444336
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.05446195229887962,
+    "cos": 0.9986779689788818,
+    "norm_ratio": 0.9806804060935974
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L0/pre_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.04950698837637901,
+    "cos": 0.9997811317443848,
+    "norm_ratio": 1.04464852809906
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.125,
+    "rel_l2": 0.04543500393629074,
+    "cos": 0.9998158812522888,
+    "norm_ratio": 0.9586338996887207
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L0/post_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.06757404655218124,
+    "cos": 0.9987686276435852,
+    "norm_ratio": 1.044647455215454
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.125,
+    "rel_l2": 0.06190596893429756,
+    "cos": 0.998966634273529,
+    "norm_ratio": 0.956936776638031
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L0/post_per_layer_input_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000000238418579,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.2967326045036316,
+    "cos": 0.9880781173706055,
+    "norm_ratio": 1.2417473793029785
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.19740229845046997,
+    "cos": 0.9947397112846375,
+    "norm_ratio": 0.8259953260421753
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L0/self_attn.q_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 0.999755859375,
+    "rel_l2": 65.0,
+    "cos": -1.0,
+    "norm_ratio": 64.0
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0,
+    "rel_l2": 0.5039370059967041,
+    "cos": 1.0,
+    "norm_ratio": 0.4960629940032959
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L0/self_attn.k_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.001953125,
+    "rel_l2": 1.1450892686843872,
+    "cos": -1.0,
+    "norm_ratio": 0.1450892835855484
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 0.998046875,
+    "rel_l2": 0.8871527910232544,
+    "cos": 1.0,
+    "norm_ratio": 0.1128472238779068
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L0/layer_scalar": {
+  "cands": {
+   "skip_scale": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "skip_scale"
+  ]
+ },
+ "it/L4/q_proj": {
+  "cands": {
+   "q.transpose(0,2,1).reshape(N*H,D)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999542832374573,
+    "norm_ratio": 1.0
+   },
+   "q.reshape(N*D,H)": {
+    "shape_mismatch": [
+     [
+      12288,
+      512
+     ],
+     [
+      4096,
+      1536
+     ]
+    ]
+   },
+   "q.reshape(N,D,H)->(D,N*H).T?": {
+    "shape_mismatch": [
+     [
+      1536,
+      4096
+     ],
+     [
+      4096,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "q.transpose(0,2,1).reshape(N*H,D)"
+  ]
+ },
+ "it/L4/k_proj": {
+  "cands": {
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999989867210388,
+    "norm_ratio": 1.0
+   },
+   "kv[0,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      512
+     ],
+     [
+      512,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)"
+  ]
+ },
+ "it/L4/v_proj": {
+  "cands": {
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999974370002747,
+    "norm_ratio": 1.0
+   },
+   "kv[1,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      512
+     ],
+     [
+      512,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)"
+  ]
+ },
+ "it/L4/o_proj": {
+  "cands": {
+   "o.reshape(N*H,D).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999426603317261,
+    "norm_ratio": 1.0
+   },
+   "o.transpose(1,0,2).reshape.T": {
+    "exact": false,
+    "max_abs": 0.875,
+    "rel_l2": 1.4124058485031128,
+    "cos": 0.002524300944060087,
+    "norm_ratio": 1.0000004768371582
+   }
+  },
+  "exact": [
+   "o.reshape(N*H,D).T"
+  ]
+ },
+ "it/L4/gate_proj": {
+  "cands": {
+   "g[0] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999280571937561,
+    "norm_ratio": 1.0
+   },
+   "g[1]": {
+    "exact": false,
+    "max_abs": 0.705078125,
+    "rel_l2": 1.3922992944717407,
+    "cos": -0.0031086739618331194,
+    "norm_ratio": 0.9657084345817566
+   }
+  },
+  "exact": [
+   "g[0] (no T)"
+  ]
+ },
+ "it/L4/up_proj": {
+  "cands": {
+   "g[1] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999215006828308,
+    "norm_ratio": 1.0
+   },
+   "g[0]": {
+    "exact": false,
+    "max_abs": 0.705078125,
+    "rel_l2": 1.4417387247085571,
+    "cos": -0.0031086739618331194,
+    "norm_ratio": 1.0355092287063599
+   }
+  },
+  "exact": [
+   "g[1] (no T)"
+  ]
+ },
+ "it/L4/down_proj": {
+  "cands": {
+   "linear.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999322891235352,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "linear.T"
+  ]
+ },
+ "it/L4/per_layer_input_gate": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000001311302185,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "it/L4/per_layer_projection": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000003695487976,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "it/L4/input_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.125,
+    "rel_l2": 0.025138618424534798,
+    "cos": 0.9997515678405762,
+    "norm_ratio": 1.0113941431045532
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.25,
+    "rel_l2": 0.02457515150308609,
+    "cos": 0.9997628927230835,
+    "norm_ratio": 0.988372266292572
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L4/post_attention_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0078125,
+    "rel_l2": 0.91757732629776,
+    "cos": 0.8063706755638123,
+    "norm_ratio": 1.507927656173706
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0078125,
+    "rel_l2": 0.40118536353111267,
+    "cos": 0.9659903049468994,
+    "norm_ratio": 0.6592541933059692
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L4/pre_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 2.0,
+    "rel_l2": 0.008277323096990585,
+    "cos": 0.9999748468399048,
+    "norm_ratio": 1.004252552986145
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 2.0,
+    "rel_l2": 0.008129493333399296,
+    "cos": 0.9999744296073914,
+    "norm_ratio": 0.9960846900939941
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L4/post_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0078125,
+    "rel_l2": 0.9166926145553589,
+    "cos": 0.8367276787757874,
+    "norm_ratio": 1.5718731880187988
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0078125,
+    "rel_l2": 0.3866078555583954,
+    "cos": 0.9729628562927246,
+    "norm_ratio": 0.6629267334938049
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L4/post_per_layer_input_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000000238418579,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.001953125,
+    "rel_l2": 1.3715417385101318,
+    "cos": 0.06841892749071121,
+    "norm_ratio": 1.00959312915802
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0078125,
+    "rel_l2": 0.6257066130638123,
+    "cos": 0.8907555341720581,
+    "norm_ratio": 0.4606924057006836
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L4/self_attn.q_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999999403953552,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 0.999755859375,
+    "rel_l2": 28.636363983154297,
+    "cos": -1.0,
+    "norm_ratio": 27.636363983154297
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.00390625,
+    "rel_l2": 0.5099206566810608,
+    "cos": 1.0,
+    "norm_ratio": 0.490079402923584
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L4/self_attn.k_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 0.99853515625,
+    "rel_l2": 1.0695605278015137,
+    "cos": -1.0,
+    "norm_ratio": 0.06956066936254501
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 0.99755859375,
+    "rel_l2": 0.93887859582901,
+    "cos": 1.0,
+    "norm_ratio": 0.06112132593989372
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L4/layer_scalar": {
+  "cands": {
+   "skip_scale": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "skip_scale"
+  ]
+ },
+ "it/L14/q_proj": {
+  "cands": {
+   "q.transpose(0,2,1).reshape(N*H,D)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999561905860901,
+    "norm_ratio": 1.0
+   },
+   "q.reshape(N*D,H)": {
+    "shape_mismatch": [
+     [
+      12288,
+      512
+     ],
+     [
+      4096,
+      1536
+     ]
+    ]
+   },
+   "q.reshape(N,D,H)->(D,N*H).T?": {
+    "shape_mismatch": [
+     [
+      1536,
+      4096
+     ],
+     [
+      4096,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "q.transpose(0,2,1).reshape(N*H,D)"
+  ]
+ },
+ "it/L14/k_proj": {
+  "cands": {
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000001311302185,
+    "norm_ratio": 1.0
+   },
+   "kv[0,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      512
+     ],
+     [
+      512,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)"
+  ]
+ },
+ "it/L14/v_proj": {
+  "cands": {
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999974966049194,
+    "norm_ratio": 1.0
+   },
+   "kv[1,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      512
+     ],
+     [
+      512,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)"
+  ]
+ },
+ "it/L14/o_proj": {
+  "cands": {
+   "o.reshape(N*H,D).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999405145645142,
+    "norm_ratio": 1.0
+   },
+   "o.transpose(1,0,2).reshape.T": {
+    "exact": false,
+    "max_abs": 0.787109375,
+    "rel_l2": 1.4131783246994019,
+    "cos": 0.001429390162229538,
+    "norm_ratio": 0.9999995231628418
+   }
+  },
+  "exact": [
+   "o.reshape(N*H,D).T"
+  ]
+ },
+ "it/L14/gate_proj": {
+  "cands": {
+   "g[0] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999384880065918,
+    "norm_ratio": 1.0
+   },
+   "g[1]": {
+    "exact": false,
+    "max_abs": 0.62109375,
+    "rel_l2": 1.3829395771026611,
+    "cos": -0.00013868248788639903,
+    "norm_ratio": 0.9551658630371094
+   }
+  },
+  "exact": [
+   "g[0] (no T)"
+  ]
+ },
+ "it/L14/up_proj": {
+  "cands": {
+   "g[1] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999296069145203,
+    "norm_ratio": 1.0
+   },
+   "g[0]": {
+    "exact": false,
+    "max_abs": 0.62109375,
+    "rel_l2": 1.4478527307510376,
+    "cos": -0.00013868248788639903,
+    "norm_ratio": 1.0469385385513306
+   }
+  },
+  "exact": [
+   "g[1] (no T)"
+  ]
+ },
+ "it/L14/down_proj": {
+  "cands": {
+   "linear.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.999923825263977,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "linear.T"
+  ]
+ },
+ "it/L14/per_layer_input_gate": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000002145767212,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "it/L14/per_layer_projection": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000039339065552,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "it/L14/input_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000004768371582,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.06449566781520844,
+    "cos": 0.9985933303833008,
+    "norm_ratio": 1.035300612449646
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.25,
+    "rel_l2": 0.06009238585829735,
+    "cos": 0.9987804293632507,
+    "norm_ratio": 0.9645379781723022
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L14/post_attention_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.03125,
+    "rel_l2": 0.0645250678062439,
+    "cos": 0.9996312260627747,
+    "norm_ratio": 1.0581626892089844
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.05776546895503998,
+    "cos": 0.9997042417526245,
+    "norm_ratio": 0.9473075866699219
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L14/pre_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.3122992515563965,
+    "cos": 0.9560428261756897,
+    "norm_ratio": 1.0635074377059937
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.03125,
+    "rel_l2": 0.25874048471450806,
+    "cos": 0.9700458645820618,
+    "norm_ratio": 0.8809658885002136
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L14/post_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.125,
+    "rel_l2": 0.022346919402480125,
+    "cos": 0.9999688863754272,
+    "norm_ratio": 1.0208731889724731
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.125,
+    "rel_l2": 0.02144593372941017,
+    "cos": 0.999971330165863,
+    "norm_ratio": 0.9799076318740845
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L14/post_per_layer_input_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.07274562120437622,
+    "cos": 0.9987064003944397,
+    "norm_ratio": 1.0507268905639648
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.0658477246761322,
+    "cos": 0.9989410042762756,
+    "norm_ratio": 0.9518357515335083
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L14/self_attn.q_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0006103515625,
+    "rel_l2": 43.8342170715332,
+    "cos": 0.9999999403953552,
+    "norm_ratio": 44.834224700927734
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 0.9921875,
+    "rel_l2": 0.4922480583190918,
+    "cos": 1.0,
+    "norm_ratio": 0.5077519416809082
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L14/self_attn.k_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999999403953552,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 0.99853515625,
+    "rel_l2": 1.0651040077209473,
+    "cos": -0.9999999403953552,
+    "norm_ratio": 0.0651041716337204
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.00146484375,
+    "rel_l2": 0.9425550699234009,
+    "cos": 1.0,
+    "norm_ratio": 0.05744485557079315
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L14/layer_scalar": {
+  "cands": {
+   "skip_scale": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "skip_scale"
+  ]
+ },
+ "it/L15/q_proj": {
+  "cands": {
+   "q.transpose(0,2,1).reshape(N*H,D)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999692440032959,
+    "norm_ratio": 1.0
+   },
+   "q.reshape(N*D,H)": {
+    "shape_mismatch": [
+     [
+      12288,
+      256
+     ],
+     [
+      2048,
+      1536
+     ]
+    ]
+   },
+   "q.reshape(N,D,H)->(D,N*H).T?": {
+    "shape_mismatch": [
+     [
+      1536,
+      2048
+     ],
+     [
+      2048,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "q.transpose(0,2,1).reshape(N*H,D)"
+  ]
+ },
+ "it/L15/k_proj": {
+  "cands": {
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000040531158447,
+    "norm_ratio": 1.0
+   },
+   "kv[0,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      256
+     ],
+     [
+      256,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)"
+  ]
+ },
+ "it/L15/v_proj": {
+  "cands": {
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000046491622925,
+    "norm_ratio": 1.0
+   },
+   "kv[1,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      256
+     ],
+     [
+      256,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)"
+  ]
+ },
+ "it/L15/o_proj": {
+  "cands": {
+   "o.reshape(N*H,D).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999685287475586,
+    "norm_ratio": 1.0
+   },
+   "o.transpose(1,0,2).reshape.T": {
+    "exact": false,
+    "max_abs": 0.7548828125,
+    "rel_l2": 1.4129375219345093,
+    "cos": 0.0017974014626815915,
+    "norm_ratio": 1.000001311302185
+   }
+  },
+  "exact": [
+   "o.reshape(N*H,D).T"
+  ]
+ },
+ "it/L15/gate_proj": {
+  "cands": {
+   "g[0] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999111890792847,
+    "norm_ratio": 1.0
+   },
+   "g[1]": {
+    "exact": false,
+    "max_abs": 0.69921875,
+    "rel_l2": 1.410858392715454,
+    "cos": -0.00012665051326621324,
+    "norm_ratio": 0.9952465295791626
+   }
+  },
+  "exact": [
+   "g[0] (no T)"
+  ]
+ },
+ "it/L15/up_proj": {
+  "cands": {
+   "g[1] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9998924136161804,
+    "norm_ratio": 1.0
+   },
+   "g[0]": {
+    "exact": false,
+    "max_abs": 0.69921875,
+    "rel_l2": 1.4175969362258911,
+    "cos": -0.00012665051326621324,
+    "norm_ratio": 1.004776120185852
+   }
+  },
+  "exact": [
+   "g[1] (no T)"
+  ]
+ },
+ "it/L15/down_proj": {
+  "cands": {
+   "linear.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999239444732666,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "linear.T"
+  ]
+ },
+ "it/L15/per_layer_input_gate": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000020265579224,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "it/L15/per_layer_projection": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000039339065552,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "it/L15/input_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000000238418579,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.03125,
+    "rel_l2": 0.05618112161755562,
+    "cos": 0.9987191557884216,
+    "norm_ratio": 1.0231338739395142
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.25,
+    "rel_l2": 0.053578976541757584,
+    "cos": 0.9988364577293396,
+    "norm_ratio": 0.9755013585090637
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L15/post_attention_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.001953125,
+    "rel_l2": 4.636289119720459,
+    "cos": -0.19788017868995667,
+    "norm_ratio": 4.333603382110596
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.00390625,
+    "rel_l2": 0.5195906758308411,
+    "cos": 0.9939275979995728,
+    "norm_ratio": 0.4861219525337219
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L15/pre_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000003576278687,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.943979799747467,
+    "cos": 0.7110326886177063,
+    "norm_ratio": 1.3408461809158325
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.45115625858306885,
+    "cos": 0.9418433308601379,
+    "norm_ratio": 0.6408272981643677
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L15/post_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.2239098995923996,
+    "cos": 0.9975300431251526,
+    "norm_ratio": 1.210137128829956
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.15716961026191711,
+    "cos": 0.9987843036651611,
+    "norm_ratio": 0.8495452404022217
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L15/post_per_layer_input_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999997615814209,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0078125,
+    "rel_l2": 0.7574530839920044,
+    "cos": 0.7715858817100525,
+    "norm_ratio": 1.1827796697616577
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.4407426416873932,
+    "cos": 0.9290759563446045,
+    "norm_ratio": 0.6894166469573975
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L15/self_attn.q_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.00054931640625,
+    "rel_l2": 119.65693664550781,
+    "cos": -1.0,
+    "norm_ratio": 118.65693664550781
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0,
+    "rel_l2": 0.501960813999176,
+    "cos": 1.0,
+    "norm_ratio": 0.49803921580314636
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L15/self_attn.k_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0009765625,
+    "rel_l2": 1.1439732313156128,
+    "cos": -1.0,
+    "norm_ratio": 0.1439732164144516
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 0.9990234375,
+    "rel_l2": 0.8880208134651184,
+    "cos": 1.0,
+    "norm_ratio": 0.1119791641831398
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L15/layer_scalar": {
+  "cands": {
+   "skip_scale": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "skip_scale"
+  ]
+ },
+ "it/L19/q_proj": {
+  "cands": {
+   "q.transpose(0,2,1).reshape(N*H,D)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999576210975647,
+    "norm_ratio": 1.0
+   },
+   "q.reshape(N*D,H)": {
+    "shape_mismatch": [
+     [
+      12288,
+      512
+     ],
+     [
+      4096,
+      1536
+     ]
+    ]
+   },
+   "q.reshape(N,D,H)->(D,N*H).T?": {
+    "shape_mismatch": [
+     [
+      1536,
+      4096
+     ],
+     [
+      4096,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "q.transpose(0,2,1).reshape(N*H,D)"
+  ]
+ },
+ "it/L19/k_proj": {
+  "cands": {
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000046491622925,
+    "norm_ratio": 1.0
+   },
+   "kv[0,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      512
+     ],
+     [
+      512,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)"
+  ]
+ },
+ "it/L19/v_proj": {
+  "cands": {
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000044107437134,
+    "norm_ratio": 1.0
+   },
+   "kv[1,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      512
+     ],
+     [
+      512,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)"
+  ]
+ },
+ "it/L19/o_proj": {
+  "cands": {
+   "o.reshape(N*H,D).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.999942421913147,
+    "norm_ratio": 1.0
+   },
+   "o.transpose(1,0,2).reshape.T": {
+    "exact": false,
+    "max_abs": 0.490234375,
+    "rel_l2": 1.412786841392517,
+    "cos": 0.0019868304952979088,
+    "norm_ratio": 1.0000007152557373
+   }
+  },
+  "exact": [
+   "o.reshape(N*H,D).T"
+  ]
+ },
+ "it/L19/gate_proj": {
+  "cands": {
+   "g[0] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999123215675354,
+    "norm_ratio": 1.0
+   },
+   "g[1]": {
+    "exact": false,
+    "max_abs": 1.50390625,
+    "rel_l2": 1.41303551197052,
+    "cos": 0.0032528850715607405,
+    "norm_ratio": 1.0017153024673462
+   }
+  },
+  "exact": [
+   "g[0] (no T)"
+  ]
+ },
+ "it/L19/up_proj": {
+  "cands": {
+   "g[1] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9998956322669983,
+    "norm_ratio": 1.0
+   },
+   "g[0]": {
+    "exact": false,
+    "max_abs": 1.50390625,
+    "rel_l2": 1.4106158018112183,
+    "cos": 0.0032528850715607405,
+    "norm_ratio": 0.9982876181602478
+   }
+  },
+  "exact": [
+   "g[1] (no T)"
+  ]
+ },
+ "it/L19/down_proj": {
+  "cands": {
+   "linear.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999167919158936,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "linear.T"
+  ]
+ },
+ "it/L19/per_layer_input_gate": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999982714653015,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "it/L19/per_layer_projection": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000041723251343,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "it/L19/input_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000003576278687,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 2.0,
+    "rel_l2": 0.05525486171245575,
+    "cos": 0.9988789558410645,
+    "norm_ratio": 1.027371883392334
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.05224049463868141,
+    "cos": 0.9989737272262573,
+    "norm_ratio": 0.9729549884796143
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L19/post_attention_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.00390625,
+    "rel_l2": 3.398014545440674,
+    "cos": 0.3132511377334595,
+    "norm_ratio": 3.575861930847168
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0078125,
+    "rel_l2": 0.49331820011138916,
+    "cos": 0.9906189441680908,
+    "norm_ratio": 0.5166056156158447
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L19/pre_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 1.288949966430664,
+    "cos": 0.25260287523269653,
+    "norm_ratio": 1.1041903495788574
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.03125,
+    "rel_l2": 0.5906997919082642,
+    "cos": 0.8963527679443359,
+    "norm_ratio": 0.5060009360313416
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L19/post_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0078125,
+    "rel_l2": 0.670424222946167,
+    "cos": 0.9777393341064453,
+    "norm_ratio": 1.6144834756851196
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0078125,
+    "rel_l2": 0.29655131697654724,
+    "cos": 0.9956789016723633,
+    "norm_ratio": 0.7140419483184814
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L19/post_per_layer_input_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.00390625,
+    "rel_l2": 2.8211543560028076,
+    "cos": 0.15486228466033936,
+    "norm_ratio": 2.797377824783325
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0078125,
+    "rel_l2": 0.5096584558486938,
+    "cos": 0.9838727712631226,
+    "norm_ratio": 0.5066334009170532
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L19/self_attn.q_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0006103515625,
+    "rel_l2": 43.8342170715332,
+    "cos": 0.9999999403953552,
+    "norm_ratio": 44.834224700927734
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 0.9921875,
+    "rel_l2": 0.4922480583190918,
+    "cos": 1.0,
+    "norm_ratio": 0.5077519416809082
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L19/self_attn.k_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999999403953552,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 0.99853515625,
+    "rel_l2": 1.0651040077209473,
+    "cos": -0.9999999403953552,
+    "norm_ratio": 0.0651041716337204
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.00146484375,
+    "rel_l2": 0.9425550699234009,
+    "cos": 1.0,
+    "norm_ratio": 0.05744485557079315
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L19/layer_scalar": {
+  "cands": {
+   "skip_scale": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "skip_scale"
+  ]
+ },
+ "it/L34/q_proj": {
+  "cands": {
+   "q.transpose(0,2,1).reshape(N*H,D)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999639391899109,
+    "norm_ratio": 1.0
+   },
+   "q.reshape(N*D,H)": {
+    "shape_mismatch": [
+     [
+      12288,
+      512
+     ],
+     [
+      4096,
+      1536
+     ]
+    ]
+   },
+   "q.reshape(N,D,H)->(D,N*H).T?": {
+    "shape_mismatch": [
+     [
+      1536,
+      4096
+     ],
+     [
+      4096,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "q.transpose(0,2,1).reshape(N*H,D)"
+  ]
+ },
+ "it/L34/k_proj": {
+  "cands": {
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000004768371582,
+    "norm_ratio": 1.0
+   },
+   "kv[0,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      512
+     ],
+     [
+      512,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)"
+  ]
+ },
+ "it/L34/v_proj": {
+  "cands": {
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000046491622925,
+    "norm_ratio": 1.0
+   },
+   "kv[1,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      512
+     ],
+     [
+      512,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)"
+  ]
+ },
+ "it/L34/o_proj": {
+  "cands": {
+   "o.reshape(N*H,D).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999479055404663,
+    "norm_ratio": 1.0
+   },
+   "o.transpose(1,0,2).reshape.T": {
+    "exact": false,
+    "max_abs": 0.486328125,
+    "rel_l2": 1.4129835367202759,
+    "cos": 0.001710083452053368,
+    "norm_ratio": 0.9999997019767761
+   }
+  },
+  "exact": [
+   "o.reshape(N*H,D).T"
+  ]
+ },
+ "it/L34/gate_proj": {
+  "cands": {
+   "g[0] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999049305915833,
+    "norm_ratio": 1.0
+   },
+   "g[1]": {
+    "exact": false,
+    "max_abs": 0.859375,
+    "rel_l2": 1.388907551765442,
+    "cos": 0.0010997226927429438,
+    "norm_ratio": 0.9651061296463013
+   }
+  },
+  "exact": [
+   "g[0] (no T)"
+  ]
+ },
+ "it/L34/up_proj": {
+  "cands": {
+   "g[1] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9998896718025208,
+    "norm_ratio": 1.0
+   },
+   "g[0]": {
+    "exact": false,
+    "max_abs": 0.859375,
+    "rel_l2": 1.4391242265701294,
+    "cos": 0.0010997226927429438,
+    "norm_ratio": 1.0361554622650146
+   }
+  },
+  "exact": [
+   "g[1] (no T)"
+  ]
+ },
+ "it/L34/down_proj": {
+  "cands": {
+   "linear.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999249577522278,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "linear.T"
+  ]
+ },
+ "it/L34/per_layer_input_gate": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000007152557373,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "it/L34/per_layer_projection": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000039339065552,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "it/L34/input_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000003576278687,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.06585028022527695,
+    "cos": 0.9984003901481628,
+    "norm_ratio": 1.0321540832519531
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.125,
+    "rel_l2": 0.061676155775785446,
+    "cos": 0.9985955357551575,
+    "norm_ratio": 0.9670275449752808
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L34/post_attention_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.00390625,
+    "rel_l2": 1.7055537700653076,
+    "cos": -0.6401336193084717,
+    "norm_ratio": 0.8825896978378296
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0078125,
+    "rel_l2": 0.6754322052001953,
+    "cos": 0.952961802482605,
+    "norm_ratio": 0.349351704120636
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L34/pre_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0078125,
+    "rel_l2": 2.043313503265381,
+    "cos": -0.20553208887577057,
+    "norm_ratio": 1.5881725549697876
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.5803958177566528,
+    "cos": 0.9605873227119446,
+    "norm_ratio": 0.4510901868343353
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L34/post_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000004768371582,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.7413420081138611,
+    "cos": 0.8368715047836304,
+    "norm_ratio": 1.3368127346038818
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.03125,
+    "rel_l2": 0.3867838978767395,
+    "cos": 0.9583576917648315,
+    "norm_ratio": 0.6974917650222778
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L34/post_per_layer_input_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.001953125,
+    "rel_l2": 2.0068094730377197,
+    "cos": -0.43315672874450684,
+    "norm_ratio": 1.3598606586456299
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.00390625,
+    "rel_l2": 0.6119738817214966,
+    "cos": 0.9615477919578552,
+    "norm_ratio": 0.41465991735458374
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L34/self_attn.q_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0006103515625,
+    "rel_l2": 43.8342170715332,
+    "cos": 0.9999999403953552,
+    "norm_ratio": 44.834224700927734
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 0.9921875,
+    "rel_l2": 0.4922480583190918,
+    "cos": 1.0,
+    "norm_ratio": 0.5077519416809082
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L34/self_attn.k_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999999403953552,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 0.99853515625,
+    "rel_l2": 1.0651040077209473,
+    "cos": -0.9999999403953552,
+    "norm_ratio": 0.0651041716337204
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.00146484375,
+    "rel_l2": 0.9425550699234009,
+    "cos": 1.0,
+    "norm_ratio": 0.05744485557079315
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "it/L34/layer_scalar": {
+  "cands": {
+   "skip_scale": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "skip_scale"
+  ]
+ },
+ "pt/L0/q_proj": {
+  "cands": {
+   "q.transpose(0,2,1).reshape(N*H,D)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999781847000122,
+    "norm_ratio": 1.0
+   },
+   "q.reshape(N*D,H)": {
+    "shape_mismatch": [
+     [
+      12288,
+      256
+     ],
+     [
+      2048,
+      1536
+     ]
+    ]
+   },
+   "q.reshape(N,D,H)->(D,N*H).T?": {
+    "shape_mismatch": [
+     [
+      1536,
+      2048
+     ],
+     [
+      2048,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "q.transpose(0,2,1).reshape(N*H,D)"
+  ]
+ },
+ "pt/L0/k_proj": {
+  "cands": {
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000027418136597,
+    "norm_ratio": 1.0
+   },
+   "kv[0,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      256
+     ],
+     [
+      256,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)"
+  ]
+ },
+ "pt/L0/v_proj": {
+  "cands": {
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000029802322388,
+    "norm_ratio": 1.0
+   },
+   "kv[1,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      256
+     ],
+     [
+      256,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)"
+  ]
+ },
+ "pt/L0/o_proj": {
+  "cands": {
+   "o.reshape(N*H,D).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999717473983765,
+    "norm_ratio": 1.0
+   },
+   "o.transpose(1,0,2).reshape.T": {
+    "exact": false,
+    "max_abs": 0.3818359375,
+    "rel_l2": 1.4130905866622925,
+    "cos": 0.0015820285771042109,
+    "norm_ratio": 1.0000003576278687
+   }
+  },
+  "exact": [
+   "o.reshape(N*H,D).T"
+  ]
+ },
+ "pt/L0/gate_proj": {
+  "cands": {
+   "g[0] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999250173568726,
+    "norm_ratio": 1.0
+   },
+   "g[1]": {
+    "exact": false,
+    "max_abs": 0.5,
+    "rel_l2": 1.4128700494766235,
+    "cos": 0.0018445278983563185,
+    "norm_ratio": 0.9999983310699463
+   }
+  },
+  "exact": [
+   "g[0] (no T)"
+  ]
+ },
+ "pt/L0/up_proj": {
+  "cands": {
+   "g[1] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999246597290039,
+    "norm_ratio": 1.0
+   },
+   "g[0]": {
+    "exact": false,
+    "max_abs": 0.5,
+    "rel_l2": 1.412872314453125,
+    "cos": 0.0018445278983563185,
+    "norm_ratio": 1.0000016689300537
+   }
+  },
+  "exact": [
+   "g[1] (no T)"
+  ]
+ },
+ "pt/L0/down_proj": {
+  "cands": {
+   "linear.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999270439147949,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "linear.T"
+  ]
+ },
+ "pt/L0/per_layer_input_gate": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000039339065552,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "pt/L0/per_layer_projection": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000035762786865,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "pt/L0/input_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.09154758602380753,
+    "cos": 0.9992190003395081,
+    "norm_ratio": 1.0817999839782715
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.0785968229174614,
+    "cos": 0.9994255900382996,
+    "norm_ratio": 0.9285116791725159
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "pt/L0/post_attention_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999998807907104,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.06106875464320183,
+    "cos": 0.9983326196670532,
+    "norm_ratio": 1.0182756185531616
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.05873612314462662,
+    "cos": 0.998457670211792,
+    "norm_ratio": 0.9792754054069519
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "pt/L0/pre_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.04943835362792015,
+    "cos": 0.9997805953025818,
+    "norm_ratio": 1.044562578201294
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.03125,
+    "rel_l2": 0.04536431282758713,
+    "cos": 0.9998154044151306,
+    "norm_ratio": 0.9587236642837524
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "pt/L0/post_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.125,
+    "rel_l2": 0.06140010058879852,
+    "cos": 0.9990097880363464,
+    "norm_ratio": 1.0413217544555664
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.056611768901348114,
+    "cos": 0.9991580843925476,
+    "norm_ratio": 0.9601518511772156
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "pt/L0/post_per_layer_input_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.3120344281196594,
+    "cos": 0.9868623614311218,
+    "norm_ratio": 1.2538131475448608
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.2040567547082901,
+    "cos": 0.9943988919258118,
+    "norm_ratio": 0.819847583770752
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "pt/L0/self_attn.q_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 0.999755859375,
+    "rel_l2": 65.0,
+    "cos": -1.0,
+    "norm_ratio": 64.0
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0,
+    "rel_l2": 0.5039370059967041,
+    "cos": 1.0,
+    "norm_ratio": 0.4960629940032959
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "pt/L0/self_attn.k_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.001953125,
+    "rel_l2": 1.1450892686843872,
+    "cos": -1.0,
+    "norm_ratio": 0.1450892835855484
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 0.998046875,
+    "rel_l2": 0.8871527910232544,
+    "cos": 1.0,
+    "norm_ratio": 0.1128472238779068
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "pt/L0/layer_scalar": {
+  "cands": {
+   "skip_scale": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "skip_scale"
+  ]
+ },
+ "pt/L34/q_proj": {
+  "cands": {
+   "q.transpose(0,2,1).reshape(N*H,D)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999499917030334,
+    "norm_ratio": 1.0
+   },
+   "q.reshape(N*D,H)": {
+    "shape_mismatch": [
+     [
+      12288,
+      512
+     ],
+     [
+      4096,
+      1536
+     ]
+    ]
+   },
+   "q.reshape(N,D,H)->(D,N*H).T?": {
+    "shape_mismatch": [
+     [
+      1536,
+      4096
+     ],
+     [
+      4096,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "q.transpose(0,2,1).reshape(N*H,D)"
+  ]
+ },
+ "pt/L34/k_proj": {
+  "cands": {
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000004768371582,
+    "norm_ratio": 1.0
+   },
+   "kv[0,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      512
+     ],
+     [
+      512,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[0].reshape(K*D,H).T (=kv[0,0].T)"
+  ]
+ },
+ "pt/L34/v_proj": {
+  "cands": {
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000004529953003,
+    "norm_ratio": 1.0
+   },
+   "kv[1,0] (no T)": {
+    "shape_mismatch": [
+     [
+      1536,
+      512
+     ],
+     [
+      512,
+      1536
+     ]
+    ]
+   }
+  },
+  "exact": [
+   "kv[1].reshape(K*D,H).T (=kv[1,0].T)"
+  ]
+ },
+ "pt/L34/o_proj": {
+  "cands": {
+   "o.reshape(N*H,D).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999507069587708,
+    "norm_ratio": 1.0
+   },
+   "o.transpose(1,0,2).reshape.T": {
+    "exact": false,
+    "max_abs": 0.18701171875,
+    "rel_l2": 1.4128271341323853,
+    "cos": 0.0019320891005918384,
+    "norm_ratio": 0.9999988675117493
+   }
+  },
+  "exact": [
+   "o.reshape(N*H,D).T"
+  ]
+ },
+ "pt/L34/gate_proj": {
+  "cands": {
+   "g[0] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999236464500427,
+    "norm_ratio": 1.0
+   },
+   "g[1]": {
+    "exact": false,
+    "max_abs": 0.51953125,
+    "rel_l2": 1.4125862121582031,
+    "cos": 0.0021960835438221693,
+    "norm_ratio": 0.9999929666519165
+   }
+  },
+  "exact": [
+   "g[0] (no T)"
+  ]
+ },
+ "pt/L34/up_proj": {
+  "cands": {
+   "g[1] (no T)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999111890792847,
+    "norm_ratio": 1.0
+   },
+   "g[0]": {
+    "exact": false,
+    "max_abs": 0.51953125,
+    "rel_l2": 1.4125961065292358,
+    "cos": 0.0021960835438221693,
+    "norm_ratio": 1.0000070333480835
+   }
+  },
+  "exact": [
+   "g[1] (no T)"
+  ]
+ },
+ "pt/L34/down_proj": {
+  "cands": {
+   "linear.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999113082885742,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "linear.T"
+  ]
+ },
+ "pt/L34/per_layer_input_gate": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000001311302185,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "pt/L34/per_layer_projection": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000041723251343,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "pt/L34/input_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.06585440784692764,
+    "cos": 0.9983946681022644,
+    "norm_ratio": 1.0319843292236328
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.25,
+    "rel_l2": 0.06170830875635147,
+    "cos": 0.9985917806625366,
+    "norm_ratio": 0.9670792818069458
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "pt/L34/post_attention_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999999403953552,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.00390625,
+    "rel_l2": 1.7037428617477417,
+    "cos": -0.5533366203308105,
+    "norm_ratio": 0.9329079389572144
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.00390625,
+    "rel_l2": 0.6658805012702942,
+    "cos": 0.9456680417060852,
+    "norm_ratio": 0.36456120014190674
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "pt/L34/pre_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0078125,
+    "rel_l2": 1.9657052755355835,
+    "cos": -0.18918101489543915,
+    "norm_ratio": 1.513695478439331
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.0078125,
+    "rel_l2": 0.5845119953155518,
+    "cos": 0.9563939571380615,
+    "norm_ratio": 0.45008984208106995
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "pt/L34/post_feedforward_layernorm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000004768371582,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.03125,
+    "rel_l2": 0.6816297173500061,
+    "cos": 0.8547134399414062,
+    "norm_ratio": 1.2964752912521362
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.03125,
+    "rel_l2": 0.3756006956100464,
+    "cos": 0.9582344889640808,
+    "norm_ratio": 0.7147412300109863
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "pt/L34/post_per_layer_input_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.001953125,
+    "rel_l2": 1.9255226850509644,
+    "cos": -0.48414546251296997,
+    "norm_ratio": 1.2310912609100342
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.00390625,
+    "rel_l2": 0.6263259649276733,
+    "cos": 0.9585744738578796,
+    "norm_ratio": 0.4007668197154999
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "pt/L34/self_attn.q_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 1.0006103515625,
+    "rel_l2": 43.8342170715332,
+    "cos": 0.9999999403953552,
+    "norm_ratio": 44.834224700927734
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 0.9921875,
+    "rel_l2": 0.4922480583190918,
+    "cos": 1.0,
+    "norm_ratio": 0.5077519416809082
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "pt/L34/self_attn.k_norm": {
+  "cands": {
+   "w (HF 乘 w)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999999403953552,
+    "norm_ratio": 1.0
+   },
+   "w-1 (HF 乘 1+w)": {
+    "exact": false,
+    "max_abs": 0.99853515625,
+    "rel_l2": 1.0651040077209473,
+    "cos": -0.9999999403953552,
+    "norm_ratio": 0.0651041716337204
+   },
+   "w+1": {
+    "exact": false,
+    "max_abs": 1.00146484375,
+    "rel_l2": 0.9425550699234009,
+    "cos": 1.0,
+    "norm_ratio": 0.05744485557079315
+   }
+  },
+  "exact": [
+   "w (HF 乘 w)"
+  ]
+ },
+ "pt/L34/layer_scalar": {
+  "cands": {
+   "skip_scale": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "skip_scale"
+  ]
+ },
+ "it/embed_tokens(64 rows)": {
+  "cands": {
+   "input_embedding": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000027418136597,
+    "norm_ratio": 1.0
+   },
+   "input_embedding*sqrt(1536)": {
+    "exact": false,
+    "max_abs": 12.36328125,
+    "rel_l2": 0.9744862914085388,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 0.025515250861644745
+   }
+  },
+  "exact": [
+   "input_embedding"
+  ]
+ },
+ "it/embed_tokens_per_layer(64 rows)": {
+  "cands": {
+   "ple.reshape(V,35*256)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000029802322388,
+    "norm_ratio": 1.0
+   },
+   "ple*sqrt(256)": {
+    "exact": false,
+    "max_abs": 9.9609375,
+    "rel_l2": 0.9375019669532776,
+    "cos": 1.0000029802322388,
+    "norm_ratio": 0.0625
+   }
+  },
+  "exact": [
+   "ple.reshape(V,35*256)"
+  ]
+ },
+ "it/per_layer_model_projection": {
+  "cands": {
+   "w.reshape(1536,8960).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999088644981384,
+    "norm_ratio": 1.0
+   },
+   "w.reshape.T * 1536^-0.5": {
+    "exact": false,
+    "max_abs": 0.795654296875,
+    "rel_l2": 38.189517974853516,
+    "cos": 0.9999120831489563,
+    "norm_ratio": 39.191993713378906
+   }
+  },
+  "exact": [
+   "w.reshape(1536,8960).T"
+  ]
+ },
+ "it/per_layer_projection_norm": {
+  "cands": {
+   "w": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999999403953552,
+    "norm_ratio": 1.0
+   },
+   "w-1": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 1.4777934551239014,
+    "cos": 0.331722617149353,
+    "norm_ratio": 1.4692258834838867
+   }
+  },
+  "exact": [
+   "w"
+  ]
+ },
+ "it/norm(final)": {
+  "cands": {
+   "w": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000000238418579,
+    "norm_ratio": 1.0
+   },
+   "w-1": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.07130806893110275,
+    "cos": 0.9997344017028809,
+    "norm_ratio": 1.0672141313552856
+   }
+  },
+  "exact": [
+   "w"
+  ]
+ },
+ "it/embed_vision.embedding_projection": {
+  "cands": {
+   "mm_input_projection.w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999943971633911,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "mm_input_projection.w.T"
+  ]
+ },
+ "it/embed_audio.embedding_projection(方陣)": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999765157699585,
+    "norm_ratio": 1.0
+   },
+   "w (no T)": {
+    "exact": false,
+    "max_abs": 0.333984375,
+    "rel_l2": 1.4132474660873413,
+    "cos": 0.0013616231735795736,
+    "norm_ratio": 1.0000001192092896
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "pt/embed_tokens(64 rows)": {
+  "cands": {
+   "input_embedding": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.000002145767212,
+    "norm_ratio": 1.0
+   },
+   "input_embedding*sqrt(1536)": {
+    "exact": false,
+    "max_abs": 12.36328125,
+    "rel_l2": 0.9744858145713806,
+    "cos": 0.9999998211860657,
+    "norm_ratio": 0.02551582269370556
+   }
+  },
+  "exact": [
+   "input_embedding"
+  ]
+ },
+ "pt/embed_tokens_per_layer(64 rows)": {
+  "cands": {
+   "ple.reshape(V,35*256)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000041723251343,
+    "norm_ratio": 1.0
+   },
+   "ple*sqrt(256)": {
+    "exact": false,
+    "max_abs": 9.90234375,
+    "rel_l2": 0.9375024437904358,
+    "cos": 1.0000041723251343,
+    "norm_ratio": 0.0625
+   }
+  },
+  "exact": [
+   "ple.reshape(V,35*256)"
+  ]
+ },
+ "pt/per_layer_model_projection": {
+  "cands": {
+   "w.reshape(1536,8960).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999184608459473,
+    "norm_ratio": 1.0
+   },
+   "w.reshape.T * 1536^-0.5": {
+    "exact": false,
+    "max_abs": 0.249359130859375,
+    "rel_l2": 38.188270568847656,
+    "cos": 0.9999098181724548,
+    "norm_ratio": 39.19198989868164
+   }
+  },
+  "exact": [
+   "w.reshape(1536,8960).T"
+  ]
+ },
+ "pt/per_layer_projection_norm": {
+  "cands": {
+   "w": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 1.3320337533950806,
+    "cos": 0.27067309617996216,
+    "norm_ratio": 1.1913129091262817
+   }
+  },
+  "exact": [
+   "w"
+  ]
+ },
+ "pt/norm(final)": {
+  "cands": {
+   "w": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.07127749919891357,
+    "cos": 0.9997342228889465,
+    "norm_ratio": 1.0671792030334473
+   }
+  },
+  "exact": [
+   "w"
+  ]
+ },
+ "pt/embed_vision.embedding_projection": {
+  "cands": {
+   "mm_input_projection.w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999961853027344,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "mm_input_projection.w.T"
+  ]
+ },
+ "pt/embed_audio.embedding_projection(方陣)": {
+  "cands": {
+   "w.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999828338623047,
+    "norm_ratio": 1.0
+   },
+   "w (no T)": {
+    "exact": false,
+    "max_abs": 0.21337890625,
+    "rel_l2": 1.4131641387939453,
+    "cos": 0.0014851943124085665,
+    "norm_ratio": 0.9999998807907104
+   }
+  },
+  "exact": [
+   "w.T"
+  ]
+ },
+ "it/vision L0 q_proj(768x768)": {
+  "cands": {
+   "q.transpose(0,2,1).reshape(768,768)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999992251396179,
+    "norm_ratio": 1.0
+   },
+   "q.reshape(768,768) (錯誤候選)": {
+    "exact": false,
+    "max_abs": 0.73876953125,
+    "rel_l2": 1.4141573905944824,
+    "cos": 8.410924783675e-05,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "q.transpose(0,2,1).reshape(768,768)"
+  ]
+ },
+ "it/vision L0 k_proj": {
+  "cands": {
+   "kv[0].transpose(0,2,1).reshape": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999986290931702,
+    "norm_ratio": 1.0
+   },
+   "kv[0].reshape.T": {
+    "exact": false,
+    "max_abs": 0.513671875,
+    "rel_l2": 1.4146240949630737,
+    "cos": -0.0005765092791989446,
+    "norm_ratio": 1.0000001192092896
+   }
+  },
+  "exact": [
+   "kv[0].transpose(0,2,1).reshape"
+  ]
+ },
+ "it/vision L0 o_proj": {
+  "cands": {
+   "o.reshape(768,768).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999964833259583,
+    "norm_ratio": 1.0
+   },
+   "o.reshape(768,768)": {
+    "exact": false,
+    "max_abs": 0.4951171875,
+    "rel_l2": 1.4138234853744507,
+    "cos": 0.0005545245949178934,
+    "norm_ratio": 1.0000005960464478
+   }
+  },
+  "exact": [
+   "o.reshape(768,768).T"
+  ]
+ },
+ "it/vision L0 input_layernorm": {
+  "cands": {
+   "w": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   },
+   "w-1": {
+    "exact": false,
+    "max_abs": 1.0625,
+    "rel_l2": 0.203404039144516,
+    "cos": 0.9854726195335388,
+    "norm_ratio": 1.0974081754684448
+   }
+  },
+  "exact": [
+   "w"
+  ]
+ },
+ "it/vision L0 q_proj.input_max": {
+  "cands": {
+   "clip_input_max": {
+    "shape_mismatch": [
+     [],
+     [
+      1
+     ]
+    ]
+   }
+  },
+  "exact": []
+ },
+ "it/vision L15 q_proj(768x768)": {
+  "cands": {
+   "q.transpose(0,2,1).reshape(768,768)": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999992251396179,
+    "norm_ratio": 1.0
+   },
+   "q.reshape(768,768) (錯誤候選)": {
+    "exact": false,
+    "max_abs": 0.4410400390625,
+    "rel_l2": 1.415188193321228,
+    "cos": -0.0013746375916525722,
+    "norm_ratio": 0.9999997019767761
+   }
+  },
+  "exact": [
+   "q.transpose(0,2,1).reshape(768,768)"
+  ]
+ },
+ "it/vision L15 k_proj": {
+  "cands": {
+   "kv[0].transpose(0,2,1).reshape": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999992847442627,
+    "norm_ratio": 1.0
+   },
+   "kv[0].reshape.T": {
+    "exact": false,
+    "max_abs": 0.45703125,
+    "rel_l2": 1.4149852991104126,
+    "cos": -0.001087276847101748,
+    "norm_ratio": 0.9999998807907104
+   }
+  },
+  "exact": [
+   "kv[0].transpose(0,2,1).reshape"
+  ]
+ },
+ "it/vision L15 o_proj": {
+  "cands": {
+   "o.reshape(768,768).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999983906745911,
+    "norm_ratio": 1.0
+   },
+   "o.reshape(768,768)": {
+    "exact": false,
+    "max_abs": 0.52978515625,
+    "rel_l2": 1.4152472019195557,
+    "cos": -0.001457958365790546,
+    "norm_ratio": 1.0000003576278687
+   }
+  },
+  "exact": [
+   "o.reshape(768,768).T"
+  ]
+ },
+ "it/vision L15 input_layernorm": {
+  "cands": {
+   "w": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.2809922695159912,
+    "cos": 0.9867270588874817,
+    "norm_ratio": 1.2160447835922241
+   }
+  },
+  "exact": [
+   "w"
+  ]
+ },
+ "it/vision L15 q_proj.input_max": {
+  "cands": {
+   "clip_input_max": {
+    "shape_mismatch": [
+     [],
+     [
+      1
+     ]
+    ]
+   }
+  },
+  "exact": []
+ },
+ "it/audio L0 self_attn.q_proj.linear.weight(方陣)": {
+  "cands": {
+   "kernel.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000100135803223,
+    "norm_ratio": 1.0
+   },
+   "kernel (no T)": {
+    "exact": false,
+    "max_abs": 0.15478515625,
+    "rel_l2": 1.4031094312667847,
+    "cos": 0.01564796268939972,
+    "norm_ratio": 0.9999963045120239
+   }
+  },
+  "exact": [
+   "kernel.T"
+  ]
+ },
+ "it/audio L0 self_attn.k_proj.linear.weight(方陣)": {
+  "cands": {
+   "kernel.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000081062316895,
+    "norm_ratio": 1.0
+   },
+   "kernel (no T)": {
+    "exact": false,
+    "max_abs": 0.17236328125,
+    "rel_l2": 1.4082468748092651,
+    "cos": 0.008420673198997974,
+    "norm_ratio": 0.9999960660934448
+   }
+  },
+  "exact": [
+   "kernel.T"
+  ]
+ },
+ "it/audio L0 lconv1d.linear_end.linear.weight(方陣)": {
+  "cands": {
+   "kernel.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000061988830566,
+    "norm_ratio": 1.0
+   },
+   "kernel (no T)": {
+    "exact": false,
+    "max_abs": 0.159423828125,
+    "rel_l2": 1.4141464233398438,
+    "cos": 9.979543392546475e-05,
+    "norm_ratio": 0.9999968409538269
+   }
+  },
+  "exact": [
+   "kernel.T"
+  ]
+ },
+ "it/audio L0 self_attn.post": {
+  "cands": {
+   "post.reshape(1024,1024).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000135898590088,
+    "norm_ratio": 1.0
+   },
+   "post.reshape": {
+    "exact": false,
+    "max_abs": 0.189453125,
+    "rel_l2": 1.413947582244873,
+    "cos": 0.00037873469409532845,
+    "norm_ratio": 0.9999968409538269
+   }
+  },
+  "exact": [
+   "post.reshape(1024,1024).T"
+  ]
+ },
+ "it/audio L0 relative_k_proj": {
+  "cands": {
+   "pos_proj.reshape(1024,1024).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999954700469971,
+    "norm_ratio": 1.0
+   },
+   "reshape": {
+    "exact": false,
+    "max_abs": 0.29345703125,
+    "rel_l2": 1.3968844413757324,
+    "cos": 0.02436087653040886,
+    "norm_ratio": 0.9999995231628418
+   }
+  },
+  "exact": [
+   "pos_proj.reshape(1024,1024).T"
+  ]
+ },
+ "it/audio L0 norm_pre_attn": {
+  "cands": {
+   "w": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1": {
+    "exact": false,
+    "max_abs": 1.00390625,
+    "rel_l2": 0.3753734529018402,
+    "cos": 0.9809048771858215,
+    "norm_ratio": 1.3019646406173706
+   }
+  },
+  "exact": [
+   "w"
+  ]
+ },
+ "it/audio L0 per_dim_scale": {
+  "cands": {
+   "w": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w"
+  ]
+ },
+ "it/audio L11 self_attn.q_proj.linear.weight(方陣)": {
+  "cands": {
+   "kernel.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000147819519043,
+    "norm_ratio": 1.0
+   },
+   "kernel (no T)": {
+    "exact": false,
+    "max_abs": 0.175537109375,
+    "rel_l2": 1.4102224111557007,
+    "cos": 0.005639183800667524,
+    "norm_ratio": 0.9999955296516418
+   }
+  },
+  "exact": [
+   "kernel.T"
+  ]
+ },
+ "it/audio L11 self_attn.k_proj.linear.weight(方陣)": {
+  "cands": {
+   "kernel.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000163316726685,
+    "norm_ratio": 1.0
+   },
+   "kernel (no T)": {
+    "exact": false,
+    "max_abs": 0.1220703125,
+    "rel_l2": 1.408136248588562,
+    "cos": 0.008579293265938759,
+    "norm_ratio": 0.9999945759773254
+   }
+  },
+  "exact": [
+   "kernel.T"
+  ]
+ },
+ "it/audio L11 lconv1d.linear_end.linear.weight(方陣)": {
+  "cands": {
+   "kernel.T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000083446502686,
+    "norm_ratio": 1.0
+   },
+   "kernel (no T)": {
+    "exact": false,
+    "max_abs": 0.19873046875,
+    "rel_l2": 1.4149987697601318,
+    "cos": -0.0011050974717363715,
+    "norm_ratio": 0.9999974966049194
+   }
+  },
+  "exact": [
+   "kernel.T"
+  ]
+ },
+ "it/audio L11 self_attn.post": {
+  "cands": {
+   "post.reshape(1024,1024).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000033378601074,
+    "norm_ratio": 1.0
+   },
+   "post.reshape": {
+    "exact": false,
+    "max_abs": 0.18603515625,
+    "rel_l2": 1.4110603332519531,
+    "cos": 0.004451771732419729,
+    "norm_ratio": 0.9999967813491821
+   }
+  },
+  "exact": [
+   "post.reshape(1024,1024).T"
+  ]
+ },
+ "it/audio L11 relative_k_proj": {
+  "cands": {
+   "pos_proj.reshape(1024,1024).T": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "reshape": {
+    "exact": false,
+    "max_abs": 0.262939453125,
+    "rel_l2": 1.4135980606079102,
+    "cos": 0.000880204897839576,
+    "norm_ratio": 1.0000017881393433
+   }
+  },
+  "exact": [
+   "pos_proj.reshape(1024,1024).T"
+  ]
+ },
+ "it/audio L11 norm_pre_attn": {
+  "cands": {
+   "w": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 1.0000001192092896,
+    "norm_ratio": 1.0
+   },
+   "w-1": {
+    "exact": false,
+    "max_abs": 1.015625,
+    "rel_l2": 0.20818406343460083,
+    "cos": 0.9891272187232971,
+    "norm_ratio": 1.136480450630188
+   }
+  },
+  "exact": [
+   "w"
+  ]
+ },
+ "it/audio L11 per_dim_scale": {
+  "cands": {
+   "w": {
+    "exact": true,
+    "max_abs": 0.0,
+    "rel_l2": 0.0,
+    "cos": 0.9999998807907104,
+    "norm_ratio": 1.0
+   }
+  },
+  "exact": [
+   "w"
+  ]
+ },
+ "qat/per_layer_model_projection": {
+  "cands": {
+   "w.T": {
+    "exact": false,
+    "max_abs": 0.81011962890625,
+    "rel_l2": 0.9816520810127258,
+    "cos": 0.9807592630386353,
+    "norm_ratio": 0.01864030212163925
+   },
+   "w.T*1536^-0.5": {
+    "exact": false,
+    "max_abs": 0.01446533203125,
+    "rel_l2": 0.31711965799331665,
+    "cos": 0.9807649254798889,
+    "norm_ratio": 0.7305505871772766
+   }
+  },
+  "exact": []
+ },
+ "it(HF)/per_layer_model_projection vs qat": {
+  "cands": {
+   "HF it": {
+    "exact": false,
+    "max_abs": 0.81011962890625,
+    "rel_l2": 0.9816520810127258,
+    "cos": 0.9807592630386353,
+    "norm_ratio": 0.01864030212163925
+   }
+  },
+  "exact": []
+ },
+ "qat/L0/q_proj": {
+  "cands": {
+   "q.transpose(0,2,1).reshape": {
+    "exact": false,
+    "max_abs": 0.2392578125,
+    "rel_l2": 0.31492412090301514,
+    "cos": 0.994524359703064,
+    "norm_ratio": 0.6973600387573242
+   }
+  },
+  "exact": []
+ },
+ "qat/L0/input_layernorm": {
+  "cands": {
+   "w": {
+    "exact": false,
+    "max_abs": 0.5,
+    "rel_l2": 0.0052514527924358845,
+    "cos": 0.9999862313270569,
+    "norm_ratio": 1.000246524810791
+   }
+  },
+  "exact": []
+ },
+ "qat/norm(final)": {
+  "cands": {
+   "w": {
+    "exact": false,
+    "max_abs": 1.0,
+    "rel_l2": 0.007920931093394756,
+    "cos": 0.9999706149101257,
+    "norm_ratio": 1.0018439292907715
+   }
+  },
+  "exact": []
+ },
+ "qat/embed_tokens(64 rows)": {
+  "cands": {
+   "input_embedding": {
+    "exact": false,
+    "max_abs": 0.0732421875,
+    "rel_l2": 0.21786284446716309,
+    "cos": 0.9896346926689148,
+    "norm_ratio": 0.8258150815963745
+   }
+  },
+  "exact": []
+ },
+ "q4_grid": {
+  "it/embed_tokens.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 31.576,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 31.475,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   }
+  },
+  "it/embed_tokens_per_layer.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 31.578,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 31.516,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   }
+  },
+  "it/per_layer_model_projection.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 31.579,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 31.573,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   }
+  },
+  "it/layers.0.per_layer_projection.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 31.573,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 31.576,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   }
+  },
+  "it/layers.0.mlp.up_proj.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 31.567,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 31.572,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   }
+  },
+  "it/layers.34.self_attn.q_proj.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 31.572,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 31.566,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   }
+  },
+  "it/layers.4.self_attn.o_proj.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 31.56,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 31.559,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   }
+  },
+  "it/model.vision_tower.encoder.layers.0.self_attn.q_proj.linear.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 25.214,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 31.321,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   }
+  },
+  "it/model.audio_tower.layers.0.self_attn.q_proj.linear.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 3.846,
+    "uniq_max": 4,
+    "frac_le16": 1.0,
+    "frac_on_grid": 1.0
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 19.322,
+    "uniq_max": 30,
+    "frac_le16": 0.2466,
+    "frac_on_grid": 0.0
+   }
+  },
+  "it/model.embed_audio.embedding_projection.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 31.569,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 31.581,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   }
+  },
+  "qat/embed_tokens.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 12.504,
+    "uniq_max": 16,
+    "frac_le16": 1.0,
+    "frac_on_grid": 0.4043
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 28.554,
+    "uniq_max": 32,
+    "frac_le16": 0.0005,
+    "frac_on_grid": 0.0
+   }
+  },
+  "qat/embed_tokens_per_layer.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 12.55,
+    "uniq_max": 16,
+    "frac_le16": 1.0,
+    "frac_on_grid": 0.4006
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 28.69,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   }
+  },
+  "qat/per_layer_model_projection.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 12.412,
+    "uniq_max": 16,
+    "frac_le16": 1.0,
+    "frac_on_grid": 0.3843
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 28.528,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   }
+  },
+  "qat/layers.0.per_layer_projection.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 12.248,
+    "uniq_max": 16,
+    "frac_le16": 1.0,
+    "frac_on_grid": 0.4094
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 28.172,
+    "uniq_max": 32,
+    "frac_le16": 0.0002,
+    "frac_on_grid": 0.0
+   }
+  },
+  "qat/layers.0.mlp.up_proj.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 12.453,
+    "uniq_max": 16,
+    "frac_le16": 1.0,
+    "frac_on_grid": 0.4102
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 28.564,
+    "uniq_max": 32,
+    "frac_le16": 0.0002,
+    "frac_on_grid": 0.0
+   }
+  },
+  "qat/layers.34.self_attn.q_proj.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 12.569,
+    "uniq_max": 16,
+    "frac_le16": 1.0,
+    "frac_on_grid": 0.4182
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 28.692,
+    "uniq_max": 32,
+    "frac_le16": 0.0002,
+    "frac_on_grid": 0.0
+   }
+  },
+  "qat/layers.4.self_attn.o_proj.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 12.628,
+    "uniq_max": 16,
+    "frac_le16": 1.0,
+    "frac_on_grid": 0.3997
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 28.848,
+    "uniq_max": 32,
+    "frac_le16": 0.001,
+    "frac_on_grid": 0.0
+   }
+  },
+  "qat/model.vision_tower.encoder.layers.0.self_attn.q_proj.linear.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 25.214,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 31.321,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   }
+  },
+  "qat/model.audio_tower.layers.0.self_attn.q_proj.linear.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 3.846,
+    "uniq_max": 4,
+    "frac_le16": 1.0,
+    "frac_on_grid": 1.0
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 19.322,
+    "uniq_max": 30,
+    "frac_le16": 0.2466,
+    "frac_on_grid": 0.0
+   }
+  },
+  "qat/model.embed_audio.embedding_projection.weight": {
+   "last": {
+    "blocks": 4096,
+    "uniq_mean": 31.569,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   },
+   "first": {
+    "blocks": 4096,
+    "uniq_mean": 31.581,
+    "uniq_max": 32,
+    "frac_le16": 0.0,
+    "frac_on_grid": 0.0
+   }
+  }
+ }
+}

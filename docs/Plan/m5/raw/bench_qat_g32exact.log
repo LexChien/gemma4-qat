@@ -1,0 +1,9 @@
+{"name": "m5-qat-g32exact", "path": "out/m5/mlx-qat-g32exact", "framework": "mlx", "mlx": "0.32.4", "load_lazy_s": 2.412224874999083, "load_s": 2.413063042000431, "mem_after_load_GB": 2.894805694, "n_params_bytes_GB": 2.893249094, "gen_tokens": 128, "gen_tps": 112.64255767099748, "prompt_tokens": 36, "prompt_tps": 836.8598063194142, "gen_peak_mem_GB": 2.986332913, "ppl_wikitext": 47.17202004626189, "ppl_wikitext_tokens": 40960, "ppl_zh_tw": 40.27182956693121, "ppl_zh_tw_tokens": 20480, "ppl_time_s": 396.94245191699883, "ppl_peak_mem_GB": 5.991794519, "max_rss_GB": 4.115709952}
+<|channel>thought
+Here's a thinking process that leads to the suggested response:
+
+1.  **Analyze the Request:**
+    *   **Topic:** Taiwan (台灣).
+    *   **Scope:** Geography (地理), History (歷史), and Culture (文化).
+    *   **Format Requirement:** Detailed introduction, at least five paragraphs (至少寫五段).
+

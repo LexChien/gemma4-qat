@@ -1,0 +1,121 @@
+z01 complete 5.664 False 蔣介石
+z02 complete 5.25 False 請提供您希望我分析的參考資料或追問。
+z03 complete 3.658 True 玉山
+z04 complete 3.698 False 長江
+z05 complete 3.689 False 嘉義
+z06 complete 3.854 True 信義區
+z07 complete 3.84 True 新台幣
+z08 complete 4.254 True 10月10日
+z09 complete 4.965 False 台鐵最南端車站是台鐵站。
+z10 complete 3.777 False 東邊
+z11 complete 3.896 True 曹雪芹
+z12 complete 3.762 False 詩人
+z13 complete 3.736 True 孔子
+z14 complete 3.829 True 指南針
+z15 complete 3.712 True 粽子
+z16 complete 3.752 True 月餅
+z17 complete 3.57 True 東京
+z18 complete 3.519 True 巴黎
+z19 complete 3.814 True 堪培拉
+z20 complete 3.88 True 渥太華
+z21 complete 3.6 True 太平洋
+z22 complete 4.097 False 珠穆朗玛峰
+z23 complete 4.174 True 約365天
+z24 complete 3.823 True H2O
+z25 complete 3.767 True 二氧化碳
+z26 complete 3.514 False 腦
+z27 complete 4.13 False 無法提供此資訊。
+z28 complete 3.83 True 愛因斯坦
+z29 complete 4.293 False 1000000
+z30 complete 3.638 False 30
+z31 complete 2.104 True 391
+z32 complete 3.668 False 24
+z33 complete 1.994 True 63
+z34 complete 1.932 True 63
+z35 complete 3.629 False 未提供
+z36 complete 3.568 True 藍
+z37 complete 3.552 True Apple
+z38 complete 3.685 True Thank you
+z39 complete 3.715 False 30
+z40 complete 3.915 True 180
+z41 complete 3.718 True 星期六
+z42 complete 3.842 True 20
+z43 complete 3.782 True 40
+z44 complete 3.816 False 紅藍黃
+z45 complete 3.945 True 1024
+z46 complete 4.238 False 作者：列夫專著
+z47 complete 3.702 False 詩人
+z48 complete 3.731 True 行政院
+z49 complete 3.724 False 20
+z50 complete 3.558 True 太平洋
+z51 complete 3.598 True 7
+z52 complete 3.868 True 100
+z53 complete 3.713 True 早安
+z54 complete 4.106 True 一舉兩得
+z55 complete 3.796 True 鯨魚
+z56 complete 4.251 True 光年是距離單位。
+z57 complete 3.667 False 30
+z58 complete 3.691 False 02
+z59 complete 3.716 True 水星
+z60 complete 6.943 False 光合作用是植物利用光能將二氧化碳和水轉化為有機物並釋放氧氣的過程。
+e01 complete 3.337 True Paris
+e02 complete 3.3 True Tokyo
+e03 complete 3.42 True Canberra
+e04 complete 3.301 True Ottawa
+e05 complete 3.282 True Berlin
+e06 complete 3.515 True Pacific Ocean
+e07 complete 3.473 True Mount Everest
+e08 complete 4.267 True William Shakespeare wrote "Romeo and Juliet".
+e09 complete 4.214 True Albert Einstein developed the theory of relativity.
+e10 complete 3.524 True Neil Armstrong
+e11 complete 3.349 True Au
+e12 complete 3.599 True H2O
+e13 complete 3.466 True Carbon dioxide
+e14 complete 3.375 True Mars
+e15 complete 3.363 True Jupiter
+e16 complete 3.327 True 7
+e17 complete 3.338 True 0
+e18 complete 3.598 True 100
+e19 complete 4.227 True Leonardo da Vinci painted the Mona Lisa.
+e20 complete 3.367 True Egypt
+e21 complete 3.421 True Blue whale
+e22 complete 3.263 True Diamond
+e23 complete 3.499 True Taipei
+e24 complete 3.444 True Jade Mountain
+e25 complete 3.435 True Japanese Yen
+e26 complete 3.766 True Sun Yat-sen
+e27 complete 3.291 True 6
+e28 complete 3.565 True 391
+e29 complete 3.484 True 12
+e30 complete 3.441 True 63
+e31 complete 3.571 True 366
+e32 complete 3.482 True 60
+e33 complete 3.504 True Thank you
+e34 complete 3.329 True Cold
+e35 complete 3.329 True Portuguese
+e36 complete 4.377 True The heart pumps blood through the human body.
+e37 complete 4.907 True J.K. Rowling wrote the "Harry Potter" books.
+e38 complete 3.433 True Nile
+e39 complete 4.103 True 299792
+e40 complete 3.303 True Hydrogen
+e41 complete 3.436 True Saturday
+e42 complete 3.694 True 20
+e43 complete 3.624 True 40
+e44 complete 3.83 True Red, Green, Blue
+e45 complete 4.585 False 1000000000
+e46 complete 4.22 True Jane Austen wrote "Pride and Prejudice."
+e47 complete 4.76 True George Orwell wrote the novel "Nineteen Eighty-Four".
+e48 complete 3.287 True 2
+e49 complete 3.574 True 206
+e50 complete 3.312 True Mercury
+e51 complete 3.325 True Seoul
+e52 complete 3.341 True India
+e53 complete 3.428 True Good morning
+e54 complete 3.433 True Mice
+e55 complete 3.325 True Distance
+e56 complete 3.628 True 11
+e57 complete 3.703 True 886
+e58 complete 3.656 True 212
+e59 complete 3.309 False Yellow
+e60 complete 5.46 True Photosynthesis is the process where plants convert light energy into c
+EVAL_DONE orig envsets

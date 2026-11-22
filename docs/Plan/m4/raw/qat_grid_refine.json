@@ -1,0 +1,83 @@
+{
+ "layers.0.self_attn.q_proj.weight": {
+  "blocks": 8192,
+  "exact_bf16_recon": 1.0,
+  "levels_in_[-8,7]": 1.0,
+  "hits_-8": 0.62158203125,
+  "hits_+7": 0.783447265625,
+  "neither_(not_minimal_scale)": 0.0,
+  "d/absmax_median": 0.12513411045074463
+ },
+ "layers.0.mlp.gate_proj.weight": {
+  "blocks": 8192,
+  "exact_bf16_recon": 1.0,
+  "levels_in_[-8,7]": 1.0,
+  "hits_-8": 0.6033935546875,
+  "hits_+7": 0.7584228515625,
+  "neither_(not_minimal_scale)": 0.0,
+  "d/absmax_median": 0.12513789534568787
+ },
+ "layers.0.mlp.down_proj.weight": {
+  "blocks": 8192,
+  "exact_bf16_recon": 1.0,
+  "levels_in_[-8,7]": 1.0,
+  "hits_-8": 0.604736328125,
+  "hits_+7": 0.7711181640625,
+  "neither_(not_minimal_scale)": 0.0,
+  "d/absmax_median": 0.12513723969459534
+ },
+ "layers.4.self_attn.o_proj.weight": {
+  "blocks": 8192,
+  "exact_bf16_recon": 1.0,
+  "levels_in_[-8,7]": 1.0,
+  "hits_-8": 0.617431640625,
+  "hits_+7": 0.7899169921875,
+  "neither_(not_minimal_scale)": 0.0,
+  "d/absmax_median": 0.12513601779937744
+ },
+ "layers.17.self_attn.q_proj.weight": {
+  "blocks": 8192,
+  "exact_bf16_recon": 1.0,
+  "levels_in_[-8,7]": 1.0,
+  "hits_-8": 0.61181640625,
+  "hits_+7": 0.770751953125,
+  "neither_(not_minimal_scale)": 0.0,
+  "d/absmax_median": 0.1251366138458252
+ },
+ "layers.3.per_layer_input_gate.weight": {
+  "blocks": 8192,
+  "exact_bf16_recon": 1.0,
+  "levels_in_[-8,7]": 1.0,
+  "hits_-8": 0.6402587890625,
+  "hits_+7": 0.724609375,
+  "neither_(not_minimal_scale)": 0.0,
+  "d/absmax_median": 0.12511278688907623
+ },
+ "per_layer_model_projection.weight": {
+  "blocks": 8192,
+  "exact_bf16_recon": 1.0,
+  "levels_in_[-8,7]": 1.0,
+  "hits_-8": 0.6046142578125,
+  "hits_+7": 0.7720947265625,
+  "neither_(not_minimal_scale)": 0.0,
+  "d/absmax_median": 0.12514165043830872
+ },
+ "embed_tokens.weight": {
+  "blocks": 3072,
+  "exact_bf16_recon": 1.0,
+  "levels_in_[-8,7]": 1.0,
+  "hits_-8": 0.5696614583333334,
+  "hits_+7": 0.6962890625,
+  "neither_(not_minimal_scale)": 0.0,
+  "d/absmax_median": 0.12515008449554443
+ },
+ "embed_tokens_per_layer.weight": {
+  "blocks": 8192,
+  "exact_bf16_recon": 0.9996337890625,
+  "levels_in_[-8,7]": 1.0,
+  "hits_-8": 0.61083984375,
+  "hits_+7": 0.7774658203125,
+  "neither_(not_minimal_scale)": 0.0009765625,
+  "d/absmax_median": 0.12513819336891174
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "zh_source": "https://huggingface.co/datasets/zetavg/zh-tw-wikipedia (zh-TW Wikipedia, markdown->text)",
+ "zh_license": "CC BY-SA (Wikipedia text; dataset card: cc-by-sa-3.0)",
+ "en_source": "Salesforce/wikitext wikitext-2-raw-v1 train",
+ "en_license": "CC BY-SA 3.0",
+ "zh_docs": 651,
+ "zh_chars": 3000068,
+ "zh_eval_titles_skipped": 0,
+ "en_docs": 630,
+ "total_tokens": 4691434,
+ "zh_tokens_per_char_est": 0.7734642098823191,
+ "mlx_chunks_train": 9755,
+ "mlx_chunks_valid": 64,
+ "chunk_tokens": 512,
+ "eval_heldout": "M0 eval_tokens.json = wikitext TEST + 8 zh-TW Wikipedia articles (excluded)"
+}

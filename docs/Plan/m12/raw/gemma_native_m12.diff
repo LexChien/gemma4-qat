@@ -1,0 +1,14 @@
+68c68
+<     Require(model.Config().num_layers == 35 && model.Config().vocab_size == 262144 &&
+---
+>     Require(model.Config().num_layers == 35 && model.Config().vocab_size > 4368 && model.Config().vocab_size <= 262144 &&
+79c79
+<   return {{"engine","gemma-native"},{"version","0.2.1"},{"backend","highway-cpu"},{"driver",p.config.driver},
+---
+>   return {{"engine","gemma-native"},{"version","0.2.1+m12vocab"},{"vocab_size",p.model.Config().vocab_size},{"backend","highway-cpu"},{"driver",p.config.driver},
+124,125c124,125
+<   if(p.config.driver=="native")runtime.sample_func=[](size_t,size_t,gcpp::Logits logits,size_t) {
+<     Require(logits.size()==262144,"logits","Unexpected vocabulary");
+---
+>   if(p.config.driver=="native")runtime.sample_func=[vocab=size_t{p.model.Config().vocab_size}](size_t,size_t,gcpp::Logits logits,size_t) {
+>     Require(logits.size()==vocab,"logits","Unexpected vocabulary");

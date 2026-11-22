@@ -1,0 +1,17 @@
+{
+ "name": "m6-qat-g32exact",
+ "path": "out/m5/mlx-qat-g32exact",
+ "framework": "mlx",
+ "mlx": "0.32.4",
+ "load_lazy_s": 2.669901249999384,
+ "load_s": 2.670872041999246,
+ "mem_after_load_GB": 2.894805694,
+ "n_params_bytes_GB": 2.893249094,
+ "gen_tokens": 128,
+ "gen_tps": 47.415706613652524,
+ "prompt_tokens": 36,
+ "prompt_tps": 807.9621618502213,
+ "gen_peak_mem_GB": 2.994213629,
+ "gen_text": "<|channel>thought\nHere's a thinking process that leads to the suggested response:\n\n1.  **Analyze the Request:**\n    *   **Topic:** Taiwan (台灣).\n    *   **Scope:** Geography (地理), History (歷史), and Culture (文化).\n    *   **Format Requirement:** Detailed introduction, at least five paragraphs (至少寫五段).\n    *   **Language:** Traditional Chinese (繁體中文).\n\n2.  **Determine the Structure (The Five Paragraph Plan):** A good introduction needs a logical flow:\n    *   *Paragraph 1: Introduction & Geography (The",
+ "max_rss_GB": 4.120543232
+}

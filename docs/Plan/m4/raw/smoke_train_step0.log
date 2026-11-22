@@ -1,0 +1,4 @@
+loaded {'jax': '0.11.2', 'devices': ['cpu:0'], 'steps': 0, 'seq': 128, 'lr': 0.0003, 'method': 'Q4_0_ABSMAX', 'nseq': 8, 'batch': 1, 'load_s': 21.4, 'tree_equal_to_model_init': False, 'tree_keys_equal': False, 'tree_shapes_equal': True, 'tree_dtype_diff': [], 'tree_key_diff': ["['layer_0']['mlp']['gating_einsum']", "['layer_0']['mlp']['gating_einsum']['w']", "['layer_0']['mlp']['linear']", "['layer_0']['mlp']['linear']['w']", "['layer_1']['mlp']['gating_einsum']", "['layer_1']['mlp']['gating_einsum']['w']"], 'n_leaves': 530, 'n_params': 4647449891, 'rss_after_load_gb': 9.31}
+{'held_loss_fp_before': 6.183581352233887, 'held_loss_qat_before': 7.281591892242432, 'train_loss_qat_before_seq0': 5.422029495239258}
+{'held_loss_qat_after': 7.281591892242432, 'held_loss_fp_after': 6.183581352233887, 'train_loss_qat_after_seq0': 5.422029495239258}
+DONE

@@ -1,0 +1,65 @@
+{
+ "native_orig": {
+  "knowledge": "12/15",
+  "instruction": "14/15",
+  "garbage": "7/10",
+  "english_reply": 1,
+  "reasoning_leak": 0,
+  "thought_block": 0,
+  "trad_ratio": 0.9983,
+  "status": {
+   "complete": 36,
+   "deadline": 14
+  },
+  "ttft_median_s": 0.43,
+  "ttft_p90_s": 0.475,
+  "total_median_s": 13.938,
+  "total_mean_s": 14.705,
+  "total_p90_s": 30.002,
+  "decode_tps_median": 7.85,
+  "gen_tokens_mean": 48.5,
+  "peak_rss_gb_max": 2.09
+ },
+ "native_m9": {
+  "knowledge": "11/15",
+  "instruction": "15/15",
+  "garbage": "10/10",
+  "english_reply": 1,
+  "reasoning_leak": 0,
+  "thought_block": 0,
+  "trad_ratio": 0.9983,
+  "status": {
+   "complete": 41,
+   "deadline": 9
+  },
+  "ttft_median_s": 0.416,
+  "ttft_p90_s": 0.47,
+  "total_median_s": 3.72,
+  "total_mean_s": 9.639,
+  "total_p90_s": 30.001,
+  "decode_tps_median": 7.86,
+  "gen_tokens_mean": 32.0,
+  "peak_rss_gb_max": 2.09
+ },
+ "native_m8": {
+  "knowledge": "12/15",
+  "instruction": "15/15",
+  "garbage": "10/10",
+  "english_reply": 0,
+  "reasoning_leak": 0,
+  "thought_block": 0,
+  "trad_ratio": 1.0,
+  "status": {
+   "complete": 43,
+   "deadline": 7
+  },
+  "ttft_median_s": 0.416,
+  "ttft_p90_s": 0.464,
+  "total_median_s": 4.085,
+  "total_mean_s": 8.743,
+  "total_p90_s": 30.001,
+  "decode_tps_median": 7.8,
+  "gen_tokens_mean": 34.0,
+  "peak_rss_gb_max": 2.09
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "transformers": "5.20.1",
+ "torch": "2.14.1",
+ "models": {
+  "ref_pt": {
+   "path": "weights/gemma-4-E2B",
+   "dtype": "torch.bfloat16",
+   "class": "Gemma4ForConditionalGeneration",
+   "load_s": 3.01,
+   "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+   },
+   "n_missing": 0,
+   "n_unexpected": 0,
+   "nll_wikitext": 1.6882572174072266,
+   "nll_zh_tw": 2.3195436000823975
+  },
+  "conv_pt": {
+   "path": "out/m3/pt-bf16",
+   "dtype": "torch.bfloat16",
+   "class": "Gemma4ForConditionalGeneration",
+   "load_s": 2.66,
+   "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+   },
+   "n_missing": 0,
+   "n_unexpected": 0,
+   "nll_wikitext": 1.6882572174072266,
+   "nll_zh_tw": 2.3195436000823975
+  }
+ },
+ "vs_ref": {
+  "conv_pt": {
+   "wikitext": {
+    "bit_exact": true,
+    "max_abs": 0.0,
+    "argmax_agree": 1.0
+   },
+   "zh_tw": {
+    "bit_exact": true,
+    "max_abs": 0.0,
+    "argmax_agree": 1.0
+   }
+  }
+ }
+}

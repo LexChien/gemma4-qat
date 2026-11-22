@@ -1,0 +1,17 @@
+{
+ "name": "m6-jaxlora-g32exact",
+ "path": "out/m5/mlx-jaxlora-g32exact",
+ "framework": "mlx",
+ "mlx": "0.32.4",
+ "load_lazy_s": 2.5445759580034064,
+ "load_s": 2.5455482910001592,
+ "mem_after_load_GB": 2.894805694,
+ "n_params_bytes_GB": 2.893249094,
+ "gen_tokens": 128,
+ "gen_tps": 53.269831255353964,
+ "prompt_tokens": 36,
+ "prompt_tps": 858.1968863628011,
+ "gen_peak_mem_GB": 2.993066938,
+ "gen_text": "<|channel>thought\nHere's a thinking process that leads to the suggested response:\n\n1.  **Analyze the Request:** The user wants a detailed introduction to Taiwan (台灣), covering its geography, history, and culture. The language required is Traditional Chinese (繁體中文). The length requirement is \"at least five paragraphs\" (至少寫五段).\n\n2.  **Determine the Structure (The Five Paragraph Plan):** A good structure for a comprehensive overview would be:\n    *   **Paragraph 1: Introduction & Geography (The Setting).** Where is Taiwan located? What is its physical environment like? (Mountains",
+ "max_rss_GB": 4.11959296
+}

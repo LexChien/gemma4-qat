@@ -1,0 +1,23 @@
+{
+ "name": "m9c-000246",
+ "path": "out/m9/cand/step_000246",
+ "framework": "mlx",
+ "mlx": "0.32.4",
+ "load_lazy_s": 2.8913283339934424,
+ "load_s": 2.8924849999893922,
+ "mem_after_load_GB": 2.894805694,
+ "n_params_bytes_GB": 2.893249094,
+ "gen_tokens": 128,
+ "gen_tps": 34.20479170375922,
+ "prompt_tokens": 36,
+ "prompt_tps": 747.7910256216578,
+ "gen_peak_mem_GB": 2.975436046,
+ "gen_text": "<|channel>thought\nThinking Process:\n\n1.  **Analyze the Request:** The user wants a detailed introduction to Taiwan's geography, history, and culture, written in Traditional Chinese, with at least five paragraphs.\n\n2.  **Determine the Structure (5+ Paragraphs):**\n    *   Paragraph 1: Geography (Location, physical features).\n    *   Paragraph 2: History (Pre-colonial/Indigenous history).\n    *   Paragraph 3: History (Colonial period and Japanese rule).\n    *   Paragraph 4: Culture (Ethnic groups, language, food).\n    *   ",
+ "ppl_wikitext": 63.287610160919414,
+ "ppl_wikitext_tokens": 10240,
+ "ppl_zh_tw": 43.15414514716024,
+ "ppl_zh_tw_tokens": 10240,
+ "ppl_time_s": 205.66347712499555,
+ "ppl_peak_mem_GB": 5.991794519,
+ "max_rss_GB": 4.115021824
+}

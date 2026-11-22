@@ -1,0 +1,19 @@
+=== transformers logits 2026年10月17日 週六 14時35分44秒 CST
+ref_it {'path': 'weights/gemma-4-E2B-it', 'dtype': 'torch.bfloat16', 'class': 'Gemma4ForConditionalGeneration', 'load_s': 3.07, 'n_missing': 0, 'n_unexpected': 0, 'nll_wikitext': 4.1365275382995605, 'nll_zh_tw': 4.755950927734375}
+conv_it {'path': 'out/m3/it-bf16', 'dtype': 'torch.bfloat16', 'class': 'Gemma4ForConditionalGeneration', 'load_s': 3.06, 'n_missing': 0, 'n_unexpected': 0, 'nll_wikitext': 4.1365275382995605, 'nll_zh_tw': 4.755950927734375}
+conv_it_text {'path': 'out/m3/it-text-bf16', 'dtype': 'torch.bfloat16', 'class': 'Gemma4ForCausalLM', 'load_s': 2.34, 'n_missing': 0, 'n_unexpected': 0, 'nll_wikitext': 4.1365275382995605, 'nll_zh_tw': 4.755950927734375}
+conv_it_f32 {'path': 'out/m3/it-f32', 'dtype': 'torch.float32', 'class': 'Gemma4ForConditionalGeneration', 'load_s': 8.89, 'n_missing': 0, 'n_unexpected': 0, 'nll_wikitext': 4.122358322143555, 'nll_zh_tw': 4.736813068389893}
+vs ref_it conv_it {'wikitext': {'bit_exact': True, 'max_abs': 0.0, 'argmax_agree': 1.0}, 'zh_tw': {'bit_exact': True, 'max_abs': 0.0, 'argmax_agree': 1.0}}
+vs ref_it conv_it_text {'wikitext': {'bit_exact': True, 'max_abs': 0.0, 'argmax_agree': 1.0}, 'zh_tw': {'bit_exact': True, 'max_abs': 0.0, 'argmax_agree': 1.0}}
+vs ref_it conv_it_f32 {'wikitext': {'bit_exact': False, 'max_abs': 3.6158523559570312, 'argmax_agree': 0.9873046875}, 'zh_tw': {'bit_exact': False, 'max_abs': 1.739579200744629, 'argmax_agree': 0.970703125}}
+ref_pt {'path': 'weights/gemma-4-E2B', 'dtype': 'torch.bfloat16', 'class': 'Gemma4ForConditionalGeneration', 'load_s': 3.01, 'n_missing': 0, 'n_unexpected': 0, 'nll_wikitext': 1.6882572174072266, 'nll_zh_tw': 2.3195436000823975}
+conv_pt {'path': 'out/m3/pt-bf16', 'dtype': 'torch.bfloat16', 'class': 'Gemma4ForConditionalGeneration', 'load_s': 2.66, 'n_missing': 0, 'n_unexpected': 0, 'nll_wikitext': 1.6882572174072266, 'nll_zh_tw': 2.3195436000823975}
+vs ref_pt conv_pt {'wikitext': {'bit_exact': True, 'max_abs': 0.0, 'argmax_agree': 1.0}, 'zh_tw': {'bit_exact': True, 'max_abs': 0.0, 'argmax_agree': 1.0}}
+=== MLX PPL (same protocol as M0) 2026年10月17日 週六 14時36分42秒 CST
+    *   **Required Content:** Geography (地理), History (歷史), and Culture (文化).
+    *   **Format Requirement:** Detailed introduction (詳細介紹), at least five pa
+    *   **Required Content:** Geography (地理), History (歷史), and Culture (文化).
+    *   **Format Requirement:** Detailed introduction (詳細介紹), at least five pa
+
+請
+M3_LOAD_DONE 2026年10月17日 週六 14時50分05秒 CST

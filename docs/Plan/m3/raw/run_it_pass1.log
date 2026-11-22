@@ -1,0 +1,30 @@
+=== convert it bf16 2026年10月17日 週六 14時18分08秒 CST
+[1000/2011] model.vision_tower.encoder.layers.9.mlp.up_proj.output_max (1,) 24s
+[1200/2011] model.vision_tower.encoder.layers.14.mlp.gate_proj.output_max (1,) 24s
+[1400/2011] model.audio_tower.layers.2.feed_forward2.ffw_layer_2.linear.weight (1024, 4096) 24s
+[1600/2011] model.audio_tower.layers.5.lconv1d.linear_end.linear.weight (1024, 1024) 25s
+[1800/2011] model.audio_tower.layers.8.self_attn.k_proj.linear.weight (1024, 1024) 26s
+[2000/2011] model.audio_tower.layers.11.self_attn.post.output_min (1,) 27s
+{"orbax": "weights/orbax/checkpoints/gemma4-e2b-it", "hf_ref": "weights/gemma-4-E2B-it", "dtype": "bf16", "text_only": false, "drop_shared_kv": false, "n_tensors": 2011, "n_params": 5123178979, "orbax_leaves": 1318, "seconds": 29.0} unused: ['embedder.audio_input_embedding_extra', 'embedder.mm_input_embedding_extra']
+       31.32 real        29.37 user        13.85 sys
+         18204262400  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2758832  page reclaims
+                  42  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1233  voluntary context switches
+              183087  involuntary context switches
+        280816721980  instructions retired
+        131351347711  cycles elapsed
+         18154296000  peak memory footprint
+=== compare it 2026年10月17日 週六 14時18分40秒 CST
+{'n_converted': 2011, 'n_reference': 2011, 'missing_in_converted': 0, 'extra_in_converted': 0, 'shape_mismatch': 928, 'dtype_mismatch': 0, 'value_mismatch': 0, 'exact': 1083, 'pass': False}
+shape_mismatch [['model.audio_tower.layers.0.feed_forward1.ffw_layer_1.input_max', [1], []], ['model.audio_tower.layers.0.feed_forward1.ffw_layer_1.input_min', [1], []], ['model.audio_tower.layers.0.feed_forward1.ffw_layer_1.output_max', [1], []], ['model.audio_tower.layers.0.feed_forward1.ffw_layer_1.output_min', [1], []], ['model.audio_tower.layers.0.feed_forward1.ffw_layer_2.input_max', [1], []], ['model.audio_tower.layers.0.feed_forward1.ffw_layer_2.input_min', [1], []], ['model.audio_tower.layers.0.feed_forward1.ffw_layer_2.output_max', [1], []], ['model.audio_tower.layers.0.feed_forward1.ffw_layer_2.output_min', [1], []]]
+M3_IT_DONE 2026年10月17日 週六 14時18分51秒 CST

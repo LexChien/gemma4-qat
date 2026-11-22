@@ -1,0 +1,6 @@
+loaded {'jax': '0.11.2', 'devices': ['cpu:0'], 'steps': 2, 'seq': 32, 'lr': 0.0003, 'method': 'Q4_0_ABSMAX', 'nseq': 4, 'batch': 1, 'load_s': 18.1, 'tree_equal_to_model_init': False, 'n_leaves': 530, 'n_params': 4647449891, 'rss_after_load_gb': 9.06}
+{'held_loss_fp_before': 8.3280611038208, 'held_loss_qat_before': 9.022074699401855, 'train_loss_qat_before_seq0': 6.821173191070557}
+step 0 loss 6.8212 28.79s peak 29.08GB
+step 1 loss 6.9893 7.57s peak 29.08GB
+{'held_loss_qat_after': 7.691626071929932, 'held_loss_fp_after': 7.4164886474609375, 'train_loss_qat_after_seq0': 3.3672876358032227}
+DONE

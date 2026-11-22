@@ -1,0 +1,62 @@
+{
+ "model.language_model.layers.0.self_attn.q_proj.weight vs gemma-4-E2B-it-qat-q4_0-unquantized": {
+  "exact_frac": 0.04405403137207031,
+  "max_abs": 0.121337890625,
+  "rel_rms": 0.4182364046573639
+ },
+ "model.language_model.layers.0.self_attn.q_proj.weight vs gemma-4-E2B-it": {
+  "exact_frac": 0.00232474016956985,
+  "max_abs": 0.248046875,
+  "rel_rms": 0.4565707743167877
+ },
+ "model.language_model.layers.20.mlp.down_proj.weight vs gemma-4-E2B-it-qat-q4_0-unquantized": {
+  "exact_frac": 0.12011183798313141,
+  "max_abs": 0.084228515625,
+  "rel_rms": 0.4671613276004791
+ },
+ "model.language_model.layers.20.mlp.down_proj.weight vs gemma-4-E2B-it": {
+  "exact_frac": 0.0005626678466796875,
+  "max_abs": 0.674560546875,
+  "rel_rms": 0.6946066617965698
+ },
+ "model.language_model.layers.34.mlp.up_proj.weight vs gemma-4-E2B-it-qat-q4_0-unquantized": {
+  "exact_frac": 0.09965605288743973,
+  "max_abs": 0.2353515625,
+  "rel_rms": 0.5584254264831543
+ },
+ "model.language_model.layers.34.mlp.up_proj.weight vs gemma-4-E2B-it": {
+  "exact_frac": 0.002073870738968253,
+  "max_abs": 0.47216796875,
+  "rel_rms": 0.5635618567466736
+ },
+ "model.language_model.embed_tokens.weight vs gemma-4-E2B-it-qat-q4_0-unquantized": {
+  "exact_frac": 0.09715676307678223,
+  "max_abs": 0.61138916015625,
+  "rel_rms": 0.5567845106124878
+ },
+ "model.language_model.embed_tokens.weight vs gemma-4-E2B-it": {
+  "exact_frac": 0.002156692324206233,
+  "max_abs": 0.545654296875,
+  "rel_rms": 0.5570396184921265
+ },
+ "model.language_model.embed_tokens_per_layer.weight vs gemma-4-E2B-it-qat-q4_0-unquantized": {
+  "exact_frac": 0.052261482924222946,
+  "max_abs": 0.6865234375,
+  "rel_rms": 0.4191552400588989
+ },
+ "model.language_model.embed_tokens_per_layer.weight vs gemma-4-E2B-it": {
+  "exact_frac": 0.004885224159806967,
+  "max_abs": 0.8232421875,
+  "rel_rms": 0.41211268305778503
+ },
+ "model.language_model.layers.3.per_layer_input_gate.weight vs gemma-4-E2B-it-qat-q4_0-unquantized": {
+  "exact_frac": 0.014879862777888775,
+  "max_abs": 0.044189453125,
+  "rel_rms": 0.3809160590171814
+ },
+ "model.language_model.layers.3.per_layer_input_gate.weight vs gemma-4-E2B-it": {
+  "exact_frac": 0.0023040771484375,
+  "max_abs": 0.0517578125,
+  "rel_rms": 0.4242672622203827
+ }
+}

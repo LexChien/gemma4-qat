@@ -1,0 +1,6 @@
+layers.0.self_attn.q_proj.weight shape (2048, 1536) f32_eq 0.7276814579963684 bf16_eq 0.8974132537841797 bias=-8s True groups_without_-8 37946 / 98304 maxdiff 0.002227783203125
+layers.0.mlp.down_proj.weight shape (1536, 6144) f32_eq 0.7434303760528564 bf16_eq 0.9058597087860107 bias=-8s True groups_without_-8 117075 / 294912 maxdiff 0.002197265625
+layers.10.mlp.gate_proj.weight shape (6144, 1536) f32_eq 0.7367398738861084 bf16_eq 0.8989002704620361 bias=-8s True groups_without_-8 117077 / 294912 maxdiff 0.007568359375
+layers.0.per_layer_input_gate.weight shape (256, 1536) f32_eq 0.7584126591682434 bf16_eq 0.9019063115119934 bias=-8s True groups_without_-8 4680 / 12288 maxdiff 1.52587890625e-05
+per_layer_model_projection.weight shape (8960, 1536) f32_eq 0.7421272397041321 bf16_eq 0.9015594720840454 bias=-8s True groups_without_-8 169707 / 430080 maxdiff 2.6702880859375e-05
+embed_tokens.weight shape (262144, 1536) f32_eq 0.7348160743713379 bf16_eq 0.9047703742980957 bias=-8s True groups_without_-8 4893693 / 12582912 maxdiff 0.001953125

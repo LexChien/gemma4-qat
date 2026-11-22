@@ -1,0 +1,59 @@
+{
+ "model": "out/m5/mlx-qat-g32exact",
+ "tag": "lever_budget256_on",
+ "think": "on",
+ "stride": 2,
+ "kv_bits": null,
+ "max_tokens": 1024,
+ "think_budget": 256,
+ "load_s": 2.5,
+ "runs": {
+  "1": {
+   "prefill_tps": {
+    "median": 253.2,
+    "p90": 316.8
+   },
+   "ttft_s": {
+    "median": 0.1112,
+    "p90": 0.1563
+   },
+   "think_s": {
+    "median": 5.375,
+    "p90": 6.084
+   },
+   "think_tokens": {
+    "median": 258,
+    "p90": 258
+   },
+   "ttfa_s": {
+    "median": 5.8272,
+    "p90": 6.4601
+   },
+   "answer_s": {
+    "median": 1.33,
+    "p90": 18.126
+   },
+   "answer_tokens": {
+    "median": 61,
+    "p90": 766
+   },
+   "decode_tps": {
+    "median": 44.2,
+    "p90": 47.8
+   },
+   "total_s": {
+    "median": 7.681,
+    "p90": 24.177
+   },
+   "n_hit_max": 4,
+   "n_forced_close": 14,
+   "cold_first_prompt": {
+    "ttft_s": 0.1795,
+    "ttfa_s": 4.8628,
+    "total_s": 5.699,
+    "prompt_tokens": 23
+   }
+  }
+ },
+ "peak_mem_gb": 3.32
+}

@@ -1,0 +1,12 @@
+{"id": "z01", "correct": false, "min_margin": 0.335, "at_step": 7, "text_before": "中華民國的國父是**", "chosen": "蔣", "answer": "中華民國的國父是**蔣介石**。"}
+{"id": "z02", "correct": false, "min_margin": 0.242, "at_step": 8, "text_before": "中華民國國父被稱為**蔣", "chosen": "介", "answer": "中華民國國父被稱為**蔣介石**。"}
+{"id": "z03", "correct": true, "min_margin": 1.513, "at_step": 5, "text_before": "台灣最高的山是**", "chosen": "玉", "answer": "台灣最高的山是**玉山**。"}
+{"id": "z04", "correct": false, "min_margin": 0.353, "at_step": 6, "text_before": "台灣最長的河流是**", "chosen": "金", "answer": "台灣最長的河流是**金龍江**。"}
+{"id": "z05", "correct": true, "min_margin": 1.036, "at_step": 4, "text_before": "日月潭位於**", "chosen": "南", "answer": "日月潭位於**南投縣**。"}
+{"id": "z09", "correct": false, "min_margin": 0.288, "at_step": 10, "text_before": "台灣高鐵目前最南端的車站是**", "chosen": "高雄", "answer": "台灣高鐵目前最南端的車站是**高雄站**。"}
+{"id": "z10", "correct": false, "min_margin": 1.366, "at_step": 9, "text_before": "澎湖群島位於台灣本島的", "chosen": "**", "answer": "澎湖群島位於台灣本島的**東邊**。"}
+{"id": "z20", "correct": true, "min_margin": 0.675, "at_step": 6, "text_before": "加拿大的首都是渥太", "chosen": "華", "answer": "加拿大的首都是渥太華。"}
+{"id": "z22", "correct": false, "min_margin": 0.87, "at_step": 5, "text_before": "珠穆朗玛峰", "chosen": "。", "answer": "珠穆朗玛峰。"}
+{"id": "z23", "correct": false, "min_margin": 1.564, "at_step": 8, "text_before": "地球繞太陽一圈大約需要", "chosen": " **", "answer": "地球繞太陽一圈大約需要 **365.25 天**。"}
+{"id": "z27", "correct": true, "min_margin": 0.3, "at_step": 0, "text_before": "", "chosen": "第一", "answer": "第一位登上月球的人是 **尼爾·阿姆斯特朗 (Neil Armstrong)**。"}
+{"id": "z28", "correct": true, "min_margin": 0.15, "at_step": 4, "text_before": "相對論是由**", "chosen": "阿", "answer": "相對論是由**阿爾伯特·愛因斯坦 (Albert Einstein)** 提出的。"}

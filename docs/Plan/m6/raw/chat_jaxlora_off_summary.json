@@ -1,0 +1,518 @@
+{
+ "tag": "jaxlora_off",
+ "n": 50,
+ "knowledge_pass": "11/15",
+ "instruction_pass": "3/15",
+ "garbage_pass": "4/10",
+ "trad_chars": 1763,
+ "simp_chars": 8,
+ "trad_ratio": 0.9955,
+ "answers_mostly_simplified": 0,
+ "answers_with_any_simplified": 2,
+ "mean_rep4": 0.2093,
+ "n_rep4_gt_0_3": 10,
+ "mean_chars": 460.5,
+ "n_hit_max": 29,
+ "per_prompt": [
+  {
+   "id": "k01",
+   "cat": "knowledge",
+   "ok": false,
+   "trad": 50,
+   "simp": 0,
+   "rep4": 0.28521126760563376,
+   "chars": 312,
+   "hit_max": false
+  },
+  {
+   "id": "k02",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 54,
+   "simp": 0,
+   "rep4": 0.9446640316205533,
+   "chars": 311,
+   "hit_max": true
+  },
+  {
+   "id": "k03",
+   "cat": "knowledge",
+   "ok": false,
+   "trad": 1,
+   "simp": 0,
+   "rep4": 0.2324324324324324,
+   "chars": 218,
+   "hit_max": false
+  },
+  {
+   "id": "k04",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 61,
+   "simp": 0,
+   "rep4": 0.39811912225705326,
+   "chars": 358,
+   "hit_max": true
+  },
+  {
+   "id": "k05",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 60,
+   "simp": 0,
+   "rep4": 0.3629893238434164,
+   "chars": 309,
+   "hit_max": false
+  },
+  {
+   "id": "k06",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 4,
+   "simp": 0,
+   "rep4": 0.1422764227642277,
+   "chars": 295,
+   "hit_max": false
+  },
+  {
+   "id": "k07",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 28,
+   "simp": 0,
+   "rep4": 0.38414634146341464,
+   "chars": 181,
+   "hit_max": false
+  },
+  {
+   "id": "k08",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 76,
+   "simp": 0,
+   "rep4": 0.11976047904191611,
+   "chars": 364,
+   "hit_max": true
+  },
+  {
+   "id": "k09",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 12,
+   "simp": 0,
+   "rep4": 0.29292929292929293,
+   "chars": 349,
+   "hit_max": false
+  },
+  {
+   "id": "k10",
+   "cat": "knowledge",
+   "ok": false,
+   "trad": 43,
+   "simp": 0,
+   "rep4": 0.16216216216216217,
+   "chars": 213,
+   "hit_max": false
+  },
+  {
+   "id": "k11",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 35,
+   "simp": 0,
+   "rep4": 0.1872509960159362,
+   "chars": 306,
+   "hit_max": false
+  },
+  {
+   "id": "k12",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 44,
+   "simp": 0,
+   "rep4": 0.042483660130718914,
+   "chars": 356,
+   "hit_max": true
+  },
+  {
+   "id": "k13",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 9,
+   "simp": 0,
+   "rep4": 0.7519685039370079,
+   "chars": 303,
+   "hit_max": true
+  },
+  {
+   "id": "k14",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 43,
+   "simp": 0,
+   "rep4": 0.1456310679611651,
+   "chars": 372,
+   "hit_max": true
+  },
+  {
+   "id": "k15",
+   "cat": "knowledge",
+   "ok": false,
+   "trad": 78,
+   "simp": 0,
+   "rep4": 0.8708487084870848,
+   "chars": 310,
+   "hit_max": true
+  },
+  {
+   "id": "i01",
+   "cat": "instruction",
+   "ok": false,
+   "trad": 29,
+   "simp": 0,
+   "rep4": 0.22137404580152675,
+   "chars": 299,
+   "hit_max": false
+  },
+  {
+   "id": "i02",
+   "cat": "instruction",
+   "ok": false,
+   "trad": 1,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 38,
+   "hit_max": false
+  },
+  {
+   "id": "i03",
+   "cat": "instruction",
+   "ok": false,
+   "trad": 22,
+   "simp": 0,
+   "rep4": 0.2232142857142857,
+   "chars": 117,
+   "hit_max": false
+  },
+  {
+   "id": "i04",
+   "cat": "instruction",
+   "ok": false,
+   "trad": 18,
+   "simp": 0,
+   "rep4": 0.23024054982817865,
+   "chars": 372,
+   "hit_max": false
+  },
+  {
+   "id": "i05",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 43,
+   "hit_max": false
+  },
+  {
+   "id": "i06",
+   "cat": "instruction",
+   "ok": false,
+   "trad": 8,
+   "simp": 0,
+   "rep4": 0.33678756476683935,
+   "chars": 464,
+   "hit_max": false
+  },
+  {
+   "id": "i07",
+   "cat": "instruction",
+   "ok": false,
+   "trad": 1,
+   "simp": 0,
+   "rep4": 0.13182423435419444,
+   "chars": 945,
+   "hit_max": true
+  },
+  {
+   "id": "i08",
+   "cat": "instruction",
+   "ok": false,
+   "trad": 2,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 39,
+   "hit_max": false
+  },
+  {
+   "id": "i09",
+   "cat": "instruction",
+   "ok": false,
+   "trad": 81,
+   "simp": 0,
+   "rep4": 0.4,
+   "chars": 278,
+   "hit_max": false
+  },
+  {
+   "id": "i10",
+   "cat": "instruction",
+   "ok": false,
+   "trad": 5,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 34,
+   "hit_max": false
+  },
+  {
+   "id": "i11",
+   "cat": "instruction",
+   "ok": false,
+   "trad": 10,
+   "simp": 0,
+   "rep4": 0.1765913757700205,
+   "chars": 584,
+   "hit_max": false
+  },
+  {
+   "id": "i12",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 5,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 22,
+   "hit_max": false
+  },
+  {
+   "id": "i13",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 9,
+   "simp": 0,
+   "rep4": 0.2093023255813954,
+   "chars": 113,
+   "hit_max": false
+  },
+  {
+   "id": "i14",
+   "cat": "instruction",
+   "ok": false,
+   "trad": 63,
+   "simp": 3,
+   "rep4": 0.08108108108108103,
+   "chars": 400,
+   "hit_max": true
+  },
+  {
+   "id": "i15",
+   "cat": "instruction",
+   "ok": false,
+   "trad": 108,
+   "simp": 0,
+   "rep4": 0.051150895140664954,
+   "chars": 428,
+   "hit_max": true
+  },
+  {
+   "id": "s01",
+   "cat": "script",
+   "ok": null,
+   "trad": 62,
+   "simp": 0,
+   "rep4": 0.17402597402597397,
+   "chars": 505,
+   "hit_max": true
+  },
+  {
+   "id": "s02",
+   "cat": "script",
+   "ok": null,
+   "trad": 61,
+   "simp": 0,
+   "rep4": 0.042622950819672156,
+   "chars": 335,
+   "hit_max": true
+  },
+  {
+   "id": "s03",
+   "cat": "script",
+   "ok": null,
+   "trad": 79,
+   "simp": 0,
+   "rep4": 0.125,
+   "chars": 446,
+   "hit_max": true
+  },
+  {
+   "id": "s04",
+   "cat": "script",
+   "ok": null,
+   "trad": 9,
+   "simp": 0,
+   "rep4": 0.15244755244755248,
+   "chars": 908,
+   "hit_max": true
+  },
+  {
+   "id": "s05",
+   "cat": "script",
+   "ok": null,
+   "trad": 52,
+   "simp": 0,
+   "rep4": 0.10424710424710426,
+   "chars": 642,
+   "hit_max": true
+  },
+  {
+   "id": "s06",
+   "cat": "script",
+   "ok": null,
+   "trad": 7,
+   "simp": 0,
+   "rep4": 0.1787941787941788,
+   "chars": 1167,
+   "hit_max": true
+  },
+  {
+   "id": "s07",
+   "cat": "script",
+   "ok": null,
+   "trad": 94,
+   "simp": 0,
+   "rep4": 0.04571428571428571,
+   "chars": 388,
+   "hit_max": true
+  },
+  {
+   "id": "s08",
+   "cat": "script",
+   "ok": null,
+   "trad": 72,
+   "simp": 0,
+   "rep4": 0.0536193029490617,
+   "chars": 441,
+   "hit_max": true
+  },
+  {
+   "id": "s09",
+   "cat": "script",
+   "ok": null,
+   "trad": 71,
+   "simp": 0,
+   "rep4": 0.026960784313725505,
+   "chars": 459,
+   "hit_max": true
+  },
+  {
+   "id": "s10",
+   "cat": "script",
+   "ok": null,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.13195201744820062,
+   "chars": 1121,
+   "hit_max": true
+  },
+  {
+   "id": "g01",
+   "cat": "garbage",
+   "ok": false,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.16928657799274482,
+   "chars": 1038,
+   "hit_max": true
+  },
+  {
+   "id": "g02",
+   "cat": "garbage",
+   "ok": false,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.316414686825054,
+   "chars": 1134,
+   "hit_max": true
+  },
+  {
+   "id": "g03",
+   "cat": "garbage",
+   "ok": false,
+   "trad": 68,
+   "simp": 0,
+   "rep4": 0.3583061889250815,
+   "chars": 374,
+   "hit_max": true
+  },
+  {
+   "id": "g04",
+   "cat": "garbage",
+   "ok": true,
+   "trad": 98,
+   "simp": 0,
+   "rep4": 0.18478260869565222,
+   "chars": 394,
+   "hit_max": true
+  },
+  {
+   "id": "g05",
+   "cat": "garbage",
+   "ok": false,
+   "trad": 33,
+   "simp": 5,
+   "rep4": 0.08893709327548804,
+   "chars": 494,
+   "hit_max": true
+  },
+  {
+   "id": "g06",
+   "cat": "garbage",
+   "ok": false,
+   "trad": 54,
+   "simp": 0,
+   "rep4": 0.1132075471698113,
+   "chars": 410,
+   "hit_max": true
+  },
+  {
+   "id": "g07",
+   "cat": "garbage",
+   "ok": true,
+   "trad": 7,
+   "simp": 0,
+   "rep4": 0.22296395193591456,
+   "chars": 912,
+   "hit_max": true
+  },
+  {
+   "id": "g08",
+   "cat": "garbage",
+   "ok": true,
+   "trad": 5,
+   "simp": 0,
+   "rep4": 0.19465240641711234,
+   "chars": 1098,
+   "hit_max": false
+  },
+  {
+   "id": "g09",
+   "cat": "garbage",
+   "ok": false,
+   "trad": 8,
+   "simp": 0,
+   "rep4": 0.1452581032412965,
+   "chars": 1022,
+   "hit_max": true
+  },
+  {
+   "id": "g10",
+   "cat": "garbage",
+   "ok": true,
+   "trad": 23,
+   "simp": 0,
+   "rep4": 0.2535377358490566,
+   "chars": 1003,
+   "hit_max": true
+  }
+ ]
+}

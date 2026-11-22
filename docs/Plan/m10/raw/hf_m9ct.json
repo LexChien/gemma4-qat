@@ -1,0 +1,16 @@
+{
+ "model": "out/m10/m9-ct-g256",
+ "tag": "m9ct",
+ "device": "mps",
+ "load_cpu_s": 14.22,
+ "load_s": 17.59,
+ "rss_after_load_GB": 23.51,
+ "param_bytes_GB": 10.248,
+ "ppl_wikitext": 47.00836723827849,
+ "ppl_wikitext_tokens": 40960,
+ "ppl_zh_tw": 40.66699462834078,
+ "ppl_zh_tw_tokens": 20480,
+ "ppl_time_s": 7643.8,
+ "max_rss_GB": 23.51,
+ "mps_driver_peak_GB": 11.034
+}

@@ -1,0 +1,13 @@
+{
+ "converted": "out/m3/pt-bf16",
+ "reference": "weights/gemma-4-E2B",
+ "n_converted": 2011,
+ "n_reference": 2011,
+ "missing_in_converted": [],
+ "extra_in_converted": [],
+ "shape_mismatch": [],
+ "dtype_mismatch": [],
+ "value_mismatch": [],
+ "exact": 2011,
+ "pass": true
+}

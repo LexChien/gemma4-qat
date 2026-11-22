@@ -1,0 +1,26 @@
+{
+ "name": "torch-it-bf16",
+ "path": "weights/gemma-4-E2B-it",
+ "framework": "torch",
+ "torch": "2.14.1",
+ "transformers": "5.20.1",
+ "device": "mps",
+ "load_s": 3.2139004589998876,
+ "model_class": "Gemma4ForConditionalGeneration",
+ "mem_after_load_GB": 10.217684992,
+ "param_bytes_GB": 10.208595008,
+ "param_dtypes": [
+  "torch.bfloat16"
+ ],
+ "gen_tokens": 128,
+ "gen_tps_incl_prefill": 32.029539571173444,
+ "gen_text": "## 台灣：地理、歷史與文化的交織\n\n**第一段：獨特的地理環境**\n\n台灣位於東亞的太平洋上，形狀呈長條形，地勢崎嶇，擁有豐富的自然景觀。其地理位置使其成為亞熱帶氣候的典型代表，全年溫暖，降雨量適中，這為台灣的農業發展提供了有利的條件。台灣的地理環境極為多元，從崎嶇的山脈（如中央山脈、玉山等）到平坦的沖積平原，再到美麗的海岸線和豐富的海洋資源，",
+ "gen_peak_mem_GB": 10.27260416,
+ "ppl_wikitext": 195.41898769493213,
+ "ppl_wikitext_tokens": 4096,
+ "ppl_zh_tw": 100.54676090011122,
+ "ppl_zh_tw_tokens": 4096,
+ "ppl_time_s": 53.36985379100042,
+ "ppl_peak_mem_GB": 16.295952384,
+ "max_rss_GB": 11.397742592
+}

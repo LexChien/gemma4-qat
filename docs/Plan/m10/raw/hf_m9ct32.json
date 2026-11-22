@@ -1,0 +1,16 @@
+{
+ "model": "out/m10/m9-ct-g32",
+ "tag": "m9ct32",
+ "device": "mps",
+ "load_cpu_s": 13.85,
+ "load_s": 17.08,
+ "rss_after_load_GB": 22.766,
+ "param_bytes_GB": 10.377,
+ "ppl_wikitext": 47.10214181271065,
+ "ppl_wikitext_tokens": 40960,
+ "ppl_zh_tw": 40.375534013824456,
+ "ppl_zh_tw_tokens": 20480,
+ "ppl_time_s": 6701.1,
+ "max_rss_GB": 22.766,
+ "mps_driver_peak_GB": 11.031
+}

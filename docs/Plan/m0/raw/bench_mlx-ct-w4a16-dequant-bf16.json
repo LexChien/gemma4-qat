@@ -1,0 +1,23 @@
+{
+ "name": "mlx-ct-w4a16-dequant-bf16",
+ "path": "out/m0/ct-w4a16-dequant-bf16",
+ "framework": "mlx",
+ "mlx": "0.32.4",
+ "load_lazy_s": 3.3703960840002765,
+ "load_s": 3.371010875000138,
+ "mem_after_load_GB": 9.257138878,
+ "n_params_bytes_GB": 9.257138758,
+ "gen_tokens": 128,
+ "gen_tps": 26.32557542181296,
+ "prompt_tokens": 36,
+ "prompt_tps": 651.5905978065226,
+ "gen_peak_mem_GB": 9.305820442,
+ "gen_text": "<|channel>thought\nHere's a thinking process that leads to the suggested response:\n\n1.  **Analyze the Request:**\n    *   **Topic:** Taiwan (台灣) - Geography, History, and Culture.\n    *   **Language:** Traditional Chinese (繁體中文).\n    *   **Length Requirement:** At least five paragraphs (至少寫五段).\n    *   **Tone/Style:** Detailed and informative (詳細介紹).\n\n2.  **Determine the Structure (The Five Paragraph Plan):** A good structure will cover the three required themes (Geography, History, Culture) logically.\n\n    *",
+ "ppl_wikitext": 49.801408220543564,
+ "ppl_wikitext_tokens": 40960,
+ "ppl_zh_tw": 41.80531164217198,
+ "ppl_zh_tw_tokens": 20480,
+ "ppl_time_s": 312.4191662920002,
+ "ppl_peak_mem_GB": 12.231968591,
+ "max_rss_GB": 10.4648704
+}

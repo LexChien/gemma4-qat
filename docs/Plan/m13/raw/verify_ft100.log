@@ -1,0 +1,22 @@
+{
+ "file": "out/m13/gemma4-e2b-ft100-q4emb.sbs",
+ "bytes": 2622554112,
+ "blobs": 498,
+ "keep_rows": null,
+ "blob_bytes": {
+  "q4": 2614026240,
+  "bf16": 584262
+ },
+ "tokenizer_bytes": 7865076,
+ "q4": {
+  "blocks": 145223680,
+  "blocks_not_bit_exact_vs_mlx": 0,
+  "shared_kv_zero_tensors_ok": 20
+ },
+ "bf16": {
+  "elements": 292131,
+  "elements_not_equal_bf16_of_mlx": 0
+ },
+ "PASS": true
+}
+VERIFY_DONE

@@ -1,0 +1,12 @@
+{
+ "model": "out/m5/mlx-qat-g32exact",
+ "tag": "qat",
+ "prompt_tokens_median": 397.5,
+ "shared_prefix_tokens": 383,
+ "prefix_build_s": 0.331,
+ "can_trim": true,
+ "ttft_full_prefill_median_s": 0.191,
+ "ttft_full_prefill_max_s": 1.5409,
+ "ttft_cached_prefix_median_s": 0.0796,
+ "ttft_cached_prefix_max_s": 0.4759
+}

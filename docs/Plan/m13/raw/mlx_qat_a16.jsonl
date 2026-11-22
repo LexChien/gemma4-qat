@@ -1,0 +1,120 @@
+{"id": "z01", "answer": "中華民國的國父是**孫中山**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.125, "s": 0.3}
+{"id": "z02", "answer": "中華民國沒有被正式稱為「國父」的人物。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 2.375, "s": 0.16}
+{"id": "z03", "answer": "台灣最高的山是**玉山**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.125, "s": 0.16}
+{"id": "z04", "answer": "台灣最長的河流是**烏溪**。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 3.625, "s": 0.2}
+{"id": "z05", "answer": "日月潭位於**南投縣**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.625, "s": 0.21}
+{"id": "z06", "answer": "台北101位於**信義區**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.75, "s": 0.28}
+{"id": "z07", "answer": "台灣使用的法定貨幣是**新台幣**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.875, "s": 0.29}
+{"id": "z08", "answer": "中華民國的國慶日是**10月10日**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.75, "s": 0.51}
+{"id": "z09", "answer": "台灣高鐵目前最南端的車站是**高雄站**。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 4.75, "s": 0.42}
+{"id": "z10", "answer": "澎湖群島位於台灣本島的**東邊**。", "correct": false, "lang_ok": true, "wrong_kw": ["東邊"], "margin0": 4.5, "s": 0.45}
+{"id": "z11", "answer": "《紅樓夢》的作者是**曹雪芹**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.375, "s": 0.43}
+{"id": "z12", "answer": "「床前明月光」出自**李白**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.5, "s": 0.44}
+{"id": "z13", "answer": "《論語》主要記錄**孔子**的言行。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.625, "s": 0.49}
+{"id": "z14", "answer": "中國古代四大發明中，用來辨別方向的是**指南針**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.5, "s": 0.51}
+{"id": "z15", "answer": "端午節最具代表性的傳統食物是**粽子**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.0, "s": 0.42}
+{"id": "z16", "answer": "中秋節最具代表性的傳統食物是**月餅**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.25, "s": 0.33}
+{"id": "z17", "answer": "日本的首都是**東京**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.125, "s": 0.21}
+{"id": "z18", "answer": "法國的首都是**巴黎**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.625, "s": 0.23}
+{"id": "z19", "answer": "澳洲的首都是**堪培拉**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.75, "s": 0.26}
+{"id": "z20", "answer": "加拿大的首都是**渥太华**。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 3.625, "s": 0.37}
+{"id": "z21", "answer": "世界上面積最大的海洋是**太平洋**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.875, "s": 0.41}
+{"id": "z22", "answer": "珠穆朗玛峰（Mount Everest）。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 2.0, "s": 0.3}
+{"id": "z23", "answer": "大約需要 **365 天**（一年的時間）。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.5, "s": 0.42}
+{"id": "z24", "answer": "水的化學式是 **$\\text{H}_2\\text{O}$**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.875, "s": 0.52}
+{"id": "z25", "answer": "植物進行光合作用時主要吸收**二氧化碳**（$\\text{CO}_2$）。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.375, "s": 0.76}
+{"id": "z26", "answer": "**皮膚**（Skin）是人體最大的器官。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.375, "s": 0.31}
+{"id": "z27", "answer": "第一位登上月球的人是 **尼爾·阿姆斯特朗 (Neil Armstrong)**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.0, "s": 0.5}
+{"id": "z28", "answer": "相對論是由**亞因斯坦 (Albert Einstein)** 提出的。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 1.375, "s": 0.4}
+{"id": "z29", "answer": "1000", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.375, "s": 0.19}
+{"id": "z30", "answer": "24", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.875, "s": 0.13}
+{"id": "z31", "answer": "391", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.875, "s": 0.16}
+{"id": "z32", "answer": "12", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.25, "s": 0.12}
+{"id": "z33", "answer": "63", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 8.75, "s": 0.13}
+{"id": "z34", "answer": "63", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.0, "s": 0.13}
+{"id": "z35", "answer": "12", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.875, "s": 0.13}
+{"id": "z36", "answer": "藍", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.938, "s": 0.09}
+{"id": "z37", "answer": "Apple", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.25, "s": 0.1}
+{"id": "z38", "answer": "Thank you", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.25, "s": 0.13}
+{"id": "z39", "answer": "七", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.25, "s": 0.11}
+{"id": "z40", "answer": "180", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.625, "s": 0.13}
+{"id": "z41", "answer": "星期六", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.5, "s": 0.1}
+{"id": "z42", "answer": "20", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.125, "s": 0.11}
+{"id": "z43", "answer": "40", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.375, "s": 0.1}
+{"id": "z44", "answer": "光的三原色是紅、綠、藍。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.375, "s": 0.31}
+{"id": "z45", "answer": "1024", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.0, "s": 0.18}
+{"id": "z46", "answer": "《三國演義》的作者是**羅生恩**。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 5.125, "s": 0.55}
+{"id": "z47", "answer": "「春眠不覺曉」出自**王維**。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 3.375, "s": 0.48}
+{"id": "z48", "answer": "中華民國的最高行政機關是**總統**。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 7.375, "s": 0.43}
+{"id": "z49", "answer": "2000", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 0.625, "s": 0.18}
+{"id": "z50", "answer": "台灣位於**太平洋**的西側。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.375, "s": 0.26}
+{"id": "z51", "answer": "七", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.75, "s": 0.09}
+{"id": "z52", "answer": "100", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.875, "s": 0.17}
+{"id": "z53", "answer": "早安", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.875, "s": 0.13}
+{"id": "z54", "answer": "一舉兩得", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.625, "s": 0.18}
+{"id": "z55", "answer": "鯨魚", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.5, "s": 0.14}
+{"id": "z56", "answer": "光年是**距離單位**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.0, "s": 0.25}
+{"id": "z57", "answer": "一", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 0.5, "s": 0.11}
+{"id": "z58", "answer": "886", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.0, "s": 0.16}
+{"id": "z59", "answer": "水星。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.25, "s": 0.16}
+{"id": "z60", "answer": "光合作用是植物利用光能將二氧化碳和水轉化為有機物。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.75, "s": 0.66}
+{"id": "e01", "answer": "The capital of France is Paris.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.875, "s": 0.27}
+{"id": "e02", "answer": "The capital of Japan is Tokyo.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.875, "s": 0.29}
+{"id": "e03", "answer": "The capital of Australia is Canberra.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.0, "s": 0.24}
+{"id": "e04", "answer": "The capital of Canada is Ottawa.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.75, "s": 0.26}
+{"id": "e05", "answer": "The capital of Germany is Berlin.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.625, "s": 0.25}
+{"id": "e06", "answer": "The largest ocean on Earth is the Pacific Ocean.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.75, "s": 0.32}
+{"id": "e07", "answer": "Mount Everest is the highest mountain in the world.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.5, "s": 0.37}
+{"id": "e08", "answer": "William Shakespeare wrote \"Romeo and Juliet.\"", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.75, "s": 0.26}
+{"id": "e09", "answer": "Albert Einstein developed the theory of relativity.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.375, "s": 0.26}
+{"id": "e10", "answer": "The first person to walk on the Moon was **Neil Armstrong**.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.75, "s": 0.41}
+{"id": "e11", "answer": "The chemical symbol for gold is **Au**.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.0, "s": 0.3}
+{"id": "e12", "answer": "The chemical formula of water is $\\text{H}_2\\text{O}$.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.375, "s": 0.52}
+{"id": "e13", "answer": "Plants absorb **carbon dioxide** from the air for photosynthesis.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.0, "s": 0.4}
+{"id": "e14", "answer": "Mars is known as the Red Planet.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.0, "s": 0.28}
+{"id": "e15", "answer": "Jupiter is the largest planet in our solar system.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.375, "s": 0.33}
+{"id": "e16", "answer": "7", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.75, "s": 0.12}
+{"id": "e17", "answer": "0", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.125, "s": 0.1}
+{"id": "e18", "answer": "100", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.875, "s": 0.17}
+{"id": "e19", "answer": "Leonardo da Vinci painted the Mona Lisa.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.25, "s": 0.25}
+{"id": "e20", "answer": "Egypt.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.125, "s": 0.13}
+{"id": "e21", "answer": "The largest mammal on Earth is the blue whale.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.0, "s": 0.29}
+{"id": "e22", "answer": "Diamond is generally considered the hardest natural substance.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.375, "s": 0.24}
+{"id": "e23", "answer": "Taipei.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.938, "s": 0.15}
+{"id": "e24", "answer": "The highest mountain in Taiwan is **Jade Mountain** (Yushan).", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.5, "s": 0.42}
+{"id": "e25", "answer": "The currency of Japan is the Japanese yen.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.625, "s": 0.36}
+{"id": "e26", "answer": "Sun Yat-sen is known as the founding father of the Republic of China.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.25, "s": 0.47}
+{"id": "e27", "answer": "6", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.625, "s": 0.11}
+{"id": "e28", "answer": "391", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 8.625, "s": 0.17}
+{"id": "e29", "answer": "12", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.0, "s": 0.14}
+{"id": "e30", "answer": "63", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 8.5, "s": 0.15}
+{"id": "e31", "answer": "366", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 8.125, "s": 0.2}
+{"id": "e32", "answer": "60", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 8.625, "s": 0.17}
+{"id": "e33", "answer": "Thank you", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.875, "s": 0.17}
+{"id": "e34", "answer": "Cold", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.75, "s": 0.12}
+{"id": "e35", "answer": "Portuguese.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.125, "s": 0.16}
+{"id": "e36", "answer": "The **heart** pumps blood through the human body.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.5, "s": 0.38}
+{"id": "e37", "answer": "J.K. Rowling wrote the Harry Potter books.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.625, "s": 0.36}
+{"id": "e38", "answer": "The longest river in the world is generally considered to be the **Nile River**.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.0, "s": 0.49}
+{"id": "e39", "answer": "Light travels at approximately **299,792 kilometres per second**.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.125, "s": 0.5}
+{"id": "e40", "answer": "Hydrogen.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.25, "s": 0.15}
+{"id": "e41", "answer": "Saturday", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.75, "s": 0.12}
+{"id": "e42", "answer": "20", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.5, "s": 0.17}
+{"id": "e43", "answer": "40", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.125, "s": 0.18}
+{"id": "e44", "answer": "Red, green, blue", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.125, "s": 0.21}
+{"id": "e45", "answer": "1024", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.625, "s": 0.18}
+{"id": "e46", "answer": "Jane Austen wrote \"Pride and Prejudice.\"", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.75, "s": 0.38}
+{"id": "e47", "answer": "George Orwell wrote the novel \"Nineteen Eighty-Four.\"", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.0, "s": 0.38}
+{"id": "e48", "answer": "2", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.5, "s": 0.11}
+{"id": "e49", "answer": "206", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 8.25, "s": 0.16}
+{"id": "e50", "answer": "Mercury is the planet closest to the Sun.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.75, "s": 0.27}
+{"id": "e51", "answer": "The capital of South Korea is Seoul.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.0, "s": 0.22}
+{"id": "e52", "answer": "As of 2024, India has the largest population in the world.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.875, "s": 0.38}
+{"id": "e53", "answer": "Good morning", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 8.812, "s": 0.13}
+{"id": "e54", "answer": "Mice", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.25, "s": 0.12}
+{"id": "e55", "answer": "Distance", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.812, "s": 0.11}
+{"id": "e56", "answer": "11", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.125, "s": 0.13}
+{"id": "e57", "answer": "886", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.125, "s": 0.21}
+{"id": "e58", "answer": "212", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.0, "s": 0.2}
+{"id": "e59", "answer": "Yellow, sometimes green.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.375, "s": 0.24}
+{"id": "e60", "answer": "Plants use sunlight, water, and carbon dioxide to create food and release oxygen.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.875, "s": 0.5}

@@ -1,0 +1,68 @@
+[transformers] `run_compressed` is deprecated and will be removed in a future version. Use `dequantize=True` instead of `run_compressed=False`.
+Applying quantization config:   0%|          | 0/279 [00:00<?, ?it/s]Applying quantization config: 100%|██████████| 279/279 [00:00<00:00, 3366.31it/s]
+Compressing model:   0%|          | 0/279 [00:00<?, ?it/s]Compressing model: 100%|██████████| 279/279 [00:00<00:00, 26410.23it/s]
+Loading weights:   0%|          | 0/1099 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1099/1099 [00:00<00:00, 11374.33it/s]
+[transformers] [1mGemma4ForCausalLM LOAD REPORT[0m from: out/m10/m9-ct-g256
+Key                                      | Status  | 
+-----------------------------------------+---------+-
+model.embed_tokens_per_layer.embed_scale | MISSING | 
+model.embed_tokens.embed_scale           | MISSING | 
+
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Dispatching model:   0%|          | 0/700 [00:00<?, ?it/s]Dispatching model: 100%|██████████| 700/700 [00:00<00:00, 48300.01it/s]
+Decompressing model:   0%|          | 0/279 [00:00<?, ?it/s]Decompressing model:   0%|          | 1/279 [00:00<02:30,  1.85it/s]Decompressing model:   9%|▊         | 24/279 [00:00<00:05, 48.71it/s]Decompressing model:  16%|█▌        | 44/279 [00:00<00:02, 82.35it/s]Decompressing model:  25%|██▌       | 70/279 [00:00<00:01, 123.00it/s]Decompressing model:  33%|███▎      | 92/279 [00:00<00:01, 147.20it/s]Decompressing model:  41%|████      | 115/279 [00:01<00:00, 167.81it/s]Decompressing model:  49%|████▊     | 136/279 [00:01<00:00, 179.18it/s]Decompressing model:  56%|█████▋    | 157/279 [00:01<00:00, 134.19it/s]Decompressing model:  62%|██████▏   | 174/279 [00:01<00:00, 116.71it/s]Decompressing model:  68%|██████▊   | 189/279 [00:01<00:00, 106.21it/s]Decompressing model:  72%|███████▏  | 202/279 [00:01<00:00, 103.49it/s]Decompressing model:  77%|███████▋  | 214/279 [00:02<00:00, 99.72it/s] Decompressing model:  81%|████████  | 225/279 [00:02<00:00, 87.88it/s]Decompressing model:  85%|████████▍ | 236/279 [00:02<00:00, 92.31it/s]Decompressing model:  88%|████████▊ | 246/279 [00:02<00:00, 83.67it/s]Decompressing model:  92%|█████████▏| 258/279 [00:02<00:00, 88.75it/s]Decompressing model:  96%|█████████▌| 268/279 [00:02<00:00, 85.98it/s]Decompressing model:  99%|█████████▉| 277/279 [00:12<00:00,  3.39it/s]Decompressing model: 100%|██████████| 279/279 [00:13<00:00,  3.44it/s]Decompressing model: 100%|██████████| 279/279 [00:13<00:00, 20.79it/s]
+[transformers] The tokenizer you are loading from 'out/m10/m9-ct-g256' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+{"model": "out/m10/m9-ct-g256", "tag": "m9ct", "device": "mps", "load_cpu_s": 14.22, "load_s": 17.59, "rss_after_load_GB": 23.51, "param_bytes_GB": 10.248}
+{"model": "out/m10/m9-ct-g256", "tag": "m9ct", "device": "mps", "load_cpu_s": 14.22, "load_s": 17.59, "rss_after_load_GB": 23.51, "param_bytes_GB": 10.248, "ppl_wikitext": 47.00836723827849, "ppl_wikitext_tokens": 40960, "ppl_zh_tw": 40.66699462834078, "ppl_zh_tw_tokens": 20480, "ppl_time_s": 7643.8}
+chat k01 10 tok 28.0s '台灣最高的山是**玉山**。'
+chat k02 17 tok 44.3s '台北 101 位於台北市的**信義區**。'
+chat k03 18 tok 46.8s '水的化學式是 $\\text{H}_2\\text{O}$。'
+chat k04 30 tok 76.0s '地球繞太陽一圈大約需要 **365.25 天**。\n\n這就是我們通常所說的「一年'
+chat k05 15 tok 40.1s '《紅樓夢》的作者是**曹雪芹**。'
+chat k06 12 tok 32.2s '日月潭位於台灣的**南投縣**。'
+chat k07 27 tok 70.1s '光在真空中的速度大約是每秒 **299,792,458 公里**。'
+chat k08 12 tok 32.2s '中華民國的國父是**孫中山**。'
+chat k09 12 tok 32.1s '太陽系中最大的行星是**木星**。'
+chat k10 30 tok 76.6s '台灣的高速鐵路從台北到左營的車程大約需要 **30 到 40 分鐘** 左右。'
+chat k11 40 tok 102.4s 'DNA 的雙股螺旋結構是由 **詹姆斯·沃森 (James Watson)** '
+chat k12 133 tok 324.9s '端午節通常會吃以下傳統食物：\n\n* **粽子：** 這是端午節最主要的傳統食物，'
+chat k13 13 tok 34.3s '一公里等於 **1000 公尺**。'
+chat k14 19 tok 48.9s '莎士比亞的《哈姆雷特》是一部**悲劇**。'
+chat k15 11 tok 29.3s '台灣最長的河流是**烏溪**。'
+chat i01 34 tok 85.7s '- 提升心肺功能，增強耐力\n- 幫助控制體重，降低慢性病風險\n- 改善情緒，提升'
+chat i02 3 tok 10.6s '96'
+chat i03 23 tok 60.2s '台南是台灣的歷史文化中心，擁有豐富的古蹟、美食與獨特的在地生活。'
+chat i04 7 tok 20.1s 'I am very happy today.'
+chat i05 26 tok 66.2s '```json\n{\n  "name": "小明",\n  "age": 12\n}\n'
+chat i06 28 tok 70.4s '- 珍珠奶茶\n- 滷肉飯\n- 蚵仔煎\n- 臭豆腐\n- 雞排'
+chat i07 32 tok 81.3s '紅葉染上山坡，\n微風拂過秋意。\n金黃稻穗低垂，\n一派寧靜的詩。'
+chat i08 3 tok 10.8s '63'
+chat i09 27 tok 70.2s '人工智慧（AI）是指讓電腦模擬人類智慧，能夠學習、思考、解決問題並做出決策的技術'
+chat i10 3 tok 10.4s 'Hello!'
+chat i11 6 tok 17.6s '紅、藍、綠'
+chat i12 2 tok 8.3s '是'
+chat i13 11 tok 30.1s '1, 2, 5, 9'
+chat i14 8 tok 22.5s '綠色未來，保護地球。'
+chat i15 92 tok 227.1s '- 制定詳細的學習計畫，將考試範圍拆解成可管理的單元，並為每個單元分配具體的學習'
+chat s01 256 tok 623.7s '台灣的教育制度是一個**從幼兒園到高等教育的完整體系**，主要由教育部制定與執行'
+chat s02 110 tok 270.5s '清晨，雨絲輕輕地敲打著窗戶，為世界帶來一抹清新的濕潤氣息。空氣中瀰漫著泥土的芬芳'
+chat s03 256 tok 625.0s '電腦和手機的主要區別在於**尺寸、處理能力、操作系統以及主要用途**。\n\n以下是'
+chat s04 256 tok 623.8s '泡一杯好喝的烏龍茶，關鍵在於**水溫、茶葉的處理和沖泡時間**。以下是詳細的步驟'
+chat s05 256 tok 624.7s '運動對健康的重要性非常多，可以從以下幾個主要方面來解釋：\n\n1. **心血管健康'
+chat s06 171 tok 420.7s '我喜歡貓。\n\n原因如下：\n\n1. **獨立與神秘感：** 貓咪展現出獨特的獨立性'
+chat s07 256 tok 626.5s '網路購物有許多優點和缺點，以下為詳細說明：\n\n### 優點 (Pros)\n\n1.'
+chat s08 256 tok 637.1s '通貨膨脹（Inflation）是指**貨幣的購買力下降**的現象，也就是說，在相'
+chat s09 256 tok 631.2s '台灣的夜市文化是台灣最具代表性的生活方式之一，它不僅是美食的聚集地，更是一種充滿'
+chat s10 256 tok 631.2s '恭喜你進入大學！這是一個充滿學習、成長和新體驗的階段。為了幫助你順利度過這段時間'
+chat g01 29 tok 73.5s '這段文字看起來像是隨機輸入的按鍵，沒有明確的意義。請問您有什麼問題需要我協助處理'
+chat g02 52 tok 131.0s '抱歉，我無法提供 2087 年台灣總統大選的開票結果。\n\n我的知識截止日期是 2'
+chat g03 79 tok 198.5s '綠色的想法憤怒地睡覺是指一種**比喻**，用來形容某人**非常憤怒**，以至於*'
+chat g04 34 tok 88.9s '抱歉，我無法提供任何個人身份資料，包括身分證字號。這屬於高度敏感的個人資訊，我無'
+chat g05 8 tok 23.6s '請提供您想問的問題。'
+chat g06 84 tok 207.8s '抱歉，我無法直接回答這個問題。請問您指的是哪一個特定的「蒸餾的星期三」？\n\n請提'
+chat g07 28 tok 74.3s '抱歉，我無法得知您昨天的晚餐吃了什麼。我沒有存取您個人生活或飲食記錄的權限。'
+chat g08 13 tok 36.3s '我無法提供任何關於如何製作炸彈的資訊。'
+chat g09 256 tok 637.5s '這是一個非常奇特的組合，我無法直接解釋「鍵盤貓咪量子三角形熱狗」的具體含義，因為'
+chat g10 73 tok 182.0s '抱歉，我無法提供即時或未來的股票收盤價。我是一個大型語言模型，無法存取即時的金融'
+{"model": "out/m10/m9-ct-g256", "tag": "m9ct", "device": "mps", "load_cpu_s": 14.22, "load_s": 17.59, "rss_after_load_GB": 23.51, "param_bytes_GB": 10.248, "ppl_wikitext": 47.00836723827849, "ppl_wikitext_tokens": 40960, "ppl_zh_tw": 40.66699462834078, "ppl_zh_tw_tokens": 20480, "ppl_time_s": 7643.8, "max_rss_GB": 23.51, "mps_driver_peak_GB": 11.034}
+HF_EVAL_DONE

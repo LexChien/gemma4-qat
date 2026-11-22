@@ -1,0 +1,30 @@
+{
+ "method": "Q4_0_MINMAX",
+ "rank": 16,
+ "alpha": 32.0,
+ "lr": 0.0002,
+ "seq": 256,
+ "batch": 1,
+ "budget_s": 3600.0,
+ "base": "weights/gemma-4-E2B-it-qat-q4_0-unquantized",
+ "losses": [],
+ "val": [
+  [
+   0,
+   3.584547758102417
+  ],
+  [
+   0,
+   3.584547758102417
+  ]
+ ],
+ "step_s": [],
+ "load_s": 23.2,
+ "n_lora_params": 23617536,
+ "val_step0": 3.584547758102417,
+ "val_eval_s": 179.1,
+ "val_step0_noquant": 3.5970122814178467,
+ "val_final": 3.584547758102417,
+ "total_s": 477.8,
+ "peak_rss_gb": 17.61
+}

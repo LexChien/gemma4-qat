@@ -1,0 +1,108 @@
+{
+ "transformers": "5.20.1",
+ "torch": "2.14.1",
+ "models": {
+  "ref_it": {
+   "path": "weights/gemma-4-E2B-it",
+   "dtype": "torch.bfloat16",
+   "class": "Gemma4ForConditionalGeneration",
+   "load_s": 3.07,
+   "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+   },
+   "n_missing": 0,
+   "n_unexpected": 0,
+   "nll_wikitext": 4.1365275382995605,
+   "nll_zh_tw": 4.755950927734375
+  },
+  "conv_it": {
+   "path": "out/m3/it-bf16",
+   "dtype": "torch.bfloat16",
+   "class": "Gemma4ForConditionalGeneration",
+   "load_s": 3.06,
+   "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+   },
+   "n_missing": 0,
+   "n_unexpected": 0,
+   "nll_wikitext": 4.1365275382995605,
+   "nll_zh_tw": 4.755950927734375
+  },
+  "conv_it_text": {
+   "path": "out/m3/it-text-bf16",
+   "dtype": "torch.bfloat16",
+   "class": "Gemma4ForCausalLM",
+   "load_s": 2.34,
+   "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+   },
+   "n_missing": 0,
+   "n_unexpected": 0,
+   "nll_wikitext": 4.1365275382995605,
+   "nll_zh_tw": 4.755950927734375
+  },
+  "conv_it_f32": {
+   "path": "out/m3/it-f32",
+   "dtype": "torch.float32",
+   "class": "Gemma4ForConditionalGeneration",
+   "load_s": 8.89,
+   "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+   },
+   "n_missing": 0,
+   "n_unexpected": 0,
+   "nll_wikitext": 4.122358322143555,
+   "nll_zh_tw": 4.736813068389893
+  }
+ },
+ "vs_ref": {
+  "conv_it": {
+   "wikitext": {
+    "bit_exact": true,
+    "max_abs": 0.0,
+    "argmax_agree": 1.0
+   },
+   "zh_tw": {
+    "bit_exact": true,
+    "max_abs": 0.0,
+    "argmax_agree": 1.0
+   }
+  },
+  "conv_it_text": {
+   "wikitext": {
+    "bit_exact": true,
+    "max_abs": 0.0,
+    "argmax_agree": 1.0
+   },
+   "zh_tw": {
+    "bit_exact": true,
+    "max_abs": 0.0,
+    "argmax_agree": 1.0
+   }
+  },
+  "conv_it_f32": {
+   "wikitext": {
+    "bit_exact": false,
+    "max_abs": 3.6158523559570312,
+    "argmax_agree": 0.9873046875
+   },
+   "zh_tw": {
+    "bit_exact": false,
+    "max_abs": 1.739579200744629,
+    "argmax_agree": 0.970703125
+   }
+  }
+ }
+}

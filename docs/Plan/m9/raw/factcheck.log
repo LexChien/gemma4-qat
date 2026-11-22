@@ -1,0 +1,37 @@
+wiki topics 137 with text 127
+to check 530 done 0
+factcheck 16/530 {'正確': 13, '錯誤': 3} fixed_in_batch 2 elapsed 1.2 min
+factcheck 32/530 {'正確': 28, '錯誤': 4} fixed_in_batch 1 elapsed 2.0 min
+factcheck 48/530 {'正確': 40, '錯誤': 7, '無法判斷': 1} fixed_in_batch 2 elapsed 3.1 min
+factcheck 64/530 {'正確': 55, '錯誤': 8, '無法判斷': 1} fixed_in_batch 0 elapsed 3.7 min
+factcheck 80/530 {'正確': 69, '錯誤': 10, '無法判斷': 1} fixed_in_batch 2 elapsed 5.0 min
+factcheck 96/530 {'正確': 82, '錯誤': 13, '無法判斷': 1} fixed_in_batch 1 elapsed 6.2 min
+factcheck 112/530 {'正確': 96, '錯誤': 15, '無法判斷': 1} fixed_in_batch 2 elapsed 7.3 min
+factcheck 128/530 {'正確': 108, '錯誤': 19, '無法判斷': 1} fixed_in_batch 4 elapsed 9.1 min
+factcheck 144/530 {'正確': 121, '錯誤': 21, '無法判斷': 2} fixed_in_batch 2 elapsed 10.3 min
+factcheck 160/530 {'正確': 135, '錯誤': 23, '無法判斷': 2} fixed_in_batch 2 elapsed 11.3 min
+factcheck 176/530 {'正確': 150, '錯誤': 24, '無法判斷': 2} fixed_in_batch 1 elapsed 12.1 min
+factcheck 192/530 {'正確': 165, '錯誤': 25, '無法判斷': 2} fixed_in_batch 1 elapsed 13.1 min
+factcheck 208/530 {'正確': 178, '錯誤': 28, '無法判斷': 2} fixed_in_batch 3 elapsed 14.7 min
+factcheck 224/530 {'正確': 192, '錯誤': 30, '無法判斷': 2} fixed_in_batch 1 elapsed 15.9 min
+factcheck 240/530 {'正確': 203, '錯誤': 35, '無法判斷': 2} fixed_in_batch 4 elapsed 18.0 min
+factcheck 256/530 {'正確': 217, '錯誤': 37, '無法判斷': 2} fixed_in_batch 1 elapsed 19.3 min
+factcheck 272/530 {'正確': 229, '錯誤': 40, '無法判斷': 3} fixed_in_batch 3 elapsed 20.9 min
+factcheck 288/530 {'正確': 243, '錯誤': 42, '無法判斷': 3} fixed_in_batch 2 elapsed 22.5 min
+factcheck 304/530 {'正確': 257, '錯誤': 43, '無法判斷': 4} fixed_in_batch 1 elapsed 23.3 min
+factcheck 320/530 {'正確': 272, '錯誤': 43, '無法判斷': 5} fixed_in_batch 0 elapsed 23.9 min
+factcheck 336/530 {'正確': 288, '錯誤': 43, '無法判斷': 5} fixed_in_batch 0 elapsed 24.5 min
+factcheck 352/530 {'正確': 302, '錯誤': 44, '無法判斷': 6} fixed_in_batch 0 elapsed 25.1 min
+factcheck 368/530 {'正確': 315, '錯誤': 47, '無法判斷': 6} fixed_in_batch 3 elapsed 26.7 min
+factcheck 384/530 {'正確': 329, '錯誤': 49, '無法判斷': 6} fixed_in_batch 2 elapsed 28.0 min
+factcheck 400/530 {'正確': 343, '錯誤': 51, '無法判斷': 6} fixed_in_batch 2 elapsed 29.1 min
+factcheck 416/530 {'正確': 356, '錯誤': 54, '無法判斷': 6} fixed_in_batch 2 elapsed 30.5 min
+factcheck 432/530 {'正確': 370, '錯誤': 56, '無法判斷': 6} fixed_in_batch 2 elapsed 31.9 min
+factcheck 448/530 {'正確': 383, '錯誤': 57, '無法判斷': 8} fixed_in_batch 0 elapsed 32.5 min
+factcheck 464/530 {'正確': 398, '錯誤': 58, '無法判斷': 8} fixed_in_batch 1 elapsed 33.5 min
+factcheck 480/530 {'正確': 413, '錯誤': 58, '無法判斷': 9} fixed_in_batch 0 elapsed 34.0 min
+factcheck 496/530 {'正確': 427, '錯誤': 60, '無法判斷': 9} fixed_in_batch 1 elapsed 35.1 min
+factcheck 512/530 {'正確': 439, '錯誤': 63, '無法判斷': 10} fixed_in_batch 2 elapsed 36.4 min
+factcheck 528/530 {'正確': 453, '錯誤': 64, '無法判斷': 11} fixed_in_batch 1 elapsed 37.6 min
+factcheck 530/530 {'正確': 454, '錯誤': 65, '無法判斷': 11} fixed_in_batch 0 elapsed 37.8 min
+FACTCHECK_DONE

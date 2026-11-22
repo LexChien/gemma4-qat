@@ -1,0 +1,17 @@
+{
+ "target": 114176,
+ "kept": 114176,
+ "dropped": 147968,
+ "must": 4376,
+ "unused_dropped": 6227,
+ "script_dropped": 82924,
+ "corpus_chars": 363644109,
+ "corpus_tokens": 165919027,
+ "corpus_distinct_ids": 86615,
+ "corpus_distinct_kept": 84482,
+ "corpus_token_coverage": 0.9999445753741071,
+ "seen_prefix_used": 93125,
+ "merges_kept": 273039,
+ "merges_total": 514906,
+ "max_old_id_kept": 258884
+}

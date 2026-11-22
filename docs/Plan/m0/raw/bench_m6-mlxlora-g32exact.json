@@ -1,0 +1,23 @@
+{
+ "name": "m6-mlxlora-g32exact",
+ "path": "out/m6/mlx-mlxlora-g32exact",
+ "framework": "mlx",
+ "mlx": "0.32.4",
+ "load_lazy_s": 2.459401042000536,
+ "load_s": 2.4602517080020334,
+ "mem_after_load_GB": 2.894805694,
+ "n_params_bytes_GB": 2.893249094,
+ "gen_tokens": 128,
+ "gen_tps": 102.43958609806043,
+ "prompt_tokens": 36,
+ "prompt_tps": 723.5078118451277,
+ "gen_peak_mem_GB": 2.985365241,
+ "gen_text": "<|channel>thought\nHere's a thinking process that leads to the suggested response:\n\n1.  **Analyze the Request:**\n    *   **Topic:** Taiwan (台灣).\n    *   **Required Content:** Geography (地理), History (歷史), and Culture (文化).\n    *   **Format Requirement:** Detailed introduction, at least five paragraphs (至少寫五段).\n    *   **Language:** Traditional Chinese (繁體中文).\n\n2.  **Determine the Structure (The Five Paragraph Plan):** A good structure will cover the three main themes (Geography, History, Culture) and provide a strong introduction",
+ "ppl_wikitext": 27.278517291621604,
+ "ppl_wikitext_tokens": 40960,
+ "ppl_zh_tw": 33.56964981002799,
+ "ppl_zh_tw_tokens": 20480,
+ "ppl_time_s": 396.2684313750033,
+ "ppl_peak_mem_GB": 5.99179472,
+ "max_rss_GB": 4.131520512
+}

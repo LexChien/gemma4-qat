@@ -1,0 +1,121 @@
+z01 True 7.0 中華民國的國父是**孫中山**。
+z02 False 3.375 中華民國國父被稱為**蔣介石**。
+z03 True 5.125 台灣最高的山是**玉山**。
+z04 False 4.75 台灣最長的河流是**烏山溪**。
+z05 True 6.0 日月潭位於**南投縣**。
+z06 True 3.25 台北101位於台北市信義區。
+z07 True 0.25 新台幣。
+z08 True 4.25 中華民國的國慶日是**10月10日**。
+z09 False 2.25 台灣高鐵目前最南端的車站是**高雄站**。
+z10 False 4.0 澎湖群島位於台灣本島的**東邊**。
+z11 True 3.25 《紅樓夢》的作者是**曹雪芹**。
+z12 True 1.375 「床前明月光」出自**李白**。
+z13 True 2.75 《論語》主要記錄**孔子**的言行。
+z14 True 2.625 中國古代四大發明中，用來辨別方向的是**指南針**。
+z15 True 2.375 端午節最具代表性的傳統食物是**粽子**。
+z16 True 3.75 中秋節最具代表性的傳統食物是**月餅**。
+z17 True 0.875 日本的首都是東京。
+z18 True 0.375 巴黎。
+z19 True 2.625 澳洲的首都是堪培拉。
+z20 True 0.5 加拿大的首都是渥太華。
+z21 True 0.25 太平洋。
+z22 False 3.375 珠穆朗玛峰。
+z23 False 0.125 地球繞太陽一圈大約需要 **365.25 天**。
+z24 True 2.0 水的化學式是 $\text{H}_2\text{O}$。
+z25 True 0.25 植物進行光合作用時主要吸收**二氧化碳**。
+z26 True 0.125 皮膚。
+z27 True 0.625 第一位登上月球的人是 **尼爾·阿姆斯特朗 (Neil Armstrong)**。
+z28 True 0.875 相對論是由**阿爾伯特·愛因斯坦 (Albert Einstein)** 提出的。
+z29 True 2.75 1000
+z30 True 3.25 24
+z31 True 6.0 391
+z32 True 6.875 12
+z33 True 6.625 63
+z34 True 5.0 63
+z35 True 2.5 12
+z36 True 5.938 藍色
+z37 True 3.625 Apple
+z38 True 4.375 Thank you
+z39 True 0.375 7
+z40 True 3.375 180
+z41 True 5.625 星期六
+z42 True 5.25 20
+z43 True 6.75 40
+z44 False 4.375 紅、青、黃
+z45 True 5.875 1024
+z46 False 4.625 《三國演義》的作者是**羅必臣**。
+z47 False 0.875 「春眠不覺曉」出自**王維**。
+z48 False 6.875 中華民國的最高行政機關是**總統府**。
+z49 False 0.25 2000
+z50 True 4.0 台灣位於**太平洋**的西側。
+z51 True 2.375 七
+z52 True 2.875 100
+z53 True 1.062 早安
+z54 True 5.25 一舉兩得
+z55 True 3.0 鯨魚
+z56 True 3.75 光年是**距離單位**。
+z57 False 0.5 1
+z58 True 0.5 886
+z59 True 2.625 水星。
+z60 False 2.125 光合作用是植物利用光能將二氧化碳和水轉化為糖分和氧氣的過程。
+e01 True 1.375 The capital of France is Paris.
+e02 True 0.25 The capital of Japan is Tokyo.
+e03 True 0.625 The capital of Australia is Canberra.
+e04 True 1.0 The capital of Canada is Ottawa.
+e05 True 1.125 The capital of Germany is Berlin.
+e06 True 5.625 The Pacific Ocean is the largest ocean on Earth.
+e07 True 0.75 Mount Everest is the highest mountain in the world.
+e08 True 4.625 William Shakespeare wrote "Romeo and Juliet."
+e09 True 4.125 Albert Einstein developed the theory of relativity.
+e10 True 0.0 The first person to walk on the Moon was Neil Armstrong.
+e11 True 2.75 Au
+e12 True 0.5 The chemical formula of water is $\text{H}_2\text{O}$.
+e13 True 2.125 Plants absorb carbon dioxide from the air for photosynthesis.
+e14 True 5.0 Mars is known as the Red Planet.
+e15 True 5.688 Jupiter is the largest planet in our solar system.
+e16 True 2.75 7
+e17 True 3.875 0
+e18 True 4.625 100
+e19 True 5.625 Leonardo da Vinci painted the Mona Lisa.
+e20 True 2.5 Egypt
+e21 True 6.25 The largest mammal on Earth is the blue whale.
+e22 True 2.0 Diamond is the hardest natural substance.
+e23 True 5.125 Taipei
+e24 True 0.0 The highest mountain in Taiwan is **Jade Mountain** (Yudengshan).
+e25 True 1.0 The currency of Japan is the Japanese yen.
+e26 True 0.875 Sun Yat-sen is known as the founding father of the Republic of China.
+e27 True 6.25 6
+e28 True 5.0 391
+e29 True 7.125 12
+e30 True 6.625 63
+e31 True 6.75 366
+e32 True 7.125 60
+e33 True 4.812 Thank you
+e34 True 3.812 Cold
+e35 True 1.375 Portuguese.
+e36 True 4.875 The heart pumps blood through the human body.
+e37 True 3.0 J.K. Rowling wrote the "Harry Potter" books.
+e38 True 6.625 The longest river in the world is the Nile.
+e39 True 0.125 Light travels at approximately 299,792 kilometres per second.
+e40 True 2.75 Hydrogen.
+e41 True 2.75 Saturday
+e42 True 3.75 20
+e43 True 5.875 40
+e44 True 3.375 Red, green, blue
+e45 True 6.75 1024
+e46 True 6.188 Jane Austen wrote "Pride and Prejudice."
+e47 True 4.875 George Orwell wrote the novel "Nineteen Eighty-Four".
+e48 True 5.0 2
+e49 True 7.0 206
+e50 True 5.0 Mercury is the planet closest to the Sun.
+e51 True 0.25 The capital of South Korea is Seoul.
+e52 True 1.0 India has the largest population in the world as of 2024.
+e53 True 7.75 Good morning
+e54 True 2.625 Mice
+e55 True 3.375 Distance
+e56 True 5.125 11
+e57 True 1.875 886
+e58 True 5.5 212
+e59 True 2.125 Yellow, sometimes green.
+e60 True 0.0 Photosynthesis is how plants use sunlight, water, and carbon dioxide t
+MLX_DONE m9 a8all zh 47 /40 en 60 /40

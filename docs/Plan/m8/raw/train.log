@@ -1,0 +1,109 @@
+=== attempt 1 2026-10-18 04:05:19
+setup 3.6s deployed-dense 278 qat-lora 205 trainable 24158208 train 971 valid 51 steps/epoch 243 total 486
+step 0 val 0.8014
+Traceback (most recent call last):
+  File "/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 67, in <module>
+    (l, k), g = lg(model, x, m); opt.update(model, g); mx.eval(model.trainable_parameters(), opt.state, l)
+                                                       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:Internal Error).
+=== crash/exit on attempt 1; restarting in 10s
+=== attempt 2 2026-10-18 04:07:13
+setup 3.8s deployed-dense 278 qat-lora 205 trainable 24158208 train 971 valid 51 steps/epoch 243 total 486
+step 0 val 0.8014
+Traceback (most recent call last):
+  File "/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 67, in <module>
+    (l, k), g = lg(model, x, m); opt.update(model, g); mx.eval(model.trainable_parameters(), opt.state, l)
+                                                       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:Internal Error).
+=== crash/exit on attempt 2; restarting in 10s
+=== attempt 3 2026-10-18 04:09:09
+setup 3.7s deployed-dense 278 qat-lora 205 trainable 24158208 train 971 valid 51 steps/epoch 243 total 486
+=== attempt 1 2026-10-18 04:18:22
+setup 3.9s deployed-dense 278 qat-lora 205 trainable 24158208 train 971 valid 51 steps/epoch 243 total 486
+step 0 val 0.8023
+Traceback (most recent call last):
+  File "/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 71, in <module>
+    mx.eval(gacc, l); lsum += l.item(); mx.clear_cache()
+    ~~~~~~~^^^^^^^^^
+RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:Internal Error).
+=== crash/exit on attempt 1; restarting in 10s
+=== attempt 2 2026-10-18 04:24:35
+RESUME from global step 5 (out/m8/ckpt/step_000005)
+setup 3.7s deployed-dense 278 qat-lora 205 trainable 24158208 train 971 valid 51 steps/epoch 243 total 486
+Traceback (most recent call last):
+  File "/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 71, in <module>
+    mx.eval(gacc, l); lsum += l.item(); mx.clear_cache()
+    ~~~~~~~^^^^^^^^^
+RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:Internal Error).
+=== crash/exit on attempt 2; restarting in 10s
+=== attempt 3 2026-10-18 04:26:06
+RESUME from global step 5 (out/m8/ckpt/step_000005)
+setup 3.7s deployed-dense 278 qat-lora 205 trainable 24158208 train 971 valid 51 steps/epoch 243 total 486
+Traceback (most recent call last):
+  File "/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 71, in <module>
+    mx.eval(gacc, l); lsum += l.item(); mx.clear_cache()
+    ~~~~~~~^^^^^^^^^
+RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:Internal Error).
+=== crash/exit on attempt 3; restarting in 10s
+=== attempt 4 2026-10-18 04:27:37
+RESUME from global step 5 (out/m8/ckpt/step_000005)
+setup 3.7s deployed-dense 278 qat-lora 205 trainable 24158208 train 971 valid 51 steps/epoch 243 total 486
+=== crash/exit on attempt 4; restarting in 10s
+=== 2026-10-18 04:28:18 manual restart: chunked lm_head/CE (C=128) patch
+=== attempt 5 2026-10-18 04:28:25
+RESUME from global step 5 (out/m8/ckpt/step_000005)
+setup 3.6s deployed-dense 278 qat-lora 205 trainable 24158208 train 971 valid 51 steps/epoch 243 total 486
+step 10/486 loss 0.7063 lr 4.51e-05 tgt_tok/s 23 peak 12.2GB
+step 20/486 loss 0.7739 lr 9.50e-05 tgt_tok/s 19 peak 12.2GB
+step 30/486 loss 0.8134 lr 9.99e-05 tgt_tok/s 26 peak 12.5GB
+step 40/486 loss 0.7223 lr 9.96e-05 tgt_tok/s 25 peak 12.5GB
+step 50/486 loss 0.6670 lr 9.91e-05 tgt_tok/s 26 peak 12.5GB
+step 60/486 loss 0.6908 lr 9.85e-05 tgt_tok/s 23 peak 12.5GB
+step 70/486 loss 0.5456 lr 9.76e-05 tgt_tok/s 25 peak 12.5GB
+step 80/486 loss 0.4552 lr 9.65e-05 tgt_tok/s 27 peak 12.5GB
+step 90/486 loss 0.4956 lr 9.52e-05 tgt_tok/s 25 peak 12.5GB
+step 100/486 loss 0.4478 lr 9.38e-05 tgt_tok/s 27 peak 12.5GB
+step 100 val 0.4456
+step 110/486 loss 0.3774 lr 9.21e-05 tgt_tok/s 18 peak 12.5GB
+step 120/486 loss 0.4445 lr 9.03e-05 tgt_tok/s 24 peak 12.5GB
+step 130/486 loss 0.4328 lr 8.84e-05 tgt_tok/s 31 peak 12.5GB
+step 140/486 loss 0.4690 lr 8.63e-05 tgt_tok/s 27 peak 12.5GB
+step 150/486 loss 0.4742 lr 8.40e-05 tgt_tok/s 19 peak 12.5GB
+step 160/486 loss 0.4847 lr 8.16e-05 tgt_tok/s 27 peak 12.5GB
+step 170/486 loss 0.5040 lr 7.91e-05 tgt_tok/s 22 peak 12.5GB
+step 180/486 loss 0.3874 lr 7.65e-05 tgt_tok/s 27 peak 12.5GB
+step 190/486 loss 0.4636 lr 7.38e-05 tgt_tok/s 30 peak 12.5GB
+step 200/486 loss 0.4524 lr 7.10e-05 tgt_tok/s 25 peak 12.5GB
+step 200 val 0.3821
+step 210/486 loss 0.3644 lr 6.82e-05 tgt_tok/s 19 peak 12.5GB
+step 220/486 loss 0.4184 lr 6.52e-05 tgt_tok/s 22 peak 12.5GB
+step 230/486 loss 0.4096 lr 6.22e-05 tgt_tok/s 28 peak 12.5GB
+step 240/486 loss 0.4273 lr 5.92e-05 tgt_tok/s 29 peak 12.5GB
+step 250/486 loss 0.3154 lr 5.62e-05 tgt_tok/s 29 peak 12.5GB
+step 260/486 loss 0.2651 lr 5.32e-05 tgt_tok/s 26 peak 12.5GB
+step 270/486 loss 0.2698 lr 5.02e-05 tgt_tok/s 27 peak 12.5GB
+step 280/486 loss 0.3042 lr 4.72e-05 tgt_tok/s 23 peak 12.5GB
+step 290/486 loss 0.2565 lr 4.42e-05 tgt_tok/s 29 peak 12.5GB
+step 300/486 loss 0.3015 lr 4.13e-05 tgt_tok/s 25 peak 12.5GB
+step 300 val 0.3646
+step 310/486 loss 0.2549 lr 3.84e-05 tgt_tok/s 19 peak 12.5GB
+step 320/486 loss 0.2095 lr 3.56e-05 tgt_tok/s 29 peak 12.5GB
+step 330/486 loss 0.2587 lr 3.29e-05 tgt_tok/s 25 peak 12.5GB
+step 340/486 loss 0.2680 lr 3.03e-05 tgt_tok/s 20 peak 12.5GB
+step 350/486 loss 0.2706 lr 2.79e-05 tgt_tok/s 28 peak 12.5GB
+step 360/486 loss 0.3937 lr 2.55e-05 tgt_tok/s 24 peak 12.5GB
+step 370/486 loss 0.3045 lr 2.33e-05 tgt_tok/s 27 peak 12.5GB
+step 380/486 loss 0.3076 lr 2.12e-05 tgt_tok/s 27 peak 12.5GB
+step 390/486 loss 0.3153 lr 1.93e-05 tgt_tok/s 23 peak 12.5GB
+step 400/486 loss 0.2632 lr 1.75e-05 tgt_tok/s 25 peak 12.5GB
+step 400 val 0.3594
+step 410/486 loss 0.3030 lr 1.59e-05 tgt_tok/s 14 peak 12.5GB
+step 420/486 loss 0.3429 lr 1.45e-05 tgt_tok/s 23 peak 12.5GB
+step 430/486 loss 0.2694 lr 1.33e-05 tgt_tok/s 25 peak 12.5GB
+step 440/486 loss 0.3084 lr 1.22e-05 tgt_tok/s 25 peak 12.5GB
+step 450/486 loss 0.2300 lr 1.14e-05 tgt_tok/s 23 peak 12.5GB
+step 460/486 loss 0.2722 lr 1.07e-05 tgt_tok/s 22 peak 12.5GB
+step 470/486 loss 0.2689 lr 1.03e-05 tgt_tok/s 33 peak 12.5GB
+step 480/486 loss 0.2923 lr 1.01e-05 tgt_tok/s 24 peak 12.5GB
+step 486 val 0.3534
+TRAIN_DONE

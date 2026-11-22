@@ -1,0 +1,4 @@
+2.5G	out/m10/m9-ct-g256
+2.7G	out/m10/m9-ct-g32
+2.5G	weights/gemma-4-E2B-it-qat-mobile-ct
+2.7G	out/m9/mlx-m9-g32exact

@@ -1,0 +1,121 @@
+z01 complete 4.816 False 蔣介石
+z02 complete 3.389 False 無
+z03 complete 4.018 True 台灣最高的山是玉山。
+z04 complete 3.551 False 長江
+z05 complete 3.605 False 嘉義縣
+z06 complete 3.669 True 信義區
+z07 complete 3.59 True 新台幣
+z08 complete 3.972 True 10月10日
+z09 complete 4.593 False 台灣高鐵最南端的車站是台南站。
+z10 complete 3.559 False 東邊
+z11 complete 3.667 True 曹雪芹
+z12 complete 3.759 False 詩人未提供
+z13 complete 3.536 True 孔子
+z14 complete 3.603 True 指南針
+z15 complete 3.5 True 粽子
+z16 complete 3.495 True 月餅
+z17 complete 3.369 True 東京
+z18 complete 3.388 True 巴黎
+z19 complete 3.551 True 堪培拉
+z20 complete 3.579 True 渥太華
+z21 complete 3.434 True 太平洋
+z22 complete 3.799 True 珠穆朗瑪峰
+z23 complete 4.657 True 地球繞太陽一圈大約需要365天。
+z24 complete 3.595 True H2O
+z25 complete 3.582 True 二氧化碳
+z26 complete 3.362 False 腦
+z27 complete 3.541 False 無資料
+z28 complete 3.621 True 愛因斯坦
+z29 complete 3.687 True 1000
+z30 complete 3.458 False 30
+z31 complete 1.952 True 391
+z32 complete 3.509 True 12
+z33 complete 1.854 True 63
+z34 complete 1.781 True 63
+z35 complete 3.469 False 未提供
+z36 complete 3.591 True 藍色
+z37 complete 3.412 True Apple
+z38 complete 3.541 True Thank you
+z39 complete 3.404 True 7
+z40 complete 3.596 True 180
+z41 complete 3.564 True 星期六
+z42 complete 3.674 True 20
+z43 complete 3.568 True 40
+z44 complete 3.637 False 紅藍黃
+z45 complete 3.724 True 1024
+z46 complete 3.813 False 作者：羅生恩
+z47 complete 3.509 False 詩人
+z48 complete 4.387 False 中華民國最高行政機關是總統府。
+z49 complete 3.521 False 20
+z50 complete 3.353 True 太平洋
+z51 complete 3.4 True 7
+z52 complete 3.624 True 100
+z53 complete 3.555 True 早安
+z54 complete 3.88 True 一舉兩得
+z55 complete 3.519 True 鯨魚
+z56 complete 3.51 True 距離單位
+z57 complete 3.504 False 30
+z58 complete 3.493 False 02
+z59 complete 3.489 True 水星
+z60 complete 6.042 False 光合作用是植物利用光能將二氧化碳和水轉化為有機物並釋放氧氣的過程。
+e01 complete 3.131 True Paris
+e02 complete 3.113 True Tokyo
+e03 complete 4.313 False Can you provide the specific requirement or task you need assistance w
+e04 complete 3.122 True Ottawa
+e05 complete 3.176 True Berlin
+e06 complete 3.257 True Pacific Ocean
+e07 complete 3.234 True Mount Everest
+e08 complete 3.807 True William Shakespeare wrote "Romeo and Juliet".
+e09 complete 3.844 True Albert Einstein developed the theory of relativity.
+e10 complete 3.219 True Neil Armstrong
+e11 complete 3.148 True Au
+e12 complete 3.323 True H2O
+e13 complete 3.231 True Carbon dioxide
+e14 complete 3.105 True Mars
+e15 complete 3.326 True Jupiter
+e16 complete 3.177 True 7
+e17 complete 3.165 True 0
+e18 complete 3.392 True 100
+e19 complete 3.879 True Leonardo da Vinci painted the Mona Lisa.
+e20 complete 3.171 True Egypt
+e21 complete 3.222 True Blue whale
+e22 complete 4.976 False This question requires more context to provide a specific answer. Plea
+e23 complete 3.257 True Taipei
+e24 complete 3.248 True Jade Mountain
+e25 complete 3.188 True Japanese Yen
+e26 complete 3.705 False Chiang Kai-shek
+e27 complete 3.101 True 6
+e28 complete 3.34 True 391
+e29 complete 3.293 True 12
+e30 complete 3.246 True 63
+e31 complete 3.375 True 366
+e32 complete 3.286 True 60
+e33 complete 3.402 True Thank you
+e34 complete 3.134 True cold
+e35 complete 3.165 True Portuguese
+e36 complete 3.95 True The heart pumps blood through the human body.
+e37 complete 4.398 True J.K. Rowling wrote the "Harry Potter" books.
+e38 complete 3.338 True Nile River
+e39 complete 4.021 False 300000000
+e40 complete 3.133 True Hydrogen
+e41 complete 3.258 True Saturday
+e42 complete 3.4 True 20
+e43 complete 3.406 True 40
+e44 complete 3.529 True Red, Green, Blue
+e45 complete 4.099 False 1000000000
+e46 complete 3.909 True Jane Austen wrote "Pride and Prejudice".
+e47 complete 4.386 True George Orwell wrote the novel "Nineteen Eighty-Four".
+e48 complete 3.134 True 2
+e49 complete 3.411 True 206
+e50 complete 3.137 True Mercury
+e51 complete 3.158 True Seoul
+e52 complete 3.28 True India
+e53 complete 3.268 True Good morning
+e54 complete 3.191 True mice
+e55 complete 3.185 True Distance
+e56 complete 3.309 True 11
+e57 complete 3.376 True 886
+e58 complete 3.418 True 212
+e59 complete 3.251 False Yellow
+e60 complete 4.998 False Photosynthesis is the process where plants convert light energy into c
+EVAL_DONE Am9 envsets

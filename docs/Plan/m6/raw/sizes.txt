@@ -1,0 +1,5 @@
+8.7G	out/m6/mlxlora-fused
+2.7G	out/m6/mlx-mlxlora-g32exact
+2.5G	out/m6/mlx-mlxlora-g64
+2.7G	out/m5/mlx-qat-g32exact
+2.7G	out/m5/mlx-jaxlora-g32exact

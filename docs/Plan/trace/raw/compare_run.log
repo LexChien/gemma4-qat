@@ -1,0 +1,207 @@
+# orbax vs HF 數值比對  (由 tools/compare_orbax_hf.py 產生)
+## 1. 文字主幹逐層 (it: orbax gemma4-e2b-it vs HF gemma-4-E2B-it; pt: orbax pt vs HF gemma-4-E2B)
+  it/L0/q_proj: q.transpose(0,2,1).reshape(N*H,D): EXACT; q.reshape(N*D,H): shape [[12288, 256], [2048, 1536]]; q.reshape(N,D,H)->(D,N*H).T?: shape [[1536, 2048], [2048, 1536]]
+  it/L0/k_proj: kv[0].reshape(K*D,H).T (=kv[0,0].T): EXACT; kv[0,0] (no T): shape [[1536, 256], [256, 1536]]
+  it/L0/v_proj: kv[1].reshape(K*D,H).T (=kv[1,0].T): EXACT; kv[1,0] (no T): shape [[1536, 256], [256, 1536]]
+  it/L0/o_proj: o.reshape(N*H,D).T: EXACT; o.transpose(1,0,2).reshape.T: maxabs=0.563 cos=0.00108 ratio=1.00000
+  it/L0/gate_proj: g[0] (no T): EXACT; g[1]: maxabs=0.852 cos=0.00145 ratio=0.97206
+  it/L0/up_proj: g[1] (no T): EXACT; g[0]: maxabs=0.852 cos=0.00145 ratio=1.02874
+  it/L0/down_proj: linear.T: EXACT
+  it/L0/per_layer_input_gate: w.T: EXACT
+  it/L0/per_layer_projection: w.T: EXACT
+  it/L0/input_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.06 cos=0.99922 ratio=1.08184; w+1: maxabs=1.25 cos=0.99943 ratio=0.92839
+  it/L0/post_attention_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.06 cos=0.99858 ratio=1.01727; w+1: maxabs=1.06 cos=0.99868 ratio=0.98068
+  it/L0/pre_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.06 cos=0.99978 ratio=1.04465; w+1: maxabs=1.12 cos=0.99982 ratio=0.95863
+  it/L0/post_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.06 cos=0.99877 ratio=1.04465; w+1: maxabs=1.12 cos=0.99897 ratio=0.95694
+  it/L0/post_per_layer_input_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.02 cos=0.98808 ratio=1.24175; w+1: maxabs=1.02 cos=0.99474 ratio=0.82600
+  it/L0/self_attn.q_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=-1.00000 ratio=64.00000; w+1: maxabs=1 cos=1.00000 ratio=0.49606
+  it/L0/self_attn.k_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=-1.00000 ratio=0.14509; w+1: maxabs=0.998 cos=1.00000 ratio=0.11285
+  it/L0/layer_scalar: skip_scale: EXACT
+  it/L4/q_proj: q.transpose(0,2,1).reshape(N*H,D): EXACT; q.reshape(N*D,H): shape [[12288, 512], [4096, 1536]]; q.reshape(N,D,H)->(D,N*H).T?: shape [[1536, 4096], [4096, 1536]]
+  it/L4/k_proj: kv[0].reshape(K*D,H).T (=kv[0,0].T): EXACT; kv[0,0] (no T): shape [[1536, 512], [512, 1536]]
+  it/L4/v_proj: kv[1].reshape(K*D,H).T (=kv[1,0].T): EXACT; kv[1,0] (no T): shape [[1536, 512], [512, 1536]]
+  it/L4/o_proj: o.reshape(N*H,D).T: EXACT; o.transpose(1,0,2).reshape.T: maxabs=0.875 cos=0.00252 ratio=1.00000
+  it/L4/gate_proj: g[0] (no T): EXACT; g[1]: maxabs=0.705 cos=-0.00311 ratio=0.96571
+  it/L4/up_proj: g[1] (no T): EXACT; g[0]: maxabs=0.705 cos=-0.00311 ratio=1.03551
+  it/L4/down_proj: linear.T: EXACT
+  it/L4/per_layer_input_gate: w.T: EXACT
+  it/L4/per_layer_projection: w.T: EXACT
+  it/L4/input_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.12 cos=0.99975 ratio=1.01139; w+1: maxabs=1.25 cos=0.99976 ratio=0.98837
+  it/L4/post_attention_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.01 cos=0.80637 ratio=1.50793; w+1: maxabs=1.01 cos=0.96599 ratio=0.65925
+  it/L4/pre_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=2 cos=0.99997 ratio=1.00425; w+1: maxabs=2 cos=0.99997 ratio=0.99608
+  it/L4/post_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.01 cos=0.83673 ratio=1.57187; w+1: maxabs=1.01 cos=0.97296 ratio=0.66293
+  it/L4/post_per_layer_input_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=0.06842 ratio=1.00959; w+1: maxabs=1.01 cos=0.89076 ratio=0.46069
+  it/L4/self_attn.q_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=-1.00000 ratio=27.63636; w+1: maxabs=1 cos=1.00000 ratio=0.49008
+  it/L4/self_attn.k_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=0.999 cos=-1.00000 ratio=0.06956; w+1: maxabs=0.998 cos=1.00000 ratio=0.06112
+  it/L4/layer_scalar: skip_scale: EXACT
+  it/L14/q_proj: q.transpose(0,2,1).reshape(N*H,D): EXACT; q.reshape(N*D,H): shape [[12288, 512], [4096, 1536]]; q.reshape(N,D,H)->(D,N*H).T?: shape [[1536, 4096], [4096, 1536]]
+  it/L14/k_proj: kv[0].reshape(K*D,H).T (=kv[0,0].T): EXACT; kv[0,0] (no T): shape [[1536, 512], [512, 1536]]
+  it/L14/v_proj: kv[1].reshape(K*D,H).T (=kv[1,0].T): EXACT; kv[1,0] (no T): shape [[1536, 512], [512, 1536]]
+  it/L14/o_proj: o.reshape(N*H,D).T: EXACT; o.transpose(1,0,2).reshape.T: maxabs=0.787 cos=0.00143 ratio=1.00000
+  it/L14/gate_proj: g[0] (no T): EXACT; g[1]: maxabs=0.621 cos=-0.00014 ratio=0.95517
+  it/L14/up_proj: g[1] (no T): EXACT; g[0]: maxabs=0.621 cos=-0.00014 ratio=1.04694
+  it/L14/down_proj: linear.T: EXACT
+  it/L14/per_layer_input_gate: w.T: EXACT
+  it/L14/per_layer_projection: w.T: EXACT
+  it/L14/input_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.06 cos=0.99859 ratio=1.03530; w+1: maxabs=1.25 cos=0.99878 ratio=0.96454
+  it/L14/post_attention_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.03 cos=0.99963 ratio=1.05816; w+1: maxabs=1.02 cos=0.99970 ratio=0.94731
+  it/L14/pre_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.02 cos=0.95604 ratio=1.06351; w+1: maxabs=1.03 cos=0.97005 ratio=0.88097
+  it/L14/post_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.12 cos=0.99997 ratio=1.02087; w+1: maxabs=1.12 cos=0.99997 ratio=0.97991
+  it/L14/post_per_layer_input_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.06 cos=0.99871 ratio=1.05073; w+1: maxabs=1.06 cos=0.99894 ratio=0.95184
+  it/L14/self_attn.q_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=1.00000 ratio=44.83422; w+1: maxabs=0.992 cos=1.00000 ratio=0.50775
+  it/L14/self_attn.k_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=0.999 cos=-1.00000 ratio=0.06510; w+1: maxabs=1 cos=1.00000 ratio=0.05744
+  it/L14/layer_scalar: skip_scale: EXACT
+  it/L15/q_proj: q.transpose(0,2,1).reshape(N*H,D): EXACT; q.reshape(N*D,H): shape [[12288, 256], [2048, 1536]]; q.reshape(N,D,H)->(D,N*H).T?: shape [[1536, 2048], [2048, 1536]]
+  it/L15/k_proj: kv[0].reshape(K*D,H).T (=kv[0,0].T): EXACT; kv[0,0] (no T): shape [[1536, 256], [256, 1536]]
+  it/L15/v_proj: kv[1].reshape(K*D,H).T (=kv[1,0].T): EXACT; kv[1,0] (no T): shape [[1536, 256], [256, 1536]]
+  it/L15/o_proj: o.reshape(N*H,D).T: EXACT; o.transpose(1,0,2).reshape.T: maxabs=0.755 cos=0.00180 ratio=1.00000
+  it/L15/gate_proj: g[0] (no T): EXACT; g[1]: maxabs=0.699 cos=-0.00013 ratio=0.99525
+  it/L15/up_proj: g[1] (no T): EXACT; g[0]: maxabs=0.699 cos=-0.00013 ratio=1.00478
+  it/L15/down_proj: linear.T: EXACT
+  it/L15/per_layer_input_gate: w.T: EXACT
+  it/L15/per_layer_projection: w.T: EXACT
+  it/L15/input_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.03 cos=0.99872 ratio=1.02313; w+1: maxabs=1.25 cos=0.99884 ratio=0.97550
+  it/L15/post_attention_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=-0.19788 ratio=4.33360; w+1: maxabs=1 cos=0.99393 ratio=0.48612
+  it/L15/pre_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.02 cos=0.71103 ratio=1.34085; w+1: maxabs=1.02 cos=0.94184 ratio=0.64083
+  it/L15/post_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.02 cos=0.99753 ratio=1.21014; w+1: maxabs=1.02 cos=0.99878 ratio=0.84955
+  it/L15/post_per_layer_input_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.01 cos=0.77159 ratio=1.18278; w+1: maxabs=1.02 cos=0.92908 ratio=0.68942
+  it/L15/self_attn.q_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=-1.00000 ratio=118.65694; w+1: maxabs=1 cos=1.00000 ratio=0.49804
+  it/L15/self_attn.k_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=-1.00000 ratio=0.14397; w+1: maxabs=0.999 cos=1.00000 ratio=0.11198
+  it/L15/layer_scalar: skip_scale: EXACT
+  it/L19/q_proj: q.transpose(0,2,1).reshape(N*H,D): EXACT; q.reshape(N*D,H): shape [[12288, 512], [4096, 1536]]; q.reshape(N,D,H)->(D,N*H).T?: shape [[1536, 4096], [4096, 1536]]
+  it/L19/k_proj: kv[0].reshape(K*D,H).T (=kv[0,0].T): EXACT; kv[0,0] (no T): shape [[1536, 512], [512, 1536]]
+  it/L19/v_proj: kv[1].reshape(K*D,H).T (=kv[1,0].T): EXACT; kv[1,0] (no T): shape [[1536, 512], [512, 1536]]
+  it/L19/o_proj: o.reshape(N*H,D).T: EXACT; o.transpose(1,0,2).reshape.T: maxabs=0.49 cos=0.00199 ratio=1.00000
+  it/L19/gate_proj: g[0] (no T): EXACT; g[1]: maxabs=1.5 cos=0.00325 ratio=1.00172
+  it/L19/up_proj: g[1] (no T): EXACT; g[0]: maxabs=1.5 cos=0.00325 ratio=0.99829
+  it/L19/down_proj: linear.T: EXACT
+  it/L19/per_layer_input_gate: w.T: EXACT
+  it/L19/per_layer_projection: w.T: EXACT
+  it/L19/input_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=2 cos=0.99888 ratio=1.02737; w+1: maxabs=1.06 cos=0.99897 ratio=0.97295
+  it/L19/post_attention_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=0.31325 ratio=3.57586; w+1: maxabs=1.01 cos=0.99062 ratio=0.51661
+  it/L19/pre_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.02 cos=0.25260 ratio=1.10419; w+1: maxabs=1.03 cos=0.89635 ratio=0.50600
+  it/L19/post_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.01 cos=0.97774 ratio=1.61448; w+1: maxabs=1.01 cos=0.99568 ratio=0.71404
+  it/L19/post_per_layer_input_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=0.15486 ratio=2.79738; w+1: maxabs=1.01 cos=0.98387 ratio=0.50663
+  it/L19/self_attn.q_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=1.00000 ratio=44.83422; w+1: maxabs=0.992 cos=1.00000 ratio=0.50775
+  it/L19/self_attn.k_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=0.999 cos=-1.00000 ratio=0.06510; w+1: maxabs=1 cos=1.00000 ratio=0.05744
+  it/L19/layer_scalar: skip_scale: EXACT
+  it/L34/q_proj: q.transpose(0,2,1).reshape(N*H,D): EXACT; q.reshape(N*D,H): shape [[12288, 512], [4096, 1536]]; q.reshape(N,D,H)->(D,N*H).T?: shape [[1536, 4096], [4096, 1536]]
+  it/L34/k_proj: kv[0].reshape(K*D,H).T (=kv[0,0].T): EXACT; kv[0,0] (no T): shape [[1536, 512], [512, 1536]]
+  it/L34/v_proj: kv[1].reshape(K*D,H).T (=kv[1,0].T): EXACT; kv[1,0] (no T): shape [[1536, 512], [512, 1536]]
+  it/L34/o_proj: o.reshape(N*H,D).T: EXACT; o.transpose(1,0,2).reshape.T: maxabs=0.486 cos=0.00171 ratio=1.00000
+  it/L34/gate_proj: g[0] (no T): EXACT; g[1]: maxabs=0.859 cos=0.00110 ratio=0.96511
+  it/L34/up_proj: g[1] (no T): EXACT; g[0]: maxabs=0.859 cos=0.00110 ratio=1.03616
+  it/L34/down_proj: linear.T: EXACT
+  it/L34/per_layer_input_gate: w.T: EXACT
+  it/L34/per_layer_projection: w.T: EXACT
+  it/L34/input_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.06 cos=0.99840 ratio=1.03215; w+1: maxabs=1.12 cos=0.99860 ratio=0.96703
+  it/L34/post_attention_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=-0.64013 ratio=0.88259; w+1: maxabs=1.01 cos=0.95296 ratio=0.34935
+  it/L34/pre_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.01 cos=-0.20553 ratio=1.58817; w+1: maxabs=1.02 cos=0.96059 ratio=0.45109
+  it/L34/post_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.02 cos=0.83687 ratio=1.33681; w+1: maxabs=1.03 cos=0.95836 ratio=0.69749
+  it/L34/post_per_layer_input_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=-0.43316 ratio=1.35986; w+1: maxabs=1 cos=0.96155 ratio=0.41466
+  it/L34/self_attn.q_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=1.00000 ratio=44.83422; w+1: maxabs=0.992 cos=1.00000 ratio=0.50775
+  it/L34/self_attn.k_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=0.999 cos=-1.00000 ratio=0.06510; w+1: maxabs=1 cos=1.00000 ratio=0.05744
+  it/L34/layer_scalar: skip_scale: EXACT
+  pt/L0/q_proj: q.transpose(0,2,1).reshape(N*H,D): EXACT; q.reshape(N*D,H): shape [[12288, 256], [2048, 1536]]; q.reshape(N,D,H)->(D,N*H).T?: shape [[1536, 2048], [2048, 1536]]
+  pt/L0/k_proj: kv[0].reshape(K*D,H).T (=kv[0,0].T): EXACT; kv[0,0] (no T): shape [[1536, 256], [256, 1536]]
+  pt/L0/v_proj: kv[1].reshape(K*D,H).T (=kv[1,0].T): EXACT; kv[1,0] (no T): shape [[1536, 256], [256, 1536]]
+  pt/L0/o_proj: o.reshape(N*H,D).T: EXACT; o.transpose(1,0,2).reshape.T: maxabs=0.382 cos=0.00158 ratio=1.00000
+  pt/L0/gate_proj: g[0] (no T): EXACT; g[1]: maxabs=0.5 cos=0.00184 ratio=1.00000
+  pt/L0/up_proj: g[1] (no T): EXACT; g[0]: maxabs=0.5 cos=0.00184 ratio=1.00000
+  pt/L0/down_proj: linear.T: EXACT
+  pt/L0/per_layer_input_gate: w.T: EXACT
+  pt/L0/per_layer_projection: w.T: EXACT
+  pt/L0/input_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.06 cos=0.99922 ratio=1.08180; w+1: maxabs=1.06 cos=0.99943 ratio=0.92851
+  pt/L0/post_attention_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.06 cos=0.99833 ratio=1.01828; w+1: maxabs=1.06 cos=0.99846 ratio=0.97928
+  pt/L0/pre_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.06 cos=0.99978 ratio=1.04456; w+1: maxabs=1.03 cos=0.99982 ratio=0.95872
+  pt/L0/post_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.12 cos=0.99901 ratio=1.04132; w+1: maxabs=1.06 cos=0.99916 ratio=0.96015
+  pt/L0/post_per_layer_input_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.02 cos=0.98686 ratio=1.25381; w+1: maxabs=1.02 cos=0.99440 ratio=0.81985
+  pt/L0/self_attn.q_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=-1.00000 ratio=64.00000; w+1: maxabs=1 cos=1.00000 ratio=0.49606
+  pt/L0/self_attn.k_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=-1.00000 ratio=0.14509; w+1: maxabs=0.998 cos=1.00000 ratio=0.11285
+  pt/L0/layer_scalar: skip_scale: EXACT
+  pt/L34/q_proj: q.transpose(0,2,1).reshape(N*H,D): EXACT; q.reshape(N*D,H): shape [[12288, 512], [4096, 1536]]; q.reshape(N,D,H)->(D,N*H).T?: shape [[1536, 4096], [4096, 1536]]
+  pt/L34/k_proj: kv[0].reshape(K*D,H).T (=kv[0,0].T): EXACT; kv[0,0] (no T): shape [[1536, 512], [512, 1536]]
+  pt/L34/v_proj: kv[1].reshape(K*D,H).T (=kv[1,0].T): EXACT; kv[1,0] (no T): shape [[1536, 512], [512, 1536]]
+  pt/L34/o_proj: o.reshape(N*H,D).T: EXACT; o.transpose(1,0,2).reshape.T: maxabs=0.187 cos=0.00193 ratio=1.00000
+  pt/L34/gate_proj: g[0] (no T): EXACT; g[1]: maxabs=0.52 cos=0.00220 ratio=0.99999
+  pt/L34/up_proj: g[1] (no T): EXACT; g[0]: maxabs=0.52 cos=0.00220 ratio=1.00001
+  pt/L34/down_proj: linear.T: EXACT
+  pt/L34/per_layer_input_gate: w.T: EXACT
+  pt/L34/per_layer_projection: w.T: EXACT
+  pt/L34/input_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.06 cos=0.99839 ratio=1.03198; w+1: maxabs=1.25 cos=0.99859 ratio=0.96708
+  pt/L34/post_attention_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=-0.55334 ratio=0.93291; w+1: maxabs=1 cos=0.94567 ratio=0.36456
+  pt/L34/pre_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.01 cos=-0.18918 ratio=1.51370; w+1: maxabs=1.01 cos=0.95639 ratio=0.45009
+  pt/L34/post_feedforward_layernorm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1.03 cos=0.85471 ratio=1.29648; w+1: maxabs=1.03 cos=0.95823 ratio=0.71474
+  pt/L34/post_per_layer_input_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=-0.48415 ratio=1.23109; w+1: maxabs=1 cos=0.95857 ratio=0.40077
+  pt/L34/self_attn.q_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=1 cos=1.00000 ratio=44.83422; w+1: maxabs=0.992 cos=1.00000 ratio=0.50775
+  pt/L34/self_attn.k_norm: w (HF 乘 w): EXACT; w-1 (HF 乘 1+w): maxabs=0.999 cos=-1.00000 ratio=0.06510; w+1: maxabs=1 cos=1.00000 ratio=0.05744
+  pt/L34/layer_scalar: skip_scale: EXACT
+## 2. 嵌入、PLE、per_layer_model_projection、final norm
+  it/embed_tokens(64 rows): input_embedding: EXACT; input_embedding*sqrt(1536): maxabs=12.4 cos=1.00000 ratio=0.02552
+  it/embed_tokens_per_layer(64 rows): ple.reshape(V,35*256): EXACT; ple*sqrt(256): maxabs=9.96 cos=1.00000 ratio=0.06250
+  it/per_layer_model_projection: w.reshape(1536,8960).T: EXACT; w.reshape.T * 1536^-0.5: maxabs=0.796 cos=0.99991 ratio=39.19199
+  it/per_layer_projection_norm: w: EXACT; w-1: maxabs=1.02 cos=0.33172 ratio=1.46923
+  it/norm(final): w: EXACT; w-1: maxabs=1.06 cos=0.99973 ratio=1.06721
+  it/embed_vision.embedding_projection: mm_input_projection.w.T: EXACT
+  it/embed_audio.embedding_projection(方陣): w.T: EXACT; w (no T): maxabs=0.334 cos=0.00136 ratio=1.00000
+  pt/embed_tokens(64 rows): input_embedding: EXACT; input_embedding*sqrt(1536): maxabs=12.4 cos=1.00000 ratio=0.02552
+  pt/embed_tokens_per_layer(64 rows): ple.reshape(V,35*256): EXACT; ple*sqrt(256): maxabs=9.9 cos=1.00000 ratio=0.06250
+  pt/per_layer_model_projection: w.reshape(1536,8960).T: EXACT; w.reshape.T * 1536^-0.5: maxabs=0.249 cos=0.99991 ratio=39.19199
+  pt/per_layer_projection_norm: w: EXACT; w-1: maxabs=1.02 cos=0.27067 ratio=1.19131
+  pt/norm(final): w: EXACT; w-1: maxabs=1.06 cos=0.99973 ratio=1.06718
+  pt/embed_vision.embedding_projection: mm_input_projection.w.T: EXACT
+  pt/embed_audio.embedding_projection(方陣): w.T: EXACT; w (no T): maxabs=0.213 cos=0.00149 ratio=1.00000
+## 3. 視覺 / 音訊塔（方陣轉置驗證，it）
+  it/vision L0 q_proj(768x768): q.transpose(0,2,1).reshape(768,768): EXACT; q.reshape(768,768) (錯誤候選): maxabs=0.739 cos=0.00008 ratio=1.00000
+  it/vision L0 k_proj: kv[0].transpose(0,2,1).reshape: EXACT; kv[0].reshape.T: maxabs=0.514 cos=-0.00058 ratio=1.00000
+  it/vision L0 o_proj: o.reshape(768,768).T: EXACT; o.reshape(768,768): maxabs=0.495 cos=0.00055 ratio=1.00000
+  it/vision L0 input_layernorm: w: EXACT; w-1: maxabs=1.06 cos=0.98547 ratio=1.09741
+  it/vision L0 q_proj.input_max: clip_input_max: shape [[], [1]]
+  it/vision L15 q_proj(768x768): q.transpose(0,2,1).reshape(768,768): EXACT; q.reshape(768,768) (錯誤候選): maxabs=0.441 cos=-0.00137 ratio=1.00000
+  it/vision L15 k_proj: kv[0].transpose(0,2,1).reshape: EXACT; kv[0].reshape.T: maxabs=0.457 cos=-0.00109 ratio=1.00000
+  it/vision L15 o_proj: o.reshape(768,768).T: EXACT; o.reshape(768,768): maxabs=0.53 cos=-0.00146 ratio=1.00000
+  it/vision L15 input_layernorm: w: EXACT; w-1: maxabs=1.02 cos=0.98673 ratio=1.21604
+  it/vision L15 q_proj.input_max: clip_input_max: shape [[], [1]]
+  it/audio L0 self_attn.q_proj.linear.weight(方陣): kernel.T: EXACT; kernel (no T): maxabs=0.155 cos=0.01565 ratio=1.00000
+  it/audio L0 self_attn.k_proj.linear.weight(方陣): kernel.T: EXACT; kernel (no T): maxabs=0.172 cos=0.00842 ratio=1.00000
+  it/audio L0 lconv1d.linear_end.linear.weight(方陣): kernel.T: EXACT; kernel (no T): maxabs=0.159 cos=0.00010 ratio=1.00000
+  it/audio L0 self_attn.post: post.reshape(1024,1024).T: EXACT; post.reshape: maxabs=0.189 cos=0.00038 ratio=1.00000
+  it/audio L0 relative_k_proj: pos_proj.reshape(1024,1024).T: EXACT; reshape: maxabs=0.293 cos=0.02436 ratio=1.00000
+  it/audio L0 norm_pre_attn: w: EXACT; w-1: maxabs=1 cos=0.98090 ratio=1.30196
+  it/audio L0 per_dim_scale: w: EXACT
+  it/audio L11 self_attn.q_proj.linear.weight(方陣): kernel.T: EXACT; kernel (no T): maxabs=0.176 cos=0.00564 ratio=1.00000
+  it/audio L11 self_attn.k_proj.linear.weight(方陣): kernel.T: EXACT; kernel (no T): maxabs=0.122 cos=0.00858 ratio=0.99999
+  it/audio L11 lconv1d.linear_end.linear.weight(方陣): kernel.T: EXACT; kernel (no T): maxabs=0.199 cos=-0.00111 ratio=1.00000
+  it/audio L11 self_attn.post: post.reshape(1024,1024).T: EXACT; post.reshape: maxabs=0.186 cos=0.00445 ratio=1.00000
+  it/audio L11 relative_k_proj: pos_proj.reshape(1024,1024).T: EXACT; reshape: maxabs=0.263 cos=0.00088 ratio=1.00000
+  it/audio L11 norm_pre_attn: w: EXACT; w-1: maxabs=1.02 cos=0.98913 ratio=1.13648
+  it/audio L11 per_dim_scale: w: EXACT
+## 4. QAT ckpt (HF qat-q4_0-unquantized) vs orbax it — 用 norm_ratio 判斷是否預先縮放
+  qat/per_layer_model_projection: w.T: maxabs=0.81 cos=0.98076 ratio=0.01864; w.T*1536^-0.5: maxabs=0.0145 cos=0.98076 ratio=0.73055
+  it(HF)/per_layer_model_projection vs qat: HF it: maxabs=0.81 cos=0.98076 ratio=0.01864
+  qat/L0/q_proj: q.transpose(0,2,1).reshape: maxabs=0.239 cos=0.99452 ratio=0.69736
+  qat/L0/input_layernorm: w: maxabs=0.5 cos=0.99999 ratio=1.00025
+  qat/norm(final): w: maxabs=1 cos=0.99997 ratio=1.00184
+  qat/embed_tokens(64 rows): input_embedding: maxabs=0.0732 cos=0.98963 ratio=0.82582
+## 5. Q4_0 格點檢查（每 32 個一組；HF 最後一軸 = 輸入軸 / 嵌入維）
+  it/embed_tokens.weight: {"last": {"blocks": 4096, "uniq_mean": 31.576, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}, "first": {"blocks": 4096, "uniq_mean": 31.475, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}}
+  it/embed_tokens_per_layer.weight: {"last": {"blocks": 4096, "uniq_mean": 31.578, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}, "first": {"blocks": 4096, "uniq_mean": 31.516, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}}
+  it/per_layer_model_projection.weight: {"last": {"blocks": 4096, "uniq_mean": 31.579, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}, "first": {"blocks": 4096, "uniq_mean": 31.573, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}}
+  it/layers.0.per_layer_projection.weight: {"last": {"blocks": 4096, "uniq_mean": 31.573, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}, "first": {"blocks": 4096, "uniq_mean": 31.576, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}}
+  it/layers.0.mlp.up_proj.weight: {"last": {"blocks": 4096, "uniq_mean": 31.567, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}, "first": {"blocks": 4096, "uniq_mean": 31.572, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}}
+  it/layers.34.self_attn.q_proj.weight: {"last": {"blocks": 4096, "uniq_mean": 31.572, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}, "first": {"blocks": 4096, "uniq_mean": 31.566, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}}
+  it/layers.4.self_attn.o_proj.weight: {"last": {"blocks": 4096, "uniq_mean": 31.56, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}, "first": {"blocks": 4096, "uniq_mean": 31.559, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}}
+  it/model.vision_tower.encoder.layers.0.self_attn.q_proj.linear.weight: {"last": {"blocks": 4096, "uniq_mean": 25.214, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}, "first": {"blocks": 4096, "uniq_mean": 31.321, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}}
+  it/model.audio_tower.layers.0.self_attn.q_proj.linear.weight: {"last": {"blocks": 4096, "uniq_mean": 3.846, "uniq_max": 4, "frac_le16": 1.0, "frac_on_grid": 1.0}, "first": {"blocks": 4096, "uniq_mean": 19.322, "uniq_max": 30, "frac_le16": 0.2466, "frac_on_grid": 0.0}}
+  it/model.embed_audio.embedding_projection.weight: {"last": {"blocks": 4096, "uniq_mean": 31.569, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}, "first": {"blocks": 4096, "uniq_mean": 31.581, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}}
+  qat/embed_tokens.weight: {"last": {"blocks": 4096, "uniq_mean": 12.504, "uniq_max": 16, "frac_le16": 1.0, "frac_on_grid": 0.4043}, "first": {"blocks": 4096, "uniq_mean": 28.554, "uniq_max": 32, "frac_le16": 0.0005, "frac_on_grid": 0.0}}
+  qat/embed_tokens_per_layer.weight: {"last": {"blocks": 4096, "uniq_mean": 12.55, "uniq_max": 16, "frac_le16": 1.0, "frac_on_grid": 0.4006}, "first": {"blocks": 4096, "uniq_mean": 28.69, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}}
+  qat/per_layer_model_projection.weight: {"last": {"blocks": 4096, "uniq_mean": 12.412, "uniq_max": 16, "frac_le16": 1.0, "frac_on_grid": 0.3843}, "first": {"blocks": 4096, "uniq_mean": 28.528, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}}
+  qat/layers.0.per_layer_projection.weight: {"last": {"blocks": 4096, "uniq_mean": 12.248, "uniq_max": 16, "frac_le16": 1.0, "frac_on_grid": 0.4094}, "first": {"blocks": 4096, "uniq_mean": 28.172, "uniq_max": 32, "frac_le16": 0.0002, "frac_on_grid": 0.0}}
+  qat/layers.0.mlp.up_proj.weight: {"last": {"blocks": 4096, "uniq_mean": 12.453, "uniq_max": 16, "frac_le16": 1.0, "frac_on_grid": 0.4102}, "first": {"blocks": 4096, "uniq_mean": 28.564, "uniq_max": 32, "frac_le16": 0.0002, "frac_on_grid": 0.0}}
+  qat/layers.34.self_attn.q_proj.weight: {"last": {"blocks": 4096, "uniq_mean": 12.569, "uniq_max": 16, "frac_le16": 1.0, "frac_on_grid": 0.4182}, "first": {"blocks": 4096, "uniq_mean": 28.692, "uniq_max": 32, "frac_le16": 0.0002, "frac_on_grid": 0.0}}
+  qat/layers.4.self_attn.o_proj.weight: {"last": {"blocks": 4096, "uniq_mean": 12.628, "uniq_max": 16, "frac_le16": 1.0, "frac_on_grid": 0.3997}, "first": {"blocks": 4096, "uniq_mean": 28.848, "uniq_max": 32, "frac_le16": 0.001, "frac_on_grid": 0.0}}
+  qat/model.vision_tower.encoder.layers.0.self_attn.q_proj.linear.weight: {"last": {"blocks": 4096, "uniq_mean": 25.214, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}, "first": {"blocks": 4096, "uniq_mean": 31.321, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}}
+  qat/model.audio_tower.layers.0.self_attn.q_proj.linear.weight: {"last": {"blocks": 4096, "uniq_mean": 3.846, "uniq_max": 4, "frac_le16": 1.0, "frac_on_grid": 1.0}, "first": {"blocks": 4096, "uniq_mean": 19.322, "uniq_max": 30, "frac_le16": 0.2466, "frac_on_grid": 0.0}}
+  qat/model.embed_audio.embedding_projection.weight: {"last": {"blocks": 4096, "uniq_mean": 31.569, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}, "first": {"blocks": 4096, "uniq_mean": 31.581, "uniq_max": 32, "frac_le16": 0.0, "frac_on_grid": 0.0}}
+DONE

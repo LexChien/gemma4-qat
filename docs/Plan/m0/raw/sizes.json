@@ -1,0 +1,82 @@
+{
+ "hf-it-bf16": {
+  "path": "weights/gemma-4-E2B-it",
+  "apparent_bytes": 10278849571,
+  "GB": 10.279,
+  "GiB": 9.573,
+  "weights_bytes": 10246621918,
+  "du_KiB": 10251552
+ },
+ "hf-qat-q4_0-unquantized": {
+  "path": "weights/gemma-4-E2B-it-qat-q4_0-unquantized",
+  "apparent_bytes": 10241082561,
+  "GB": 10.241,
+  "GiB": 9.538,
+  "weights_bytes": 10208852878,
+  "du_KiB": 10296696
+ },
+ "official-w4a16-ct": {
+  "path": "weights/gemma-4-E2B-it-qat-w4a16-ct",
+  "apparent_bytes": 8348553610,
+  "GB": 8.349,
+  "GiB": 7.775,
+  "weights_bytes": 8316306646,
+  "du_KiB": 8165108
+ },
+ "official-mobile-ct": {
+  "path": "weights/gemma-4-E2B-it-qat-mobile-ct",
+  "apparent_bytes": 2704260678,
+  "GB": 2.704,
+  "GiB": 2.519,
+  "weights_bytes": 2671733574,
+  "du_KiB": 2649660
+ },
+ "mlx-it-q4g64": {
+  "path": "out/m0/mlx-it-q4g64",
+  "apparent_bytes": 2636415235,
+  "GB": 2.636,
+  "GiB": 2.455,
+  "weights_bytes": 2604122719,
+  "du_KiB": 2589008
+ },
+ "mlx-it-q4g32": {
+  "path": "out/m0/mlx-it-q4g32",
+  "apparent_bytes": 2925683129,
+  "GB": 2.926,
+  "GiB": 2.725,
+  "weights_bytes": 2893390613,
+  "du_KiB": 2857132
+ },
+ "mlx-qat-q4g64": {
+  "path": "out/m0/mlx-qat-q4g64",
+  "apparent_bytes": 2636415222,
+  "GB": 2.636,
+  "GiB": 2.455,
+  "weights_bytes": 2604122719,
+  "du_KiB": 2574644
+ },
+ "mlx-qat-q4g32": {
+  "path": "out/m0/mlx-qat-q4g32",
+  "apparent_bytes": 2925683116,
+  "GB": 2.926,
+  "GiB": 2.725,
+  "weights_bytes": 2893390613,
+  "du_KiB": 2857132
+ },
+ "mlx-qat-safe-g64": {
+  "path": "out/m0/mlx-qat-safe-g64",
+  "apparent_bytes": 2636515221,
+  "GB": 2.637,
+  "GiB": 2.455,
+  "weights_bytes": 2604122719,
+  "du_KiB": 2574740
+ },
+ "mlx-qat-mobile-g64": {
+  "path": "out/m0/mlx-qat-mobile-g64",
+  "apparent_bytes": 2193098466,
+  "GB": 2.193,
+  "GiB": 2.042,
+  "weights_bytes": 2160705962,
+  "du_KiB": 2141716
+ }
+}

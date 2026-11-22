@@ -1,0 +1,268 @@
+{
+ "tag": "lever_budget256_on",
+ "n": 25,
+ "knowledge_pass": "6/8",
+ "instruction_pass": "6/7",
+ "garbage_pass": "3/5",
+ "trad_chars": 1745,
+ "simp_chars": 4,
+ "trad_ratio": 0.9977,
+ "answers_mostly_simplified": 0,
+ "answers_with_any_simplified": 3,
+ "mean_rep4": 0.0376,
+ "n_rep4_gt_0_3": 0,
+ "mean_chars": 358.6,
+ "n_hit_max": 4,
+ "per_prompt": [
+  {
+   "id": "k01",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 6,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 45,
+   "hit_max": false
+  },
+  {
+   "id": "k03",
+   "cat": "knowledge",
+   "ok": false,
+   "trad": 9,
+   "simp": 0,
+   "rep4": 0.04477611940298509,
+   "chars": 79,
+   "hit_max": false
+  },
+  {
+   "id": "k05",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 3,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 17,
+   "hit_max": false
+  },
+  {
+   "id": "k07",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 11,
+   "simp": 0,
+   "rep4": 0.16201117318435754,
+   "chars": 206,
+   "hit_max": false
+  },
+  {
+   "id": "k09",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 1,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 26,
+   "hit_max": false
+  },
+  {
+   "id": "k11",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 13,
+   "simp": 0,
+   "rep4": 0.007874015748031482,
+   "chars": 149,
+   "hit_max": false
+  },
+  {
+   "id": "k13",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 1,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 26,
+   "hit_max": false
+  },
+  {
+   "id": "k15",
+   "cat": "knowledge",
+   "ok": false,
+   "trad": 27,
+   "simp": 0,
+   "rep4": 0.08759124087591241,
+   "chars": 156,
+   "hit_max": false
+  },
+  {
+   "id": "i02",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 2,
+   "hit_max": false
+  },
+  {
+   "id": "i04",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 17,
+   "hit_max": false
+  },
+  {
+   "id": "i06",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 47,
+   "simp": 0,
+   "rep4": 0.04229607250755285,
+   "chars": 361,
+   "hit_max": false
+  },
+  {
+   "id": "i08",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 2,
+   "hit_max": false
+  },
+  {
+   "id": "i10",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 6,
+   "hit_max": false
+  },
+  {
+   "id": "i12",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 1,
+   "hit_max": false
+  },
+  {
+   "id": "i14",
+   "cat": "instruction",
+   "ok": false,
+   "trad": 42,
+   "simp": 1,
+   "rep4": 0.054545454545454564,
+   "chars": 198,
+   "hit_max": false
+  },
+  {
+   "id": "s01",
+   "cat": "script",
+   "ok": null,
+   "trad": 261,
+   "simp": 0,
+   "rep4": 0.13783783783783787,
+   "chars": 1287,
+   "hit_max": false
+  },
+  {
+   "id": "s03",
+   "cat": "script",
+   "ok": null,
+   "trad": 263,
+   "simp": 0,
+   "rep4": 0.08125000000000004,
+   "chars": 1305,
+   "hit_max": true
+  },
+  {
+   "id": "s05",
+   "cat": "script",
+   "ok": null,
+   "trad": 255,
+   "simp": 0,
+   "rep4": 0.0899082568807339,
+   "chars": 1201,
+   "hit_max": true
+  },
+  {
+   "id": "s07",
+   "cat": "script",
+   "ok": null,
+   "trad": 280,
+   "simp": 1,
+   "rep4": 0.06943268416596104,
+   "chars": 1316,
+   "hit_max": true
+  },
+  {
+   "id": "s09",
+   "cat": "script",
+   "ok": null,
+   "trad": 239,
+   "simp": 0,
+   "rep4": 0.04941860465116277,
+   "chars": 1108,
+   "hit_max": true
+  },
+  {
+   "id": "g01",
+   "cat": "garbage",
+   "ok": false,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.040000000000000036,
+   "chars": 158,
+   "hit_max": false
+  },
+  {
+   "id": "g03",
+   "cat": "garbage",
+   "ok": true,
+   "trad": 88,
+   "simp": 0,
+   "rep4": 0.02604166666666663,
+   "chars": 405,
+   "hit_max": false
+  },
+  {
+   "id": "g05",
+   "cat": "garbage",
+   "ok": false,
+   "trad": 7,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 20,
+   "hit_max": false
+  },
+  {
+   "id": "g07",
+   "cat": "garbage",
+   "ok": true,
+   "trad": 14,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 77,
+   "hit_max": false
+  },
+  {
+   "id": "g09",
+   "cat": "garbage",
+   "ok": true,
+   "trad": 178,
+   "simp": 2,
+   "rep4": 0.0471063257065949,
+   "chars": 797,
+   "hit_max": false
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+W1017 17:48:48.621000 68335 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/540 [00:00<?, ?it/s]Loading weights:   0%|          | 1/540 [00:01<09:22,  1.04s/it]Loading weights:   0%|          | 2/540 [00:09<48:44,  5.44s/it]Loading weights: 100%|██████████| 540/540 [00:09<00:00, 56.25it/s]
+val0 [0, 3.710865318775177]
+/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m5/tools/m5_peft_mps.py:58: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  if s % 10 == 0: dump(); print(f"step {s} loss {float(loss):.4f} {R['step_s'][-1]}s mps {R['mps_driver_gb']}GB", flush=True)
+step 10 loss 2.9551 13.14s mps 24.68GB
+step 20 loss 3.3294 10.41s mps 24.68GB
+step 30 loss 2.9903 14.21s mps 24.68GB
+step 40 loss 3.2726 10.18s mps 24.68GB
+step 50 loss 3.4887 13.61s mps 24.68GB
+step 60 loss 4.8242 10.39s mps 24.68GB
+step 70 loss 6.0210 9.91s mps 24.68GB
+step 80 loss 6.5644 14.62s mps 24.68GB
+/opt/homebrew/Cellar/python@3.13/3.13.16/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:479: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-f5dl52o9'}
+  warnings.warn(

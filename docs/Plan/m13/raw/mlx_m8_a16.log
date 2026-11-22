@@ -1,0 +1,121 @@
+z01 True 3.0 中華民國的國父是**孫中山**。
+z02 False 3.625 中華民國沒有明確的「國父」指定。  不過，在中華民國建國過程中，**蔣介石**被視為主要的領導人物和奠定基礎的關鍵人物。
+z03 False 0.0 台灣最高的山是**太魯閣山**（或稱太魯閣）。
+z04 False 1.125 臺灣最長的河流是**淡水河**。
+z05 False 4.375 日月潭位於臺灣的**花蓮縣**。
+z06 True 0.625 臺北市信義區。
+z07 True 0.375 新台幣 (NTD)。
+z08 True 1.5 中華民國國慶日是**10月10日**。
+z09 False 0.5 臺北高鐵目前最南端的車站是**臺南站**。
+z10 False 4.875 澎湖群島位於台灣本島的**東邊**。
+z11 True 2.875 《紅樓夢》的作者是**曹雪芹**。
+z12 True 0.75 這首詩出自**李白**。
+z13 True 2.5 《論語》主要記錄**孔子**的言行。
+z14 True 1.0 指南針。
+z15 True 1.625 端午節最具代表性的傳統食物是**粽子**。
+z16 True 2.125 中秋節最具代表性的傳統食物是**月餅**。
+z17 True 1.125 東京。
+z18 True 2.375 巴黎。
+z19 True 0.375 澳洲的首都是**堪培拉**。
+z20 True 0.625 渥太華
+z21 True 3.5 太平洋。
+z22 True 6.688 珠穆朗瑪峰（Mount Everest）。
+z23 True 1.25 大約需要 **365 天**。
+z24 True 0.375 $\text{H}_2\text{O}$
+z25 True 0.0 植物進行光合作用時主要吸收**二氧化碳**（$\text{CO}_2$）。
+z26 True 2.875 皮膚
+z27 True 0.25 人類第一位登上月球的人是 **尼爾·阿姆斯特朗 (Neil Armstrong)**。
+z28 True 0.375 相對論是由**愛因斯坦 (Albert Einstein)** 提出的。
+z29 True 3.25 1000
+z30 True 5.0 24
+z31 True 9.5 391
+z32 True 9.312 12
+z33 True 9.562 63
+z34 True 8.25 63
+z35 True 2.25 12
+z36 True 7.25 藍色
+z37 True 5.562 Apple
+z38 True 7.25 Thank you
+z39 True 1.25 七
+z40 True 3.938 180
+z41 True 6.5 星期六
+z42 True 7.625 20
+z43 True 8.125 40
+z44 False 5.875 紅、黃、藍
+z45 True 6.5 1024
+z46 False 5.0 《三國演義》的作者是**羅漢**。
+z47 False 1.25 這句詩出自**王維**。
+z48 False 1.625 中華民國的最高行政機關是**總統**。
+z49 False 1.25 2000
+z50 True 0.25 台灣位於**太平洋**的西側。
+z51 True 1.375 七
+z52 True 2.375 100
+z53 True 3.281 早安
+z54 True 8.875 一舉兩得
+z55 True 2.0 鯨魚
+z56 True 5.625 光年是**距離單位**。
+z57 False 0.25 1
+z58 True 0.25 +886
+z59 True 4.25 水星。
+z60 False 0.375 植物利用太陽能、水和二氧化碳，製造食物並釋放氧氣的過程。
+e01 True 0.5 Paris
+e02 True 2.0 Tokyo
+e03 True 1.5 Canberra
+e04 True 0.25 Ottawa
+e05 True 0.0 The capital of Germany is Berlin.
+e06 True 7.875 The largest ocean on Earth is the Pacific Ocean.
+e07 True 6.938 Mount Everest.
+e08 True 6.812 William Shakespeare wrote "Romeo and Juliet."
+e09 True 5.562 Albert Einstein developed the theory of relativity.
+e10 True 3.625 Neil Armstrong was the first person to walk on the Moon.
+e11 True 5.125 Au
+e12 True 0.625 $\text{H}_2\text{O}$
+e13 True 3.25 Plants absorb **carbon dioxide** ($\text{CO}_2$) from the air for phot
+e14 True 7.375 Mars
+e15 True 7.594 Jupiter
+e16 True 4.5 7
+e17 True 2.875 0
+e18 True 6.25 100
+e19 True 6.062 Leonardo da Vinci painted the Mona Lisa.
+e20 True 6.0 Egypt
+e21 True 7.25 The largest mammal on Earth is the blue whale.
+e22 True 4.375 Diamond is the hardest natural substance.
+e23 True 8.375 Taipei
+e24 True 0.789 Jade Mountain (Yushan).
+e25 True 1.5 Japanese Yen (JPY).
+e26 True 2.0 Sun Yat-sen is known as the founding father of the Republic of China.
+e27 True 9.188 6
+e28 True 11.625 391
+e29 True 11.188 12
+e30 True 9.875 63
+e31 True 10.25 366
+e32 True 10.25 60
+e33 True 8.938 Thank you
+e34 True 4.844 Cold
+e35 True 4.812 Portuguese
+e36 True 6.0 The heart pumps blood through the human body.
+e37 True 5.562 J.K. Rowling wrote the "Harry Potter" books.
+e38 True 7.75 The longest river in the world is the Nile.
+e39 True 3.375 Approximately 299,792 kilometers per second.
+e40 True 4.75 Hydrogen
+e41 True 4.25 Saturday
+e42 True 6.75 20
+e43 True 9.25 40
+e44 True 4.5 Red, Green, Blue
+e45 True 11.25 1024
+e46 True 7.75 Jane Austen wrote "Pride and Prejudice."
+e47 True 6.625 George Orwell wrote the novel "Nineteen Eighty-Four."
+e48 True 8.812 2
+e49 True 10.312 206
+e50 True 6.562 Mercury
+e51 True 2.5 Seoul
+e52 True 1.812 India has the largest population in the world as of 2024.
+e53 True 11.812 Good morning
+e54 True 1.875 Mice
+e55 True 3.375 Distance
+e56 True 6.25 11
+e57 True 2.0 886
+e58 True 8.188 212
+e59 True 2.062 Yellow and ripe
+e60 True 0.75 Photosynthesis is how plants convert sunlight, water, and carbon dioxi
+MLX_DONE m8 a16 zh 47 /40 en 60 /40

@@ -1,0 +1,121 @@
+z01 True 7.0 中華民國的國父是**孫中山**。
+z02 False 3.0 中華民國國父被稱為**蔣介石**。
+z03 True 5.0 台灣最高的山是**玉山**。
+z04 False 3.0 台灣最長的河流是**烏山溪**。
+z05 True 5.75 日月潭位於**南投縣**。
+z06 True 2.5 台北101位於台北市信義區。
+z07 True 1.0 新台幣
+z08 True 3.0 中華民國的國慶日是10月10日。
+z09 False 1.75 台灣高鐵目前最南端的車站是**高雄站**。
+z10 False 4.25 澎湖群島位於台灣本島的東邊。
+z11 True 3.875 《紅樓夢》的作者是**曹雪芹**。
+z12 True 0.5 「床前明月光」出自**李白**。
+z13 True 2.5 《論語》主要記錄孔子（Confucius）的言行。
+z14 True 1.875 中國古代四大發明中，用來辨別方向的是**指南針**。
+z15 True 2.125 端午節最具代表性的傳統食物是**粽子**。
+z16 True 3.375 中秋節最具代表性的傳統食物是**月餅**。
+z17 True 0.375 東京。
+z18 True 1.125 巴黎。
+z19 True 0.375 澳洲的首都是堪培拉。
+z20 True 0.0 加拿大的首都是渥太華。
+z21 True 2.312 太平洋。
+z22 False 4.812 珠穆朗玛峰。
+z23 True 0.5 大約需要 365 天。
+z24 True 0.75 水的化學式是 $\text{H}_2\text{O}$。
+z25 True 0.375 植物進行光合作用時主要吸收**二氧化碳**。
+z26 True 2.125 皮膚
+z27 True 0.0 美國宇航局（NASA）的宇航員**阿波羅11號**任務的**傑姆·艾姆斯**（Jim Armstrong）是第一位登上月球的人。
+z28 True 0.125 相對論是由**阿爾伯特·愛因斯坦 (Albert Einstein)** 提出的。
+z29 True 4.375 1000
+z30 True 3.125 24
+z31 True 6.875 391
+z32 True 7.5 12
+z33 True 7.125 63
+z34 True 6.125 63
+z35 True 2.25 12
+z36 True 6.219 藍色
+z37 True 4.062 Apple
+z38 True 4.312 Thank you
+z39 True 0.25 7
+z40 True 3.625 180
+z41 True 5.75 星期六
+z42 True 5.5 20
+z43 True 7.25 40
+z44 False 5.312 紅、黃、藍
+z45 True 6.375 1024
+z46 False 5.125 《三國演義》的作者是**羅生恩**。
+z47 False 0.0 「春眠不覺曉」出自**王維**。
+z48 False 7.125 中華民國的最高行政機關是**總統府**。
+z49 False 0.5 2000
+z50 True 4.375 台灣位於太平洋的西側。
+z51 True 2.25 七
+z52 True 3.0 100
+z53 True 1.188 早安
+z54 True 6.375 一舉兩得
+z55 True 3.0 鯨魚
+z56 True 3.875 光年是**距離單位**。
+z57 False 0.625 1
+z58 True 0.5 886
+z59 True 3.25 水星。
+z60 False 2.125 光合作用是植物利用光能將二氧化碳和水轉化為有機物並釋放氧氣的過程。
+e01 True 0.75 The capital of France is Paris.
+e02 True 0.25 Tokyo.
+e03 True 0.125 Canberra.
+e04 True 0.625 The capital of Canada is Ottawa.
+e05 True 0.5 The capital of Germany is Berlin.
+e06 True 7.0 The Pacific Ocean is the largest ocean on Earth.
+e07 True 2.875 Mount Everest is the highest mountain in the world.
+e08 True 5.062 William Shakespeare wrote "Romeo and Juliet."
+e09 True 5.75 Albert Einstein developed the theory of relativity.
+e10 True 0.25 Neil Armstrong was the first person to walk on the Moon.
+e11 True 3.0 Au
+e12 True 0.125 The chemical formula of water is $\text{H}_2\text{O}$.
+e13 True 2.625 Plants absorb carbon dioxide from the air for photosynthesis.
+e14 True 5.625 Mars is known as the Red Planet.
+e15 True 6.25 Jupiter is the largest planet in our solar system.
+e16 True 3.375 7
+e17 True 3.375 0
+e18 True 5.0 100
+e19 True 5.312 Leonardo da Vinci painted the Mona Lisa.
+e20 True 2.875 Egypt
+e21 True 6.5 The largest mammal on Earth is the blue whale.
+e22 True 4.25 Diamond is the hardest natural substance.
+e23 True 6.188 Taipei
+e24 True 0.438 Jade Mountain (Yushan).
+e25 True 0.375 The currency of Japan is the Japanese yen.
+e26 True 1.938 Sun Yat-sen is known as the founding father of the Republic of China.
+e27 True 6.875 6
+e28 True 7.375 391
+e29 True 7.125 12
+e30 True 7.5 63
+e31 True 7.25 366
+e32 True 7.625 60
+e33 True 5.375 Thank you
+e34 True 4.062 Cold
+e35 True 2.25 Portuguese.
+e36 True 4.75 The heart pumps blood through the human body.
+e37 True 4.0 J.K. Rowling wrote the "Harry Potter" books.
+e38 True 6.625 The longest river in the world is the Nile.
+e39 True 0.375 Light travels at approximately 299,792 kilometres per second.
+e40 True 3.938 Hydrogen.
+e41 True 5.0 Saturday
+e42 True 4.0 20
+e43 True 6.75 40
+e44 True 3.25 Red, Green, Blue
+e45 True 8.375 1024
+e46 True 6.938 Jane Austen wrote "Pride and Prejudice."
+e47 True 5.625 George Orwell wrote "Nineteen Eighty-Four."
+e48 True 5.5 2
+e49 True 7.5 206
+e50 True 5.938 Mercury is the planet closest to the Sun.
+e51 True 0.0 The capital of South Korea is Seoul.
+e52 True 1.5 India has the largest population in the world as of 2024.
+e53 True 8.125 Good morning
+e54 True 3.312 Mice
+e55 True 3.875 Distance
+e56 True 5.875 11
+e57 True 2.75 886
+e58 True 5.875 212
+e59 True 1.75 Yellow, slightly green.
+e60 True 0.5 Plants use sunlight, water, and carbon dioxide to create food and rele
+MLX_DONE m9s246 a16 zh 48 /40 en 60 /40

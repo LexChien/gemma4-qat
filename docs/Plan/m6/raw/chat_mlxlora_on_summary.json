@@ -1,0 +1,268 @@
+{
+ "tag": "mlxlora_on",
+ "n": 25,
+ "knowledge_pass": "6/8",
+ "instruction_pass": "6/7",
+ "garbage_pass": "3/5",
+ "trad_chars": 1194,
+ "simp_chars": 21,
+ "trad_ratio": 0.9827,
+ "answers_mostly_simplified": 1,
+ "answers_with_any_simplified": 4,
+ "mean_rep4": 0.0368,
+ "n_rep4_gt_0_3": 0,
+ "mean_chars": 257.0,
+ "n_hit_max": 6,
+ "per_prompt": [
+  {
+   "id": "k01",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 2,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 37,
+   "hit_max": false
+  },
+  {
+   "id": "k03",
+   "cat": "knowledge",
+   "ok": false,
+   "trad": 9,
+   "simp": 0,
+   "rep4": 0.04477611940298509,
+   "chars": 79,
+   "hit_max": false
+  },
+  {
+   "id": "k05",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 3,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 17,
+   "hit_max": false
+  },
+  {
+   "id": "k07",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 14,
+   "simp": 0,
+   "rep4": 0.17647058823529416,
+   "chars": 236,
+   "hit_max": false
+  },
+  {
+   "id": "k09",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 1,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 26,
+   "hit_max": false
+  },
+  {
+   "id": "k11",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 11,
+   "simp": 0,
+   "rep4": 0.007874015748031482,
+   "chars": 149,
+   "hit_max": false
+  },
+  {
+   "id": "k13",
+   "cat": "knowledge",
+   "ok": true,
+   "trad": 1,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 33,
+   "hit_max": false
+  },
+  {
+   "id": "k15",
+   "cat": "knowledge",
+   "ok": false,
+   "trad": 19,
+   "simp": 0,
+   "rep4": 0.032258064516129004,
+   "chars": 143,
+   "hit_max": false
+  },
+  {
+   "id": "i02",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 2,
+   "hit_max": false
+  },
+  {
+   "id": "i04",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 22,
+   "hit_max": false
+  },
+  {
+   "id": "i06",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 52,
+   "simp": 0,
+   "rep4": 0.03734439834024894,
+   "chars": 255,
+   "hit_max": false
+  },
+  {
+   "id": "i08",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 2,
+   "hit_max": false
+  },
+  {
+   "id": "i10",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 6,
+   "hit_max": false
+  },
+  {
+   "id": "i12",
+   "cat": "instruction",
+   "ok": true,
+   "trad": 0,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 1,
+   "hit_max": false
+  },
+  {
+   "id": "i14",
+   "cat": "instruction",
+   "ok": false,
+   "trad": 34,
+   "simp": 1,
+   "rep4": 0.07194244604316546,
+   "chars": 170,
+   "hit_max": false
+  },
+  {
+   "id": "s01",
+   "cat": "script",
+   "ok": null,
+   "trad": 189,
+   "simp": 1,
+   "rep4": 0.16176470588235292,
+   "chars": 841,
+   "hit_max": true
+  },
+  {
+   "id": "s03",
+   "cat": "script",
+   "ok": null,
+   "trad": 177,
+   "simp": 0,
+   "rep4": 0.06815203145478377,
+   "chars": 855,
+   "hit_max": true
+  },
+  {
+   "id": "s05",
+   "cat": "script",
+   "ok": null,
+   "trad": 128,
+   "simp": 0,
+   "rep4": 0.052631578947368474,
+   "chars": 685,
+   "hit_max": true
+  },
+  {
+   "id": "s07",
+   "cat": "script",
+   "ok": null,
+   "trad": 217,
+   "simp": 1,
+   "rep4": 0.0708915145005371,
+   "chars": 1026,
+   "hit_max": true
+  },
+  {
+   "id": "s09",
+   "cat": "script",
+   "ok": null,
+   "trad": 126,
+   "simp": 0,
+   "rep4": 0.02584814216478193,
+   "chars": 671,
+   "hit_max": true
+  },
+  {
+   "id": "g01",
+   "cat": "garbage",
+   "ok": false,
+   "trad": 0,
+   "simp": 18,
+   "rep4": 0.0,
+   "chars": 59,
+   "hit_max": false
+  },
+  {
+   "id": "g03",
+   "cat": "garbage",
+   "ok": true,
+   "trad": 89,
+   "simp": 0,
+   "rep4": 0.04644808743169404,
+   "chars": 390,
+   "hit_max": false
+  },
+  {
+   "id": "g05",
+   "cat": "garbage",
+   "ok": false,
+   "trad": 7,
+   "simp": 0,
+   "rep4": 0.0,
+   "chars": 23,
+   "hit_max": false
+  },
+  {
+   "id": "g07",
+   "cat": "garbage",
+   "ok": true,
+   "trad": 17,
+   "simp": 0,
+   "rep4": 0.013157894736842146,
+   "chars": 84,
+   "hit_max": false
+  },
+  {
+   "id": "g09",
+   "cat": "garbage",
+   "ok": true,
+   "trad": 98,
+   "simp": 0,
+   "rep4": 0.11111111111111116,
+   "chars": 614,
+   "hit_max": true
+  }
+ ]
+}

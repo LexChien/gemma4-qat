@@ -1,0 +1,99 @@
+{
+ "model": "out/m5/mlx-qat-g32exact",
+ "tag": "qat_off",
+ "think": "off",
+ "stride": 1,
+ "kv_bits": null,
+ "max_tokens": 256,
+ "think_budget": null,
+ "load_s": 2.8,
+ "runs": {
+  "1": {
+   "prefill_tps": {
+    "median": 205.1,
+    "p90": 307.5
+   },
+   "ttft_s": {
+    "median": 0.1056,
+    "p90": 0.1325
+   },
+   "think_s": {
+    "median": 0.0,
+    "p90": 0.0
+   },
+   "think_tokens": {
+    "median": 0,
+    "p90": 0
+   },
+   "ttfa_s": {
+    "median": 0.1056,
+    "p90": 0.1325
+   },
+   "answer_s": {
+    "median": 2.204,
+    "p90": 5.779
+   },
+   "answer_tokens": {
+    "median": 102,
+    "p90": 256
+   },
+   "decode_tps": {
+    "median": 40.9,
+    "p90": 45.8
+   },
+   "total_s": {
+    "median": 2.309,
+    "p90": 5.934
+   },
+   "n_hit_max": 14,
+   "n_forced_close": 0,
+   "cold_first_prompt": {
+    "ttft_s": 0.1797,
+    "ttfa_s": 0.1797,
+    "total_s": 0.441,
+    "prompt_tokens": 16
+   }
+  },
+  "2": {
+   "prefill_tps": {
+    "median": 218.1,
+    "p90": 306.1
+   },
+   "ttft_s": {
+    "median": 0.0979,
+    "p90": 0.158
+   },
+   "think_s": {
+    "median": 0.0,
+    "p90": 0.0
+   },
+   "think_tokens": {
+    "median": 0,
+    "p90": 0
+   },
+   "ttfa_s": {
+    "median": 0.0979,
+    "p90": 0.158
+   },
+   "answer_s": {
+    "median": 2.025,
+    "p90": 6.262
+   },
+   "answer_tokens": {
+    "median": 83,
+    "p90": 256
+   },
+   "decode_tps": {
+    "median": 42.6,
+    "p90": 48.5
+   },
+   "total_s": {
+    "median": 2.135,
+    "p90": 6.386
+   },
+   "n_hit_max": 14,
+   "n_forced_close": 0
+  }
+ },
+ "peak_mem_gb": 3.08
+}

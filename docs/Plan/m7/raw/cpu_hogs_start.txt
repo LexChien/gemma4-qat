@@ -1,0 +1,8 @@
+  PID  %CPU    RSS COMM
+62716 100.2 163536 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.41/He
+59557  99.3  33936 /bin/zsh
+  906  64.8 168336 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/Frameworks/l
+  701  47.1 102256 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+74188  43.4  74240 /System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd
+ 8251  39.8  45472 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/MacOS/logiop
+  866  34.4 587008 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores

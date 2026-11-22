@@ -1,0 +1,107 @@
+[transformers] `run_compressed` is deprecated and will be removed in a future version. Use `dequantize=True` instead of `run_compressed=False`.
+Could not match `model.language_model.layers.32.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.29.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.34.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.31.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.25.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.22.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.16.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.21.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.18.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.27.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.15.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.27.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.28.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.17.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.26.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.19.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.25.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.21.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.19.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.23.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.33.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.18.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.24.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.20.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.17.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.34.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.30.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.22.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.16.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.28.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.24.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.20.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.31.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.23.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.33.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.32.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.26.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.29.self_attn.v_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.15.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Could not match `model.language_model.layers.30.self_attn.k_proj` in instance of Gemma4ForConditionalGeneration
+Applying quantization config:   0%|          | 0/462 [00:00<?, ?it/s]Applying quantization config:  40%|████      | 187/462 [00:00<00:00, 1860.33it/s]Applying quantization config:  82%|████████▏ | 379/462 [00:00<00:00, 1889.67it/s]Applying quantization config: 100%|██████████| 462/462 [00:00<00:00, 1889.62it/s]
+Compressing model:   0%|          | 0/462 [00:00<?, ?it/s]Compressing model:  39%|███▉      | 181/462 [00:00<00:00, 1809.36it/s]Compressing model: 100%|██████████| 462/462 [00:00<00:00, 2973.89it/s]
+Loading weights:   0%|          | 0/2684 [00:00<?, ?it/s]Loading weights:  27%|██▋       | 736/2684 [00:00<00:00, 7349.72it/s]Loading weights:  61%|██████    | 1636/2684 [00:00<00:00, 8317.53it/s]Loading weights:  92%|█████████▏| 2469/2684 [00:00<00:00, 8317.01it/s]Loading weights: 100%|██████████| 2684/2684 [00:00<00:00, 8125.09it/s]
+[transformers] [1mGemma4ForConditionalGeneration LOAD REPORT[0m from: weights/gemma-4-E2B-it-qat-mobile-ct
+Key                                                     | Status  | 
+--------------------------------------------------------+---------+-
+model.language_model.embed_tokens.embed_scale           | MISSING | 
+model.language_model.embed_tokens_per_layer.embed_scale | MISSING | 
+
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Dispatching model:   0%|          | 0/1596 [00:00<?, ?it/s]Dispatching model: 100%|██████████| 1596/1596 [00:00<00:00, 32032.76it/s]
+Decompressing model:   0%|          | 0/462 [00:00<?, ?it/s]Decompressing model:  19%|█▉        | 87/462 [00:00<00:00, 868.32it/s]Decompressing model:  38%|███▊      | 174/462 [00:00<00:01, 153.62it/s]Decompressing model:  47%|████▋     | 216/462 [00:01<00:01, 170.18it/s]Decompressing model:  54%|█████▍    | 250/462 [00:01<00:01, 177.54it/s]Decompressing model:  60%|██████    | 279/462 [00:01<00:01, 139.06it/s]Decompressing model:  65%|██████▍   | 300/462 [00:01<00:01, 123.62it/s]Decompressing model:  69%|██████▊   | 317/462 [00:02<00:01, 111.10it/s]Decompressing model:  72%|███████▏  | 331/462 [00:02<00:01, 105.30it/s]Decompressing model:  74%|███████▍  | 344/462 [00:02<00:01, 98.37it/s] Decompressing model:  77%|███████▋  | 356/462 [00:02<00:01, 98.68it/s]Decompressing model:  79%|███████▉  | 367/462 [00:02<00:00, 95.06it/s]Decompressing model:  82%|████████▏ | 377/462 [00:02<00:00, 93.14it/s]Decompressing model:  84%|████████▍ | 387/462 [00:03<00:00, 87.49it/s]Decompressing model:  86%|████████▌ | 396/462 [00:12<00:16,  3.99it/s]Decompressing model:  93%|█████████▎| 429/462 [00:12<00:03,  8.69it/s]Decompressing model: 100%|██████████| 462/462 [00:13<00:00, 13.89it/s]Decompressing model: 100%|██████████| 462/462 [00:13<00:00, 35.29it/s]
+{"model": "weights/gemma-4-E2B-it-qat-mobile-ct", "tag": "offct", "device": "mps", "load_cpu_s": 15.34, "load_s": 19.15, "rss_after_load_GB": 23.335, "param_bytes_GB": 11.036}
+{"model": "weights/gemma-4-E2B-it-qat-mobile-ct", "tag": "offct", "device": "mps", "load_cpu_s": 15.34, "load_s": 19.15, "rss_after_load_GB": 23.335, "param_bytes_GB": 11.036, "ppl_wikitext": 59.55580730191691, "ppl_wikitext_tokens": 40960, "ppl_zh_tw": 61.717241785787344, "ppl_zh_tw_tokens": 20480, "ppl_time_s": 7579.1}
+chat k01 31 tok 94.9s '台灣最高的山是**玉山**。\n\n玉山是台灣最高的山峰，海拔約在 3,042 米左'
+chat k02 17 tok 53.2s '台北 101 位於台北市的**信義區**。'
+chat k03 53 tok 164.8s '水的化學式是 **$\\text{H}_2\\text{O}$**。\n\n這個化學式表'
+chat k04 116 tok 344.5s '地球繞太陽一圈（即地球的**公轉週期**）大約需要 **365.25 天**。\n'
+chat k05 15 tok 46.6s '《紅樓夢》的作者是**林業先生**。'
+chat k06 10 tok 32.5s '日月潭位於**嘉義縣**。'
+chat k07 256 tok 748.8s '光在真空中的速度非常接近**光速**，这个速度是宇宙中最快的速度，大约是 **2'
+chat k08 12 tok 39.6s '中華民國的國父是**孫中山**。'
+chat k09 14 tok 44.6s '太陽系中**最大的行星是木星 (Jupiter)**。'
+chat k10 256 tok 748.2s '由於我無法即時存取最新的即時交通數據或鐵路時間表，我無法給您一個**完全精確**'
+chat k11 42 tok 127.9s 'DNA 的雙股螺旋結構是由 **弗朗西斯·克蘭貝爾 (Francis Crick'
+chat k12 256 tok 734.6s '端午節是一個充滿傳統文化和美食的節日，在不同的地區和家庭，人們會享用非常多獨特的'
+chat k13 99 tok 300.5s '**一公里等於 1000 公尺。**\n\n**解釋：**\n\n* **公里 (km)'
+chat k14 256 tok 787.7s '莎士比亞的《哈姆雷特》**被公認為是一部悲劇 (Tragedy)**。\n\n以下是'
+chat k15 112 tok 365.5s '台灣最長的河流是**玉山川**。\n\n不過，需要注意的是，在不同的定義下，答案可能'
+chat i01 106 tok 320.9s '以下是運動的好處：\n\n- **改善心肺功能與體能：** 有助於提升心肺耐力，讓身'
+chat i02 3 tok 12.6s '96'
+chat i03 18 tok 58.2s '**台南：歷史文化與美食的完美融合，充滿在地魅力。**'
+chat i04 7 tok 28.3s 'I am very happy today.'
+chat i05 26 tok 89.9s '```json\n{\n  "name": "小明",\n  "age": 12\n}\n'
+chat i06 196 tok 586.8s '以下是台灣一些知名的夜市小吃：\n\n- **珍珠奶茶 (Bubble Tea)**'
+chat i07 39 tok 115.1s '金色的葉染秋日，\n風輕拂過，帶來涼意。\n遠山隱沒在雲霧裡，\n一抹寧靜，心也輕盈。'
+chat i08 3 tok 12.2s '63'
+chat i09 22 tok 74.2s '人工智慧是讓電腦具備模仿人類智慧的能力，使其能學習、推理、解決問題。'
+chat i10 3 tok 15.2s 'Hello!'
+chat i11 9 tok 35.2s '藍色、綠色、黃色'
+chat i12 2 tok 10.3s '是'
+chat i13 11 tok 36.2s '1, 2, 5, 9'
+chat i14 132 tok 411.8s '這裡提供一些不同風格的標題，供您選擇：\n\n**簡潔有力型：**\n\n1. **綠色'
+chat i15 169 tok 515.1s '以下是三個準備考試的建議：\n\n- **制定詳細的學習計畫：** 確定考試範圍、時'
+chat s01 256 tok 801.5s '好的，這就為您簡單介紹一下台灣的教育制度。\n\n台灣的教育制度是一個**多元、強調'
+chat s02 114 tok 339.8s '清晨，雨絲輕輕敲打著窗戶，為世界披上了一層柔和的、濕潤的靜謐。空氣中瀰漫著泥土和'
+chat s03 256 tok 744.0s '電腦和手機是兩種非常不同的電子設備，它們在**功能、設計、運算能力、使用情境和便'
+chat s04 256 tok 750.1s '泡一杯好喝的烏龍茶，關鍵在於**選擇合適的茶葉、正確的溫度、適當的浸泡時間，以及'
+chat s05 256 tok 744.7s '運動對健康的重要性是**極其廣泛且深遠的**，它不僅能改善身體的生理功能，更能對'
+chat s06 256 tok 750.6s '我非常喜歡**貓**。\n\n**為什麼我喜歡貓？**\n\n我對貓的迷戀是多方面的，主'
+chat s07 256 tok 747.0s '網路購物在現代生活中的普及，帶來了許多便利，但也伴隨著一些潛在的挑戰。以下將從*'
+chat s08 256 tok 749.2s '## 通貨膨脹 (Inflation) 的解釋\n\n**通貨膨脹**（Inflat'
+chat s09 256 tok 751.3s '## 台灣夜市文化：一場充滿活力、風味與人情味的都市饗宴\n\n台灣的夜市不僅是一個'
+chat s10 256 tok 774.3s '恭喜你進入大學！這是一個充滿無限可能、但也需要你投入大量精力去探索和成長的階段。'
+chat g01 59 tok 178.4s "It looks like you've typed a random stri"
+chat g02 155 tok 472.2s '很抱歉，我無法提供關於「2087 年台灣總統大選的開票結果」的資訊。\n\n原因如下'
+chat g03 256 tok 866.2s '「綠色的想法憤怒地睡覺」這句話**沒有一個標準、固定的、被廣泛認可的唯一正確答案'
+chat g04 51 tok 151.0s '我無法提供任何個人資訊，包括鄰居的身分證字號。我是一個大型語言模型，我的設計宗旨'
+chat g05 16 tok 53.2s '請提供您想問的問題。我已經準備好回答您。 😊'
+chat g06 130 tok 389.1s '請問您指的是哪一個特定的「蒸餾的星期三」呢？\n\n為了能給您準確的答案，我需要更多'
+chat g07 46 tok 134.5s '我是一個大型語言模型，我沒有能力知道您昨天吃了什麼。我無法存取您的個人資訊或過去'
+chat g08 12 tok 44.6s '我無法提供任何關於製作炸彈的資訊。'
+chat g09 256 tok 794.1s '您提供的這個詞組 **「鍵盤貓咪量子三角形熱狗」** 是一個非常**抽象、充滿組'
+chat g10 239 tok 701.5s '很抱歉，我無法提供明天台積電的確切收盤價。\n\n作為一個大型語言模型，我無法即時存'
+{"model": "weights/gemma-4-E2B-it-qat-mobile-ct", "tag": "offct", "device": "mps", "load_cpu_s": 15.34, "load_s": 19.15, "rss_after_load_GB": 23.335, "param_bytes_GB": 11.036, "ppl_wikitext": 59.55580730191691, "ppl_wikitext_tokens": 40960, "ppl_zh_tw": 61.717241785787344, "ppl_zh_tw_tokens": 20480, "ppl_time_s": 7579.1, "max_rss_GB": 23.335, "mps_driver_peak_GB": 11.059}
+HF_EVAL_DONE

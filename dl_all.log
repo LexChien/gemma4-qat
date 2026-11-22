@@ -1,0 +1,118 @@
+HF start google/gemma-4-E2B-it-qat-q4_0-unquantized -> weights/gemma-4-E2B-it-qat-q4_0-unquantized
+/Users/lexchien/.pyenv/versions/3.14.0/lib/python3.14/site-packages/huggingface_hub/utils/_validators.py:189: UserWarning: The `resume_download` argument is deprecated and ignored in `snapshot_download`. Downloads always resume whenever possible.
+  warnings.warn(
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [03:43<00:00, 24.86s/it]Fetching 9 files: 100%|██████████| 9/9 [03:43<00:00, 24.86s/it]
+HF done google/gemma-4-E2B-it-qat-q4_0-unquantized
+HF start google/gemma-4-E2B-it -> weights/gemma-4-E2B-it
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [03:54<00:00, 26.04s/it]Fetching 9 files: 100%|██████████| 9/9 [03:54<00:00, 26.04s/it]
+HF done google/gemma-4-E2B-it
+HF start google/gemma-4-E2B -> weights/gemma-4-E2B
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  12%|█▎        | 1/8 [00:00<00:04,  1.55it/s]Fetching 8 files:  62%|██████▎   | 5/8 [00:00<00:00,  7.96it/s]Fetching 8 files:  88%|████████▊ | 7/8 [00:02<00:00,  2.77it/s]Fetching 8 files:  88%|████████▊ | 7/8 [00:21<00:00,  2.77it/s]Fetching 8 files: 100%|██████████| 8/8 [03:53<00:00, 49.49s/it]Fetching 8 files: 100%|██████████| 8/8 [03:53<00:00, 29.21s/it]
+HF done google/gemma-4-E2B
+GCS checkpoints/gemma4-e2b-it/_CHECKPOINT_METADATA (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/_CHECKPOINT_METADATA
+GCS checkpoints/gemma4-e2b-it/_METADATA (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/_METADATA
+GCS checkpoints/gemma4-e2b-it/commit_success.txt (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/commit_success.txt
+GCS checkpoints/gemma4-e2b-it/d/a649b85c76e5dd8967b0cbf7645645ac (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/d/a649b85c76e5dd8967b0cbf7645645ac
+GCS checkpoints/gemma4-e2b-it/d_$folder$ (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/d_$folder$
+GCS checkpoints/gemma4-e2b-it/descriptor/descriptor.pbtxt (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/descriptor/descriptor.pbtxt
+GCS checkpoints/gemma4-e2b-it/descriptor/uuid-598b1369-90bc-4132-a851-d00fc11d1486 (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/descriptor/uuid-598b1369-90bc-4132-a851-d00fc11d1486
+GCS checkpoints/gemma4-e2b-it/descriptor_$folder$ (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/descriptor_$folder$
+GCS checkpoints/gemma4-e2b-it/manifest.ocdbt (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/manifest.ocdbt
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0/d/17fe9e542ff1c3f5a58fcd1c5098f249 (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0/d/17fe9e542ff1c3f5a58fcd1c5098f249
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0/d/43858e74d45abd1cfb2451b1ef8068b9 (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0/d/43858e74d45abd1cfb2451b1ef8068b9
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0/d/4490d85d60eb008cdd088883c3b9859d (1.49GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0/d/4490d85d60eb008cdd088883c3b9859d
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0/d/6ca2d768ba56ad91de5d4d9e91005f16 (2.17GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0/d/6ca2d768ba56ad91de5d4d9e91005f16
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0/d/7d1ba01b0c0366d38b9d9f232436ac7e (2.23GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0/d/7d1ba01b0c0366d38b9d9f232436ac7e
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0/d/a8052a1b13b370cf6f298c384d93a558 (2.17GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0/d/a8052a1b13b370cf6f298c384d93a558
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0/d/aa236332d592c58de3c8c6dcbc2ff22b (2.17GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0/d/aa236332d592c58de3c8c6dcbc2ff22b
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0/d/b60f0517e6d5490c93a5cee79a0c489c (2.21GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0/d/b60f0517e6d5490c93a5cee79a0c489c
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0/d/c0b828e8c688a061c5ea3775724ac875 (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0/d/c0b828e8c688a061c5ea3775724ac875
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0/d/d2cf6bf9a7453f4ec39e5d8165609281 (2.17GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0/d/d2cf6bf9a7453f4ec39e5d8165609281
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0/d/fb5f5297752ebfda46b294f4a4ef4a1e (2.27GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0/d/fb5f5297752ebfda46b294f4a4ef4a1e
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0/d/fc832eace0d3e3964e1e42775a4fe208 (1.36GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0/d/fc832eace0d3e3964e1e42775a4fe208
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0/d_$folder$ (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0/d_$folder$
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0/manifest.ocdbt (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0/manifest.ocdbt
+GCS checkpoints/gemma4-e2b-it/ocdbt.process_0_$folder$ (0.00GB)
+GCS done checkpoints/gemma4-e2b-it/ocdbt.process_0_$folder$
+GCS checkpoints/gemma4-e2b-pt/_CHECKPOINT_METADATA (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/_CHECKPOINT_METADATA
+GCS checkpoints/gemma4-e2b-pt/_METADATA (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/_METADATA
+GCS checkpoints/gemma4-e2b-pt/commit_success.txt (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/commit_success.txt
+GCS checkpoints/gemma4-e2b-pt/d/83b3800e187e664882a289c5499a7728 (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/d/83b3800e187e664882a289c5499a7728
+GCS checkpoints/gemma4-e2b-pt/d_$folder$ (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/d_$folder$
+GCS checkpoints/gemma4-e2b-pt/descriptor/descriptor.pbtxt (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/descriptor/descriptor.pbtxt
+GCS checkpoints/gemma4-e2b-pt/descriptor/uuid-4814dfcd-ec60-45b7-9f57-4e270c6d1c85 (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/descriptor/uuid-4814dfcd-ec60-45b7-9f57-4e270c6d1c85
+GCS checkpoints/gemma4-e2b-pt/descriptor_$folder$ (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/descriptor_$folder$
+GCS checkpoints/gemma4-e2b-pt/manifest.ocdbt (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/manifest.ocdbt
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/00721b4cc878d4bcdf1713d373c1a318 (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/00721b4cc878d4bcdf1713d373c1a318
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/0ab15bbc15c4b9ec2d9486c666103a9a (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/0ab15bbc15c4b9ec2d9486c666103a9a
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/0e39f68d27d5c6f613e126f0f42f4c9b (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/0e39f68d27d5c6f613e126f0f42f4c9b
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/3a77b1262bbb5c8126656da1bc19942d (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/3a77b1262bbb5c8126656da1bc19942d
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/43fdd825eb961d17f67733db4703ec3c (2.17GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/43fdd825eb961d17f67733db4703ec3c
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/6f8efca8011fca9525ba70fda5f9b11f (0.13GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/6f8efca8011fca9525ba70fda5f9b11f
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/85ccff2e077eaf6b2b8b6dd12419bf93 (2.16GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/85ccff2e077eaf6b2b8b6dd12419bf93
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/8c2c8f9ec97770675270ded4fcd25ad4 (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/8c2c8f9ec97770675270ded4fcd25ad4
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/a3398a043d32e3390cbd768b4692cafe (2.58GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/a3398a043d32e3390cbd768b4692cafe
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/aca38ba88ebfb0984d6721ba48840540 (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/aca38ba88ebfb0984d6721ba48840540
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/b28f3738d864f8b1b70de809e9af7ec7 (2.17GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/b28f3738d864f8b1b70de809e9af7ec7
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/bb923f7506f912f4598e7b44dfe95028 (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/bb923f7506f912f4598e7b44dfe95028
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/e5bb41dc61ba4c04835e3c407d1ba68f (2.17GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/e5bb41dc61ba4c04835e3c407d1ba68f
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/e6d3eb78d0220ec4e3d039c6434cd5be (2.24GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/e6d3eb78d0220ec4e3d039c6434cd5be
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/f04604465ca526bec1e3efa0fad17125 (2.48GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/f04604465ca526bec1e3efa0fad17125
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/f255107803f74f22c01cad0a68d52573 (2.15GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d/f255107803f74f22c01cad0a68d52573
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/d_$folder$ (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/d_$folder$
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0/manifest.ocdbt (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0/manifest.ocdbt
+GCS checkpoints/gemma4-e2b-pt/ocdbt.process_0_$folder$ (0.00GB)
+GCS done checkpoints/gemma4-e2b-pt/ocdbt.process_0_$folder$
+GCS tokenizers/tokenizer_gemma4.model (0.00GB)
+GCS done tokenizers/tokenizer_gemma4.model
+ALL DONE

@@ -1,0 +1,120 @@
+{"id": "z01", "answer": "中華民國的國父是**孫中山**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.0, "s": 0.31}
+{"id": "z02", "answer": "中華民國沒有明確的「國父」指定。\n\n不過，在中華民國建國過程中，**蔣介石**被視為主要的領導人物和奠定基礎的關鍵人物。", "correct": false, "lang_ok": true, "wrong_kw": ["蔣介石"], "margin0": 3.625, "s": 0.42}
+{"id": "z03", "answer": "台灣最高的山是**太魯閣山**（或稱太魯閣）。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 0.0, "s": 0.23}
+{"id": "z04", "answer": "臺灣最長的河流是**淡水河**。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 1.125, "s": 0.17}
+{"id": "z05", "answer": "日月潭位於臺灣的**花蓮縣**。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 4.375, "s": 0.19}
+{"id": "z06", "answer": "臺北市信義區。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.625, "s": 0.12}
+{"id": "z07", "answer": "新台幣 (NTD)。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.375, "s": 0.13}
+{"id": "z08", "answer": "中華民國國慶日是**10月10日**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.5, "s": 0.28}
+{"id": "z09", "answer": "臺北高鐵目前最南端的車站是**臺南站**。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 0.5, "s": 0.43}
+{"id": "z10", "answer": "澎湖群島位於台灣本島的**東邊**。", "correct": false, "lang_ok": true, "wrong_kw": ["東邊"], "margin0": 4.875, "s": 0.5}
+{"id": "z11", "answer": "《紅樓夢》的作者是**曹雪芹**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.875, "s": 0.5}
+{"id": "z12", "answer": "這首詩出自**李白**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.75, "s": 0.41}
+{"id": "z13", "answer": "《論語》主要記錄**孔子**的言行。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.5, "s": 0.39}
+{"id": "z14", "answer": "指南針。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.0, "s": 0.13}
+{"id": "z15", "answer": "端午節最具代表性的傳統食物是**粽子**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.625, "s": 0.3}
+{"id": "z16", "answer": "中秋節最具代表性的傳統食物是**月餅**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.125, "s": 0.36}
+{"id": "z17", "answer": "東京。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.125, "s": 0.12}
+{"id": "z18", "answer": "巴黎。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.375, "s": 0.1}
+{"id": "z19", "answer": "澳洲的首都是**堪培拉**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.375, "s": 0.23}
+{"id": "z20", "answer": "渥太華", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.625, "s": 0.14}
+{"id": "z21", "answer": "太平洋。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.5, "s": 0.12}
+{"id": "z22", "answer": "珠穆朗瑪峰（Mount Everest）。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.688, "s": 0.28}
+{"id": "z23", "answer": "大約需要 **365 天**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.25, "s": 0.29}
+{"id": "z24", "answer": "$\\text{H}_2\\text{O}$", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.375, "s": 0.29}
+{"id": "z25", "answer": "植物進行光合作用時主要吸收**二氧化碳**（$\\text{CO}_2$）。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.0, "s": 0.5}
+{"id": "z26", "answer": "皮膚", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.875, "s": 0.1}
+{"id": "z27", "answer": "人類第一位登上月球的人是 **尼爾·阿姆斯特朗 (Neil Armstrong)**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.25, "s": 0.47}
+{"id": "z28", "answer": "相對論是由**愛因斯坦 (Albert Einstein)** 提出的。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.375, "s": 0.33}
+{"id": "z29", "answer": "1000", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.25, "s": 0.15}
+{"id": "z30", "answer": "24", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.0, "s": 0.11}
+{"id": "z31", "answer": "391", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 9.5, "s": 0.13}
+{"id": "z32", "answer": "12", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 9.312, "s": 0.12}
+{"id": "z33", "answer": "63", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 9.562, "s": 0.1}
+{"id": "z34", "answer": "63", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 8.25, "s": 0.13}
+{"id": "z35", "answer": "12", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.25, "s": 0.1}
+{"id": "z36", "answer": "藍色", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.25, "s": 0.11}
+{"id": "z37", "answer": "Apple", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.562, "s": 0.1}
+{"id": "z38", "answer": "Thank you", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.25, "s": 0.12}
+{"id": "z39", "answer": "七", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.25, "s": 0.1}
+{"id": "z40", "answer": "180", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.938, "s": 0.14}
+{"id": "z41", "answer": "星期六", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.5, "s": 0.12}
+{"id": "z42", "answer": "20", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.625, "s": 0.12}
+{"id": "z43", "answer": "40", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 8.125, "s": 0.12}
+{"id": "z44", "answer": "紅、黃、藍", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 5.875, "s": 0.19}
+{"id": "z45", "answer": "1024", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.5, "s": 0.19}
+{"id": "z46", "answer": "《三國演義》的作者是**羅漢**。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 5.0, "s": 0.47}
+{"id": "z47", "answer": "這句詩出自**王維**。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 1.25, "s": 0.3}
+{"id": "z48", "answer": "中華民國的最高行政機關是**總統**。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 1.625, "s": 0.35}
+{"id": "z49", "answer": "2000", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 1.25, "s": 0.19}
+{"id": "z50", "answer": "台灣位於**太平洋**的西側。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.25, "s": 0.29}
+{"id": "z51", "answer": "七", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.375, "s": 0.12}
+{"id": "z52", "answer": "100", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.375, "s": 0.17}
+{"id": "z53", "answer": "早安", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.281, "s": 0.14}
+{"id": "z54", "answer": "一舉兩得", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 8.875, "s": 0.19}
+{"id": "z55", "answer": "鯨魚", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.0, "s": 0.13}
+{"id": "z56", "answer": "光年是**距離單位**。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.625, "s": 0.23}
+{"id": "z57", "answer": "1", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 0.25, "s": 0.1}
+{"id": "z58", "answer": "+886", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.25, "s": 0.14}
+{"id": "z59", "answer": "水星。", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.25, "s": 0.13}
+{"id": "z60", "answer": "植物利用太陽能、水和二氧化碳，製造食物並釋放氧氣的過程。", "correct": false, "lang_ok": true, "wrong_kw": [], "margin0": 0.375, "s": 0.41}
+{"id": "e01", "answer": "Paris", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.5, "s": 0.1}
+{"id": "e02", "answer": "Tokyo", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.0, "s": 0.1}
+{"id": "e03", "answer": "Canberra", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.5, "s": 0.1}
+{"id": "e04", "answer": "Ottawa", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.25, "s": 0.08}
+{"id": "e05", "answer": "The capital of Germany is Berlin.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.0, "s": 0.16}
+{"id": "e06", "answer": "The largest ocean on Earth is the Pacific Ocean.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.875, "s": 0.18}
+{"id": "e07", "answer": "Mount Everest.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.938, "s": 0.11}
+{"id": "e08", "answer": "William Shakespeare wrote \"Romeo and Juliet.\"", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.812, "s": 0.21}
+{"id": "e09", "answer": "Albert Einstein developed the theory of relativity.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.562, "s": 0.24}
+{"id": "e10", "answer": "Neil Armstrong was the first person to walk on the Moon.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.625, "s": 0.36}
+{"id": "e11", "answer": "Au", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.125, "s": 0.1}
+{"id": "e12", "answer": "$\\text{H}_2\\text{O}$", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.625, "s": 0.29}
+{"id": "e13", "answer": "Plants absorb **carbon dioxide** ($\\text{CO}_2$) from the air for photosynthesis.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.25, "s": 0.43}
+{"id": "e14", "answer": "Mars", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.375, "s": 0.11}
+{"id": "e15", "answer": "Jupiter", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.594, "s": 0.1}
+{"id": "e16", "answer": "7", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.5, "s": 0.1}
+{"id": "e17", "answer": "0", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.875, "s": 0.11}
+{"id": "e18", "answer": "100", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.25, "s": 0.14}
+{"id": "e19", "answer": "Leonardo da Vinci painted the Mona Lisa.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.062, "s": 0.25}
+{"id": "e20", "answer": "Egypt", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.0, "s": 0.1}
+{"id": "e21", "answer": "The largest mammal on Earth is the blue whale.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.25, "s": 0.29}
+{"id": "e22", "answer": "Diamond is the hardest natural substance.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.375, "s": 0.21}
+{"id": "e23", "answer": "Taipei", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 8.375, "s": 0.12}
+{"id": "e24", "answer": "Jade Mountain (Yushan).", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.789, "s": 0.19}
+{"id": "e25", "answer": "Japanese Yen (JPY).", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.5, "s": 0.17}
+{"id": "e26", "answer": "Sun Yat-sen is known as the founding father of the Republic of China.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.0, "s": 0.38}
+{"id": "e27", "answer": "6", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 9.188, "s": 0.09}
+{"id": "e28", "answer": "391", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 11.625, "s": 0.12}
+{"id": "e29", "answer": "12", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 11.188, "s": 0.11}
+{"id": "e30", "answer": "63", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 9.875, "s": 0.1}
+{"id": "e31", "answer": "366", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 10.25, "s": 0.12}
+{"id": "e32", "answer": "60", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 10.25, "s": 0.1}
+{"id": "e33", "answer": "Thank you", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 8.938, "s": 0.1}
+{"id": "e34", "answer": "Cold", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.844, "s": 0.09}
+{"id": "e35", "answer": "Portuguese", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.812, "s": 0.1}
+{"id": "e36", "answer": "The heart pumps blood through the human body.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.0, "s": 0.31}
+{"id": "e37", "answer": "J.K. Rowling wrote the \"Harry Potter\" books.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 5.562, "s": 0.35}
+{"id": "e38", "answer": "The longest river in the world is the Nile.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.75, "s": 0.26}
+{"id": "e39", "answer": "Approximately 299,792 kilometers per second.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.375, "s": 0.33}
+{"id": "e40", "answer": "Hydrogen", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.75, "s": 0.09}
+{"id": "e41", "answer": "Saturday", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.25, "s": 0.1}
+{"id": "e42", "answer": "20", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.75, "s": 0.12}
+{"id": "e43", "answer": "40", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 9.25, "s": 0.14}
+{"id": "e44", "answer": "Red, Green, Blue", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 4.5, "s": 0.16}
+{"id": "e45", "answer": "1024", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 11.25, "s": 0.14}
+{"id": "e46", "answer": "Jane Austen wrote \"Pride and Prejudice.\"", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 7.75, "s": 0.2}
+{"id": "e47", "answer": "George Orwell wrote the novel \"Nineteen Eighty-Four.\"", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.625, "s": 0.32}
+{"id": "e48", "answer": "2", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 8.812, "s": 0.1}
+{"id": "e49", "answer": "206", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 10.312, "s": 0.16}
+{"id": "e50", "answer": "Mercury", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.562, "s": 0.11}
+{"id": "e51", "answer": "Seoul", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.5, "s": 0.1}
+{"id": "e52", "answer": "India has the largest population in the world as of 2024.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.812, "s": 0.43}
+{"id": "e53", "answer": "Good morning", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 11.812, "s": 0.12}
+{"id": "e54", "answer": "Mice", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 1.875, "s": 0.11}
+{"id": "e55", "answer": "Distance", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 3.375, "s": 0.1}
+{"id": "e56", "answer": "11", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 6.25, "s": 0.13}
+{"id": "e57", "answer": "886", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.0, "s": 0.14}
+{"id": "e58", "answer": "212", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 8.188, "s": 0.14}
+{"id": "e59", "answer": "Yellow and ripe", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 2.062, "s": 0.12}
+{"id": "e60", "answer": "Photosynthesis is how plants convert sunlight, water, and carbon dioxide into food and oxygen.", "correct": true, "lang_ok": true, "wrong_kw": [], "margin0": 0.75, "s": 0.4}

@@ -1,0 +1,36 @@
+{
+ "jax": "0.11.2",
+ "devices": [
+  "cpu:0"
+ ],
+ "steps": 2,
+ "seq": 32,
+ "lr": 0.0003,
+ "method": "Q4_0_ABSMAX",
+ "nseq": 4,
+ "batch": 1,
+ "load_s": 18.1,
+ "tree_equal_to_model_init": false,
+ "n_leaves": 530,
+ "n_params": 4647449891,
+ "rss_after_load_gb": 9.06,
+ "n_wrapped_einsum": 0,
+ "held_loss_fp_before": 8.3280611038208,
+ "eval_compile_plus_run_s": 3.4,
+ "held_loss_qat_before": 9.022074699401855,
+ "train_loss_qat_before_seq0": 6.821173191070557,
+ "losses": [
+  6.8211774826049805,
+  6.989290714263916
+ ],
+ "step_s": [
+  28.79,
+  7.57
+ ],
+ "peak_rss_gb": 30.91,
+ "held_loss_qat_after": 7.691626071929932,
+ "held_loss_fp_after": 7.4164886474609375,
+ "train_loss_qat_after_seq0": 3.3672876358032227,
+ "ru_maxrss_gb": 30.91,
+ "total_s": 84.0
+}

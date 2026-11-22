@@ -1,0 +1,31 @@
+prompts 952 done 24 todo 928
+distill 32/928 gen_tok 16342 278 tok/s elapsed 1.0 min
+distill 64/928 gen_tok 32434 273 tok/s elapsed 2.0 min
+distill 96/928 gen_tok 47262 241 tok/s elapsed 3.3 min
+distill 128/928 gen_tok 61765 180 tok/s elapsed 5.7 min
+distill 160/928 gen_tok 81301 152 tok/s elapsed 8.9 min
+distill 192/928 gen_tok 96818 149 tok/s elapsed 10.8 min
+distill 224/928 gen_tok 113689 145 tok/s elapsed 13.1 min
+distill 256/928 gen_tok 129081 143 tok/s elapsed 15.1 min
+distill 288/928 gen_tok 145133 140 tok/s elapsed 17.2 min
+distill 320/928 gen_tok 160605 138 tok/s elapsed 19.4 min
+distill 352/928 gen_tok 177159 136 tok/s elapsed 21.8 min
+distill 384/928 gen_tok 195366 135 tok/s elapsed 24.2 min
+distill 416/928 gen_tok 212089 134 tok/s elapsed 26.4 min
+distill 448/928 gen_tok 228026 133 tok/s elapsed 28.6 min
+distill 480/928 gen_tok 244174 132 tok/s elapsed 30.7 min
+distill 512/928 gen_tok 260441 132 tok/s elapsed 32.8 min
+distill 544/928 gen_tok 275441 132 tok/s elapsed 34.8 min
+distill 576/928 gen_tok 292568 132 tok/s elapsed 37.0 min
+distill 608/928 gen_tok 308331 132 tok/s elapsed 39.0 min
+distill 640/928 gen_tok 324131 132 tok/s elapsed 41.0 min
+distill 672/928 gen_tok 339114 132 tok/s elapsed 42.9 min
+distill 704/928 gen_tok 354503 131 tok/s elapsed 45.0 min
+distill 736/928 gen_tok 370527 131 tok/s elapsed 47.2 min
+distill 768/928 gen_tok 386016 131 tok/s elapsed 49.2 min
+distill 800/928 gen_tok 401437 131 tok/s elapsed 51.2 min
+distill 832/928 gen_tok 417831 131 tok/s elapsed 53.3 min
+distill 864/928 gen_tok 433149 131 tok/s elapsed 55.2 min
+distill 896/928 gen_tok 449155 131 tok/s elapsed 57.2 min
+distill 928/928 gen_tok 465576 131 tok/s elapsed 59.3 min
+DISTILL_DONE

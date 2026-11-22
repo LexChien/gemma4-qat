@@ -1,0 +1,17 @@
+{
+ "name": "mlx-it-q4g64",
+ "path": "out/m0/mlx-it-q4g64",
+ "framework": "mlx",
+ "mlx": "0.32.4",
+ "load_lazy_s": 2.3610677500000747,
+ "load_s": 2.3621058749995427,
+ "mem_after_load_GB": 2.604104382,
+ "n_params_bytes_GB": 2.603981382,
+ "gen_tokens": 128,
+ "gen_tps": 118.08999583779672,
+ "prompt_tokens": 36,
+ "prompt_tps": 858.2966326202144,
+ "gen_peak_mem_GB": 2.701038331,
+ "gen_text": "<|channel>thought\nHere's a thinking process that leads to the suggested response:\n\n1.  **Analyze the Request:** The user wants a detailed introduction to Taiwan (地理, 歷史, 文化) in Traditional Chinese (繁體中文), spanning at least five paragraphs.\n\n2.  **Determine the Structure (The Five Paragraphs):** A good structure should flow logically:\n    *   Paragraph 1: Geographical Overview (Where is Taiwan? Physical features, location).\n    *   Paragraph 2: Historical Overview (Early encounters, colonial periods, shifting political control).\n    *   Paragraph 3: Cultural Heritage",
+ "max_rss_GB": 3.824812032
+}

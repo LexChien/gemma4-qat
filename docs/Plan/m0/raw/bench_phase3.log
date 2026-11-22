@@ -1,0 +1,14 @@
+=== dequant w4a16 2026年10月17日 週六 13時53分01秒 CST
+dequantized: {'int4_g32': 276, 'lm_head_dropped_as_tied': True} tensors out: 1951
+=== bench w4a16 2026年10月17日 週六 13時53分20秒 CST
+    *   **Length Requirement:** At least five paragraphs (至少寫五段).
+    * 
+=== dequant mobile 2026年10月17日 週六 13時58分44秒 CST
+dequantized: {'int2_channel': 134, 'int4_g256': 1, 'int4_channel': 185, 'int8_channel': 182, 'lm_head_dropped_as_tied': True} tensors out: 1063
+=== bench mobile 2026年10月17日 週六 13時59分01秒 CST
+
+2.  **Determine the Structure (
+=== base pt bf16 2026年10月17日 週六 14時04分42秒 CST
+
+請
+PHASE3_DONE 2026年10月17日 週六 14時10分29秒 CST

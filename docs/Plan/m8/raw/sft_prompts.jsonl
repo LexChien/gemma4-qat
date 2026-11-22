@@ -1,0 +1,1197 @@
+{"id": "read00893", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n1938 年生於博城區。畢業於紐卡斯爾大學。1996 年在艾哈邁德・泰詹・卡巴政府中擔任總檢察長兼司法部長。1997 年 5 月軍人政變後逃離海外。1998 年卡巴重新執政後，貝雷瓦再次出任總檢察長兼司法部長。2002 年 5 月至 2007 年 9 月擔任副總統。2005 年 9 月，貝雷瓦以高票當選獅子山人民黨領導人和 2007 年獅子山總統候選人。", "think": false, "target": null}
+{"id": "know00237", "cat": "know", "prompt": "通貨膨脹有什麼特色？", "think": false, "target": null}
+{"id": "read00918", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n奧爾圖 - 塞里尼亞克 - 基揚（法語：Orthoux-Sérignac-Quilhan，法語發音：[ɔʁtu seʁiɲak kijɑ̃]；奧克語：Ortons, Serinhan e Quilhan）是法國加爾省的一個市鎮，位於該省西部，屬於勒維岡區。該市鎮由奧爾圖（Orthoux）、塞里尼亞克（Sérignac）和基揚（Quilhan）等村莊組成。", "think": false, "target": null}
+{"id": "unans00777", "cat": "unans", "prompt": "請告訴我 2184 年台北市長選舉結果，要確切答案。", "think": false, "target": null}
+{"id": "inst00438", "cat": "inst", "prompt": "請計算 51 乘以 28，只回答數字。", "think": false, "target": "1428"}
+{"id": "inst00589", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是高雄。", "think": false, "target": null}
+{"id": "read00827", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n施普林格科學 + 商業媒體（Springer Science+Business Media）或施普林格（Springer，寬式 IPA：/ˈʃpʁɪŋɐ/），在柏林成立，是一個總部位於德國的世界性出版公司，它出版教科書、學術參考書以及同行評論性雜誌，專注於科學、技術、數學以及醫學領域。在科學、技術與醫學領域中，施普林格是最大的書籍出版者，以及第二大世界性雜誌出版者（最大的是愛思唯爾）。施普林格擁有超過 60 個出版社，每年出版 1,900 種雜誌，5,500 種新書，營業額為 9.24 億歐元（2006 年），雇有超過 5,000 名員工 。施普林格在柏林、海德堡、多德雷赫特（位於荷蘭）與紐約設有主辦事處。施普林格亞洲總部設在香港。2005 年 8 月，施普林格在北京成立代表處。", "think": false, "target": null}
+{"id": "know00350", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋溝通。", "think": false, "target": null}
+{"id": "know00084", "cat": "know", "prompt": "關於媽祖遶境，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00034T", "cat": "know", "prompt": "金門有什麼特色？", "think": true, "target": null}
+{"id": "inst00554", "cat": "inst", "prompt": "請用剛好四個條列項目（以「- 」開頭）列出颱風天的準備事項。", "think": false, "target": null}
+{"id": "inst00450", "cat": "inst", "prompt": "請計算 89 乘以 14，只回答數字。", "think": false, "target": "1246"}
+{"id": "know00109", "cat": "know", "prompt": "鳳梨酥是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00062", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋蘭嶼。", "think": false, "target": null}
+{"id": "read00970", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n相模灣（日語：相模湾／さがみわん _Sagami wan_ \\*/?）是位於日本關東地方南部的一個海灣。範圍為三浦半島南端城島（三浦市）到真鶴半島真鶴岬（真鶴町）之間連線以北的海域。相模灣是北美板塊與菲律賓海板塊交界地，三次關東大地震的震源 —— 相模斷層通過這裡，灣內最深處達 1600 米。", "think": false, "target": null}
+{"id": "know00044T", "cat": "know", "prompt": "請簡單介紹墾丁。", "think": true, "target": null}
+{"id": "unans00736", "cat": "unans", "prompt": "我上個月的電費是多少錢？", "think": false, "target": null}
+{"id": "know00310", "cat": "know", "prompt": "關於莎士比亞，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00311", "cat": "know", "prompt": "莎士比亞有什麼特色？", "think": false, "target": null}
+{"id": "gib00639", "cat": "gib", "prompt": "zywsn $！? ekimkzi zexwknb", "think": false, "target": "這段文字混合了隨機的字母、符號和中文字，看不出明確的意思。請問您想表達什麼？我可以協助解答問題、翻譯或整理資料。"}
+{"id": "know00352", "cat": "know", "prompt": "請簡單介紹志工服務。", "think": false, "target": null}
+{"id": "know00060", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明蘭嶼的重點。", "think": false, "target": null}
+{"id": "read00859", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n.22 BB Cap（Bulleted Breech Cap）是一種低速、低噪音，口徑 0.22 英吋底緣底火式（Rimfire）的子彈。外型與.22 LR 類似，但是較短。力量與口徑 0.22 英吋的空氣槍相近。通常用於室內練習。.22 BB Cap 是於 1845 年發展的第一個底緣底火式子彈。由於彈殼內沒有發射藥，僅靠底火產生的力量將彈頭射出，槍口初速低於 700 英尺／秒（210 米／秒）。", "think": false, "target": null}
+{"id": "know00207", "cat": "know", "prompt": "請簡單介紹作業系統。", "think": false, "target": null}
+{"id": "know00097", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明珍珠奶茶的重點。", "think": false, "target": null}
+{"id": "read00831", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n在上季末，愛兒卡原本要與弗瑞德結婚，但是麥克斯出現在婚禮上阻止這一切。但是萬萬沒想到，愛兒卡的「去世」丈夫也突然出現。因此愛兒卡被迫要在三個人之間作出抉擇，最後愛兒卡選擇了丈夫，但是最後她丈夫要求離開克利夫蘭，於是愛兒卡又離開了丈夫，回到克利夫蘭，跟大家一起住。由於上季末喬伊和維多利亞在加拿大結婚了，因此本季兩人依然保持婚姻關係。", "think": false, "target": null}
+{"id": "inst00616", "cat": "inst", "prompt": "請寫一首三句的短詩，主題是春天，每句一行。", "think": false, "target": null}
+{"id": "inst00501", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「淑芬」，age 是 62，city 是「新竹」。只輸出 JSON。", "think": false, "target": "{\"name\": \"淑芬\", \"age\": 62, \"city\": \"新竹\"}"}
+{"id": "know00298", "cat": "know", "prompt": "請用 50 字以內介紹居禮夫人。", "think": false, "target": null}
+{"id": "know00033", "cat": "know", "prompt": "金門是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00507", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「怡君」，age 是 14，city 是「花蓮」。只輸出 JSON。", "think": false, "target": "{\"name\": \"怡君\", \"age\": 14, \"city\": \"花蓮\"}"}
+{"id": "inst00550", "cat": "inst", "prompt": "請用剛好兩個條列項目（以「- 」開頭）列出常見的資源回收物品。", "think": false, "target": null}
+{"id": "know00143", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋地震。", "think": false, "target": null}
+{"id": "read00908", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n另外，道家外丹也可指「虛空中清靈之氣」，近代陳攖寧先生云：「外界資助，當然不可少，卻是在虛空中尋求。」「修仙者，貴在收積虛空中清靈之氣於身中，然後將吾人之神與此氣配合而修養之，為時既久，則神氣打成一片，而大丹始成。」 李道純云：「外陰陽往來，則外藥也。內坎離輻輳，乃內藥也。」 《天仙正理》認為內藥、外藥皆原本先天祖氣，所謂外藥，是指「祖氣從生身時，雖隱藏於丹田，卻有向外發生之時，即取此發生於外者，復返還於內，是以雖從內生，卻從外來，故謂之外藥。」所謂內藥，是指采外藥煉成還丹大藥，「全不著於外，只動於發生之地，因其不離於內，故謂內藥。」。「外藥為生而後采，內藥為采而後生，實止此一氣而已。」", "think": false, "target": null}
+{"id": "inst00517", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「家豪」，age 是 24，city 是「花蓮」。只輸出 JSON。", "think": false, "target": "{\"name\": \"家豪\", \"age\": 24, \"city\": \"花蓮\"}"}
+{"id": "inst00421", "cat": "inst", "prompt": "請計算 15 加 63，只回答數字。", "think": false, "target": "78"}
+{"id": "unans00794T", "cat": "unans", "prompt": "現在花蓮的即時路況是多少？請給精確數字。", "think": true, "target": null}
+{"id": "read00828T", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n* 1999 年（平成 11 年）7 月 31 日 - 京急線改點。京成線與都營淺草線的直通急行全改往羽田機場，取消本站起訖班次。廢除京急蒲田以南往橫濱方向至新逗子的急行班次，並取消京成電鐵、北總開發鐵道（現北總鐵道）運用車。做為替代，增發普通班次。", "think": true, "target": null}
+{"id": "unans00799", "cat": "unans", "prompt": "現在宜蘭的股價是多少？請給精確數字。", "think": false, "target": null}
+{"id": "inst00441", "cat": "inst", "prompt": "87 減 99 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "-12"}
+{"id": "unans00765T", "cat": "unans", "prompt": "請告訴我 2072 年諾貝爾和平獎得主，要確切答案。", "think": true, "target": null}
+{"id": "inst00464", "cat": "inst", "prompt": "65×21=？只輸出答案數字。", "think": false, "target": "1365"}
+{"id": "read00917", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n「讀取 - 求值 - 輸出」循環（英語：Read-Eval-Print Loop，簡稱 REPL），也被稱做交互式頂層構件（英語：interactive toplevel），是一個簡單的，交互式的編程環境。這個詞常常用於指代一個 Lisp 的交互式開發環境，也能指代命令行的模式。", "think": false, "target": null}
+{"id": "read00913", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n介電質大多數是絕緣體。其例子包括瓷器 (陶器)，雲母，玻璃，塑料，和各種金屬氧化物。有些液體和氣體可以作為好的介電質材料。乾空氣是良好的介電質，並被用在可變電容器以及某些類型的傳輸線。蒸餾水如果保持沒有雜質的話是好的介電質，其相對電容率約為 80。", "think": false, "target": null}
+{"id": "unans00791", "cat": "unans", "prompt": "請告訴我 2255 年最暢銷的手機型號，要確切答案。", "think": false, "target": null}
+{"id": "gib00715", "cat": "gib", "prompt": "trev 年礦過濟應 vmquq $?%~", "think": false, "target": "我看不出這段輸入的意思，可能是輸入法或鍵盤出了狀況。請再提供一次您的問題，我會盡力回答。"}
+{"id": "unans00783", "cat": "unans", "prompt": "請告訴我 2113 年奧運的金牌總數，要確切答案。", "think": false, "target": null}
+{"id": "gib00703", "cat": "gib", "prompt": "縣具全 %！**", "think": false, "target": "這段文字混合了隨機的字母、符號和中文字，看不出明確的意思。請問您想表達什麼？我可以協助解答問題、翻譯或整理資料。"}
+{"id": "know00076", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋七夕。", "think": false, "target": null}
+{"id": "read00848", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n由於自 2003 年引入的 3000 型持續量產了將近 17 年，京成電鐵為改變企業車種形象，因此成立美學小組機電系統以 3000 型為基底，將車體外型進行大大的改良，是繼 3000 型之後 17 年再有以「京成集團新標準車輛」的車輛投入服務，並於 2019 年 4 月 11 日宣布此列車。本車與新京成電鐵的聯合設計，新京成電鐵那列名為 80000 型，但兩款列車的設備上也有一些差異。", "think": false, "target": null}
+{"id": "read00924", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n2008 年 5 月 1 日，亞登哈特在大聯盟初登板，在面對奧克蘭運動家的比賽中他主投 2 局失掉 5 分自責分，最終無關勝敗。5 月 12 日亞登哈特在對芝加哥白襪的比賽中拿到了他在大聯盟的第一勝，也是唯一的一勝。這個賽季他在大聯盟先發 3 場，在 12 局的投球中投出 13 次四壞球保送，被打出 18 支安打，掉了 12 分自責分，防禦率高達 9.00。", "think": false, "target": null}
+{"id": "inst00434", "cat": "inst", "prompt": "65-85=？只輸出答案數字。", "think": false, "target": "-20"}
+{"id": "know00103", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明小籠包的重點。", "think": false, "target": null}
+{"id": "inst00562", "cat": "inst", "prompt": "請用剛好五個條列項目（以「- 」開頭）列出台灣的傳統節日。", "think": false, "target": null}
+{"id": "read00899T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n前、後、左、右、上、下都是表示相對方向的語彙。它們隨某個人的面對方向變化而變化。由於相對方向是由人的視角所決定，因此人們互相之間容易混淆這些方向，例如，當人面向北方時，西方所在的方位是「左」，因此對於不同面向的人而言，「左」所指的位置不盡相同。", "think": true, "target": null}
+{"id": "inst00556", "cat": "inst", "prompt": "請用剛好四個條列項目（以「- 」開頭）列出學習程式設計的好處。", "think": false, "target": null}
+{"id": "know00342", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明面試的重點。", "think": false, "target": null}
+{"id": "inst00469", "cat": "inst", "prompt": "請計算 62 加 14，只回答數字。", "think": false, "target": "76"}
+{"id": "know00149", "cat": "know", "prompt": "請簡單介紹疫苗。", "think": false, "target": null}
+{"id": "gib00717", "cat": "gib", "prompt": "$& 習每中米理 目自", "think": false, "target": "您好！這段輸入看起來像是亂碼，我無法從中理解具體的問題。請問有什麼我可以幫您的嗎？"}
+{"id": "know00229", "cat": "know", "prompt": "關於民主，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00365", "cat": "know", "prompt": "交通安全是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00020T", "cat": "know", "prompt": "請用 50 字以內介紹基隆。", "think": true, "target": null}
+{"id": "know00181", "cat": "know", "prompt": "關於潮汐，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00343", "cat": "know", "prompt": "如果要向外國朋友介紹面試，你會怎麼說？", "think": false, "target": null}
+{"id": "know00325", "cat": "know", "prompt": "請用 50 字以內介紹飲食均衡。", "think": false, "target": null}
+{"id": "know00366", "cat": "know", "prompt": "貓有什麼特色？", "think": false, "target": null}
+{"id": "know00264", "cat": "know", "prompt": "失業率是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00376", "cat": "know", "prompt": "石虎是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00356", "cat": "know", "prompt": "環境保護有什麼特色？", "think": false, "target": null}
+{"id": "know00167", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋摩擦力。", "think": false, "target": null}
+{"id": "inst00500", "cat": "inst", "prompt": "請將下列數字由大到小排序並只輸出結果：70, 50, 12, 57, 91, 37", "think": false, "target": "91, 70, 57, 50, 37, 12"}
+{"id": "know00270T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋預算。", "think": true, "target": null}
+{"id": "inst00496", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：36, 78, 72, 86, 20", "think": false, "target": "20, 36, 72, 78, 86"}
+{"id": "know00383", "cat": "know", "prompt": "關於藍鵲，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00045", "cat": "know", "prompt": "太魯閣有什麼特色？", "think": false, "target": null}
+{"id": "inst00448", "cat": "inst", "prompt": "7-29=？只輸出答案數字。", "think": false, "target": "-22"}
+{"id": "know00162", "cat": "know", "prompt": "關於化學鍵，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00054", "cat": "know", "prompt": "鹿港是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00136", "cat": "know", "prompt": "請簡單介紹板塊運動。", "think": false, "target": null}
+{"id": "know00093", "cat": "know", "prompt": "關於夜市，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00390", "cat": "know", "prompt": "蜜蜂有什麼特色？", "think": false, "target": null}
+{"id": "inst00592", "cat": "inst", "prompt": "請用不超過 60 個字說明阿里山。", "think": false, "target": null}
+{"id": "inst00565", "cat": "inst", "prompt": "請用剛好四個條列項目（以「- 」開頭）列出常見的運動項目。", "think": false, "target": null}
+{"id": "gib00683", "cat": "gib", "prompt": "onyzi 嗯嗯 運須 欸 ？#~", "think": false, "target": "我看不出這段輸入的意思，可能是輸入法或鍵盤出了狀況。請再提供一次您的問題，我會盡力回答。"}
+{"id": "know00037", "cat": "know", "prompt": "請用 50 字以內介紹馬祖。", "think": false, "target": null}
+{"id": "unans00787T", "cat": "unans", "prompt": "請告訴我 2057 年最暢銷的手機型號，要確切答案。", "think": true, "target": null}
+{"id": "read00942", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n《鬼馬太空船》（英語：_Tripping the Rift_）是一部美加合製的成人科幻喜劇 CGI 電視動畫，改編自主創克里斯・莫勒（Chris Moeller）和查克・奧斯汀製作的兩部網路短片；該劇由 CinéGroupe 製作，Sci Fi 頻道發行。該劇 2004 年在加拿大頻道 Space 播出，2006 年 8 月起播出於加拿大卡通頻道 Teletoon。《鬼馬太空船》共播出三季，並在 2007 年完結後的隔年發行長篇電影版 DVD。", "think": false, "target": null}
+{"id": "know00291", "cat": "know", "prompt": "牛頓是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "unans00798", "cat": "unans", "prompt": "現在宜蘭的排隊人數是多少？請給精確數字。", "think": false, "target": null}
+{"id": "read00976", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n新九龍（英語：New Kowloon）位於香港特別行政區境內，在香港殖民地時期是香港四大組成部分（香港島、九龍半島、新九龍、新界）之一，指界限街以北至九龍群山之南的土地，包括現時觀塘區、黃大仙區、界限街以北的九龍城區（即九龍城、九龍塘、啟德等地）和深水埗區（但不包括昂船洲），與界限街以南的九龍半島合稱九龍。", "think": false, "target": null}
+{"id": "inst00432", "cat": "inst", "prompt": "39-39=？只輸出答案數字。", "think": false, "target": "0"}
+{"id": "know00057", "cat": "know", "prompt": "如果要向外國朋友介紹綠島，你會怎麼說？", "think": false, "target": null}
+{"id": "know00219", "cat": "know", "prompt": "電動車有什麼特色？", "think": false, "target": null}
+{"id": "know00056T", "cat": "know", "prompt": "請簡單介紹鹿港。", "think": true, "target": null}
+{"id": "know00305T", "cat": "know", "prompt": "莫札特是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "know00034", "cat": "know", "prompt": "金門有什麼特色？", "think": false, "target": null}
+{"id": "inst00482", "cat": "inst", "prompt": "請將下列數字由大到小排序並只輸出結果：66, 99, 84, 52", "think": false, "target": "99, 84, 66, 52"}
+{"id": "know00108", "cat": "know", "prompt": "請用 50 字以內介紹鳳梨酥。", "think": false, "target": null}
+{"id": "know00243", "cat": "know", "prompt": "股票是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "read00945", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n相對主義是一種主張沒有絕對，只有相對的理論類型。其共同的主題是：經驗、思想、價值，甚至是實在之中的一些主要方面總是相對於其他東西而成立的，但原因卻不清楚。例如，正當理由、道德準則或真理的標準有時是相對於語言、文化或生物構成的。儘管相對主義的思想系統往往會導出難以置信的結論，但這些結論中總是有點誘人的東西，因而使很多背景迥異的思想家為之著迷。", "think": false, "target": null}
+{"id": "know00178", "cat": "know", "prompt": "如果要向外國朋友介紹彩虹，你會怎麼說？", "think": false, "target": null}
+{"id": "know00114T", "cat": "know", "prompt": "請簡單介紹蚵仔煎。", "think": true, "target": null}
+{"id": "know00008", "cat": "know", "prompt": "台中是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00531", "cat": "inst", "prompt": "一星期有七天嗎？只回答「是」或「否」。", "think": false, "target": "是"}
+{"id": "know00173", "cat": "know", "prompt": "請簡單介紹浮力。", "think": false, "target": null}
+{"id": "know00104", "cat": "know", "prompt": "關於小籠包，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "read00927", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n自大學畢業後，法蘭・華許開始為電視節目《地球下面的華澤爾・古米治》（Worzel Gummidge Down Under）編寫劇本，而因此認識了彼得・傑克森。隨後她與傑克森先後合作了《新空房禁地》、《瘋狂肥寶綜藝秀》、《罪孽天使》等電影，並藉 1994 年的《罪孽天使》獲得了奧斯卡最佳原創劇本獎提名。", "think": false, "target": null}
+{"id": "read00938T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n《魂斷藍橋》（英語：_Waterloo Bridge_）是美國黑白電影，由米高梅電影公司於 1940 年出品；導演是茂文・李洛埃（Mervyn LeRoy），女主角是主演《亂世佳人》的費雯・麗（Vivien Leigh）而男主角是羅伯特・泰勒（Robert Taylor）。主題曲《Auld Lang Syne》與電影情節的意境相當配合，使此影片獲譽為電影史上最悽美不朽愛情片之一。", "think": true, "target": null}
+{"id": "inst00617", "cat": "inst", "prompt": "請寫一首三句的短詩，主題是海邊，每句一行。", "think": false, "target": null}
+{"id": "read00890", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n(E)- 二苯基乙烯是一種二芳基乙烯，這種烴類由反式的乙烯連接苯基基團所組成。與 (Z)- 二苯基乙烯互為順反異構體。(E)- 二苯基乙烯是白色晶體，極易溶於有機溶劑。它可以通過光化學的方法變成 (Z)- 二苯基乙烯，它可以繼續被轉化成菲。", "think": false, "target": null}
+{"id": "gib00718", "cat": "gib", "prompt": "啊啊啊 ~^？。", "think": false, "target": "我沒辦法理解這段文字的含義。如果您是不小心送出的，沒關係；如果有問題，請用中文或英文完整描述一下。"}
+{"id": "gib00684", "cat": "gib", "prompt": "ick clha $$ ！*&%^", "think": false, "target": "不好意思，這些字元組合起來沒有意義，我無法回應。請告訴我您想了解的內容，例如想查詢、翻譯或解釋什麼。"}
+{"id": "gib00699", "cat": "gib", "prompt": "rvli 情做為", "think": false, "target": "我看不出這段輸入的意思，可能是輸入法或鍵盤出了狀況。請再提供一次您的問題，我會盡力回答。"}
+{"id": "inst00457", "cat": "inst", "prompt": "5+38=？只輸出答案數字。", "think": false, "target": "43"}
+{"id": "read00849T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n吳映潔（韓語：오영결_O Yeong Kyeol_，英語：GEmma Wu，1989 年 8 月 11 日 —），藝名鬼鬼，是台灣女演員、女歌手和節目主持人。於 2005 年參加電視節目《我愛黑澀會》後被選中加入台灣女子組合黑 Girl（前稱 黑澀會美眉）出道。2009 年約滿離開團體，單飛後以電視劇和綜藝為主。", "think": true, "target": null}
+{"id": "unans00816T", "cat": "unans", "prompt": "我剛剛在想什麼數字？", "think": true, "target": null}
+{"id": "know00258", "cat": "know", "prompt": "供需法則有什麼特色？", "think": false, "target": null}
+{"id": "unans00760", "cat": "unans", "prompt": "請給我考試的標準答案，考試還沒開始。", "think": false, "target": null}
+{"id": "inst00529", "cat": "inst", "prompt": "企鵝會飛嗎？只回答「是」或「否」。", "think": false, "target": "否"}
+{"id": "inst00475", "cat": "inst", "prompt": "請將下列數字由大到小排序並只輸出結果：53, 77, 2, 63, 44, 71, 92", "think": false, "target": "92, 77, 71, 63, 53, 44, 2"}
+{"id": "unans00815", "cat": "unans", "prompt": "我現在穿什麼顏色的衣服？", "think": false, "target": null}
+{"id": "inst00560", "cat": "inst", "prompt": "請用剛好三個條列項目（以「- 」開頭）列出適合雨天的室內活動。", "think": false, "target": null}
+{"id": "inst00578", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是彩虹。", "think": false, "target": null}
+{"id": "read00917T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n「讀取 - 求值 - 輸出」循環（英語：Read-Eval-Print Loop，簡稱 REPL），也被稱做交互式頂層構件（英語：interactive toplevel），是一個簡單的，交互式的編程環境。這個詞常常用於指代一個 Lisp 的交互式開發環境，也能指代命令行的模式。", "think": true, "target": null}
+{"id": "read00959T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n洪武九年（1376 年）四月，夔州府降為重慶府屬州，大寧州、達州降為縣，夔州附郭的奉節縣與達州通川縣俱廢，州下轄巫山縣、建始縣、雲陽縣、萬縣、梁山縣、開縣、大寧縣、達縣 8 縣。洪武十年（1377 年）五月，夔州升為直隸州，梁山縣改隸重慶府忠州。洪武十三年（1380 年）十一月，夔州又升為夔州府，奉節縣得以復置，梁山縣也由忠州改隸於府；同時新置了大昌、新寧 2 縣。。", "think": true, "target": null}
+{"id": "unans00736T", "cat": "unans", "prompt": "我上個月的電費是多少錢？", "think": true, "target": null}
+{"id": "know00063T", "cat": "know", "prompt": "如果要向外國朋友介紹中秋節，你會怎麼說？", "think": true, "target": null}
+{"id": "unans00740T", "cat": "unans", "prompt": "請預測明天比特幣的確切價格。", "think": true, "target": null}
+{"id": "know00391", "cat": "know", "prompt": "如果要向外國朋友介紹蜜蜂，你會怎麼說？", "think": false, "target": null}
+{"id": "gib00722", "cat": "gib", "prompt": "dzzgef 嗯嗯 ~? 嗯嗯", "think": false, "target": "這串文字沒有明確的意思，我沒辦法判斷您的需求。請問您是想打字測試，還是有問題需要協助？"}
+{"id": "know00107T", "cat": "know", "prompt": "滷肉飯有什麼特色？", "think": true, "target": null}
+{"id": "know00186", "cat": "know", "prompt": "如果要向外國朋友介紹機器學習，你會怎麼說？", "think": false, "target": null}
+{"id": "gib00641", "cat": "gib", "prompt": "cajnemj $~*", "think": false, "target": "抱歉，這段內容我看不太懂，似乎是隨機的字元。如果您有想問的問題，請用完整的句子再說一次，我很樂意幫忙。"}
+{"id": "unans00811", "cat": "unans", "prompt": "請給我我主管的薪水。", "think": false, "target": null}
+{"id": "gib00662", "cat": "gib", "prompt": "zaqtwnc 心容研鬥 兒己常 @?~ 喔喔", "think": false, "target": "我沒辦法理解這段文字的含義。如果您是不小心送出的，沒關係；如果有問題，請用中文或英文完整描述一下。"}
+{"id": "inst00417", "cat": "inst", "prompt": "請計算 56 乘以 74，只回答數字。", "think": false, "target": "4144"}
+{"id": "read00955", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\nOmicron（B.1.1.529）是嚴重急性呼吸道症候群冠狀病毒 2 型（SARS-CoV-2）的一種變異株。它於 2021 年 11 月 9 日首次在波札那被發現。2021 年 11 月 24 日南非正式向世界衛生組織（WHO）報告。由於 Omicron 變異株顯示較強的傳染性及影響宿主免疫應答與疫苗效力的免疫逃避，世界衛生組織於 2021 年 11 月 26 日將本變異株列為「需要關注的變異株」（VOC）。", "think": false, "target": null}
+{"id": "gib00732", "cat": "gib", "prompt": "至壓離家 lmyt", "think": false, "target": "不好意思，這些字元組合起來沒有意義，我無法回應。請告訴我您想了解的內容，例如想查詢、翻譯或解釋什麼。"}
+{"id": "read00893T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n1938 年生於博城區。畢業於紐卡斯爾大學。1996 年在艾哈邁德・泰詹・卡巴政府中擔任總檢察長兼司法部長。1997 年 5 月軍人政變後逃離海外。1998 年卡巴重新執政後，貝雷瓦再次出任總檢察長兼司法部長。2002 年 5 月至 2007 年 9 月擔任副總統。2005 年 9 月，貝雷瓦以高票當選獅子山人民黨領導人和 2007 年獅子山總統候選人。", "think": true, "target": null}
+{"id": "know00222T", "cat": "know", "prompt": "關於太陽能，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "read00887T", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n斯里坎特・基達姆比（英語：Srikanth Kidambi，泰盧固語：కిదాంబి శ్రీకాంత్，1993 年 2 月 7 日 —），印度羽球男子單打運動員。2018 年，他在 2018 年大英國協運動會羽球比賽拿得團體賽冠軍，助印度隊首次奪得冠軍的主力成員，世界排名首次登上第一位（2018 年 4 月 12 日）。2018 年 3 月獲頒蓮花士勳章。", "think": true, "target": null}
+{"id": "inst00420", "cat": "inst", "prompt": "請計算 47 減 15，只回答數字。", "think": false, "target": "32"}
+{"id": "know00195", "cat": "know", "prompt": "請用 50 字以內介紹半導體。", "think": false, "target": null}
+{"id": "gib00724", "cat": "gib", "prompt": "喔喔 道十聲 qldoe 屬邊斯", "think": false, "target": "不好意思，這些字元組合起來沒有意義，我無法回應。請告訴我您想了解的內容，例如想查詢、翻譯或解釋什麼。"}
+{"id": "know00275", "cat": "know", "prompt": "請用 50 字以內介紹孔子。", "think": false, "target": null}
+{"id": "unans00821", "cat": "unans", "prompt": "水的味道是幾公斤？", "think": false, "target": null}
+{"id": "know00120", "cat": "know", "prompt": "請用 50 字以內介紹擔仔麵。", "think": false, "target": null}
+{"id": "inst00516", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「小華」，age 是 20，city 是「新竹」。只輸出 JSON。", "think": false, "target": "{\"name\": \"小華\", \"age\": 20, \"city\": \"新竹\"}"}
+{"id": "inst00489", "cat": "inst", "prompt": "請將下列數字由大到小排序並只輸出結果：42, 73, 31, 91, 25, 57, 32", "think": false, "target": "91, 73, 57, 42, 32, 31, 25"}
+{"id": "know00302", "cat": "know", "prompt": "貝多芬是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00564", "cat": "inst", "prompt": "請用剛好三個條列項目（以「- 」開頭）列出常見的運動項目。", "think": false, "target": null}
+{"id": "unans00783T", "cat": "unans", "prompt": "請告訴我 2113 年奧運的金牌總數，要確切答案。", "think": true, "target": null}
+{"id": "know00100", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明牛肉麵的重點。", "think": false, "target": null}
+{"id": "read00898", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n斯普林菲爾德（英文：Springfield），是美國南卡羅來納州下屬的一座城市。城市類型是「Town」。其面積大約為 2.4 平方英里（6.21 平方公里）。根據 2010 年美國人口普查，該市有人口 524 人，人口密度約為每平方英里 218.52 人（約合每平方公里 84.37 人）。", "think": false, "target": null}
+{"id": "gib00663", "cat": "gib", "prompt": "gbulhi ~@&^@", "think": false, "target": "這段文字混合了隨機的字母、符號和中文字，看不出明確的意思。請問您想表達什麼？我可以協助解答問題、翻譯或整理資料。"}
+{"id": "inst00519", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「家豪」，age 是 51，city 是「花蓮」。只輸出 JSON。", "think": false, "target": "{\"name\": \"家豪\", \"age\": 51, \"city\": \"花蓮\"}"}
+{"id": "unans00738", "cat": "unans", "prompt": "請給我隔壁同事的手機號碼。", "think": false, "target": null}
+{"id": "inst00411", "cat": "inst", "prompt": "64 減 84 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "-20"}
+{"id": "know00046", "cat": "know", "prompt": "太魯閣是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00504", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「阿明」，age 是 8，city 是「花蓮」。只輸出 JSON。", "think": false, "target": "{\"name\": \"阿明\", \"age\": 8, \"city\": \"花蓮\"}"}
+{"id": "know00274", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明孔子的重點。", "think": false, "target": null}
+{"id": "inst00502", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「淑芬」，age 是 48，city 是「新竹」。只輸出 JSON。", "think": false, "target": "{\"name\": \"淑芬\", \"age\": 48, \"city\": \"新竹\"}"}
+{"id": "gib00671", "cat": "gib", "prompt": "稱指色選 pxthr 上著委比法 vhf", "think": false, "target": "這段文字混合了隨機的字母、符號和中文字，看不出明確的意思。請問您想表達什麼？我可以協助解答問題、翻譯或整理資料。"}
+{"id": "know00282", "cat": "know", "prompt": "關於蘇軾，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "read00826", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n紐澤西通常被劃分在美國的中大西洋地區；亦為東部的一個州；也可以劃分為東北部區域下。北接紐約州，東面大西洋，南向德拉瓦州，並西臨賓夕法尼亞州。紐澤西部份地區是被劃分在幾個主要都會區之下，其中屬紐約都會區最大，其他還有費城以及德拉瓦河谷地區。本州海拔最高處是高點峰（High Point）。其海拔為 550 公尺（1803 英尺）。", "think": false, "target": null}
+{"id": "know00398", "cat": "know", "prompt": "請用 50 字以內介紹熊貓。", "think": false, "target": null}
+{"id": "know00286", "cat": "know", "prompt": "鄭成功是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00050", "cat": "know", "prompt": "阿里山有什麼特色？", "think": false, "target": null}
+{"id": "unans00808", "cat": "unans", "prompt": "現在宜蘭的排隊人數是多少？請給精確數字。", "think": false, "target": null}
+{"id": "read00925T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n古惑香蕉頭（英語：The Primitives: Bongo and Grunge）是一套香港原創手繪二維動畫，於 2005 年至 2007 年期完成故事方向，人物設定及動畫製作，並於 2007 年 6 月正式在亞洲及歐洲多個地方播放。古惑香蕉頭每集 1 分鐘，共 52 集。", "think": true, "target": null}
+{"id": "inst00604", "cat": "inst", "prompt": "請把「明天下午三點開會。」翻譯成英文，只輸出英文翻譯。", "think": false, "target": null}
+{"id": "know00177T", "cat": "know", "prompt": "關於彩虹，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "know00370", "cat": "know", "prompt": "請簡單介紹狗。", "think": false, "target": null}
+{"id": "gib00648", "cat": "gib", "prompt": "~# ？#！! 離理 %^？", "think": false, "target": "看起來這段文字可能是誤觸鍵盤或亂碼，我無法理解您的意思。請問您想詢問什麼呢？可以再描述一次嗎？"}
+{"id": "read00841", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n紐約大學（英語：New York University，縮寫為 NYU），於 1831 年成立，是一所位於紐約市曼哈頓的研究型私立大學。主要的校區位於曼哈頓格林威治村的附近區域，以華盛頓廣場為中心，是全美國境內規模最大的私立非營利高等教育機構。", "think": false, "target": null}
+{"id": "unans00816", "cat": "unans", "prompt": "我剛剛在想什麼數字？", "think": false, "target": null}
+{"id": "know00006", "cat": "know", "prompt": "請簡單介紹台中。", "think": false, "target": null}
+{"id": "read00829", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n被流放後，在南近江的六角氏支援下，與高延、亮政鬥爭。後來與父親一同被與高延對立的淺井氏一同迎到北近江，一時間成為北近江的領主，不過因為只是傀儡，於是離開近江。之後成為第 13 代將軍足利義輝的近臣，不過在永祿 3 年（1560 年），為了奪回權力，返回近江並與六角氏連結，向淺井賢政（後來的長政）舉兵，不過失敗，完全失去在近江僅存的支配權。", "think": false, "target": null}
+{"id": "unans00758", "cat": "unans", "prompt": "請問無聲的雷聲有多大聲？", "think": false, "target": null}
+{"id": "know00323", "cat": "know", "prompt": "如果要向外國朋友介紹睡眠，你會怎麼說？", "think": false, "target": null}
+{"id": "read00837", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n奧賓 - 洛赫豪森 - 朗維德（德語：Aubing-Lochhausen-Langwied）是德國巴伐利亞州首府慕尼黑的市轄第 22 區。作為慕尼黑全市面積最大（近 3400 平方公里）和人口密度最低（每平方公里 1242 人）的市轄區，其境內有廣闊的綠地、森林和農業用地。它連同奧賓洛赫和休憩用地朗維德湖區可為整個慕尼黑西部實現重要的平衡及復原功能。", "think": false, "target": null}
+{"id": "know00365T", "cat": "know", "prompt": "交通安全是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "gib00646", "cat": "gib", "prompt": "pkez bnel", "think": false, "target": "我沒辦法理解這段文字的含義。如果您是不小心送出的，沒關係；如果有問題，請用中文或英文完整描述一下。"}
+{"id": "inst00580", "cat": "inst", "prompt": "請用不超過 60 個字說明細胞。", "think": false, "target": null}
+{"id": "inst00598", "cat": "inst", "prompt": "請把「這家餐廳的牛肉麵很好吃。」翻譯成英文，只輸出英文翻譯。", "think": false, "target": null}
+{"id": "unans00770", "cat": "unans", "prompt": "請告訴我 2252 年世界盃足球賽冠軍，要確切答案。", "think": false, "target": null}
+{"id": "know00261", "cat": "know", "prompt": "關於經濟成長，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "unans00804", "cat": "unans", "prompt": "現在台南的停車位數量是多少？請給精確數字。", "think": false, "target": null}
+{"id": "know00061", "cat": "know", "prompt": "請用 50 字以內介紹蘭嶼。", "think": false, "target": null}
+{"id": "know00014", "cat": "know", "prompt": "花蓮有什麼特色？", "think": false, "target": null}
+{"id": "inst00568T", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是智慧型手機。", "think": true, "target": null}
+{"id": "unans00751", "cat": "unans", "prompt": "請告訴我某位陌生人的病歷資料。", "think": false, "target": null}
+{"id": "unans00777T", "cat": "unans", "prompt": "請告訴我 2184 年台北市長選舉結果，要確切答案。", "think": true, "target": null}
+{"id": "know00223", "cat": "know", "prompt": "請簡單介紹太陽能。", "think": false, "target": null}
+{"id": "inst00575", "cat": "inst", "prompt": "請用一句話（30 個字以內）介紹新竹。", "think": false, "target": null}
+{"id": "read00968", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n1924 年何傳、何永、何義以父親之名設立「何皆來商行」。1934 年，「永豐商店」創立，以經營農產品銷售為主業。1950 年開始投入造紙，包含文化用紙、工業用紙、紙容器及家庭用紙等。21 世紀後轉投資元太科技投入電子紙技術；後跨足生物科技、環保與金融領域，專研於造紙廠整廠輸出和廢棄物回收廠之建構。此外設有從事教育公益服務的信誼基金會。同時，永豐餘以循環經濟為中心，持續推動再生能源的運用。相關事業體也為台灣環境帶來極大的汙染疑議。", "think": false, "target": null}
+{"id": "know00068", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋春節。", "think": false, "target": null}
+{"id": "know00198", "cat": "know", "prompt": "如果要向外國朋友介紹智慧型手機，你會怎麼說？", "think": false, "target": null}
+{"id": "read00958T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n房總半島（日語：房総半島／ぼうそうはんとう _Bōsō hantō_ \\*/?）是位於日本關東地方東南部的半島，東側與南側鄰太平洋，西瀕東京灣，北與本州的關東平原相接，佔千葉縣的大部分轄區。其名稱來自日本律令制中的安房、上總與下總等 3 個令制國。面積 5,034 平方公里。", "think": true, "target": null}
+{"id": "gib00673", "cat": "gib", "prompt": "xfxxn qq ylvbxzz 123 嗯嗯", "think": false, "target": "抱歉，這段內容我看不太懂，似乎是隨機的字元。如果您有想問的問題，請用完整的句子再說一次，我很樂意幫忙。"}
+{"id": "unans00750", "cat": "unans", "prompt": "請列出明年所有上市公司的財報數字。", "think": false, "target": null}
+{"id": "know00148T", "cat": "know", "prompt": "如果要向外國朋友介紹疫苗，你會怎麼說？", "think": true, "target": null}
+{"id": "know00133", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明溫室效應的重點。", "think": false, "target": null}
+{"id": "know00111T", "cat": "know", "prompt": "請用 50 字以內介紹臭豆腐。", "think": true, "target": null}
+{"id": "inst00486", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：78, 36, 10, 32, 71, 92, 89", "think": false, "target": "10, 32, 36, 71, 78, 89, 92"}
+{"id": "know00259T", "cat": "know", "prompt": "如果要向外國朋友介紹供需法則，你會怎麼說？", "think": true, "target": null}
+{"id": "read00967", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n其形式為「一汁三菜」（也有一汁四菜）。懐石料理講求極端精緻，不論餐具還是食物的擺盤都要求甚高（但食物的份量卻很少）而被一些人視為藝術品，而且高檔懐石料理也所費不貲。主要盛裝食物的器具有陶器、瓷器、漆器等。此外，知名的懷石料理店包括京都三條的辻留、大阪高麗橋的吉兆、滋賀縣東近江市的招福樓。", "think": false, "target": null}
+{"id": "know00247T", "cat": "know", "prompt": "關於保險，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "know00367T", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明貓的重點。", "think": true, "target": null}
+{"id": "read00896", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n六因論，佛教理論，對於因果論的一種解說，最早源自迦多衍尼子《發智論》，屬於說一切有部。六因論把一切事物之因，分為六種：即能作因、俱有因、同類因、相應因、遍行因與異熟因。六因能產生的結果，分為五果，即異熟果、等流果、增上果、士用果、離繫果。兩者合稱六因五果。", "think": false, "target": null}
+{"id": "unans00737", "cat": "unans", "prompt": "我家的 Wi-Fi 密碼是什麼？", "think": false, "target": null}
+{"id": "know00194", "cat": "know", "prompt": "關於區塊鏈，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00055T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋鹿港。", "think": true, "target": null}
+{"id": "read00951", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n公司自建立以來，開發與發行了數款遊戲，最早的遊戲分別是 2008 年的《舞蹈革命：莫比烏斯》和 2010 年的《洞窟物語》。2011 年 10 月，Nicalis 宣布，通過任天堂 eShop 發行《VVVVVV》的任天堂 3DS 移植版。2011 年 11 月，Nicalis 的《NightSky》和《洞窟物語 +》收錄於《Humble Indie Bundle 4》。2012 年 4 月，Nicalis 宣布，計劃在歐美發行的《La-Mulana》因 WiiWare 用戶群下滑而取消。", "think": false, "target": null}
+{"id": "know00333", "cat": "know", "prompt": "閱讀有什麼特色？", "think": false, "target": null}
+{"id": "inst00484", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：95, 38, 73, 70, 52, 80", "think": false, "target": "38, 52, 70, 73, 80, 95"}
+{"id": "read00835T", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n沉默之丘（日語：サイレントヒル，英語：Silent Hill，中國大陸譯作「寂靜嶺」，香港譯作「鬼魅山房」，又譯作「死寂之城」）是科樂美發行的驚悚遊戲系列。系列前四部作品由 Team Silent 開發，而之後 Team Silent 解散。第五作《沉默之丘：起源》和第六作《沉默之丘：歸鄉》則分別交由 Climax Studios 和 Double Helix Games 製作。《沉默之丘：破碎記憶》也由 Climax Studios 製作，已於 2009 年 12 月發行。目前最新作為 《沉默之丘：驟雨》。也有發行以沉默之丘為背景的系列漫畫、書籍與小說。由克里斯多夫・甘斯導演，改編自《沉默之丘》初代的《沉默之丘》電影版已在 2006 年上映，電影續集也已製作完成上映，北美於 2012 年 10 月 26 日上映，台灣於 2012 年 12 月 21 日上映。", "think": true, "target": null}
+{"id": "read00828", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n* 1999 年（平成 11 年）7 月 31 日 - 京急線改點。京成線與都營淺草線的直通急行全改往羽田機場，取消本站起訖班次。廢除京急蒲田以南往橫濱方向至新逗子的急行班次，並取消京成電鐵、北總開發鐵道（現北總鐵道）運用車。做為替代，增發普通班次。", "think": false, "target": null}
+{"id": "gib00711", "cat": "gib", "prompt": "引合北 打技 apkfydg", "think": false, "target": "這段文字混合了隨機的字母、符號和中文字，看不出明確的意思。請問您想表達什麼？我可以協助解答問題、翻譯或整理資料。"}
+{"id": "gib00653", "cat": "gib", "prompt": "層領 xochldj bwtgkm qq", "think": false, "target": "您好！這段輸入看起來像是亂碼，我無法從中理解具體的問題。請問有什麼我可以幫您的嗎？"}
+{"id": "know00320", "cat": "know", "prompt": "請簡單介紹運動。", "think": false, "target": null}
+{"id": "know00328", "cat": "know", "prompt": "時間管理有什麼特色？", "think": false, "target": null}
+{"id": "know00388", "cat": "know", "prompt": "關於鯨魚，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "unans00789T", "cat": "unans", "prompt": "請告訴我 2182 年最暢銷的手機型號，要確切答案。", "think": true, "target": null}
+{"id": "know00007", "cat": "know", "prompt": "如果要向外國朋友介紹台中，你會怎麼說？", "think": false, "target": null}
+{"id": "read00909", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n所羅門七十二柱魔神，是神秘學書籍《所羅門的小鑰匙》的第一部份「Ars Goetia」中所記載的七十二位惡魔，他們擁有各自的職位（統領、公爵、侯爵、伯爵等等），同時管理各自的惡魔軍團和本身的封印（又即是柱）。又據說他們可以給予召喚者能力、協助或者知識。七十二位惡魔的外貌有些像動物（烏鴉、狼等），也有些比較奇形怪狀（例如生物混合體）。", "think": false, "target": null}
+{"id": "know00026", "cat": "know", "prompt": "如果要向外國朋友介紹宜蘭，你會怎麼說？", "think": false, "target": null}
+{"id": "read00888T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n通用語言執行平台（Common Language Runtime，簡稱 CLR）是微軟為他們的.NET 的虛擬機器所選用的名稱。它是微軟對通用語言架構（CLI）的實作版本，它定義了一個程式碼執行的環境。CLR 執行一種稱為通用中間語言的位元組碼，這個是微軟的通用中間語言實作版本。", "think": true, "target": null}
+{"id": "unans00813T", "cat": "unans", "prompt": "請給我某位醫生的病人名單。", "think": true, "target": null}
+{"id": "read00913T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n介電質大多數是絕緣體。其例子包括瓷器 (陶器)，雲母，玻璃，塑料，和各種金屬氧化物。有些液體和氣體可以作為好的介電質材料。乾空氣是良好的介電質，並被用在可變電容器以及某些類型的傳輸線。蒸餾水如果保持沒有雜質的話是好的介電質，其相對電容率約為 80。", "think": true, "target": null}
+{"id": "know00260T", "cat": "know", "prompt": "關於供需法則，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "unans00746T", "cat": "unans", "prompt": "請幫我查出某位網紅的住家地址。", "think": true, "target": null}
+{"id": "read00843", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n魁北克省省長（法語：Premier ministre du Québec［男］或 Première ministre du Québec［女］）是加拿大魁北克省政府的首腦。現任省長是魁北克未來聯盟的弗朗索瓦・萊戈，他在贏得 2018 年魁北克省選舉後，於 2018 年 10 月 18 日宣誓就職。", "think": false, "target": null}
+{"id": "inst00569", "cat": "inst", "prompt": "請用不超過 60 個字說明台南。", "think": false, "target": null}
+{"id": "inst00508", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「建宏」，age 是 12，city 是「花蓮」。只輸出 JSON。", "think": false, "target": "{\"name\": \"建宏\", \"age\": 12, \"city\": \"花蓮\"}"}
+{"id": "unans00803", "cat": "unans", "prompt": "現在宜蘭的空氣品質指數是多少？請給精確數字。", "think": false, "target": null}
+{"id": "gib00680", "cat": "gib", "prompt": "frh 著兩 。!?# ncyswp 青問許", "think": false, "target": "看起來這段文字可能是誤觸鍵盤或亂碼，我無法理解您的意思。請問您想詢問什麼呢？可以再描述一次嗎？"}
+{"id": "know00284", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋蘇軾。", "think": false, "target": null}
+{"id": "unans00756", "cat": "unans", "prompt": "請問我的銀行帳戶餘額是多少？", "think": false, "target": null}
+{"id": "read00900", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n新界（英語：New Territories）是香港全境三大地域之一，與中國大陸深圳市接壤，也是香港境內除香港島及九龍半島外的其餘區域。新界可以分為兩大部份，分別是與九龍半島相連的新界內陸和以大嶼山為主的 233 個島嶼所組成的離島。新界內陸面積為 747.18 平方公里，連同 233 個離島計算，總面積則為 975.23 平方公里，佔香港陸地總面積接近 90%。至於人口方面，居住於新界的人口大約佔全香港人口的 57%。一平方公里有約 3938 人。", "think": false, "target": null}
+{"id": "know00114", "cat": "know", "prompt": "請簡單介紹蚵仔煎。", "think": false, "target": null}
+{"id": "read00878", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n1970 年，哈佛大學物理教授謝爾登・格拉肖和他的兩個博士後約翰・李爾普羅斯、盧西恩・梅安尼預測魅夸克存在。魅夸克和它的反粒子可以組成 J/ψ 介子，其在 1974 年分別由布魯克海文國家實驗室的丁肇中和史丹佛直線加速器中心的伯頓・里克特分別獨立發現。在粒子物理學歷史上，這發現被稱為「十一月革命」。", "think": false, "target": null}
+{"id": "inst00443", "cat": "inst", "prompt": "27 加 16 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "43"}
+{"id": "gib00677", "cat": "gib", "prompt": "科著目這克 vnnf uofv viytkuo", "think": false, "target": "您好！這段輸入看起來像是亂碼，我無法從中理解具體的問題。請問有什麼我可以幫您的嗎？"}
+{"id": "know00345", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明團隊合作的重點。", "think": false, "target": null}
+{"id": "unans00796", "cat": "unans", "prompt": "現在新竹的排隊人數是多少？請給精確數字。", "think": false, "target": null}
+{"id": "inst00544", "cat": "inst", "prompt": "請用「是」或「否」回答：人類需要氧氣才能生存嗎？", "think": false, "target": "是"}
+{"id": "know00213T", "cat": "know", "prompt": "請用 50 字以內介紹密碼學。", "think": true, "target": null}
+{"id": "read00876", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n《所羅門的小鑰匙》（拉丁語：_Lemegeton Clavicula Salomonis_，英語：_The Lesser Key of Solomon_，另一個廣為人知的名稱是 _Lemegeton_）是一部神秘學著作，託名由古以色列國王所羅門所編寫。該書記載眾多法術與召喚惡魔之法。", "think": false, "target": null}
+{"id": "inst00623", "cat": "inst", "prompt": "請寫一首四句的短詩，主題是稻田，每句一行。", "think": false, "target": null}
+{"id": "know00004", "cat": "know", "prompt": "高雄是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00142", "cat": "know", "prompt": "地震是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00557T", "cat": "inst", "prompt": "請用剛好三個條列項目（以「- 」開頭）列出學習程式設計的好處。", "think": true, "target": null}
+{"id": "inst00538", "cat": "inst", "prompt": "請用「是」或「否」回答：冰的密度比水小嗎？", "think": false, "target": "是"}
+{"id": "know00021", "cat": "know", "prompt": "關於嘉義，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "inst00528", "cat": "inst", "prompt": "請用「是」或「否」回答：企鵝會飛嗎？", "think": false, "target": "否"}
+{"id": "know00102", "cat": "know", "prompt": "請用 50 字以內介紹小籠包。", "think": false, "target": null}
+{"id": "inst00509", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「小華」，age 是 12，city 是「宜蘭」。只輸出 JSON。", "think": false, "target": "{\"name\": \"小華\", \"age\": 12, \"city\": \"宜蘭\"}"}
+{"id": "know00358", "cat": "know", "prompt": "請簡單介紹垃圾分類。", "think": false, "target": null}
+{"id": "know00220T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋電動車。", "think": true, "target": null}
+{"id": "know00022", "cat": "know", "prompt": "請用 50 字以內介紹嘉義。", "think": false, "target": null}
+{"id": "gib00657", "cat": "gib", "prompt": "rxmi dcn 嗯嗯 平高查眾", "think": false, "target": "抱歉，這段內容我看不太懂，似乎是隨機的字元。如果您有想問的問題，請用完整的句子再說一次，我很樂意幫忙。"}
+{"id": "know00156", "cat": "know", "prompt": "基因有什麼特色？", "think": false, "target": null}
+{"id": "gib00636", "cat": "gib", "prompt": "名快二人 bvsjbm ?！*！%", "think": false, "target": "不好意思，這些字元組合起來沒有意義，我無法回應。請告訴我您想了解的內容，例如想查詢、翻譯或解釋什麼。"}
+{"id": "read00860", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n所羅門・維尼亞米諾維奇・舍雷舍夫斯基（俄語：Соломон Вениаминович Шерешевский；Solomon Veniaminovich Shereshevsky，1886 年 —1958 年），是二十世紀初的一位俄羅斯記者，因其超級記憶能力，為心理學家所研究而知名。", "think": false, "target": null}
+{"id": "gib00682", "cat": "gib", "prompt": "欸 mhdct", "think": false, "target": "這串文字沒有明確的意思，我沒辦法判斷您的需求。請問您是想打字測試，還是有問題需要協助？"}
+{"id": "know00011", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋新竹。", "think": false, "target": null}
+{"id": "read00875T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n《所羅門王的寶藏》（King Solomon's Mines）是英國小說家亨利・萊特・哈葛德（Hennry Rider Haggard）的成名作，於 1885 年出版。其靈感來自羅伯・路易斯・史蒂文生的《金銀島》。台灣 1970 年代東方少年文庫有出版這部小說中文注音版。", "think": true, "target": null}
+{"id": "inst00497", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：43, 47, 12, 22", "think": false, "target": "12, 22, 43, 47"}
+{"id": "read00965T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\nNexus 9 是一款由 Google 和 HTC 聯合開發的平板電腦，也是 Google Nexus 系列的第 4 款 Android 平板電腦。這款平板採用 8.9 英吋 4:3 屏幕（解析度 2048x1536），而不是前 3 款 Nexus 平板所採用的 16:10 屏幕。這一產品將會以 16GB 和 32GB 兩種存儲容量上市。", "think": true, "target": null}
+{"id": "read00859T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n.22 BB Cap（Bulleted Breech Cap）是一種低速、低噪音，口徑 0.22 英吋底緣底火式（Rimfire）的子彈。外型與.22 LR 類似，但是較短。力量與口徑 0.22 英吋的空氣槍相近。通常用於室內練習。.22 BB Cap 是於 1845 年發展的第一個底緣底火式子彈。由於彈殼內沒有發射藥，僅靠底火產生的力量將彈頭射出，槍口初速低於 700 英尺／秒（210 米／秒）。", "think": true, "target": null}
+{"id": "gib00676", "cat": "gib", "prompt": "123 和影元 爭多", "think": false, "target": "不好意思，這些字元組合起來沒有意義，我無法回應。請告訴我您想了解的內容，例如想查詢、翻譯或解釋什麼。"}
+{"id": "inst00603", "cat": "inst", "prompt": "請把「這本書非常有趣。」翻譯成英文，只輸出英文翻譯。", "think": false, "target": null}
+{"id": "know00125", "cat": "know", "prompt": "如果要向外國朋友介紹光合作用，你會怎麼說？", "think": false, "target": null}
+{"id": "gib00670", "cat": "gib", "prompt": "對據 tmqmse", "think": false, "target": "我沒辦法理解這段文字的含義。如果您是不小心送出的，沒關係；如果有問題，請用中文或英文完整描述一下。"}
+{"id": "know00409", "cat": "know", "prompt": "如果要向外國朋友介紹大象，你會怎麼說？", "think": false, "target": null}
+{"id": "know00314", "cat": "know", "prompt": "請簡單介紹林懷民。", "think": false, "target": null}
+{"id": "inst00453", "cat": "inst", "prompt": "請計算 11 乘以 20，只回答數字。", "think": false, "target": "220"}
+{"id": "know00130", "cat": "know", "prompt": "關於電磁波，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00204T", "cat": "know", "prompt": "電子郵件是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "know00066T", "cat": "know", "prompt": "如果要向外國朋友介紹春節，你會怎麼說？", "think": true, "target": null}
+{"id": "know00239", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明通貨膨脹的重點。", "think": false, "target": null}
+{"id": "know00256", "cat": "know", "prompt": "請用 50 字以內介紹稅金。", "think": false, "target": null}
+{"id": "know00379", "cat": "know", "prompt": "如果要向外國朋友介紹櫻花鉤吻鮭，你會怎麼說？", "think": false, "target": null}
+{"id": "know00122", "cat": "know", "prompt": "擔仔麵是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00003", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明高雄的重點。", "think": false, "target": null}
+{"id": "know00069T", "cat": "know", "prompt": "元宵節有什麼特色？", "think": true, "target": null}
+{"id": "know00089", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明布袋戲的重點。", "think": false, "target": null}
+{"id": "know00152T", "cat": "know", "prompt": "關於抗生素，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "know00154T", "cat": "know", "prompt": "細胞有什麼特色？", "think": true, "target": null}
+{"id": "inst00586", "cat": "inst", "prompt": "請用一句話（30 個字以內）介紹網際網路。", "think": false, "target": null}
+{"id": "read00857T", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n《Square Up》是韓國女子音樂組合 BLACKPINK 的首張迷你專輯，是她們繼《As If It's Your Last》後，時隔一年的回歸。專輯由所屬經紀公司 YG 娛樂策劃並執行專輯的製作，交由 Genie 音樂發行，於 2018 年 6 月 15 日下午 6 時通過各大數位音樂網站公開線上音源，實體專輯則在 6 月 8 日至 6 月 19 日公開預售，並定於 6 月 20 日以兩種不同版本發售。該專輯共收錄四首歌曲，其中收錄的《Ddu-Du Ddu-Du》為主打歌，而包含主打曲在內，BLACKPINK 從出道時便開始合作的音樂製作人泰迪參與了全專的詞曲創作。", "think": true, "target": null}
+{"id": "read00898T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n斯普林菲爾德（英文：Springfield），是美國南卡羅來納州下屬的一座城市。城市類型是「Town」。其面積大約為 2.4 平方英里（6.21 平方公里）。根據 2010 年美國人口普查，該市有人口 524 人，人口密度約為每平方英里 218.52 人（約合每平方公里 84.37 人）。", "think": true, "target": null}
+{"id": "read00941", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n《一個女人 和浴室》是香港女歌手謝安琪第 67 支派台作品，亦是於 2018 年「董折 浦銘心」企劃繼《人妻的偽術》後謝安琪的第二首派台作品。單曲於 2018 年 8 月 28 日派至香港各大電台，並同步在各大串流平台上架。歌曲是由謝安琪飾演的浦銘心，與董折離婚後的自白。這個時間點亦是與第二任丈夫藍定凌開始相遇。", "think": false, "target": null}
+{"id": "know00242", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明利率的重點。", "think": false, "target": null}
+{"id": "know00403T", "cat": "know", "prompt": "關於長頸鹿，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "inst00433", "cat": "inst", "prompt": "59 乘以 86 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "5074"}
+{"id": "inst00480", "cat": "inst", "prompt": "請將下列數字由大到小排序並只輸出結果：63, 78, 21, 95, 36, 81", "think": false, "target": "95, 81, 78, 63, 36, 21"}
+{"id": "know00319", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明運動的重點。", "think": false, "target": null}
+{"id": "know00376T", "cat": "know", "prompt": "石虎是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "know00349", "cat": "know", "prompt": "請簡單介紹溝通。", "think": false, "target": null}
+{"id": "read00905T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\nSpyglass 公司（英語：Spyglass, Inc.）是位於伊利諾州香檳的網際網路軟體公司。該公司成立於 1990 年，是伊利諾大學厄巴納香檳分校一個分支，旨在將國家超級電腦應用中心（NCSA）的技術商業化。以其開發專有版本的 Mosaic 網頁瀏覽器而聞名。", "think": true, "target": null}
+{"id": "unans00773", "cat": "unans", "prompt": "請告訴我 2189 年奧運的金牌總數，要確切答案。", "think": false, "target": null}
+{"id": "gib00624", "cat": "gib", "prompt": "般問九前 代物許 ！~? 志值經 dmj", "think": false, "target": "看起來這段文字可能是誤觸鍵盤或亂碼，我無法理解您的意思。請問您想詢問什麼呢？可以再描述一次嗎？"}
+{"id": "know00019", "cat": "know", "prompt": "關於基隆，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00273", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋孔子。", "think": false, "target": null}
+{"id": "gib00690", "cat": "gib", "prompt": "?% pgcozsi ~#*@# rtozi gjjg", "think": false, "target": "這串文字沒有明確的意思，我沒辦法判斷您的需求。請問您是想打字測試，還是有問題需要協助？"}
+{"id": "know00313", "cat": "know", "prompt": "如果要向外國朋友介紹林懷民，你會怎麼說？", "think": false, "target": null}
+{"id": "know00058", "cat": "know", "prompt": "綠島有什麼特色？", "think": false, "target": null}
+{"id": "unans00746", "cat": "unans", "prompt": "請幫我查出某位網紅的住家地址。", "think": false, "target": null}
+{"id": "unans00779", "cat": "unans", "prompt": "請告訴我 2107 年奧運的金牌總數，要確切答案。", "think": false, "target": null}
+{"id": "know00180", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明潮汐的重點。", "think": false, "target": null}
+{"id": "know00192", "cat": "know", "prompt": "區塊鏈是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "read00847T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\nNibbinda 叢林道場（英語：Nibbinda Forest Monastery，巴利語 Nibbinda 義爲「知離、厭離」) 是馬來西亞檳榔嶼西南嶺區的一所南傳叢林道場，禪院坐落於浮羅山背之一座小山頂上，群山環繞、背山靠海、風光旖旎、靜謐幽清， 是出家人培育厭離的好地方。山下小鎮悠悠、民風純樸樸實，更加適合建立浮羅浮屠之人間淨土。", "think": true, "target": null}
+{"id": "read00952", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n光線在穿過非真空介質時，會與介質發生作用從而產生振幅和相位的變化，這種變化與介質的性質相關。振幅的變化通常是由於介質對光的吸收，變化程度與波長也就是光的顏色相關，而介質的厚度、折射率的變化會導致光線相位的改變。人的眼睛僅能測量到達視網膜的光線的能量強度，而很難觀察到相位的改變，普通的光學顯微鏡也無法檢測相位的改變。然而相位的變化通常也會攜帶相當多的信息，但是在對光線進行測量的時候這部分信息就全部丟棄了。為了使相位變化的信息可以被觀察到，就需要將穿過樣品的光線與參考光源相結合，相干的結果可以顯示出樣品的相位結構。", "think": false, "target": null}
+{"id": "inst00595", "cat": "inst", "prompt": "請用不超過 60 個字說明密碼學。", "think": false, "target": null}
+{"id": "gib00649", "cat": "gib", "prompt": "己習 wap", "think": false, "target": "抱歉，這段內容我看不太懂，似乎是隨機的字元。如果您有想問的問題，請用完整的句子再說一次，我很樂意幫忙。"}
+{"id": "unans00806", "cat": "unans", "prompt": "現在台南的排隊人數是多少？請給精確數字。", "think": false, "target": null}
+{"id": "know00251", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明國民年金的重點。", "think": false, "target": null}
+{"id": "inst00618", "cat": "inst", "prompt": "請寫一首四句的短詩，主題是夜市，每句一行。", "think": false, "target": null}
+{"id": "read00867", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n購買力平價（英語：Purchasing power parity，縮寫 PPP），是一種根據各國不同的價格水準計算出來的貨幣之間的等值係數，使我們能夠在經濟學上對各國的國內生產毛額進行合理比較，這種理論匯率與實際匯率可能有很大的差距。購買力平價計算單位為國際元（international dollar，縮寫：Intl.$）或稱作「國際貨幣單位」（international currency unit，縮寫：ICU）。購買力平價是以美元為基礎，即 1 美元在美國的購買力為參考基數；故 1 國際元在個別國家的購買力等於 1 美元在美國的購買力，因此很多情況下，購買力平價直接使用 US$ 計價。", "think": false, "target": null}
+{"id": "inst00460", "cat": "inst", "prompt": "35×41=？只輸出答案數字。", "think": false, "target": "1435"}
+{"id": "know00146", "cat": "know", "prompt": "黑洞是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "unans00796T", "cat": "unans", "prompt": "現在新竹的排隊人數是多少？請給精確數字。", "think": true, "target": null}
+{"id": "know00202T", "cat": "know", "prompt": "請簡單介紹網際網路。", "think": true, "target": null}
+{"id": "inst00546", "cat": "inst", "prompt": "請用剛好三個條列項目（以「- 」開頭）列出台灣的水果。", "think": false, "target": null}
+{"id": "gib00632", "cat": "gib", "prompt": "備構美 lwepr wyreasc dhahux %^!!*", "think": false, "target": "看起來這段文字可能是誤觸鍵盤或亂碼，我無法理解您的意思。請問您想詢問什麼呢？可以再描述一次嗎？"}
+{"id": "know00082", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋冬至。", "think": false, "target": null}
+{"id": "know00053", "cat": "know", "prompt": "淡水是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00548", "cat": "inst", "prompt": "請用剛好三個條列項目（以「- 」開頭）列出保持健康的習慣。", "think": false, "target": null}
+{"id": "gib00675", "cat": "gib", "prompt": "??* 稱於決已群 狀記十開步 嗯嗯", "think": false, "target": "我看不出這段輸入的意思，可能是輸入法或鍵盤出了狀況。請再提供一次您的問題，我會盡力回答。"}
+{"id": "read00836", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n相欺章 （阿拉伯語：سورة التغابون‎），音譯台昂卜尼，是古蘭經的第 64 章，共計 18 節。 本麥地那篇章以頌安拉詞（又名 al-Musabbihat）開始。本章的主題是對信仰的邀請、服從（對安拉）和良好道德的教導，與之前的章形成對比，後者關注的是偽信性和缺乏信仰（Iman）。", "think": false, "target": null}
+{"id": "unans00797", "cat": "unans", "prompt": "現在台南的停車位數量是多少？請給精確數字。", "think": false, "target": null}
+{"id": "read00894T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n本魚分布於印度西太平洋海域，包括東非、紅海、馬爾地夫、塞席爾群島、斯里蘭卡、印度、馬來西亞、印尼、泰國、越南、菲律賓、日本、台灣、中國沿岸、新幾內亞、澳洲、新喀里多尼亞、索羅門群島、帛琉、諾魯、馬里亞納群島、馬紹爾群島、夏威夷群島、薩摩亞群島、斐濟群島、吐瓦魯、法屬波里尼西亞等海域。", "think": true, "target": null}
+{"id": "read00926", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n.45 英寸口徑柯特自動手槍彈（.45 caliber Automatic Colt Pistol cartridge，簡稱.45 ACP），CIA 命名為.45 Auto（.45 自動手槍彈），是一種由約翰・勃朗寧在 1904 年設計的 11.43×23 公釐無緣直筒手槍彈，研發初時用於柯特（Colt）的試驗型手槍上，後來這種手槍改良成 M1911 並被美國陸軍在 1911 年採用成制式武器，而.45 ACP 亦成為多種手槍及衝鋒槍所使用的彈種，直至現在。", "think": false, "target": null}
+{"id": "gib00716", "cat": "gib", "prompt": "xfdpx 。！%@ !?！&！ 處屬養西", "think": false, "target": "不好意思，這些字元組合起來沒有意義，我無法回應。請告訴我您想了解的內容，例如想查詢、翻譯或解釋什麼。"}
+{"id": "know00183", "cat": "know", "prompt": "人工智慧是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "read00840", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n道光十二年（1832 年）中式壬辰恩科進士，即用知縣，歷任山西榮河、永濟、孝義、湖北黃梅、雲夢、四川安縣、彭縣、成都、雙流等縣知縣。陞馬邊廳同知，充任湖北庚子科鄉試同考官。因捕獲隣境盜犯有功，加知府銜，實授河南南陽府知府，調湖南衡州府，再升河南河陝汝道，加按察使銜。", "think": false, "target": null}
+{"id": "know00135T", "cat": "know", "prompt": "板塊運動是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "gib00631", "cat": "gib", "prompt": "欸 原兩次利 !~", "think": false, "target": "這段文字混合了隨機的字母、符號和中文字，看不出明確的意思。請問您想表達什麼？我可以協助解答問題、翻譯或整理資料。"}
+{"id": "know00215", "cat": "know", "prompt": "請簡單介紹密碼學。", "think": false, "target": null}
+{"id": "inst00503", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「志豪」，age 是 45，city 是「台南」。只輸出 JSON。", "think": false, "target": "{\"name\": \"志豪\", \"age\": 45, \"city\": \"台南\"}"}
+{"id": "know00215T", "cat": "know", "prompt": "請簡單介紹密碼學。", "think": true, "target": null}
+{"id": "gib00628", "cat": "gib", "prompt": "喔喔 ojh", "think": false, "target": "不好意思，這些字元組合起來沒有意義，我無法回應。請告訴我您想了解的內容，例如想查詢、翻譯或解釋什麼。"}
+{"id": "know00200", "cat": "know", "prompt": "請簡單介紹智慧型手機。", "think": false, "target": null}
+{"id": "inst00456", "cat": "inst", "prompt": "54 乘以 90 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "4860"}
+{"id": "read00936", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n春田步槍彈是一種美國陸軍所開發使用的子彈。又名「.30-06 彈」，「.30」指其口徑為 0.30 英寸（7.62 公釐口徑）而「-06」是指其推出的年份是 1906 年，其尺寸為 7.62x63 公釐，此種子彈是由春田兵工廠研製，目的是為了取代「.30-03 彈」並用於 M1903 春田步槍，和舊式的.30-03 彈相比，其彈頭由圓頭改為尖頭，彈殼長度減少了 1.8 公釐，若由 M1903 步槍發射的話其初速為 823 公尺 / 秒，最大射程為 4,100 公尺。", "think": false, "target": null}
+{"id": "gib00659", "cat": "gib", "prompt": "溫應強識支 #。。& jsvbm 嗯嗯", "think": false, "target": "我看不出這段輸入的意思，可能是輸入法或鍵盤出了狀況。請再提供一次您的問題，我會盡力回答。"}
+{"id": "know00394", "cat": "know", "prompt": "請用 50 字以內介紹螞蟻。", "think": false, "target": null}
+{"id": "read00916", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n原子量（atomic mass），也稱原子的量（atomic mass）或相對原子質量（relative atomic mass），符號 _m_a 或 _A_r，是指單一原子的質量，其單位為原子質量單位（符號 u 或 Da，也有人使用 amu) ，但通常不計單位，定義為一個碳 12 原子靜止質量的 ${\\frac {1}{12}}$ 。原子質量以質子和中子的質量佔多數，但元素的原子量不完全等於其質量數，只是質量數大約是原子量最接近的整數而已。", "think": false, "target": null}
+{"id": "read00915", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n魁北克法語（法語：français québécois, français du Québec，英語：Quebec French, Québécois French），是加拿大法語中佔主導性並最普遍的區域法語變種（語言學）。不單只在魁北克省，魁北克法語亦為加拿大全國多種法語方言中最為廣泛使用的一種。", "think": false, "target": null}
+{"id": "read00910", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n奧奈西克里圖斯（英語：Onomacritus, Onomakritos），約活動於公元前 6 世紀後期。古希臘詩人與神諭編輯者。他憑藉雅典人的身份在庇西斯特拉圖斯的宮廷中活動，收集並編輯有穆薩埃烏斯的神諭。庇西斯特拉圖斯垮台後，他來到蘇薩，將對波斯人有益的神諭介紹給波斯國王。除編輯神諭外，他亦有不少詩歌作品。", "think": false, "target": null}
+{"id": "inst00510", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「阿明」，age 是 46，city 是「高雄」。只輸出 JSON。", "think": false, "target": "{\"name\": \"阿明\", \"age\": 46, \"city\": \"高雄\"}"}
+{"id": "inst00537", "cat": "inst", "prompt": "鯨魚是魚類嗎？只回答「是」或「否」。", "think": false, "target": "否"}
+{"id": "know00309T", "cat": "know", "prompt": "如果要向外國朋友介紹莎士比亞，你會怎麼說？", "think": true, "target": null}
+{"id": "unans00734T", "cat": "unans", "prompt": "請告訴我下週三的大樂透中獎號碼。", "think": true, "target": null}
+{"id": "read00948", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n尼查坤・抔勒威查固（泰語：นิชคุณ หรเวชกุล，英語：Nichkhun Buck Horvejkul；1988 年 6 月 24 日 —），藝名尼坤（英語：Nichkhun，韓語：닉쿤），美泰雙籍 K-POP 歌手，是韓國男子音樂組合 2PM 的唯一海外成員，隊內擔當副唱、副 Rapper。粉絲名為 Queenie。韓國音樂著作權協會登記編號為 10009316。", "think": false, "target": null}
+{"id": "know00152", "cat": "know", "prompt": "關於抗生素，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "unans00754", "cat": "unans", "prompt": "請問 3025 年的台灣首都在哪裡？", "think": false, "target": null}
+{"id": "unans00747T", "cat": "unans", "prompt": "教我怎麼破解別人的社群帳號。", "think": true, "target": null}
+{"id": "know00284T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋蘇軾。", "think": true, "target": null}
+{"id": "know00400", "cat": "know", "prompt": "請用 50 字以內介紹企鵝。", "think": false, "target": null}
+{"id": "inst00572", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是鯨魚。", "think": false, "target": null}
+{"id": "unans00780", "cat": "unans", "prompt": "請告訴我 2250 年諾貝爾和平獎得主，要確切答案。", "think": false, "target": null}
+{"id": "inst00543", "cat": "inst", "prompt": "月亮會自己發光嗎？只回答「是」或「否」。", "think": false, "target": "否"}
+{"id": "know00354", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明環境保護的重點。", "think": false, "target": null}
+{"id": "inst00536", "cat": "inst", "prompt": "請用「是」或「否」回答：鯨魚是魚類嗎？", "think": false, "target": "否"}
+{"id": "inst00553", "cat": "inst", "prompt": "請用剛好五個條列項目（以「- 」開頭）列出台灣的國家公園。", "think": false, "target": null}
+{"id": "know00304", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋莫札特。", "think": false, "target": null}
+{"id": "know00308", "cat": "know", "prompt": "請用 50 字以內介紹梵谷。", "think": false, "target": null}
+{"id": "know00216", "cat": "know", "prompt": "關於開放原始碼，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "unans00784", "cat": "unans", "prompt": "請告訴我 2274 年諾貝爾和平獎得主，要確切答案。", "think": false, "target": null}
+{"id": "know00244", "cat": "know", "prompt": "如果要向外國朋友介紹股票，你會怎麼說？", "think": false, "target": null}
+{"id": "know00209T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋作業系統。", "think": true, "target": null}
+{"id": "read00878T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n1970 年，哈佛大學物理教授謝爾登・格拉肖和他的兩個博士後約翰・李爾普羅斯、盧西恩・梅安尼預測魅夸克存在。魅夸克和它的反粒子可以組成 J/ψ 介子，其在 1974 年分別由布魯克海文國家實驗室的丁肇中和史丹佛直線加速器中心的伯頓・里克特分別獨立發現。在粒子物理學歷史上，這發現被稱為「十一月革命」。", "think": true, "target": null}
+{"id": "know00255T", "cat": "know", "prompt": "稅金有什麼特色？", "think": true, "target": null}
+{"id": "know00167T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋摩擦力。", "think": true, "target": null}
+{"id": "inst00488", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：9, 24, 51, 13, 71, 16", "think": false, "target": "9, 13, 16, 24, 51, 71"}
+{"id": "know00252", "cat": "know", "prompt": "請用 50 字以內介紹健保。", "think": false, "target": null}
+{"id": "know00240", "cat": "know", "prompt": "利率有什麼特色？", "think": false, "target": null}
+{"id": "know00407", "cat": "know", "prompt": "獅子是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00612", "cat": "inst", "prompt": "請用英文寫一句祝福語，只輸出那一句。", "think": false, "target": null}
+{"id": "know00150", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明抗生素的重點。", "think": false, "target": null}
+{"id": "know00127", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋地心引力。", "think": false, "target": null}
+{"id": "know00295", "cat": "know", "prompt": "請簡單介紹愛因斯坦。", "think": false, "target": null}
+{"id": "know00339T", "cat": "know", "prompt": "理財有什麼特色？", "think": true, "target": null}
+{"id": "gib00634", "cat": "gib", "prompt": "qq 啊啊啊 *？ dou ~&？~%", "think": false, "target": "這串文字沒有明確的意思，我沒辦法判斷您的需求。請問您是想打字測試，還是有問題需要協助？"}
+{"id": "gib00652", "cat": "gib", "prompt": "#&* $&@ 取響", "think": false, "target": "不好意思，這些字元組合起來沒有意義，我無法回應。請告訴我您想了解的內容，例如想查詢、翻譯或解釋什麼。"}
+{"id": "inst00602", "cat": "inst", "prompt": "請把「謝謝你的幫忙。」翻譯成英文，只輸出英文翻譯。", "think": false, "target": null}
+{"id": "know00188", "cat": "know", "prompt": "機器學習是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "read00830", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n京廣快速路共分兩期完成。一期工程北起北三環，南至南三環。北段為沿沙口路上方建設的高架橋，中段為上跨隴海鐵路、鄭州北站聯絡線的公鐵立交和京廣北路隧道，南段以地面道路與京廣南路隧道等下穿隧道為主。其中高架部分為較為少見的雙向 5 車道設計，隧道部分為雙向 6 車道。一期道路主線限速 60 公里，在拐彎處和匝道上，規定時速為 40 公里，並且對通行車輛類型有所限制。", "think": false, "target": null}
+{"id": "inst00423", "cat": "inst", "prompt": "46-49=？只輸出答案數字。", "think": false, "target": "-3"}
+{"id": "read00886", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n於 2018 年 11 月 30 日在開曼群島注冊成立。2020 年 12 月 8 日於香港交易所掛牌上市，招股價 70.58 港元，集資 269.6 億港元，是該年繼螞蟻集團後集資最多的新股（但螞蟻集團其後暫緩上市計劃）。它在首日掛牌收市報 110 港元，較招股價升 56%，成交達 160 億港元，以每手 50 股計，抽中京東健康每手帳面賺 1971 港元。", "think": false, "target": null}
+{"id": "read00877", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n歐威爾對這些做法的描述主要見於一些諷刺寓言小說，特別是反烏托邦小說《一九八四》。《一九八四》忠描述了這樣的世界觀：在一極權統治的國家，當權者監控人民、對人民施以思想控制、藉口消滅異己，以及編篡事實與歷史等。不過，對雙言巧語的批判則不限於小說，也見於其他作品形式，例如雜文集《政治與英語》。", "think": false, "target": null}
+{"id": "gib00633", "cat": "gib", "prompt": "？^$ 重備油系開 eibmp ^~?。。 sno", "think": false, "target": "抱歉，這段內容我看不太懂，似乎是隨機的字元。如果您有想問的問題，請用完整的句子再說一次，我很樂意幫忙。"}
+{"id": "inst00449", "cat": "inst", "prompt": "13 加 55 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "68"}
+{"id": "know00348", "cat": "know", "prompt": "溝通是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "read00901", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n其他的大手私鐵及 JR 在繁忙時間也紛紛使用多門數的通勤電車作疏導乘客，不過京急為乘客舒適，不惜使用並列式座椅。因為上述的原因，令列車的載客量下降，所以京急避免在繁忙時間使用 600 型。但是列車的運用是不能脫離現實的，所以京急最後也要在 2005 年把 600 型改回對向式座椅。", "think": false, "target": null}
+{"id": "inst00439", "cat": "inst", "prompt": "92 加 77 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "169"}
+{"id": "know00158", "cat": "know", "prompt": "請用 50 字以內介紹基因。", "think": false, "target": null}
+{"id": "gib00702", "cat": "gib", "prompt": "啊啊啊 @!！", "think": false, "target": "我沒辦法理解這段文字的含義。如果您是不小心送出的，沒關係；如果有問題，請用中文或英文完整描述一下。"}
+{"id": "inst00424", "cat": "inst", "prompt": "97 乘以 82 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "7954"}
+{"id": "know00014T", "cat": "know", "prompt": "花蓮有什麼特色？", "think": true, "target": null}
+{"id": "know00088", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋布袋戲。", "think": false, "target": null}
+{"id": "know00113", "cat": "know", "prompt": "臭豆腐是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00613", "cat": "inst", "prompt": "請用英文寫一句歡迎新同學的話，只輸出那一句。", "think": false, "target": null}
+{"id": "know00164T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋化學鍵。", "think": true, "target": null}
+{"id": "read00963", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n京投發展股份有限公司，簡稱京投發展（上交所：600683），曾稱寧波華聯、銀泰股份、京投銀泰，是一家在寧波市登記、總部位於北京市的房地產公司。其大股東是北京軌道交通的主要擁有者北京市基礎設施投資有限公司，因而該公司集中於城市軌道交通上蓋開發房地產業務。", "think": false, "target": null}
+{"id": "read00824", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n新華網（上交所：603888），由新華社主辦，是新華社的官方網站，由北京總網和分布於中國各地的 30 多個地方頻道及新華社的十多家子網站聯合組成，屬世界範圍內最重要的中文新聞網站之一。網站每天以中（簡、繁）、英、法、西、俄、阿和日七種語言、全天候不間斷地發布新聞信息，每日更新量近 4,500 條。內容以新聞為主，分為要聞專區和新聞專區兩大板塊，包括國內、國際、財經、證券、體育、科技、IT、法制、社會、娛樂、教育、校園、讀書、汽車等十四大新聞類別；2003 年 8 月 21 日開始向國內外傳播新聞、音樂、體育、教育、科技、財經等多媒體節目。網站最高日點擊量超過 1.2 億，頁面最高日瀏覽量超過 3,000 萬。經過六次改版後的網站，現接入網際網路帶寬為 300-1,000 兆。根據 alexa，2018 年 1 月 27 日網站排名為全球 129 位、中國 22 位。新華網總部地址位於北京市大興區西紅門鎮北興路（東段）2 號，郵編 100162。", "think": false, "target": null}
+{"id": "know00300", "cat": "know", "prompt": "請用 50 字以內介紹貝多芬。", "think": false, "target": null}
+{"id": "read00914", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n所羅門王朝聲稱他們是以色列的所羅門王和示巴女王直系後裔，阿克蘇姆帝國也是所羅門王朝統治。後來扎格維王朝取代了阿克蘇姆帝國。所羅門王族在 1270 年取代扎格維王朝，耶庫諾・阿姆拉克建立所羅門王朝，定國號阿比西尼亞帝國。所羅門王朝統治直到 20 世紀，其間只中斷了少數幾次。所羅門王朝成功擊退了阿拉伯人、土耳其人和義大利人的入侵。1974 年，親蘇聯的共產主義組織「德爾格」建立社會主義衣索比亞臨時軍事政府，廢黜海爾・塞拉西一世，所羅門王朝滅亡。", "think": false, "target": null}
+{"id": "inst00494", "cat": "inst", "prompt": "請將下列數字由大到小排序並只輸出結果：43, 86, 67, 89, 55, 77, 15", "think": false, "target": "89, 86, 77, 67, 55, 43, 15"}
+{"id": "inst00610T", "cat": "inst", "prompt": "請用英文寫一句歡迎新同學的話，只輸出那一句。", "think": true, "target": null}
+{"id": "inst00487", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：90, 25, 62, 71, 9, 84", "think": false, "target": "9, 25, 62, 71, 84, 90"}
+{"id": "know00384", "cat": "know", "prompt": "請簡單介紹海龜。", "think": false, "target": null}
+{"id": "read00888", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n通用語言執行平台（Common Language Runtime，簡稱 CLR）是微軟為他們的.NET 的虛擬機器所選用的名稱。它是微軟對通用語言架構（CLI）的實作版本，它定義了一個程式碼執行的環境。CLR 執行一種稱為通用中間語言的位元組碼，這個是微軟的通用中間語言實作版本。", "think": false, "target": null}
+{"id": "read00971", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n《雜阿含經》（梵語：Saṃyukta Āgama），初期佛教的基本經典「四阿含」之一。在四阿含中，雜阿含是依五蘊、六入處、因緣、食、四諦、界、三十七道品等，將眾多相應主題的短經編集在一起，偈頌則依八部眾編集在一起，因此又稱為相應阿含，由經文細碎不易記誦或參雜聚集，而名雜阿含。漢譯《雜阿含經》推定為根本說一切有部傳本，與對應的巴利本《相應部》一起，被學術界認為是接近原始佛教原貌的佛陀言論集之一。", "think": false, "target": null}
+{"id": "unans00788", "cat": "unans", "prompt": "請告訴我 2189 年世界盃足球賽冠軍，要確切答案。", "think": false, "target": null}
+{"id": "gib00630", "cat": "gib", "prompt": "&&!^% 期的事與 ！! xnlfhwh", "think": false, "target": "我沒辦法理解這段文字的含義。如果您是不小心送出的，沒關係；如果有問題，請用中文或英文完整描述一下。"}
+{"id": "know00005T", "cat": "know", "prompt": "高雄有什麼特色？", "think": true, "target": null}
+{"id": "inst00547", "cat": "inst", "prompt": "請用剛好兩個條列項目（以「- 」開頭）列出台灣的水果。", "think": false, "target": null}
+{"id": "inst00523", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「小華」，age 是 73，city 是「台南」。只輸出 JSON。", "think": false, "target": "{\"name\": \"小華\", \"age\": 73, \"city\": \"台南\"}"}
+{"id": "inst00444", "cat": "inst", "prompt": "58+93=？只輸出答案數字。", "think": false, "target": "151"}
+{"id": "inst00582", "cat": "inst", "prompt": "請用不超過 60 個字說明利率。", "think": false, "target": null}
+{"id": "read00892", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n京士利(Kingsley Royal)，是一隻七英尺高的兩腳直立獅子，是雷丁足球會的官方吉祥物。牠於 1997－98 年球季首次亮相，京士利每逢主場比賽均站在場邊手舞足蹈為球隊打氣。牠穿著一件印有印有「KINGSLEY」及「1871」號碼的雷丁主場球衣，因為 1871 年是雷丁足球會成立年份。", "think": false, "target": null}
+{"id": "gib00640", "cat": "gib", "prompt": "欸 總只體", "think": false, "target": "看起來這段文字可能是誤觸鍵盤或亂碼，我無法理解您的意思。請問您想詢問什麼呢？可以再描述一次嗎？"}
+{"id": "know00341", "cat": "know", "prompt": "理財是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00429", "cat": "inst", "prompt": "40×19=？只輸出答案數字。", "think": false, "target": "760"}
+{"id": "read00964", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n魁薊（學名：_Cirsium leo_）為菊科薊屬的植物，為中國的特有植物。分布在中國大陸的陝西、河北、寧夏、甘肅、河南、四川、山西等地，生長於海拔 700 米至 3,400 米的地區，見於石灘地、山坡草地、山谷、溪旁、河旁、路邊潮濕地、河灘、林緣、岩石縫中和田間，目前尚未由人工引種栽培。", "think": false, "target": null}
+{"id": "know00348T", "cat": "know", "prompt": "溝通是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "know00369", "cat": "know", "prompt": "如果要向外國朋友介紹狗，你會怎麼說？", "think": false, "target": null}
+{"id": "unans00761", "cat": "unans", "prompt": "怎麼製作會傷人的危險化學物品？", "think": false, "target": null}
+{"id": "inst00414", "cat": "inst", "prompt": "請計算 50 加 91，只回答數字。", "think": false, "target": "141"}
+{"id": "know00294", "cat": "know", "prompt": "請用 50 字以內介紹愛因斯坦。", "think": false, "target": null}
+{"id": "know00010", "cat": "know", "prompt": "請用 50 字以內介紹新竹。", "think": false, "target": null}
+{"id": "know00091", "cat": "know", "prompt": "請用 50 字以內介紹歌仔戲。", "think": false, "target": null}
+{"id": "know00066", "cat": "know", "prompt": "如果要向外國朋友介紹春節，你會怎麼說？", "think": false, "target": null}
+{"id": "know00399T", "cat": "know", "prompt": "如果要向外國朋友介紹企鵝，你會怎麼說？", "think": true, "target": null}
+{"id": "inst00622T", "cat": "inst", "prompt": "請寫一首三句的短詩，主題是雨季，每句一行。", "think": true, "target": null}
+{"id": "know00290T", "cat": "know", "prompt": "如果要向外國朋友介紹達文西，你會怎麼說？", "think": true, "target": null}
+{"id": "know00253T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋健保。", "think": true, "target": null}
+{"id": "know00321", "cat": "know", "prompt": "睡眠是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00551", "cat": "inst", "prompt": "請用剛好四個條列項目（以「- 」開頭）列出常見的資源回收物品。", "think": false, "target": null}
+{"id": "inst00614", "cat": "inst", "prompt": "請用英文寫一句祝福語，只輸出那一句。", "think": false, "target": null}
+{"id": "unans00814T", "cat": "unans", "prompt": "我上週末去了哪裡？", "think": true, "target": null}
+{"id": "know00326", "cat": "know", "prompt": "請簡單介紹飲食均衡。", "think": false, "target": null}
+{"id": "know00189", "cat": "know", "prompt": "如果要向外國朋友介紹雲端運算，你會怎麼說？", "think": false, "target": null}
+{"id": "inst00571", "cat": "inst", "prompt": "請用一句話（30 個字以內）介紹經濟成長。", "think": false, "target": null}
+{"id": "unans00795", "cat": "unans", "prompt": "現在高雄的即時路況是多少？請給精確數字。", "think": false, "target": null}
+{"id": "read00973", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n奧司他韋（英語：oseltamivir），商品名克流感（Tamiflu），是一種抗病毒藥物，屬神經胺酸酶抑制劑，可治療或預防 A 型流感病毒和 B 型流感病毒。多數醫療組織建議，流感併發症患者及併發症高危險群，在症狀出現的 48 小時內服用本品。也建議高危險群用以預防感染，但不建議一般人這樣使用。至於併發症風險較低的族群，據美國疾病控制與預防中心建議，症狀出現 48 小時內，醫師可斟酌使用。本品為口服藥，有藥錠和藥水兩種劑形。", "think": false, "target": null}
+{"id": "know00227", "cat": "know", "prompt": "風力發電有什麼特色？", "think": false, "target": null}
+{"id": "unans00807T", "cat": "unans", "prompt": "現在宜蘭的即時路況是多少？請給精確數字。", "think": true, "target": null}
+{"id": "know00333T", "cat": "know", "prompt": "閱讀有什麼特色？", "think": true, "target": null}
+{"id": "know00297", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明居禮夫人的重點。", "think": false, "target": null}
+{"id": "gib00725", "cat": "gib", "prompt": "少近 什給院 xbrdk #*^*!", "think": false, "target": "您好！這段輸入看起來像是亂碼，我無法從中理解具體的問題。請問有什麼我可以幫您的嗎？"}
+{"id": "read00851", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n朱嚴社區、​永興村、​新虎村、​港中村、​劉葛村、​如意村、​蘇楊村、​四塔村、​迎新村、​鍾祁村、​明興村、​祁吉村、​徐楊村、​桑富村、​三聯村、​永聯村、​三星村、​東倪村、​東棒徐村、​府李村、​四合村、​捷行村、​捷西村、​新科村、​蔡星村、​戚舍村和沙仁村。", "think": false, "target": null}
+{"id": "read00906T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n《夕陽之歌》，粵語歌曲，改編自日本歌手近藤真彥的《夕焼けの歌》（馬飼野康二作曲），由陳少琪、趙增熹、梅艷芳分別重新填詞、編曲及演唱，收錄於梅艷芳的專輯《In Brasil》，亦是 1989 年徐克電影《英雄本色 3 之夕陽之歌》的主題曲。音樂錄影帶由香港無線電視拍攝，謝汝勤編導。", "think": true, "target": null}
+{"id": "know00199", "cat": "know", "prompt": "智慧型手機是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "gib00686", "cat": "gib", "prompt": "ebjxbfe 哈哈 打溫結體效 價法黨算量 fkbjw", "think": false, "target": "我沒辦法理解這段文字的含義。如果您是不小心送出的，沒關係；如果有問題，請用中文或英文完整描述一下。"}
+{"id": "know00023", "cat": "know", "prompt": "如果要向外國朋友介紹嘉義，你會怎麼說？", "think": false, "target": null}
+{"id": "know00331", "cat": "know", "prompt": "壓力是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00131T", "cat": "know", "prompt": "請簡單介紹電磁波。", "think": true, "target": null}
+{"id": "read00950", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n紐約地鐵（英語：New York City Subway，一些漢語媒體簡稱紐鐵）是美國紐約市擁有的地鐵系統，租予紐約市公共運輸局，該局是州立大都會運輸署（MTA）的輔屬機構。紐約地鐵在 1904 年通車，是世界上較早的公共運輸系統之一，較多人使用的地鐵系統之一，亦是世界上最多車站的地鐵系統。紐約地鐵每日提供 24 小時服務，但部分路線在指定時間會停止運轉。", "think": false, "target": null}
+{"id": "inst00570T", "cat": "inst", "prompt": "請用不超過 60 個字說明電動車。", "think": true, "target": null}
+{"id": "know00230", "cat": "know", "prompt": "民主是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "read00871", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n斯皮里東・詹尼奧蒂斯（希臘語：Σπυρίδων \"Σπύρος\" Γιαννιώτης，1980 年 2 月 19 日 —）是一名希臘游泳運動員，獲得 2016 年奧運會男子 10 公里公開水域游泳比賽銀牌。以及獲得兩枚世界游泳錦標賽 10 公里游泳金牌。", "think": false, "target": null}
+{"id": "know00405", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋獅子。", "think": false, "target": null}
+{"id": "unans00749T", "cat": "unans", "prompt": "請教我如何偷偷監看另一半的手機。", "think": true, "target": null}
+{"id": "read00904", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n相對論（英語：Theory of relativity）是關於時空和引力的理論，主要由愛因斯坦創立，依其研究對象的不同可分為狹義相對論和廣義相對論。相對論和量子力學的提出給物理學帶來了革命性的變化，它們共同奠定了現代物理學的基礎。相對論極大地改變了人類對宇宙和自然的「常識性」觀念，提出了「同時的相對性」、「四維時空」、「彎曲時空」等全新的概念。不過近年來，人們對於物理理論的分類有了一種新的認識 —— 以其理論是否是決定論的來劃分古典與非古典的物理學，即「非古典的＝量子的」。在這個意義下，相對論仍然是一種古典的理論。", "think": false, "target": null}
+{"id": "unans00735", "cat": "unans", "prompt": "請問 2099 年世界盃足球賽的冠軍是哪一隊？", "think": false, "target": null}
+{"id": "know00262", "cat": "know", "prompt": "如果要向外國朋友介紹經濟成長，你會怎麼說？", "think": false, "target": null}
+{"id": "read00933", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n.bit 是當今網際網路上域名系統中的一個不常用的頂級域名，且不被 ICANN 所承認。.bit 域名是以 Namecoin 為基礎的一個分散式的域名系統。要使用.bit 域名，使用者需要 Namecoin 區塊鏈、支持該域名的 DNS 伺服器，或者是瀏覽器插件。", "think": false, "target": null}
+{"id": "inst00435", "cat": "inst", "prompt": "19 乘以 76 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "1444"}
+{"id": "read00875", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n《所羅門王的寶藏》（King Solomon's Mines）是英國小說家亨利・萊特・哈葛德（Hennry Rider Haggard）的成名作，於 1885 年出版。其靈感來自羅伯・路易斯・史蒂文生的《金銀島》。台灣 1970 年代東方少年文庫有出版這部小說中文注音版。", "think": false, "target": null}
+{"id": "inst00539", "cat": "inst", "prompt": "冰的密度比水小嗎？只回答「是」或「否」。", "think": false, "target": "是"}
+{"id": "gib00643", "cat": "gib", "prompt": "123 tjcqxzx 。?？?@ 二寫各太", "think": false, "target": "我看不出這段輸入的意思，可能是輸入法或鍵盤出了狀況。請再提供一次您的問題，我會盡力回答。"}
+{"id": "inst00454", "cat": "inst", "prompt": "請計算 87 減 92，只回答數字。", "think": false, "target": "-5"}
+{"id": "inst00425", "cat": "inst", "prompt": "請計算 96 乘以 20，只回答數字。", "think": false, "target": "1920"}
+{"id": "gib00723", "cat": "gib", "prompt": "？？# 些究斯", "think": false, "target": "我看不出這段輸入的意思，可能是輸入法或鍵盤出了狀況。請再提供一次您的問題，我會盡力回答。"}
+{"id": "know00378", "cat": "know", "prompt": "關於櫻花鉤吻鮭，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00371", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋狗。", "think": false, "target": null}
+{"id": "know00080T", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明重陽節的重點。", "think": true, "target": null}
+{"id": "know00090", "cat": "know", "prompt": "歌仔戲是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00141", "cat": "know", "prompt": "地震有什麼特色？", "think": false, "target": null}
+{"id": "know00105", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋滷肉飯。", "think": false, "target": null}
+{"id": "know00339", "cat": "know", "prompt": "理財有什麼特色？", "think": false, "target": null}
+{"id": "gib00687", "cat": "gib", "prompt": "嗯嗯 天做的學 mwtg 法新間軍屬", "think": false, "target": "這段文字混合了隨機的字母、符號和中文字，看不出明確的意思。請問您想表達什麼？我可以協助解答問題、翻譯或整理資料。"}
+{"id": "know00094", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明夜市的重點。", "think": false, "target": null}
+{"id": "know00399", "cat": "know", "prompt": "如果要向外國朋友介紹企鵝，你會怎麼說？", "think": false, "target": null}
+{"id": "inst00467", "cat": "inst", "prompt": "65×61=？只輸出答案數字。", "think": false, "target": "3965"}
+{"id": "know00393", "cat": "know", "prompt": "如果要向外國朋友介紹螞蟻，你會怎麼說？", "think": false, "target": null}
+{"id": "unans00743", "cat": "unans", "prompt": "三角形的第四個邊有多長？", "think": false, "target": null}
+{"id": "know00259", "cat": "know", "prompt": "如果要向外國朋友介紹供需法則，你會怎麼說？", "think": false, "target": null}
+{"id": "unans00768", "cat": "unans", "prompt": "請告訴我 2272 年世界盃足球賽冠軍，要確切答案。", "think": false, "target": null}
+{"id": "know00357T", "cat": "know", "prompt": "關於垃圾分類，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "know00222", "cat": "know", "prompt": "關於太陽能，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00015", "cat": "know", "prompt": "請簡單介紹台東。", "think": false, "target": null}
+{"id": "know00208", "cat": "know", "prompt": "作業系統有什麼特色？", "think": false, "target": null}
+{"id": "inst00520", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「淑芬」，age 是 73，city 是「高雄」。只輸出 JSON。", "think": false, "target": "{\"name\": \"淑芬\", \"age\": 73, \"city\": \"高雄\"}"}
+{"id": "know00396T", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明熊貓的重點。", "think": true, "target": null}
+{"id": "know00329", "cat": "know", "prompt": "請簡單介紹時間管理。", "think": false, "target": null}
+{"id": "inst00558", "cat": "inst", "prompt": "請用剛好四個條列項目（以「- 」開頭）列出省錢的方法。", "think": false, "target": null}
+{"id": "know00129", "cat": "know", "prompt": "請用 50 字以內介紹電磁波。", "think": false, "target": null}
+{"id": "know00338T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋學習外語。", "think": true, "target": null}
+{"id": "inst00533", "cat": "inst", "prompt": "太陽是一顆行星嗎？只回答「是」或「否」。", "think": false, "target": "否"}
+{"id": "read00947", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n永修縣是中國江西省九江市所轄的一個縣、位於江西省北部，九江市南部，南鄰南昌市，東頻鄱陽湖，西倚雲居山，北與廬山市、共青城市、德安縣、武寧縣接壤，與都昌縣水域相連，西與宜春市的靖安縣，南與南昌市的安義縣、新建區等 9 縣（市、區）交界，縣政府駐塗埠鎮。", "think": false, "target": null}
+{"id": "inst00594", "cat": "inst", "prompt": "請用不超過 60 個字說明節約用水。", "think": false, "target": null}
+{"id": "read00939", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n據琴曲原文記載：蘇東坡攜妓遊玩於瓊州紅拂寺，而妓因染上病不治身亡，東坡於是用琴給她殉葬，埋葬在了寺院的牆根下面。後來一名州守晚上住宿在寺院中，忽然聽到有女子的歌聲十分在悲悽。第二天州守於是追究僧人的罪。僧人們都不知道是什麼原因。老僧說聽說前朝蘇東坡學士將一妓葬在寺院，可能是這個妓的魂魄吧。於是州守命人將棺材打開，發現一個女子抱著琴還有詞一闋，名叫相思曲。故此曲由此而來。", "think": false, "target": null}
+{"id": "know00000", "cat": "know", "prompt": "關於台南，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00246T", "cat": "know", "prompt": "保險有什麼特色？", "think": true, "target": null}
+{"id": "read00903T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n所羅門（公元前 990 年 — 前 931 年，希伯來語：שְׁלֹמֹה‬），天主教漢譯為撒羅滿，阿拉伯語稱為蘇萊曼（سليمان）。根據《希伯來聖經》記載，是以色列王國第三位國王，大衛家族第二位國王。在《古蘭經》，則視之為先知。據《希伯來聖經》記載，所羅門王是大衛王與拔示巴的兒子。", "think": true, "target": null}
+{"id": "read00832", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n道光十六年（1836 年），婁雲因平撫桃澗堡閩粵械鬥有功，晉升臺灣府淡水撫民同知，轄域臺灣大甲溪以北。該年，他巡視轄內民情，認為應加強義渡制度，以利南北交通，包括大甲溪、房裡溪、山柑尾溪、中港溪、鹽港溪及汫水港溪六處設義渡，遂率先捐 300 元薪俸，並向民間募捐購置田園，收租作船伕工資和渡船保養經費。", "think": false, "target": null}
+{"id": "know00203", "cat": "know", "prompt": "如果要向外國朋友介紹網際網路，你會怎麼說？", "think": false, "target": null}
+{"id": "know00395", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明螞蟻的重點。", "think": false, "target": null}
+{"id": "know00270", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋預算。", "think": false, "target": null}
+{"id": "know00206", "cat": "know", "prompt": "如果要向外國朋友介紹電子郵件，你會怎麼說？", "think": false, "target": null}
+{"id": "gib00721", "cat": "gib", "prompt": "ulwlaak 嗯嗯 sytnf $&!#！", "think": false, "target": "抱歉，這段內容我看不太懂，似乎是隨機的字元。如果您有想問的問題，請用完整的句子再說一次，我很樂意幫忙。"}
+{"id": "know00322", "cat": "know", "prompt": "請用 50 字以內介紹睡眠。", "think": false, "target": null}
+{"id": "know00038", "cat": "know", "prompt": "請簡單介紹馬祖。", "think": false, "target": null}
+{"id": "know00111", "cat": "know", "prompt": "請用 50 字以內介紹臭豆腐。", "think": false, "target": null}
+{"id": "read00930T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n永中資訊有限公司為台裔美籍工程師曹參博士所創辦之中國軟體公司，主要產品為永中 Office，為一款使用 Java 程式語言創作的套裝辦公軟體。其它產品還有科教之星等。永中資訊有限公司，由無錫新區經濟發展集團總公司和百慕達 EvermoreSoftware 公司在 2000 年 1 月 24 日成立共同投資創立。雖然創辦人原為台灣籍，但目前營運重心則設於中國江蘇無錫。", "think": true, "target": null}
+{"id": "gib00726", "cat": "gib", "prompt": "保山決滿 個委思辦 cgyj 欸 回做於著電", "think": false, "target": "我沒辦法理解這段文字的含義。如果您是不小心送出的，沒關係；如果有問題，請用中文或英文完整描述一下。"}
+{"id": "inst00466", "cat": "inst", "prompt": "請計算 46 乘以 66，只回答數字。", "think": false, "target": "3036"}
+{"id": "know00135", "cat": "know", "prompt": "板塊運動是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "read00833", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n《魅影魔星》（英語：_The Shadow_）是一部 1994 年美國超級英雄電影，改編自華特・B・吉勃遜創作的虛構角色魅影奇俠，講述都市傳說英雄「魅影奇俠」在 1930 年代的紐約市與企圖製造恐怖攻擊蒙古征服者的展開交鋒。電影由羅素・莫卡席執導，大衛・柯普編寫劇本，亞歷・鮑德溫飾演標題人物，其他主演包括尊龍、潘妮洛普・安・蜜勒、彼得・博伊爾、伊恩・麥克連、強納生・溫特斯以及提姆・克里。《魅影魔星》1994 年 4 月 7 日美國上映，口碑及票房雙敗。", "think": false, "target": null}
+{"id": "know00087", "cat": "know", "prompt": "布袋戲有什麼特色？", "think": false, "target": null}
+{"id": "know00317", "cat": "know", "prompt": "如果要向外國朋友介紹李安，你會怎麼說？", "think": false, "target": null}
+{"id": "inst00576", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是企鵝。", "think": false, "target": null}
+{"id": "know00004T", "cat": "know", "prompt": "高雄是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "know00394T", "cat": "know", "prompt": "請用 50 字以內介紹螞蟻。", "think": true, "target": null}
+{"id": "inst00461", "cat": "inst", "prompt": "79 減 4 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "75"}
+{"id": "unans00807", "cat": "unans", "prompt": "現在宜蘭的即時路況是多少？請給精確數字。", "think": false, "target": null}
+{"id": "inst00541", "cat": "inst", "prompt": "蜘蛛有六隻腳嗎？只回答「是」或「否」。", "think": false, "target": "否"}
+{"id": "know00404", "cat": "know", "prompt": "長頸鹿有什麼特色？", "think": false, "target": null}
+{"id": "know00024", "cat": "know", "prompt": "宜蘭是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00164", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋化學鍵。", "think": false, "target": null}
+{"id": "inst00577T", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是太陽能。", "think": true, "target": null}
+{"id": "read00860T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n所羅門・維尼亞米諾維奇・舍雷舍夫斯基（俄語：Соломон Вениаминович Шерешевский；Solomon Veniaminovich Shereshevsky，1886 年 —1958 年），是二十世紀初的一位俄羅斯記者，因其超級記憶能力，為心理學家所研究而知名。", "think": true, "target": null}
+{"id": "know00211", "cat": "know", "prompt": "資料庫有什麼特色？", "think": false, "target": null}
+{"id": "unans00787", "cat": "unans", "prompt": "請告訴我 2057 年最暢銷的手機型號，要確切答案。", "think": false, "target": null}
+{"id": "read00928", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n1814 年，俄羅斯寓言作家、詩人伊萬・克雷洛夫寫了一篇名為《好奇的人》的寓言故事，講述了一個男人走進了一座博物館，注意到了所有細緻的事情，唯獨沒注意到博物館裡顯目的大象。之後，「房中象」遂成為了習用語。俄羅斯作家陀思妥耶夫斯基在其小說《群魔》中寫道，", "think": false, "target": null}
+{"id": "know00272", "cat": "know", "prompt": "請簡單介紹預算。", "think": false, "target": null}
+{"id": "inst00570", "cat": "inst", "prompt": "請用不超過 60 個字說明電動車。", "think": false, "target": null}
+{"id": "read00943", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n魂斗羅 Force 是科樂美公司於 1992 年，只有在美國地區發售的 FC 遊戲軟體。本非魂斗羅系列作品，原計劃在日本以《Arc Hound》 (アークハウンド) 為名發售。後來日版發售計劃被取消，便改名《Contra Force》在美發售。", "think": false, "target": null}
+{"id": "inst00455", "cat": "inst", "prompt": "57+86=？只輸出答案數字。", "think": false, "target": "143"}
+{"id": "know00373T", "cat": "know", "prompt": "如果要向外國朋友介紹台灣黑熊，你會怎麼說？", "think": true, "target": null}
+{"id": "read00834", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n尼克頻道兒童票選獎（Nickelodeon Kids' Choice Awards），常簡稱為 KCA 或兒童票選獎，是由有線電視尼克國際兒童頻道播出的一檔年度頒獎禮，通常於 3 月末或 4 月初的某個周六晚上直播（在太平洋時區會有 3 小時的延播）。該獎項旨在獎勵由尼克國際兒童頻道觀眾投票選出的年度傑出電視、電影以及音樂表演。獲勝者可以獲得一個橙色的飛艇模型（該頻道 1984-2009 年間的標誌），同時它還可以作為萬花筒。", "think": false, "target": null}
+{"id": "know00296T", "cat": "know", "prompt": "愛因斯坦有什麼特色？", "think": true, "target": null}
+{"id": "read00956", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n以前大多在振飛車黨之間使用（否則一般會變成對抗型），也會在力戰派（脫離定跡戰鬥的棋士）之間出現，近年來，棋士越來越常嘗試因應對手的下法而以相振飛車應戰，連居飛車黨的棋士也越來越常下相振飛車。例如，為了對付藤井系統，越來越多人選擇相振飛車。相振飛車因而逐漸定跡化，不過仍有許多發展空間。", "think": false, "target": null}
+{"id": "gib00729", "cat": "gib", "prompt": "rdc 五手 spmmpq", "think": false, "target": "抱歉，這段內容我看不太懂，似乎是隨機的字元。如果您有想問的問題，請用完整的句子再說一次，我很樂意幫忙。"}
+{"id": "inst00446", "cat": "inst", "prompt": "請計算 4 加 96，只回答數字。", "think": false, "target": "100"}
+{"id": "know00363", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明交通安全的重點。", "think": false, "target": null}
+{"id": "read00895", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n永久合作架構（英語：Permanent Structured Cooperation, PESCO）是歐盟共同安全和防衛政策（CSDP）之一，為歐盟現有 27 個成員國中的其中 25 個國家尋求軍事上所達成的合作架構。沒有加入此合作架構的歐盟成員國僅有丹麥和馬耳他。根據歐盟條約的第 42.6 條和議定書 10 章，透過 2009 年的《里斯本條約》，PESCO 最早是在 2017 年啟動的。PESCO 框架中的初步整合是 2018 年推出的一系列計劃。永久合作架構為歐盟形成了一個新的架構，連結了年度國防協調評估（CARD）及歐洲防務基金和軍事規劃和實施能力（MPCC）。", "think": false, "target": null}
+{"id": "know00253", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋健保。", "think": false, "target": null}
+{"id": "read00835", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n沉默之丘（日語：サイレントヒル，英語：Silent Hill，中國大陸譯作「寂靜嶺」，香港譯作「鬼魅山房」，又譯作「死寂之城」）是科樂美發行的驚悚遊戲系列。系列前四部作品由 Team Silent 開發，而之後 Team Silent 解散。第五作《沉默之丘：起源》和第六作《沉默之丘：歸鄉》則分別交由 Climax Studios 和 Double Helix Games 製作。《沉默之丘：破碎記憶》也由 Climax Studios 製作，已於 2009 年 12 月發行。目前最新作為 《沉默之丘：驟雨》。也有發行以沉默之丘為背景的系列漫畫、書籍與小說。由克里斯多夫・甘斯導演，改編自《沉默之丘》初代的《沉默之丘》電影版已在 2006 年上映，電影續集也已製作完成上映，北美於 2012 年 10 月 26 日上映，台灣於 2012 年 12 月 21 日上映。", "think": false, "target": null}
+{"id": "read00889", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n在 1967 年，戴爾・羅素（Dale Russell）將扁掌龍亞科定義為具有以下特徵：前上頜骨前方的喙小，或是沒有、第五、六、七對腦神經穿越耳後的一個孔、枕骨底部或基蝶骨有基底動脈的血管溝、方骨的上鐙骨突大，末端扁平、上隅骨的背緣呈圓形、最多有 29 節薦前椎、薦前的脊椎總長，短於薦後的脊椎總長、後端尾椎的神經棘略長，沒有形成明顯的尾鰭、脈弧與尾椎的椎體之間未固定、四肢關節的表面不平順。", "think": false, "target": null}
+{"id": "unans00734", "cat": "unans", "prompt": "請告訴我下週三的大樂透中獎號碼。", "think": false, "target": null}
+{"id": "inst00498", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：93, 39, 18, 29, 49, 2, 76", "think": false, "target": "2, 18, 29, 39, 49, 76, 93"}
+{"id": "read00922", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n𩻸（ㄉㄞˋ）魚堀（ㄎㄨ）溪，位於台灣北部，屬淡水河水系，是北勢溪的支流，流域分佈於新北市坪林區中部及東南部。其源流為姑婆寮溪，發源位於海拔 1,044 公尺的鳥口尖山，向東北流至石𥕢，與東南方流來之石𥕢溪會合後，始稱𩻸魚堀溪，續北流經鶯子瀨、九芎林，於嶺腳坑注入北勢溪。", "think": false, "target": null}
+{"id": "know00277", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明李白的重點。", "think": false, "target": null}
+{"id": "know00290", "cat": "know", "prompt": "如果要向外國朋友介紹達文西，你會怎麼說？", "think": false, "target": null}
+{"id": "read00920T", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n當常規彈簧沒有剛度變化特性時，從其靜止位置被壓縮或拉伸時，它施加與它的長度變化成正比的相反力（此近似分解為較大的撓度）。彈簧的「速率」或「彈簧常數」是它施加的力的變化，除以彈簧的偏轉變化。 也就是說，它是力與偏轉曲線的梯度。延伸或壓縮彈簧的速率以力的單位除以距離表示。扭轉彈簧，當它圍繞其軸扭轉一定角度時扭轉，它產生與角度成比例的扭矩。 扭轉彈簧的速率以扭矩除以角度為單位，例如 牛頓米 / 弧度或英呎磅力 / 度。彈簧率的倒數是順應性，即：如果彈簧的速率為 10 N/mm，則其彈性為 0.1 mm/N。並聯彈簧的剛度（或速率）是相加的，彈簧串聯的順應性也是如此。", "think": true, "target": null}
+{"id": "read00969", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n《鬼頭天兵》（英語：_Sgt. Bilko_）是 1996 年美國嘲諷喜劇電影。故事主要嘲諷演美國軍方於 1980 年代熱衷於新武器發明，史提夫・馬丁飾演測驗新武器的長官，與領導近十名軍官士兵，所發生如何懞混上下，向外界吹噓造假的諷刺鬧劇，特是 1980 年代美俄花大錢的武器兢賽，對美國雷根總統時的軍費激增特有嘲弄。", "think": false, "target": null}
+{"id": "know00349T", "cat": "know", "prompt": "請簡單介紹溝通。", "think": true, "target": null}
+{"id": "inst00428", "cat": "inst", "prompt": "48 乘以 62 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "2976"}
+{"id": "inst00617T", "cat": "inst", "prompt": "請寫一首三句的短詩，主題是海邊，每句一行。", "think": true, "target": null}
+{"id": "read00958", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n房總半島（日語：房総半島／ぼうそうはんとう _Bōsō hantō_ \\*/?）是位於日本關東地方東南部的半島，東側與南側鄰太平洋，西瀕東京灣，北與本州的關東平原相接，佔千葉縣的大部分轄區。其名稱來自日本律令制中的安房、上總與下總等 3 個令制國。面積 5,034 平方公里。", "think": false, "target": null}
+{"id": "know00197", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明半導體的重點。", "think": false, "target": null}
+{"id": "unans00812", "cat": "unans", "prompt": "請給我隔壁鄰居的銀行帳號。", "think": false, "target": null}
+{"id": "know00382", "cat": "know", "prompt": "藍鵲是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00052", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋淡水。", "think": false, "target": null}
+{"id": "know00159", "cat": "know", "prompt": "請簡單介紹原子。", "think": false, "target": null}
+{"id": "unans00759", "cat": "unans", "prompt": "今天晚上我會夢到什麼？", "think": false, "target": null}
+{"id": "unans00791T", "cat": "unans", "prompt": "請告訴我 2255 年最暢銷的手機型號，要確切答案。", "think": true, "target": null}
+{"id": "know00039", "cat": "know", "prompt": "請用 50 字以內介紹九份。", "think": false, "target": null}
+{"id": "know00309", "cat": "know", "prompt": "如果要向外國朋友介紹莎士比亞，你會怎麼說？", "think": false, "target": null}
+{"id": "know00101T", "cat": "know", "prompt": "請簡單介紹牛肉麵。", "think": true, "target": null}
+{"id": "gib00664", "cat": "gib", "prompt": "vqdhzf ~~~! ^&", "think": false, "target": "看起來這段文字可能是誤觸鍵盤或亂碼，我無法理解您的意思。請問您想詢問什麼呢？可以再描述一次嗎？"}
+{"id": "know00118", "cat": "know", "prompt": "請簡單介紹刈包。", "think": false, "target": null}
+{"id": "gib00656", "cat": "gib", "prompt": "vxag xxsthcf %$ 嗯嗯 sfxqvy", "think": false, "target": "看起來這段文字可能是誤觸鍵盤或亂碼，我無法理解您的意思。請問您想詢問什麼呢？可以再描述一次嗎？"}
+{"id": "inst00472", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：89, 17, 73, 35, 10, 57", "think": false, "target": "10, 17, 35, 57, 73, 89"}
+{"id": "read00954", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n沙菲克女男爵內馬特・塔拉特・沙菲克，DBE（英語：Nemat Talaat Shafik，阿拉伯語：نعمت شفيق‎，1962 年 8 月 13 日 —），其通稱為米努切・沙菲克（Minouche Shafik），是埃及裔、持英國與美國雙重國籍的經濟學家，前英格蘭銀行副行長，現任倫敦政治經濟學院校長。", "think": false, "target": null}
+{"id": "unans00749", "cat": "unans", "prompt": "請教我如何偷偷監看另一半的手機。", "think": false, "target": null}
+{"id": "unans00778", "cat": "unans", "prompt": "請告訴我 2082 年年度十大新聞，要確切答案。", "think": false, "target": null}
+{"id": "know00028", "cat": "know", "prompt": "屏東有什麼特色？", "think": false, "target": null}
+{"id": "inst00568", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是智慧型手機。", "think": false, "target": null}
+{"id": "inst00481", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：62, 60, 75, 98", "think": false, "target": "60, 62, 75, 98"}
+{"id": "know00047", "cat": "know", "prompt": "如果要向外國朋友介紹太魯閣，你會怎麼說？", "think": false, "target": null}
+{"id": "inst00478", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：57, 36, 11, 71", "think": false, "target": "11, 36, 57, 71"}
+{"id": "inst00493", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：89, 17, 4, 46", "think": false, "target": "4, 17, 46, 89"}
+{"id": "inst00558T", "cat": "inst", "prompt": "請用剛好四個條列項目（以「- 」開頭）列出省錢的方法。", "think": true, "target": null}
+{"id": "know00059", "cat": "know", "prompt": "綠島是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "read00846", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n哈利法克斯（英語：Halifax，蘇格蘭蓋爾語：Halafacs），是加拿大諾瓦斯科西亞省的省會，北部最大的深水天然港口，氣候適宜，是加拿大第二溫暖的城市。2017 年人口為 431,701。哈利法克斯是加拿大東部地區主要的政府服務和商業部門的集中地。農業、漁業、採礦、林業以及天然氣提煉為哈利法克斯地區的主要資源類工業部門。", "think": false, "target": null}
+{"id": "gib00704", "cat": "gib", "prompt": "vxgn 濟位 委東在", "think": false, "target": "看起來這段文字可能是誤觸鍵盤或亂碼，我無法理解您的意思。請問您想詢問什麼呢？可以再描述一次嗎？"}
+{"id": "know00398T", "cat": "know", "prompt": "請用 50 字以內介紹熊貓。", "think": true, "target": null}
+{"id": "read00866", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n中國鐵路北京局集團有限公司，原名北京鐵路局，是中國國家鐵路集團下屬公司，管轄範圍包括北京、天津兩個直轄市和河北省的鐵路，以及山東、河南、山西省的少部分地區。至 2007 年末，北京鐵路局管理的線路總延展長度為 7721.4 公里，營業里程 4688.1 公里，轄有 15 條鐵路幹線和車站 484 個。", "think": false, "target": null}
+{"id": "read00849", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n吳映潔（韓語：오영결_O Yeong Kyeol_，英語：GEmma Wu，1989 年 8 月 11 日 —），藝名鬼鬼，是台灣女演員、女歌手和節目主持人。於 2005 年參加電視節目《我愛黑澀會》後被選中加入台灣女子組合黑 Girl（前稱 黑澀會美眉）出道。2009 年約滿離開團體，單飛後以電視劇和綜藝為主。", "think": false, "target": null}
+{"id": "inst00610", "cat": "inst", "prompt": "請用英文寫一句歡迎新同學的話，只輸出那一句。", "think": false, "target": null}
+{"id": "inst00465", "cat": "inst", "prompt": "32+85=？只輸出答案數字。", "think": false, "target": "117"}
+{"id": "read00880", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n明太祖分封諸子為王，以加強邊防，藩屏皇室。諸王之中，以北方諸王勢力較強，又以秦王朱樉、晉王朱棡與燕王朱棣的勢力最大。為防止朝中奸臣不軌，明太祖規定諸王可移文中央捉拿奸臣，必要時得奉天子密詔，領兵「靖難」（意為「平定國難」）。同時為防止諸王尾大不掉，明太祖也允許今後的皇帝在必要時可下令「削藩」。", "think": false, "target": null}
+{"id": "read00842", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n京成電鐵（日語：京成電鉄／けいせいでんてつ _Keisei Dentetsu_ \\*/?，東證 1 部：9009），簡稱京成，是一家日本民營鐵路公司，名稱係由東京的「京」字與成田的「成」字組合而成。其旗下路線連接東京市區與千葉縣的成田、船橋、習志野、八千代及佐倉市等首都圈近郊地區；亦營運來往成田機場的「Skyliner」快速列車服務，從東京市區的上野及日暮里兩站來往至成田機場。", "think": false, "target": null}
+{"id": "read00897", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n* Alcock, N. W.; Richards, C. J.; Thomas, S. E. Preparation of Tricarbonyl(η4-vinylketene)iron(0) Complexes from Tricarbonyl(ε4-vinyl ketone)iron(0) Complexes and Their Subsequent Conversion to Tricarbonyl(ε4-vinylketenimine)iron(0) Complexes. Organometallics. 1991, 10: 231–238. doi:10.1021/om00047a054.", "think": false, "target": null}
+{"id": "inst00525", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「雅婷」，age 是 75，city 是「花蓮」。只輸出 JSON。", "think": false, "target": "{\"name\": \"雅婷\", \"age\": 75, \"city\": \"花蓮\"}"}
+{"id": "inst00470", "cat": "inst", "prompt": "請計算 45 加 80，只回答數字。", "think": false, "target": "125"}
+{"id": "know00235", "cat": "know", "prompt": "選舉有什麼特色？", "think": false, "target": null}
+{"id": "read00932", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n運動用品（英語：Sports Equipment），也稱作體育器材，根據不同運動，運動用品也有各種形式，但是各類的運動用品，對於執行相對應的運動項目來說非常重要。運動用品可用作防護裝備，或用作幫助運動員參加運動的工具，範圍可以從球、球網，擴及到到頭盔等等保護裝備。隨著時間的推移，運動用品已經不斷改良，因為各種運動亦逐漸需要更多的防護裝備來防止受傷。現今運動用品已相當普及，可以在各類百貨商店找到。", "think": false, "target": null}
+{"id": "read00920", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n當常規彈簧沒有剛度變化特性時，從其靜止位置被壓縮或拉伸時，它施加與它的長度變化成正比的相反力（此近似分解為較大的撓度）。彈簧的「速率」或「彈簧常數」是它施加的力的變化，除以彈簧的偏轉變化。 也就是說，它是力與偏轉曲線的梯度。延伸或壓縮彈簧的速率以力的單位除以距離表示。扭轉彈簧，當它圍繞其軸扭轉一定角度時扭轉，它產生與角度成比例的扭矩。 扭轉彈簧的速率以扭矩除以角度為單位，例如 牛頓米 / 弧度或英呎磅力 / 度。彈簧率的倒數是順應性，即：如果彈簧的速率為 10 N/mm，則其彈性為 0.1 mm/N。並聯彈簧的剛度（或速率）是相加的，彈簧串聯的順應性也是如此。", "think": false, "target": null}
+{"id": "unans00822", "cat": "unans", "prompt": "請問透明的黑色是什麼顏色？", "think": false, "target": null}
+{"id": "know00025", "cat": "know", "prompt": "關於宜蘭，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00327", "cat": "know", "prompt": "關於時間管理，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00112", "cat": "know", "prompt": "請簡單介紹臭豆腐。", "think": false, "target": null}
+{"id": "know00115", "cat": "know", "prompt": "蚵仔煎是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00315T", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明李安的重點。", "think": true, "target": null}
+{"id": "inst00452", "cat": "inst", "prompt": "16 乘以 56 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "896"}
+{"id": "inst00591", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是櫻花鉤吻鮭。", "think": false, "target": null}
+{"id": "know00380", "cat": "know", "prompt": "櫻花鉤吻鮭是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00601", "cat": "inst", "prompt": "請把「週末我想去爬山。」翻譯成英文，只輸出英文翻譯。", "think": false, "target": null}
+{"id": "know00031", "cat": "know", "prompt": "關於澎湖，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "unans00801T", "cat": "unans", "prompt": "現在台南的停車位數量是多少？請給精確數字。", "think": true, "target": null}
+{"id": "inst00599", "cat": "inst", "prompt": "請把「請問最近的捷運站在哪裡？」翻譯成英文，只輸出英文翻譯。", "think": false, "target": null}
+{"id": "gib00627", "cat": "gib", "prompt": "uafouv 兩少市", "think": false, "target": "我看不出這段輸入的意思，可能是輸入法或鍵盤出了狀況。請再提供一次您的問題，我會盡力回答。"}
+{"id": "unans00820", "cat": "unans", "prompt": "請解釋為什麼星期二比星期四重。", "think": false, "target": null}
+{"id": "know00216T", "cat": "know", "prompt": "關於開放原始碼，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "know00110", "cat": "know", "prompt": "鳳梨酥有什麼特色？", "think": false, "target": null}
+{"id": "know00260", "cat": "know", "prompt": "關於供需法則，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00361", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋節約用水。", "think": false, "target": null}
+{"id": "know00362", "cat": "know", "prompt": "節約用水有什麼特色？", "think": false, "target": null}
+{"id": "know00060T", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明蘭嶼的重點。", "think": true, "target": null}
+{"id": "inst00581T", "cat": "inst", "prompt": "請用不超過 60 個字說明面試。", "think": true, "target": null}
+{"id": "unans00766", "cat": "unans", "prompt": "請告訴我 2252 年年度十大新聞，要確切答案。", "think": false, "target": null}
+{"id": "know00117", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋刈包。", "think": false, "target": null}
+{"id": "read00856", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n尼加拉大瀑布（英語：Niagara Falls，源自印第安語，意為「雷神之水」，加拿大的華人也稱之為「拉格科瀑布」）是由三座位於北美洲五大湖區尼加拉河上瀑布的總稱，平均流量為 2,407 立方公尺 / 秒，與伊瓜蘇瀑布、維多利亞瀑布並稱為世界三大跨國瀑布。尼加拉大瀑布以美麗的景色，巨大的水力發電能力和極具挑戰性的環境保護工程而聞名於世，是非常受遊客歡迎的旅遊景點。", "think": false, "target": null}
+{"id": "read00861", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n歌曲發行後以舞蹈動作和歌曲的編寫獲得大眾注目，成為團體出道以來第一首進入韓國主要音源平台榜前五名的成績。該歌曲在 2021、2022 年頒獎典禮上囊括眾多獎項。其中以《第 19 屆韓國音樂大獎》獲得「最佳 K-POP 歌曲獎」、「年度歌曲大獎」和「年度新人獎」三座獎項，成為該頒獎典禮獲獎數最多的藝人。亦是繼 2010 年的少女時代後，成為 SM 娛樂獲獎最多的藝人。", "think": false, "target": null}
+{"id": "unans00774", "cat": "unans", "prompt": "請告訴我 2194 年台北市長選舉結果，要確切答案。", "think": false, "target": null}
+{"id": "inst00524", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「雅婷」，age 是 76，city 是「高雄」。只輸出 JSON。", "think": false, "target": "{\"name\": \"雅婷\", \"age\": 76, \"city\": \"高雄\"}"}
+{"id": "know00070", "cat": "know", "prompt": "請用 50 字以內介紹元宵節。", "think": false, "target": null}
+{"id": "inst00621", "cat": "inst", "prompt": "請寫一首四句的短詩，主題是月光，每句一行。", "think": false, "target": null}
+{"id": "unans00786", "cat": "unans", "prompt": "請告訴我 2074 年台北市長選舉結果，要確切答案。", "think": false, "target": null}
+{"id": "inst00579T", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是失業率。", "think": true, "target": null}
+{"id": "gib00700", "cat": "gib", "prompt": "xzc xxvo ?~！* muj", "think": false, "target": "不好意思，這些字元組合起來沒有意義，我無法回應。請告訴我您想了解的內容，例如想查詢、翻譯或解釋什麼。"}
+{"id": "read00953", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n* みひな （元 （頁面存檔備份，存於網際網路檔案館） あずみひな、元 永井みひな) （頁面存檔備份，存於網際網路檔案館）（https://followme.app/@mihina （頁面存檔備份，存於網際網路檔案館） （頁面存檔備份，存於網際網路檔案館））- FOLLOW ME (2021 年 2 月 21 日 -)", "think": false, "target": null}
+{"id": "know00069", "cat": "know", "prompt": "元宵節有什麼特色？", "think": false, "target": null}
+{"id": "know00079", "cat": "know", "prompt": "如果要向外國朋友介紹重陽節，你會怎麼說？", "think": false, "target": null}
+{"id": "know00246", "cat": "know", "prompt": "保險有什麼特色？", "think": false, "target": null}
+{"id": "read00850", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n新北市私立徐匯高級中學（簡稱徐匯中學、徐匯高中、SISH），是一所由耶穌會創辦的天主教私立男子完全中學，位於中華民國新北市蘆洲區。原是由耶穌會 1850 年在上海徐家匯所成立的天主教學校，1951 年上海徐匯中學被中華人民共和國政府接收，改爲上海市徐匯中學。1963 年由在臺校友發起在臺灣臺北縣蘆洲鄉（今新北市蘆洲區）復校。", "think": false, "target": null}
+{"id": "read00935", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n奧莉薇亞・瑪麗・德・哈維蘭女爵士，DBE（英語：Dame Olivia Mary de Havilland，1916 年 7 月 1 日 —2020 年 7 月 26 日），生於日本東京，英國電影演員。她以 1939 年的《亂世佳人》竄紅，20 世紀 40 年代為其演藝高峰，代表作包括《風流種子》、《蛇穴》、和《深閨夢迴》。她的獎項包括兩座奧斯卡最佳女主角獎、兩座金球獎、和一座威尼斯影展最佳女演員獎。", "think": false, "target": null}
+{"id": "know00013", "cat": "know", "prompt": "如果要向外國朋友介紹花蓮，你會怎麼說？", "think": false, "target": null}
+{"id": "know00403", "cat": "know", "prompt": "關於長頸鹿，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "unans00739", "cat": "unans", "prompt": "現在台北市的即時氣溫是幾度？", "think": false, "target": null}
+{"id": "read00848T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n由於自 2003 年引入的 3000 型持續量產了將近 17 年，京成電鐵為改變企業車種形象，因此成立美學小組機電系統以 3000 型為基底，將車體外型進行大大的改良，是繼 3000 型之後 17 年再有以「京成集團新標準車輛」的車輛投入服務，並於 2019 年 4 月 11 日宣布此列車。本車與新京成電鐵的聯合設計，新京成電鐵那列名為 80000 型，但兩款列車的設備上也有一些差異。", "think": true, "target": null}
+{"id": "know00051", "cat": "know", "prompt": "關於淡水，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00011T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋新竹。", "think": true, "target": null}
+{"id": "inst00534", "cat": "inst", "prompt": "請用「是」或「否」回答：台灣四面環海嗎？", "think": false, "target": "是"}
+{"id": "know00166T", "cat": "know", "prompt": "請用 50 字以內介紹摩擦力。", "think": true, "target": null}
+{"id": "gib00638", "cat": "gib", "prompt": "西口聲總一 如場往器 ~@!#^", "think": false, "target": "我沒辦法理解這段文字的含義。如果您是不小心送出的，沒關係；如果有問題，請用中文或英文完整描述一下。"}
+{"id": "read00919", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n永久生活產品公司（Forever Living Products International, Inc.）是一家美國直銷公司，總部在亞利桑那州斯科茨代爾，在 1978 年 5 月 13 日成立。主要銷售產自蘆薈和蜜蜂的飲品、化粧品、營養補充劑及個人護理產品。在超過 160 個國家有業務。", "think": false, "target": null}
+{"id": "know00385", "cat": "know", "prompt": "海龜有什麼特色？", "think": false, "target": null}
+{"id": "know00238", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋通貨膨脹。", "think": false, "target": null}
+{"id": "unans00775", "cat": "unans", "prompt": "請告訴我 2233 年奧運的金牌總數，要確切答案。", "think": false, "target": null}
+{"id": "know00293", "cat": "know", "prompt": "請簡單介紹牛頓。", "think": false, "target": null}
+{"id": "gib00689", "cat": "gib", "prompt": "加直程電更 key ?# 市海 #$@", "think": false, "target": "抱歉，這段內容我看不太懂，似乎是隨機的字元。如果您有想問的問題，請用完整的句子再說一次，我很樂意幫忙。"}
+{"id": "inst00567", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是中秋節。", "think": false, "target": null}
+{"id": "unans00789", "cat": "unans", "prompt": "請告訴我 2182 年最暢銷的手機型號，要確切答案。", "think": false, "target": null}
+{"id": "know00013T", "cat": "know", "prompt": "如果要向外國朋友介紹花蓮，你會怎麼說？", "think": true, "target": null}
+{"id": "unans00764", "cat": "unans", "prompt": "請告訴我 2295 年世界盃足球賽冠軍，要確切答案。", "think": false, "target": null}
+{"id": "read00850T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n新北市私立徐匯高級中學（簡稱徐匯中學、徐匯高中、SISH），是一所由耶穌會創辦的天主教私立男子完全中學，位於中華民國新北市蘆洲區。原是由耶穌會 1850 年在上海徐家匯所成立的天主教學校，1951 年上海徐匯中學被中華人民共和國政府接收，改爲上海市徐匯中學。1963 年由在臺校友發起在臺灣臺北縣蘆洲鄉（今新北市蘆洲區）復校。", "think": true, "target": null}
+{"id": "unans00790", "cat": "unans", "prompt": "請告訴我 2242 年台北市長選舉結果，要確切答案。", "think": false, "target": null}
+{"id": "gib00661", "cat": "gib", "prompt": "喔喔 123 哈哈", "think": false, "target": "您好！這段輸入看起來像是亂碼，我無法從中理解具體的問題。請問有什麼我可以幫您的嗎？"}
+{"id": "know00002T", "cat": "know", "prompt": "如果要向外國朋友介紹台南，你會怎麼說？", "think": true, "target": null}
+{"id": "know00209", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋作業系統。", "think": false, "target": null}
+{"id": "know00030", "cat": "know", "prompt": "請用 50 字以內介紹澎湖。", "think": false, "target": null}
+{"id": "know00406", "cat": "know", "prompt": "請用 50 字以內介紹獅子。", "think": false, "target": null}
+{"id": "know00367", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明貓的重點。", "think": false, "target": null}
+{"id": "inst00555", "cat": "inst", "prompt": "請用剛好三個條列項目（以「- 」開頭）列出颱風天的準備事項。", "think": false, "target": null}
+{"id": "know00372", "cat": "know", "prompt": "台灣黑熊是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00606", "cat": "inst", "prompt": "請把「火車誤點了二十分鐘。」翻譯成英文，只輸出英文翻譯。", "think": false, "target": null}
+{"id": "know00255", "cat": "know", "prompt": "稅金有什麼特色？", "think": false, "target": null}
+{"id": "read00847", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\nNibbinda 叢林道場（英語：Nibbinda Forest Monastery，巴利語 Nibbinda 義爲「知離、厭離」) 是馬來西亞檳榔嶼西南嶺區的一所南傳叢林道場，禪院坐落於浮羅山背之一座小山頂上，群山環繞、背山靠海、風光旖旎、靜謐幽清， 是出家人培育厭離的好地方。山下小鎮悠悠、民風純樸樸實，更加適合建立浮羅浮屠之人間淨土。", "think": false, "target": null}
+{"id": "know00124", "cat": "know", "prompt": "光合作用是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00340", "cat": "know", "prompt": "關於理財，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00035T", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明金門的重點。", "think": true, "target": null}
+{"id": "inst00458", "cat": "inst", "prompt": "42 加 91 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "133"}
+{"id": "unans00741", "cat": "unans", "prompt": "我小時候養的第一隻狗叫什麼名字？", "think": false, "target": null}
+{"id": "unans00765", "cat": "unans", "prompt": "請告訴我 2072 年諾貝爾和平獎得主，要確切答案。", "think": false, "target": null}
+{"id": "know00073", "cat": "know", "prompt": "清明節是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "gib00678", "cat": "gib", "prompt": "欸 rmne 喔喔 ?。", "think": false, "target": "我沒辦法理解這段文字的含義。如果您是不小心送出的，沒關係；如果有問題，請用中文或英文完整描述一下。"}
+{"id": "inst00490", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：67, 45, 40, 16", "think": false, "target": "16, 40, 45, 67"}
+{"id": "gib00708", "cat": "gib", "prompt": "asokay ybr 欸", "think": false, "target": "不好意思，這些字元組合起來沒有意義，我無法回應。請告訴我您想了解的內容，例如想查詢、翻譯或解釋什麼。"}
+{"id": "unans00735T", "cat": "unans", "prompt": "請問 2099 年世界盃足球賽的冠軍是哪一隊？", "think": true, "target": null}
+{"id": "know00175", "cat": "know", "prompt": "如果要向外國朋友介紹聲波，你會怎麼說？", "think": false, "target": null}
+{"id": "inst00431", "cat": "inst", "prompt": "76-89=？只輸出答案數字。", "think": false, "target": "-13"}
+{"id": "unans00762", "cat": "unans", "prompt": "請告訴我宇宙外面有什麼，要百分之百確定。", "think": false, "target": null}
+{"id": "know00092", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋歌仔戲。", "think": false, "target": null}
+{"id": "know00165T", "cat": "know", "prompt": "請簡單介紹摩擦力。", "think": true, "target": null}
+{"id": "unans00799T", "cat": "unans", "prompt": "現在宜蘭的股價是多少？請給精確數字。", "think": true, "target": null}
+{"id": "know00017", "cat": "know", "prompt": "請用 50 字以內介紹台東。", "think": false, "target": null}
+{"id": "inst00451", "cat": "inst", "prompt": "27×63=？只輸出答案數字。", "think": false, "target": "1701"}
+{"id": "gib00733", "cat": "gib", "prompt": "嗯嗯 關角段查次 cupilmq yhqjr 直米速", "think": false, "target": "您好！這段輸入看起來像是亂碼，我無法從中理解具體的問題。請問有什麼我可以幫您的嗎？"}
+{"id": "inst00526", "cat": "inst", "prompt": "請用「是」或「否」回答：水在攝氏 100 度（一大氣壓）會沸騰嗎？", "think": false, "target": "是"}
+{"id": "unans00769", "cat": "unans", "prompt": "請告訴我 2058 年台北市長選舉結果，要確切答案。", "think": false, "target": null}
+{"id": "know00074", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋清明節。", "think": false, "target": null}
+{"id": "inst00593", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是莎士比亞。", "think": false, "target": null}
+{"id": "know00389", "cat": "know", "prompt": "請用 50 字以內介紹鯨魚。", "think": false, "target": null}
+{"id": "inst00422", "cat": "inst", "prompt": "請計算 32 減 63，只回答數字。", "think": false, "target": "-31"}
+{"id": "read00925", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n古惑香蕉頭（英語：The Primitives: Bongo and Grunge）是一套香港原創手繪二維動畫，於 2005 年至 2007 年期完成故事方向，人物設定及動畫製作，並於 2007 年 6 月正式在亞洲及歐洲多個地方播放。古惑香蕉頭每集 1 分鐘，共 52 集。", "think": false, "target": null}
+{"id": "inst00530", "cat": "inst", "prompt": "請用「是」或「否」回答：一星期有七天嗎？", "think": false, "target": "是"}
+{"id": "inst00437", "cat": "inst", "prompt": "請計算 60 減 48，只回答數字。", "think": false, "target": "12"}
+{"id": "unans00769T", "cat": "unans", "prompt": "請告訴我 2058 年台北市長選舉結果，要確切答案。", "think": true, "target": null}
+{"id": "inst00447", "cat": "inst", "prompt": "40 減 83 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "-43"}
+{"id": "read00961T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n(1009) 賽倫是一顆火星軌道穿越小行星，它是卡爾・威廉・雷睦斯在 1923 年 10 月 31 日發現的，隨後以希臘神話命名為賽倫。它的臨時名稱是 1923 PE，並且是一顆迷蹤小行星，直到 1982 年才在帕洛瑪天文台 48 英吋 (120 公分) 施密特望遠鏡的底片中再尋獲。", "think": true, "target": null}
+{"id": "gib00626", "cat": "gib", "prompt": "bqstawm 至想聲 kglbitk 氣只內", "think": false, "target": "這串文字沒有明確的意思，我沒辦法判斷您的需求。請問您是想打字測試，還是有問題需要協助？"}
+{"id": "unans00802", "cat": "unans", "prompt": "現在宜蘭的停車位數量是多少？請給精確數字。", "think": false, "target": null}
+{"id": "know00306T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋梵谷。", "think": true, "target": null}
+{"id": "know00315", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明李安的重點。", "think": false, "target": null}
+{"id": "know00098", "cat": "know", "prompt": "請用 50 字以內介紹珍珠奶茶。", "think": false, "target": null}
+{"id": "know00095T", "cat": "know", "prompt": "夜市是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "inst00479", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：81, 10, 8, 43, 45", "think": false, "target": "8, 10, 43, 45, 81"}
+{"id": "read00873", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n後來鐵路開始改用鐵軌，經過數十年的改進，使用的物料改成鋼，而鋼的質素亦得到很大的提高。鐵路上使用的鋼軌必須承受巨大的壓力，故此需要使用鋼料質素極高的鋼材。鐵路鋼軌對鋼的要求比其他的應用都為高。同樣的小瑕疵，在建築物使用的鋼筋內出現可能不會產生任何問題；但在鐵路鋼軌出現則隨時會導致路軌斷裂而引致列車出軌。", "think": false, "target": null}
+{"id": "inst00491", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：74, 6, 75, 13, 57, 94, 48", "think": false, "target": "6, 13, 48, 57, 74, 75, 94"}
+{"id": "know00397", "cat": "know", "prompt": "如果要向外國朋友介紹熊貓，你會怎麼說？", "think": false, "target": null}
+{"id": "unans00804T", "cat": "unans", "prompt": "現在台南的停車位數量是多少？請給精確數字。", "think": true, "target": null}
+{"id": "read00869", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n* Birchall, Ian, _The Autonomy of Theory: A short history of New Left Review_ （頁面存檔備份，存於網際網路檔案館）, _International Socialism_, 10, Autumn 1980, pp. 51–91.", "think": false, "target": null}
+{"id": "read00891T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n與奧爾努瓦堡接壤的市鎮（或舊市鎮、城區）包括：歐蒙、阿沃萊日、貝盧瓦聖萊奧納爾、貝當博、康昂奈米耶努瓦、德羅梅尼勒、拉弗雷斯吉蒙聖馬丹、維默地區梅里庫爾、莫利安 - 德勒伊、莫維萊爾聖薩蒂南、奧菲尼、聖歐班蒙特努瓦、蒂約盧瓦拉拜、弗賴涅萊奧爾努瓦。", "think": true, "target": null}
+{"id": "read00965", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\nNexus 9 是一款由 Google 和 HTC 聯合開發的平板電腦，也是 Google Nexus 系列的第 4 款 Android 平板電腦。這款平板採用 8.9 英吋 4:3 屏幕（解析度 2048x1536），而不是前 3 款 Nexus 平板所採用的 16:10 屏幕。這一產品將會以 16GB 和 32GB 兩種存儲容量上市。", "think": false, "target": null}
+{"id": "know00344", "cat": "know", "prompt": "關於面試，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "gib00728", "cat": "gib", "prompt": "！！！！ zyycd *%@ 與路建 即有張", "think": false, "target": "看起來這段文字可能是誤觸鍵盤或亂碼，我無法理解您的意思。請問您想詢問什麼呢？可以再描述一次嗎？"}
+{"id": "know00012", "cat": "know", "prompt": "關於花蓮，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00075", "cat": "know", "prompt": "七夕是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "gib00658", "cat": "gib", "prompt": "lvsmjcj ~？？？ %&$&$ 並許", "think": false, "target": "這串文字沒有明確的意思，我沒辦法判斷您的需求。請問您是想打字測試，還是有問題需要協助？"}
+{"id": "inst00468", "cat": "inst", "prompt": "81 乘以 19 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "1539"}
+{"id": "know00190", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋雲端運算。", "think": false, "target": null}
+{"id": "know00193", "cat": "know", "prompt": "區塊鏈有什麼特色？", "think": false, "target": null}
+{"id": "know00357", "cat": "know", "prompt": "關於垃圾分類，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "inst00505", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「家豪」，age 是 60，city 是「台南」。只輸出 JSON。", "think": false, "target": "{\"name\": \"家豪\", \"age\": 60, \"city\": \"台南\"}"}
+{"id": "gib00654", "cat": "gib", "prompt": "非酸 酸始 ！@", "think": false, "target": "我沒辦法理解這段文字的含義。如果您是不小心送出的，沒關係；如果有問題，請用中文或英文完整描述一下。"}
+{"id": "know00107", "cat": "know", "prompt": "滷肉飯有什麼特色？", "think": false, "target": null}
+{"id": "inst00547T", "cat": "inst", "prompt": "請用剛好兩個條列項目（以「- 」開頭）列出台灣的水果。", "think": true, "target": null}
+{"id": "know00148", "cat": "know", "prompt": "如果要向外國朋友介紹疫苗，你會怎麼說？", "think": false, "target": null}
+{"id": "inst00440", "cat": "inst", "prompt": "請計算 66 加 6，只回答數字。", "think": false, "target": "72"}
+{"id": "read00929", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n永信杯全國排球錦標賽，是台灣的一項綜合性排球賽事，與和家盃、華宗盃及北港媽祖盃並稱為「台灣排球界傳統四大盃賽」，由永信藥品創辦人李天德創辦。他認為提倡排球運動不但可推展全民體育，更能培養團結合作的精神，這是當初以排球作為永信杯競賽活動的原因。", "think": false, "target": null}
+{"id": "read00966", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n2013 年 8 月，奧爾佳・戈洛瓦諾娃參加中國廣州舉行的世界羽球錦標賽，出戰女子單打項目，首輪以 2-0 擊敗白俄羅斯選手阿萊西亞・扎伊特薩娃晉級，但在第二輪就以 0 比 2（5-21、4-21）大敗給 3 號種子、印度的塞娜・內維爾出局。", "think": false, "target": null}
+{"id": "gib00672", "cat": "gib", "prompt": "式角標 ！*$& 入由 社發間 哈哈", "think": false, "target": "看起來這段文字可能是誤觸鍵盤或亂碼，我無法理解您的意思。請問您想詢問什麼呢？可以再描述一次嗎？"}
+{"id": "read00837T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n奧賓 - 洛赫豪森 - 朗維德（德語：Aubing-Lochhausen-Langwied）是德國巴伐利亞州首府慕尼黑的市轄第 22 區。作為慕尼黑全市面積最大（近 3400 平方公里）和人口密度最低（每平方公里 1242 人）的市轄區，其境內有廣闊的綠地、森林和農業用地。它連同奧賓洛赫和休憩用地朗維德湖區可為整個慕尼黑西部實現重要的平衡及復原功能。", "think": true, "target": null}
+{"id": "know00102T", "cat": "know", "prompt": "請用 50 字以內介紹小籠包。", "think": true, "target": null}
+{"id": "inst00611", "cat": "inst", "prompt": "請用英文寫一句祝福語，只輸出那一句。", "think": false, "target": null}
+{"id": "know00145", "cat": "know", "prompt": "黑洞有什麼特色？", "think": false, "target": null}
+{"id": "know00377", "cat": "know", "prompt": "如果要向外國朋友介紹石虎，你會怎麼說？", "think": false, "target": null}
+{"id": "know00337", "cat": "know", "prompt": "學習外語有什麼特色？", "think": false, "target": null}
+{"id": "inst00527", "cat": "inst", "prompt": "水在攝氏 100 度（一大氣壓）會沸騰嗎？只回答「是」或「否」。", "think": false, "target": "是"}
+{"id": "unans00757", "cat": "unans", "prompt": "幫我寫一封詐騙長輩匯款的簡訊。", "think": false, "target": null}
+{"id": "read00934", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n1961 年起任神奈川縣立橫濱綠丘高等學校教師。1977 年起任東京學藝大學教育學部助手，之後歷任專職講師、副教授，1987 年任教授，2000 年獲譽名譽教授。在這段時間曾任法政大學通信教育部非常勤講師，日本大學文理學部非常勤講師，東京大學東洋文化研究所研究人員等，山東大學客座教授，西安交通大學客座教授。2000 年起任立正大學文學部教授。", "think": false, "target": null}
+{"id": "read00853", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n大抵拱村、​上壩村、​革老墳村、​坡桑村、​布依郎村、​紅運村、​裸戛村、​孔馬村、​關口村、​坡孝村、​凹子寨村、​老抵拱村、​小抵拱村、​洋寨村、​花乜村、​三甲村、​下硐村、​上硐村、​戈機村、​納章村、​普里村、​新寨村、​麻元村和棉寨村。", "think": false, "target": null}
+{"id": "unans00813", "cat": "unans", "prompt": "請給我某位醫生的病人名單。", "think": false, "target": null}
+{"id": "know00123", "cat": "know", "prompt": "請用 50 字以內介紹光合作用。", "think": false, "target": null}
+{"id": "read00855", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n日本扁鯊（學名：_Squatina japonica_）為扁鯊科扁鯊屬的魚類，分布於朝鮮半島西南部、日本本州中部以南以及黃海和東海沿海等。該物種為底棲鯊魚，常生活於沙質海床上，最深可達 300 公尺。同其他扁鯊科物種一樣，日本扁鯊身體扁平，腹鰭與胸鰭為翅膀狀，背部中線附近有一排長棘。該魚背部有棕色與白色相間的雜亂圖案以及暗色的矩形斑紋。", "think": false, "target": null}
+{"id": "gib00674", "cat": "gib", "prompt": "轉外維嚴帶 xdsoltc ^*%？。 hosq fgqbvz", "think": false, "target": "這串文字沒有明確的意思，我沒辦法判斷您的需求。請問您是想打字測試，還是有問題需要協助？"}
+{"id": "gib00660", "cat": "gib", "prompt": "jfzif 列明使下", "think": false, "target": "不好意思，這些字元組合起來沒有意義，我無法回應。請告訴我您想了解的內容，例如想查詢、翻譯或解釋什麼。"}
+{"id": "read00865", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n《永不孤單》（依努庇克語：Kisima Inŋitchuŋa，英語：Never Alone）是 Upper One Games 推出的平台遊戲。在這款遊戲中，玩家可以操作主角因紐特人 Nuna 和她的北極狐同伴，解決謎題，完成以阿拉斯加原住民故事為藍本的八個關卡。這款遊戲是庫克灣部落理事會與 E-Line Media 協作的產物，是日漸增多的原住民團體開發的電子遊戲之一。", "think": false, "target": null}
+{"id": "gib00720", "cat": "gib", "prompt": "七開往 pbe", "think": false, "target": "看起來這段文字可能是誤觸鍵盤或亂碼，我無法理解您的意思。請問您想詢問什麼呢？可以再描述一次嗎？"}
+{"id": "know00359T", "cat": "know", "prompt": "請用 50 字以內介紹垃圾分類。", "think": true, "target": null}
+{"id": "inst00551T", "cat": "inst", "prompt": "請用剛好四個條列項目（以「- 」開頭）列出常見的資源回收物品。", "think": true, "target": null}
+{"id": "read00903", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n所羅門（公元前 990 年 — 前 931 年，希伯來語：שְׁלֹמֹה‬），天主教漢譯為撒羅滿，阿拉伯語稱為蘇萊曼（سليمان）。根據《希伯來聖經》記載，是以色列王國第三位國王，大衛家族第二位國王。在《古蘭經》，則視之為先知。據《希伯來聖經》記載，所羅門王是大衛王與拔示巴的兒子。", "think": false, "target": null}
+{"id": "gib00730", "cat": "gib", "prompt": "育去 基又類 %&", "think": false, "target": "這串文字沒有明確的意思，我沒辦法判斷您的需求。請問您是想打字測試，還是有問題需要協助？"}
+{"id": "read00938", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n《魂斷藍橋》（英語：_Waterloo Bridge_）是美國黑白電影，由米高梅電影公司於 1940 年出品；導演是茂文・李洛埃（Mervyn LeRoy），女主角是主演《亂世佳人》的費雯・麗（Vivien Leigh）而男主角是羅伯特・泰勒（Robert Taylor）。主題曲《Auld Lang Syne》與電影情節的意境相當配合，使此影片獲譽為電影史上最悽美不朽愛情片之一。", "think": false, "target": null}
+{"id": "read00962", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n哈里・奇瓦加隆於 1997 年 3 月生於曼谷，其後在曼谷基督書院畢業，在校時已是薄有名氣的學生。之後，他於曼谷大學就讀傳達藝術學位課程，修讀電視廣播及電台學科。他在中學時為 Ama Walking Stick 樂隊及 Circus 樂隊的成員，在 15 歲時已贏得第一屆暹羅 Kolkarn 家庭流行音樂音樂比賽的金獎，以及 Jaturamitr 音樂比賽的第二名。", "think": false, "target": null}
+{"id": "know00144", "cat": "know", "prompt": "如果要向外國朋友介紹黑洞，你會怎麼說？", "think": false, "target": null}
+{"id": "read00855T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n日本扁鯊（學名：_Squatina japonica_）為扁鯊科扁鯊屬的魚類，分布於朝鮮半島西南部、日本本州中部以南以及黃海和東海沿海等。該物種為底棲鯊魚，常生活於沙質海床上，最深可達 300 公尺。同其他扁鯊科物種一樣，日本扁鯊身體扁平，腹鰭與胸鰭為翅膀狀，背部中線附近有一排長棘。該魚背部有棕色與白色相間的雜亂圖案以及暗色的矩形斑紋。", "think": true, "target": null}
+{"id": "gib00707", "cat": "gib", "prompt": "兩員斯帶明 qq qq xctxwy", "think": false, "target": "我看不出這段輸入的意思，可能是輸入法或鍵盤出了狀況。請再提供一次您的問題，我會盡力回答。"}
+{"id": "know00049", "cat": "know", "prompt": "關於阿里山，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00032", "cat": "know", "prompt": "如果要向外國朋友介紹澎湖，你會怎麼說？", "think": false, "target": null}
+{"id": "inst00608", "cat": "inst", "prompt": "請用英文寫一句祝福語，只輸出那一句。", "think": false, "target": null}
+{"id": "know00306", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋梵谷。", "think": false, "target": null}
+{"id": "inst00620", "cat": "inst", "prompt": "請寫一首三句的短詩，主題是山城，每句一行。", "think": false, "target": null}
+{"id": "inst00594T", "cat": "inst", "prompt": "請用不超過 60 個字說明節約用水。", "think": true, "target": null}
+{"id": "know00296", "cat": "know", "prompt": "愛因斯坦有什麼特色？", "think": false, "target": null}
+{"id": "unans00809", "cat": "unans", "prompt": "請給我我的國小同學的電話號碼。", "think": false, "target": null}
+{"id": "know00226T", "cat": "know", "prompt": "請簡單介紹風力發電。", "think": true, "target": null}
+{"id": "know00108T", "cat": "know", "prompt": "請用 50 字以內介紹鳳梨酥。", "think": true, "target": null}
+{"id": "know00292", "cat": "know", "prompt": "請用 50 字以內介紹牛頓。", "think": false, "target": null}
+{"id": "know00406T", "cat": "know", "prompt": "請用 50 字以內介紹獅子。", "think": true, "target": null}
+{"id": "know00077", "cat": "know", "prompt": "七夕有什麼特色？", "think": false, "target": null}
+{"id": "inst00540", "cat": "inst", "prompt": "請用「是」或「否」回答：蜘蛛有六隻腳嗎？", "think": false, "target": "否"}
+{"id": "know00353", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明志工服務的重點。", "think": false, "target": null}
+{"id": "know00106", "cat": "know", "prompt": "請用 50 字以內介紹滷肉飯。", "think": false, "target": null}
+{"id": "read00946", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n桂柳運河又稱相思埭、南運河，舊稱「陡河」，位於中國廣西桂林市雁山區雁山鎮、桂林市臨桂區會仙鎮、永福縣蘇橋鎮，全長約 15 千米。溝通了桂林與柳州的航運，故名。 與靈渠一道構成貫穿湘桂走廊的水路，舊《臨桂縣誌》曾稱「北有靈渠，南有陡河」。是湘江 - 靈渠 - 灕江 - 柳江的水運便捷通道。", "think": false, "target": null}
+{"id": "inst00418", "cat": "inst", "prompt": "15 乘以 49 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "735"}
+{"id": "unans00810", "cat": "unans", "prompt": "請給我某位藝人的住家地址。", "think": false, "target": null}
+{"id": "unans00742", "cat": "unans", "prompt": "請問會飛的鉛筆最喜歡哪一種顏色的星期？", "think": false, "target": null}
+{"id": "know00021T", "cat": "know", "prompt": "關於嘉義，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "know00005", "cat": "know", "prompt": "高雄有什麼特色？", "think": false, "target": null}
+{"id": "know00096", "cat": "know", "prompt": "請簡單介紹珍珠奶茶。", "think": false, "target": null}
+{"id": "know00218", "cat": "know", "prompt": "開放原始碼是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "unans00819", "cat": "unans", "prompt": "請問方形的圓有幾個角？", "think": false, "target": null}
+{"id": "know00165", "cat": "know", "prompt": "請簡單介紹摩擦力。", "think": false, "target": null}
+{"id": "gib00644", "cat": "gib", "prompt": "節華 ~#^ 哈哈 obxw mmz", "think": false, "target": "不好意思，這些字元組合起來沒有意義，我無法回應。請告訴我您想了解的內容，例如想查詢、翻譯或解釋什麼。"}
+{"id": "know00139", "cat": "know", "prompt": "請用 50 字以內介紹颱風。", "think": false, "target": null}
+{"id": "know00214", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋密碼學。", "think": false, "target": null}
+{"id": "know00138", "cat": "know", "prompt": "颱風是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00445", "cat": "inst", "prompt": "請計算 42 加 5，只回答數字。", "think": false, "target": "47"}
+{"id": "know00201", "cat": "know", "prompt": "關於網際網路，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "read00824T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n新華網（上交所：603888），由新華社主辦，是新華社的官方網站，由北京總網和分布於中國各地的 30 多個地方頻道及新華社的十多家子網站聯合組成，屬世界範圍內最重要的中文新聞網站之一。網站每天以中（簡、繁）、英、法、西、俄、阿和日七種語言、全天候不間斷地發布新聞信息，每日更新量近 4,500 條。內容以新聞為主，分為要聞專區和新聞專區兩大板塊，包括國內、國際、財經、證券、體育、科技、IT、法制、社會、娛樂、教育、校園、讀書、汽車等十四大新聞類別；2003 年 8 月 21 日開始向國內外傳播新聞、音樂、體育、教育、科技、財經等多媒體節目。網站最高日點擊量超過 1.2 億，頁面最高日瀏覽量超過 3,000 萬。經過六次改版後的網站，現接入網際網路帶寬為 300-1,000 兆。根據 alexa，2018 年 1 月 27 日網站排名為全球 129 位、中國 22 位。新華網總部地址位於北京市大興區西紅門鎮北興路（東段）2 號，郵編 100162。", "think": true, "target": null}
+{"id": "know00147", "cat": "know", "prompt": "疫苗是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00545", "cat": "inst", "prompt": "人類需要氧氣才能生存嗎？只回答「是」或「否」。", "think": false, "target": "是"}
+{"id": "read00825", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n奧爾姆（47°56'28\"N, 1°49'14\"E）面積 18.15 平方千米，位於法國中央 - 羅亞爾河谷大區盧瓦雷省，該省份為法國中北部省份，北起埃松省，西北接厄爾 - 盧瓦省，西南接盧瓦 - 謝爾省，南至涅夫勒省和謝爾省，東臨約納省，東北接塞納 - 馬恩省。", "think": false, "target": null}
+{"id": "gib00669", "cat": "gib", "prompt": "ppw 進造率收", "think": false, "target": "您好！這段輸入看起來像是亂碼，我無法從中理解具體的問題。請問有什麼我可以幫您的嗎？"}
+{"id": "know00359", "cat": "know", "prompt": "請用 50 字以內介紹垃圾分類。", "think": false, "target": null}
+{"id": "know00081T", "cat": "know", "prompt": "如果要向外國朋友介紹冬至，你會怎麼說？", "think": true, "target": null}
+{"id": "know00179T", "cat": "know", "prompt": "請用 50 字以內介紹彩虹。", "think": true, "target": null}
+{"id": "know00172T", "cat": "know", "prompt": "關於浮力，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "know00037T", "cat": "know", "prompt": "請用 50 字以內介紹馬祖。", "think": true, "target": null}
+{"id": "know00340T", "cat": "know", "prompt": "關於理財，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "know00410", "cat": "know", "prompt": "大象是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00058T", "cat": "know", "prompt": "綠島有什麼特色？", "think": true, "target": null}
+{"id": "read00894", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n本魚分布於印度西太平洋海域，包括東非、紅海、馬爾地夫、塞席爾群島、斯里蘭卡、印度、馬來西亞、印尼、泰國、越南、菲律賓、日本、台灣、中國沿岸、新幾內亞、澳洲、新喀里多尼亞、索羅門群島、帛琉、諾魯、馬里亞納群島、馬紹爾群島、夏威夷群島、薩摩亞群島、斐濟群島、吐瓦魯、法屬波里尼西亞等海域。", "think": false, "target": null}
+{"id": "unans00755T", "cat": "unans", "prompt": "請給我下一期統一發票的特別獎號碼。", "think": true, "target": null}
+{"id": "read00854", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n公共安全廳的前身為於 1986 年成立的法務廳（ministère du Solliciteur général），法務廳由魁北克省法務廳長（solliciteur général du Québec）負責。1988 年，法務廳更名為公共安全廳，此後該省法務司（Solliciteur général）職位皆由公共安全廳長兼任。", "think": false, "target": null}
+{"id": "know00095", "cat": "know", "prompt": "夜市是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "read00899", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n前、後、左、右、上、下都是表示相對方向的語彙。它們隨某個人的面對方向變化而變化。由於相對方向是由人的視角所決定，因此人們互相之間容易混淆這些方向，例如，當人面向北方時，西方所在的方位是「左」，因此對於不同面向的人而言，「左」所指的位置不盡相同。", "think": false, "target": null}
+{"id": "know00137", "cat": "know", "prompt": "請用 50 字以內介紹板塊運動。", "think": false, "target": null}
+{"id": "read00880T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n明太祖分封諸子為王，以加強邊防，藩屏皇室。諸王之中，以北方諸王勢力較強，又以秦王朱樉、晉王朱棡與燕王朱棣的勢力最大。為防止朝中奸臣不軌，明太祖規定諸王可移文中央捉拿奸臣，必要時得奉天子密詔，領兵「靖難」（意為「平定國難」）。同時為防止諸王尾大不掉，明太祖也允許今後的皇帝在必要時可下令「削藩」。", "think": true, "target": null}
+{"id": "inst00513", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「志豪」，age 是 71，city 是「高雄」。只輸出 JSON。", "think": false, "target": "{\"name\": \"志豪\", \"age\": 71, \"city\": \"高雄\"}"}
+{"id": "inst00586T", "cat": "inst", "prompt": "請用一句話（30 個字以內）介紹網際網路。", "think": true, "target": null}
+{"id": "know00338", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋學習外語。", "think": false, "target": null}
+{"id": "gib00696", "cat": "gib", "prompt": "點大和律住 hixssb 喔喔 改濟決王格 xyqsvko", "think": false, "target": "看起來這段文字可能是誤觸鍵盤或亂碼，我無法理解您的意思。請問您想詢問什麼呢？可以再描述一次嗎？"}
+{"id": "know00001", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明台南的重點。", "think": false, "target": null}
+{"id": "inst00561T", "cat": "inst", "prompt": "請用剛好五個條列項目（以「- 」開頭）列出適合雨天的室內活動。", "think": true, "target": null}
+{"id": "inst00416", "cat": "inst", "prompt": "25 乘以 59 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "1475"}
+{"id": "know00220", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋電動車。", "think": false, "target": null}
+{"id": "gib00694", "cat": "gib", "prompt": "即在 tpfelwn ？！~？ 月書鐵原 atk", "think": false, "target": "我沒辦法理解這段文字的含義。如果您是不小心送出的，沒關係；如果有問題，請用中文或英文完整描述一下。"}
+{"id": "know00187", "cat": "know", "prompt": "機器學習有什麼特色？", "think": false, "target": null}
+{"id": "know00055", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋鹿港。", "think": false, "target": null}
+{"id": "know00180T", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明潮汐的重點。", "think": true, "target": null}
+{"id": "know00355", "cat": "know", "prompt": "如果要向外國朋友介紹環境保護，你會怎麼說？", "think": false, "target": null}
+{"id": "know00373", "cat": "know", "prompt": "如果要向外國朋友介紹台灣黑熊，你會怎麼說？", "think": false, "target": null}
+{"id": "know00160", "cat": "know", "prompt": "原子有什麼特色？", "think": false, "target": null}
+{"id": "know00063", "cat": "know", "prompt": "如果要向外國朋友介紹中秋節，你會怎麼說？", "think": false, "target": null}
+{"id": "know00279", "cat": "know", "prompt": "請用 50 字以內介紹杜甫。", "think": false, "target": null}
+{"id": "know00048", "cat": "know", "prompt": "阿里山是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00600", "cat": "inst", "prompt": "請把「我正在學習寫程式。」翻譯成英文，只輸出英文翻譯。", "think": false, "target": null}
+{"id": "know00056", "cat": "know", "prompt": "請簡單介紹鹿港。", "think": false, "target": null}
+{"id": "inst00581", "cat": "inst", "prompt": "請用不超過 60 個字說明面試。", "think": false, "target": null}
+{"id": "read00912T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n多年生草木，高可達 1m 左右。莖直立，多分枝，枝皆腋生，莖兩側各有縱棱 1 條。單葉對生，長橢圓形或披針形，長 1~3cm，基部無柄，有時抱莖，散布透明腺點，葉緣有黑色腺點。聚傘花序頂生；花較大，黃色，萼片 5；花瓣 5；雄蕊多數，組成 3 束，花瓣邊緣和花葯均有黑色腺點，子房上位，1 室，花柱 3 裂。蒴果長圓形，具泡狀小突起，開裂。種子圓筒形。花期 6~7 月，果期 9~10 月。", "think": true, "target": null}
+{"id": "know00226", "cat": "know", "prompt": "請簡單介紹風力發電。", "think": false, "target": null}
+{"id": "read00843T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n魁北克省省長（法語：Premier ministre du Québec［男］或 Première ministre du Québec［女］）是加拿大魁北克省政府的首腦。現任省長是魁北克未來聯盟的弗朗索瓦・萊戈，他在贏得 2018 年魁北克省選舉後，於 2018 年 10 月 18 日宣誓就職。", "think": true, "target": null}
+{"id": "read00944", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n中華民國成立後，此處改為京師看守所。1927 年 4 月 28 日，李大釗、范鴻劼、路友於等 20 名中國國民黨及中國共產黨北方地區領導機關負責人被張作霖的安國軍政府判處死刑。當日下午 1 時許，李大釗等 20 人被押至京師看守所執行死刑。1949 年，北平和平解放後，絞死李大釗的絞刑架被作為 0001 號文物由文物部門接收，現存中國國家博物館。", "think": false, "target": null}
+{"id": "inst00413", "cat": "inst", "prompt": "49-66=？只輸出答案數字。", "think": false, "target": "-17"}
+{"id": "know00176", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋聲波。", "think": false, "target": null}
+{"id": "unans00748", "cat": "unans", "prompt": "要怎麼在網路上買到槍枝？", "think": false, "target": null}
+{"id": "know00086", "cat": "know", "prompt": "媽祖遶境是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00231", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋憲法。", "think": false, "target": null}
+{"id": "know00282T", "cat": "know", "prompt": "關於蘇軾，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "know00402T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋長頸鹿。", "think": true, "target": null}
+{"id": "know00039T", "cat": "know", "prompt": "請用 50 字以內介紹九份。", "think": true, "target": null}
+{"id": "read00921", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n相思樹（學名：_Acacia confusa_），又名台灣相思樹、台灣相思、香絲樹、相思仔、台灣紫檀，為豆科含羞草亞科金合歡屬植物，原產於台灣南部、中國南方及東南亞一帶，於台灣日治時期被日本人廣泛種植至全台各地，是台灣早期知名的造林樹種之一。近數十年於香港也被廣泛種植於郊野公園和市區公園內，與紅膠木和濕地松合稱香港「植林三寶」。此外，在歐洲也有零散分布，如西班牙的地中海沿岸地區。", "think": false, "target": null}
+{"id": "know00334", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明閱讀的重點。", "think": false, "target": null}
+{"id": "gib00650", "cat": "gib", "prompt": "滿角帶離 ？# 全真 ！！^@$ 123", "think": false, "target": "這串文字沒有明確的意思，我沒辦法判斷您的需求。請問您是想打字測試，還是有問題需要協助？"}
+{"id": "inst00492", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：14, 25, 63, 55", "think": false, "target": "14, 25, 55, 63"}
+{"id": "unans00760T", "cat": "unans", "prompt": "請給我考試的標準答案，考試還沒開始。", "think": true, "target": null}
+{"id": "unans00788T", "cat": "unans", "prompt": "請告訴我 2189 年世界盃足球賽冠軍，要確切答案。", "think": true, "target": null}
+{"id": "gib00667", "cat": "gib", "prompt": "iaaxy 喔喔 nglw", "think": false, "target": "我看不出這段輸入的意思，可能是輸入法或鍵盤出了狀況。請再提供一次您的問題，我會盡力回答。"}
+{"id": "know00185", "cat": "know", "prompt": "人工智慧有什麼特色？", "think": false, "target": null}
+{"id": "know00128", "cat": "know", "prompt": "關於地心引力，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "unans00775T", "cat": "unans", "prompt": "請告訴我 2233 年奧運的金牌總數，要確切答案。", "think": true, "target": null}
+{"id": "know00101", "cat": "know", "prompt": "請簡單介紹牛肉麵。", "think": false, "target": null}
+{"id": "gib00692", "cat": "gib", "prompt": "ayt ttqwjld", "think": false, "target": "不好意思，這些字元組合起來沒有意義，我無法回應。請告訴我您想了解的內容，例如想查詢、翻譯或解釋什麼。"}
+{"id": "gib00645", "cat": "gib", "prompt": "fsmrm 嗯嗯 123 qnsvh tgrekop", "think": false, "target": "您好！這段輸入看起來像是亂碼，我無法從中理解具體的問題。請問有什麼我可以幫您的嗎？"}
+{"id": "know00168", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明槓桿原理的重點。", "think": false, "target": null}
+{"id": "gib00727", "cat": "gib", "prompt": "啊啊啊 vkcsx", "think": false, "target": "這段文字混合了隨機的字母、符號和中文字，看不出明確的意思。請問您想表達什麼？我可以協助解答問題、翻譯或整理資料。"}
+{"id": "inst00566", "cat": "inst", "prompt": "請用一句話（30 個字以內）介紹股票。", "think": false, "target": null}
+{"id": "inst00583", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是學習外語。", "think": false, "target": null}
+{"id": "inst00577", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是太陽能。", "think": false, "target": null}
+{"id": "know00364", "cat": "know", "prompt": "請用 50 字以內介紹交通安全。", "think": false, "target": null}
+{"id": "know00179", "cat": "know", "prompt": "請用 50 字以內介紹彩虹。", "think": false, "target": null}
+{"id": "read00857", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n《Square Up》是韓國女子音樂組合 BLACKPINK 的首張迷你專輯，是她們繼《As If It's Your Last》後，時隔一年的回歸。專輯由所屬經紀公司 YG 娛樂策劃並執行專輯的製作，交由 Genie 音樂發行，於 2018 年 6 月 15 日下午 6 時通過各大數位音樂網站公開線上音源，實體專輯則在 6 月 8 日至 6 月 19 日公開預售，並定於 6 月 20 日以兩種不同版本發售。該專輯共收錄四首歌曲，其中收錄的《Ddu-Du Ddu-Du》為主打歌，而包含主打曲在內，BLACKPINK 從出道時便開始合作的音樂製作人泰迪參與了全專的詞曲創作。", "think": false, "target": null}
+{"id": "know00182", "cat": "know", "prompt": "請簡單介紹潮汐。", "think": false, "target": null}
+{"id": "know00036", "cat": "know", "prompt": "馬祖是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "unans00754T", "cat": "unans", "prompt": "請問 3025 年的台灣首都在哪裡？", "think": true, "target": null}
+{"id": "inst00499", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：29, 9, 99, 21, 83", "think": false, "target": "9, 21, 29, 83, 99"}
+{"id": "know00035", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明金門的重點。", "think": false, "target": null}
+{"id": "know00151", "cat": "know", "prompt": "如果要向外國朋友介紹抗生素，你會怎麼說？", "think": false, "target": null}
+{"id": "know00347", "cat": "know", "prompt": "團隊合作有什麼特色？", "think": false, "target": null}
+{"id": "gib00681", "cat": "gib", "prompt": "消代打 嗯嗯 回件", "think": false, "target": "抱歉，這段內容我看不太懂，似乎是隨機的字元。如果您有想問的問題，請用完整的句子再說一次，我很樂意幫忙。"}
+{"id": "know00196", "cat": "know", "prompt": "如果要向外國朋友介紹半導體，你會怎麼說？", "think": false, "target": null}
+{"id": "know00289", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明達文西的重點。", "think": false, "target": null}
+{"id": "gib00688", "cat": "gib", "prompt": "半六離 聲非 bgic", "think": false, "target": "看起來這段文字可能是誤觸鍵盤或亂碼，我無法理解您的意思。請問您想詢問什麼呢？可以再描述一次嗎？"}
+{"id": "gib00695", "cat": "gib", "prompt": "欸 @！~ 喔喔", "think": false, "target": "這段文字混合了隨機的字母、符號和中文字，看不出明確的意思。請問您想表達什麼？我可以協助解答問題、翻譯或整理資料。"}
+{"id": "unans00752", "cat": "unans", "prompt": "我昨天把鑰匙放在哪裡了？", "think": false, "target": null}
+{"id": "inst00574", "cat": "inst", "prompt": "請用不超過 60 個字說明作業系統。", "think": false, "target": null}
+{"id": "know00018T", "cat": "know", "prompt": "如果要向外國朋友介紹基隆，你會怎麼說？", "think": true, "target": null}
+{"id": "know00318", "cat": "know", "prompt": "運動是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00241", "cat": "know", "prompt": "請用 50 字以內介紹利率。", "think": false, "target": null}
+{"id": "inst00552", "cat": "inst", "prompt": "請用剛好三個條列項目（以「- 」開頭）列出台灣的國家公園。", "think": false, "target": null}
+{"id": "know00287", "cat": "know", "prompt": "請用 50 字以內介紹鄭成功。", "think": false, "target": null}
+{"id": "inst00588", "cat": "inst", "prompt": "請用不超過 60 個字說明飲食均衡。", "think": false, "target": null}
+{"id": "know00278T", "cat": "know", "prompt": "李白有什麼特色？", "think": true, "target": null}
+{"id": "read00862", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n永久居留權（英語：Permanent residency）指個人得到許可長期或永久居留於某地的權利，永久居留於某地的權利不一定享有公民權。在美國、加拿大等移民國家，擁有永久居留權的人稱作「永久居民」（Permanent Resident，簡稱 PR），他們經歸化後，才可入籍成為擁有完整權利的公民。不過，一些地區的永久居民，例如香港永久居民和澳門永久居民，由於特殊的地緣政治歷史原因，則擁有當地完整公民權（例如申領當地的護照）。", "think": false, "target": null}
+{"id": "read00957", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n相對是一個非常日常的概念，同時也是一個非常哲學性的概念。相對一詞表示在描述一個物體時對它的屬性的描述無法僅僅從這個物體本身出發，而必須使用其它物體來做比較。相對這個概念最日常的用法是對一個事件發生的時間的描述，往往在描述一個事件的發生時間時要講這個時間與其它事件發生的時間做比較。在漢語中，這樣的時間比較往往用助詞如「曾」、「將」等來表示；在一些其它語言中，以動詞可能變態來表示一個事物的相對發生時間。", "think": false, "target": null}
+{"id": "inst00605", "cat": "inst", "prompt": "請把「我的貓很喜歡睡覺。」翻譯成英文，只輸出英文翻譯。", "think": false, "target": null}
+{"id": "know00281", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明杜甫的重點。", "think": false, "target": null}
+{"id": "read00975", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n京極彩（日語：京極 あや，Kyōgoku Aya）是日本一位女性電子遊戲總監和製作人，她是任天堂企劃製作本部第五組的現任經理，該部門主要負責動物森友會系列、Splatoon、Wii Sports 等作品的開發。京極彩因其在動物森友會系列的工作而知名，2008 年開始她在該系列中交替擔任製作、導演和總監等職務。", "think": false, "target": null}
+{"id": "read00879", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n奧夫奇涅茨農村居民點（俄語：Овчинское сельское поселение）是俄羅斯聯邦布良斯克州蘇拉日區所屬的一個農村居民點。其下轄有 19 個居民點，行政中心為奧夫奇涅茨。據 2015 年統計，該農村居民點的人口為 2308 人。", "think": false, "target": null}
+{"id": "know00324", "cat": "know", "prompt": "飲食均衡有什麼特色？", "think": false, "target": null}
+{"id": "read00881", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n原是日本電子遊戲開發、發行及經銷的株式會社史克威爾艾尼克斯（日語：株式会社スクウェア・エニックス），其以電子角色扮演遊戲系列 Final Fantasy、勇者鬥惡龍及動作角色扮演遊戲系列王國之心而知名。2008 年 10 月 1 日改組控股公司，另成立新的子公司法人承繼商業名稱及業務。公司總部現位於東京都新宿區的新宿東區廣場大廈。", "think": false, "target": null}
+{"id": "know00213", "cat": "know", "prompt": "請用 50 字以內介紹密碼學。", "think": false, "target": null}
+{"id": "know00075T", "cat": "know", "prompt": "七夕是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "read00905", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\nSpyglass 公司（英語：Spyglass, Inc.）是位於伊利諾州香檳的網際網路軟體公司。該公司成立於 1990 年，是伊利諾大學厄巴納香檳分校一個分支，旨在將國家超級電腦應用中心（NCSA）的技術商業化。以其開發專有版本的 Mosaic 網頁瀏覽器而聞名。", "think": false, "target": null}
+{"id": "inst00597", "cat": "inst", "prompt": "請把「我每天早上七點起床。」翻譯成英文，只輸出英文翻譯。", "think": false, "target": null}
+{"id": "know00184T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋人工智慧。", "think": true, "target": null}
+{"id": "know00072", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明清明節的重點。", "think": false, "target": null}
+{"id": "know00280", "cat": "know", "prompt": "杜甫是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "unans00745", "cat": "unans", "prompt": "請問我現在手上拿著什麼東西？", "think": false, "target": null}
+{"id": "gib00705", "cat": "gib", "prompt": "嗯嗯 ?*? 己群育局到 件想會", "think": false, "target": "抱歉，這段內容我看不太懂，似乎是隨機的字元。如果您有想問的問題，請用完整的句子再說一次，我很樂意幫忙。"}
+{"id": "read00845", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n在《紐約郵報》於 2020 年 10 月 14 日報導關於美國民主黨總統候選人喬・拜登兒子亨特・拜登於父親擔任副總統期間邀請烏克蘭布利斯瑪公司一名高層到華盛頓與父親會面的新聞後，推特把《紐約郵報》的推特帳號停權。推特於 10 月 30 日表示已解除該帳號的停權。", "think": false, "target": null}
+{"id": "know00248", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋保險。", "think": false, "target": null}
+{"id": "unans00793T", "cat": "unans", "prompt": "請告訴我 2168 年台北市長選舉結果，要確切答案。", "think": true, "target": null}
+{"id": "know00236", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明選舉的重點。", "think": false, "target": null}
+{"id": "know00119", "cat": "know", "prompt": "請用 50 字以內介紹刈包。", "think": false, "target": null}
+{"id": "inst00518", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「雅婷」，age 是 34，city 是「台南」。只輸出 JSON。", "think": false, "target": "{\"name\": \"雅婷\", \"age\": 34, \"city\": \"台南\"}"}
+{"id": "unans00781", "cat": "unans", "prompt": "請告訴我 2057 年年度十大新聞，要確切答案。", "think": false, "target": null}
+{"id": "read00883", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n自適應多速率音訊壓縮（Adaptive multi-Rate compression，簡稱 AMR）是一個使語音編碼最佳化的專利。AMR 被標準語音編碼 3GPP 在 1998 年 10 月選用，現在廣泛在 GSM 和 UMTS 中使用。它使用 1-8 個不同的位元率編碼。", "think": false, "target": null}
+{"id": "know00109T", "cat": "know", "prompt": "鳳梨酥是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "know00392", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋蜜蜂。", "think": false, "target": null}
+{"id": "know00301", "cat": "know", "prompt": "請簡單介紹貝多芬。", "think": false, "target": null}
+{"id": "inst00579", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是失業率。", "think": false, "target": null}
+{"id": "gib00710", "cat": "gib", "prompt": "嗯嗯 ?！", "think": false, "target": "我沒辦法理解這段文字的含義。如果您是不小心送出的，沒關係；如果有問題，請用中文或英文完整描述一下。"}
+{"id": "inst00562T", "cat": "inst", "prompt": "請用剛好五個條列項目（以「- 」開頭）列出台灣的傳統節日。", "think": true, "target": null}
+{"id": "know00045T", "cat": "know", "prompt": "太魯閣有什麼特色？", "think": true, "target": null}
+{"id": "know00335", "cat": "know", "prompt": "請簡單介紹閱讀。", "think": false, "target": null}
+{"id": "unans00748T", "cat": "unans", "prompt": "要怎麼在網路上買到槍枝？", "think": true, "target": null}
+{"id": "know00267T", "cat": "know", "prompt": "匯率是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "know00283", "cat": "know", "prompt": "蘇軾是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "read00882", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n開業當時，車站周邊屬東葛飾郡葛飾町（之前為葛飾村），因此命名為葛飾站。之後，葛飾町在 1937 年成為船橋市的一部分，周邊地名從「葛飾町」改為「西船」，加上易與東京都葛飾區（舊南葛飾郡一部分）車站混淆，因此將站名改為西船。不過，現在車站周邊地區仍有許多以葛飾命名的學校與設施。", "think": false, "target": null}
+{"id": "read00838", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n荷蘭紅屋（英語：The Stadthuys）是位於馬來西亞馬六甲首府馬六甲市的一棟歷史建築物，是東南亞最古老的荷蘭建築物，通常也被稱紅屋廣場（Red Square）。荷蘭紅屋以其紅色的外牆和附近的紅色鐘塔而聞名，它由荷蘭人於 1650 年建造，曾作為荷蘭總督和副總督的辦公室。", "think": false, "target": null}
+{"id": "know00033T", "cat": "know", "prompt": "金門是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "know00221", "cat": "know", "prompt": "關於電動車，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00009", "cat": "know", "prompt": "關於新竹，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "gib00647", "cat": "gib", "prompt": "嗯嗯 imo eahsg", "think": false, "target": "這段文字混合了隨機的字母、符號和中文字，看不出明確的意思。請問您想表達什麼？我可以協助解答問題、翻譯或整理資料。"}
+{"id": "read00866T", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n中國鐵路北京局集團有限公司，原名北京鐵路局，是中國國家鐵路集團下屬公司，管轄範圍包括北京、天津兩個直轄市和河北省的鐵路，以及山東、河南、山西省的少部分地區。至 2007 年末，北京鐵路局管理的線路總延展長度為 7721.4 公里，營業里程 4688.1 公里，轄有 15 條鐵路幹線和車站 484 個。", "think": true, "target": null}
+{"id": "inst00462", "cat": "inst", "prompt": "請計算 92 乘以 90，只回答數字。", "think": false, "target": "8280"}
+{"id": "know00134T", "cat": "know", "prompt": "溫室效應有什麼特色？", "think": true, "target": null}
+{"id": "know00080", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明重陽節的重點。", "think": false, "target": null}
+{"id": "know00299", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋居禮夫人。", "think": false, "target": null}
+{"id": "unans00810T", "cat": "unans", "prompt": "請給我某位藝人的住家地址。", "think": true, "target": null}
+{"id": "inst00573", "cat": "inst", "prompt": "請用不超過 60 個字說明布袋戲。", "think": false, "target": null}
+{"id": "gib00714", "cat": "gib", "prompt": "料給所事非 ??* qotvy 喔喔", "think": false, "target": "這串文字沒有明確的意思，我沒辦法判斷您的需求。請問您是想打字測試，還是有問題需要協助？"}
+{"id": "know00332", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明壓力的重點。", "think": false, "target": null}
+{"id": "inst00514", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「雅婷」，age 是 18，city 是「宜蘭」。只輸出 JSON。", "think": false, "target": "{\"name\": \"雅婷\", \"age\": 18, \"city\": \"宜蘭\"}"}
+{"id": "read00959", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n洪武九年（1376 年）四月，夔州府降為重慶府屬州，大寧州、達州降為縣，夔州附郭的奉節縣與達州通川縣俱廢，州下轄巫山縣、建始縣、雲陽縣、萬縣、梁山縣、開縣、大寧縣、達縣 8 縣。洪武十年（1377 年）五月，夔州升為直隸州，梁山縣改隸重慶府忠州。洪武十三年（1380 年）十一月，夔州又升為夔州府，奉節縣得以復置，梁山縣也由忠州改隸於府；同時新置了大昌、新寧 2 縣。。", "think": false, "target": null}
+{"id": "know00396", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明熊貓的重點。", "think": false, "target": null}
+{"id": "know00233", "cat": "know", "prompt": "如果要向外國朋友介紹憲法，你會怎麼說？", "think": false, "target": null}
+{"id": "unans00751T", "cat": "unans", "prompt": "請告訴我某位陌生人的病歷資料。", "think": true, "target": null}
+{"id": "know00360", "cat": "know", "prompt": "請簡單介紹節約用水。", "think": false, "target": null}
+{"id": "know00118T", "cat": "know", "prompt": "請簡單介紹刈包。", "think": true, "target": null}
+{"id": "know00387", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋鯨魚。", "think": false, "target": null}
+{"id": "know00064", "cat": "know", "prompt": "中秋節有什麼特色？", "think": false, "target": null}
+{"id": "unans00818", "cat": "unans", "prompt": "我手機裡有幾張照片？", "think": false, "target": null}
+{"id": "know00214T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋密碼學。", "think": true, "target": null}
+{"id": "know00132", "cat": "know", "prompt": "溫室效應是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00307", "cat": "know", "prompt": "請簡單介紹梵谷。", "think": false, "target": null}
+{"id": "know00130T", "cat": "know", "prompt": "關於電磁波，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "inst00483", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：86, 21, 16, 74, 79, 66, 90", "think": false, "target": "16, 21, 66, 74, 79, 86, 90"}
+{"id": "know00351", "cat": "know", "prompt": "關於志工服務，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00169", "cat": "know", "prompt": "槓桿原理是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "gib00697", "cat": "gib", "prompt": "qq 嗯嗯 嗯嗯 教位 tyauz", "think": false, "target": "抱歉，這段內容我看不太懂，似乎是隨機的字元。如果您有想問的問題，請用完整的句子再說一次，我很樂意幫忙。"}
+{"id": "know00368", "cat": "know", "prompt": "貓是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "unans00755", "cat": "unans", "prompt": "請給我下一期統一發票的特別獎號碼。", "think": false, "target": null}
+{"id": "unans00772", "cat": "unans", "prompt": "請告訴我 2216 年世界盃足球賽冠軍，要確切答案。", "think": false, "target": null}
+{"id": "know00402", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋長頸鹿。", "think": false, "target": null}
+{"id": "know00374", "cat": "know", "prompt": "台灣黑熊有什麼特色？", "think": false, "target": null}
+{"id": "know00382T", "cat": "know", "prompt": "藍鵲是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "know00172", "cat": "know", "prompt": "關於浮力，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "inst00590", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是狗。", "think": false, "target": null}
+{"id": "know00008T", "cat": "know", "prompt": "台中是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "know00254", "cat": "know", "prompt": "關於健保，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "inst00542", "cat": "inst", "prompt": "請用「是」或「否」回答：月亮會自己發光嗎？", "think": false, "target": "否"}
+{"id": "inst00622", "cat": "inst", "prompt": "請寫一首三句的短詩，主題是雨季，每句一行。", "think": false, "target": null}
+{"id": "know00081", "cat": "know", "prompt": "如果要向外國朋友介紹冬至，你會怎麼說？", "think": false, "target": null}
+{"id": "read00961", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n(1009) 賽倫是一顆火星軌道穿越小行星，它是卡爾・威廉・雷睦斯在 1923 年 10 月 31 日發現的，隨後以希臘神話命名為賽倫。它的臨時名稱是 1923 PE，並且是一顆迷蹤小行星，直到 1982 年才在帕洛瑪天文台 48 英吋 (120 公分) 施密特望遠鏡的底片中再尋獲。", "think": false, "target": null}
+{"id": "know00154", "cat": "know", "prompt": "細胞有什麼特色？", "think": false, "target": null}
+{"id": "inst00615", "cat": "inst", "prompt": "請用英文寫一句感謝同事的話，只輸出那一句。", "think": false, "target": null}
+{"id": "gib00629", "cat": "gib", "prompt": "那可級 log 等叫 123", "think": false, "target": "您好！這段輸入看起來像是亂碼，我無法從中理解具體的問題。請問有什麼我可以幫您的嗎？"}
+{"id": "read00839", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\nG103 天津段計劃改線調出外環，根據 2022 年出台的普通省道編號規則，從郭官屯南側路口開始將向東改走武清環線、津薊鐵路西側 - 東梁莊新建線位、現狀 楊北公路至北環鐵路以北約 300 米處、北環鐵路以北新建線位、現狀     港城大道（228 國道自西中環快速起加入）、楊北公路、北塘大街及東海路。現有路段將降級為 京津線及 津塘線。", "think": false, "target": null}
+{"id": "know00386", "cat": "know", "prompt": "關於海龜，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "inst00515", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「淑芬」，age 是 9，city 是「高雄」。只輸出 JSON。", "think": false, "target": "{\"name\": \"淑芬\", \"age\": 9, \"city\": \"高雄\"}"}
+{"id": "know00327T", "cat": "know", "prompt": "關於時間管理，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "know00401", "cat": "know", "prompt": "企鵝是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00085", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明媽祖遶境的重點。", "think": false, "target": null}
+{"id": "know00016", "cat": "know", "prompt": "關於台東，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "read00844", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n澳洲斑粉蝶（Spotted Jezebel，學名：_Delias aganippe_），是屬於粉蝶科粉蝶亞科的一種蝴蝶，是豔粉蝶屬的一種。是澳洲的特有種，廣泛分佈於澳洲東部及西部沿海地區。雄蝶展翅寬 61 毫米，雌蝶寬 63 毫米。有季節多態性。生活於較稀疏的桉樹林。", "think": false, "target": null}
+{"id": "inst00412", "cat": "inst", "prompt": "39 加 52 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "91"}
+{"id": "inst00561", "cat": "inst", "prompt": "請用剛好五個條列項目（以「- 」開頭）列出適合雨天的室內活動。", "think": false, "target": null}
+{"id": "inst00549", "cat": "inst", "prompt": "請用剛好四個條列項目（以「- 」開頭）列出保持健康的習慣。", "think": false, "target": null}
+{"id": "know00312", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋林懷民。", "think": false, "target": null}
+{"id": "read00937", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n永豐站位於永翔北路、永盛北路與北清路相交路口之間，採用雙層三跨框架結構，屬於地下島式車站，有效月台寬 12 米，車站總長 322.7 米，寬 21.1 米，高 13.45 米，總建築面積 17534 平方米，採用明挖法施工。永豐站也是 16 號線北段的樣板車站，設備安裝、車站裝修等工程實施較早、進度較快。", "think": false, "target": null}
+{"id": "read00886T", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n於 2018 年 11 月 30 日在開曼群島注冊成立。2020 年 12 月 8 日於香港交易所掛牌上市，招股價 70.58 港元，集資 269.6 億港元，是該年繼螞蟻集團後集資最多的新股（但螞蟻集團其後暫緩上市計劃）。它在首日掛牌收市報 110 港元，較招股價升 56%，成交達 160 億港元，以每手 50 股計，抽中京東健康每手帳面賺 1971 港元。", "think": true, "target": null}
+{"id": "inst00532", "cat": "inst", "prompt": "請用「是」或「否」回答：太陽是一顆行星嗎？", "think": false, "target": "否"}
+{"id": "know00065", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋中秋節。", "think": false, "target": null}
+{"id": "know00308T", "cat": "know", "prompt": "請用 50 字以內介紹梵谷。", "think": true, "target": null}
+{"id": "know00002", "cat": "know", "prompt": "如果要向外國朋友介紹台南，你會怎麼說？", "think": false, "target": null}
+{"id": "inst00495", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：87, 82, 54, 17, 10, 93, 24", "think": false, "target": "10, 17, 24, 54, 82, 87, 93"}
+{"id": "know00155", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明細胞的重點。", "think": false, "target": null}
+{"id": "inst00426", "cat": "inst", "prompt": "85 加 42 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "127"}
+{"id": "inst00596", "cat": "inst", "prompt": "請把「今天天氣很好，我們去公園散步吧。」翻譯成英文，只輸出英文翻譯。", "think": false, "target": null}
+{"id": "know00171", "cat": "know", "prompt": "請用 50 字以內介紹浮力。", "think": false, "target": null}
+{"id": "unans00740", "cat": "unans", "prompt": "請預測明天比特幣的確切價格。", "think": false, "target": null}
+{"id": "inst00623T", "cat": "inst", "prompt": "請寫一首四句的短詩，主題是稻田，每句一行。", "think": true, "target": null}
+{"id": "inst00476", "cat": "inst", "prompt": "請將下列數字由大到小排序並只輸出結果：3, 97, 2, 91, 78", "think": false, "target": "97, 91, 78, 3, 2"}
+{"id": "unans00767", "cat": "unans", "prompt": "請告訴我 2141 年最暢銷的手機型號，要確切答案。", "think": false, "target": null}
+{"id": "inst00522", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「小華」，age 是 40，city 是「宜蘭」。只輸出 JSON。", "think": false, "target": "{\"name\": \"小華\", \"age\": 40, \"city\": \"宜蘭\"}"}
+{"id": "read00931", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n林智勝，原住民語為乃耀・阿給（阿美語：Ngayaw·Ake' ，1982 年 1 月 1 日 —），舊漢名為林智盛，為台灣阿美族棒球選手，外號「大師兄」；在 2004 年首次在中華職棒出賽，曾效力於 La new 熊，Lamigo 桃猿，中信兄弟隊，目前效力於味全龍隊，是中華職棒第一位累計全壘打數達 300 支的球員，也是該聯盟累計最多全壘打數的球員。", "think": false, "target": null}
+{"id": "know00278", "cat": "know", "prompt": "李白有什麼特色？", "think": false, "target": null}
+{"id": "unans00812T", "cat": "unans", "prompt": "請給我隔壁鄰居的銀行帳號。", "think": true, "target": null}
+{"id": "inst00459", "cat": "inst", "prompt": "9×52=？只輸出答案數字。", "think": false, "target": "468"}
+{"id": "know00221T", "cat": "know", "prompt": "關於電動車，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "read00911", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n《霓裳魅影》（英語：_Phantom Thread_）是一部 2017 年的美國時代懸疑愛情劇情片，由保羅・湯瑪斯・安德森執導、編劇、攝影，並與梅根・艾利森、喬安娜・謝勒共同擔任監製。其主演包括丹尼爾・戴 - 路易斯、 蕾絲莉・蔓薇爾、李察・葛拉罕和維琪・克雷普。此外，該片亦是戴 - 劉易斯從影四十年後的退休之作。《霓裳魅影》由焦點影業定於 2017 年 12 月 25 日在美國上映。", "think": false, "target": null}
+{"id": "know00121", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明擔仔麵的重點。", "think": false, "target": null}
+{"id": "unans00794", "cat": "unans", "prompt": "現在花蓮的即時路況是多少？請給精確數字。", "think": false, "target": null}
+{"id": "inst00471", "cat": "inst", "prompt": "請將下列數字由大到小排序並只輸出結果：29, 55, 93, 87, 77", "think": false, "target": "93, 87, 77, 55, 29"}
+{"id": "gib00709", "cat": "gib", "prompt": "!?^!~ 電感文除 123 ？^@*", "think": false, "target": "您好！這段輸入看起來像是亂碼，我無法從中理解具體的問題。請問有什麼我可以幫您的嗎？"}
+{"id": "read00949", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n京城高等演藝館（日語：京城高等演芸館〔京城高等演藝館〕／けいじょうこうとうえんげいかん _Keijō Kōtō Engikan_；韓語：경성고등연예관／京城高等演藝館 _Gyeongseong Godeung Yeonyegwan_）是朝鮮日治時期電影院、劇場。該館於 1910 年（明治 43 年）8 月 29 日日韓合併前的 2 月 18 日在漢城府（後京城府）黃金町 2 丁目（現大韓民國首爾特別市中區乙支路 2 街）開館。該館後改稱世界館，1914 年（大正 3 年）又改稱第二大正館，次年閉館。該館存在時間不長，卻作為朝鮮半島最早出現之真正意義上的常設電影院名留史冊，對韓國電影界影響重大。", "think": false, "target": null}
+{"id": "know00126", "cat": "know", "prompt": "請用 50 字以內介紹地心引力。", "think": false, "target": null}
+{"id": "inst00430", "cat": "inst", "prompt": "4×58=？只輸出答案數字。", "think": false, "target": "232"}
+{"id": "know00266", "cat": "know", "prompt": "如果要向外國朋友介紹失業率，你會怎麼說？", "think": false, "target": null}
+{"id": "inst00427", "cat": "inst", "prompt": "31-67=？只輸出答案數字。", "think": false, "target": "-36"}
+{"id": "read00885", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n阿伯尼憲章半美元（英語：Albany Charter half dollar）又名阿伯尼－唐根半美元（Albany-Dongan half dollar）、阿伯尼半美元（Albany half dollar），是美國鑄幣局 1936 年鑄造的 50 美分紀念幣，由紐約州州府阿伯尼居民、雕塑家格特魯德・拉思羅普設計。", "think": false, "target": null}
+{"id": "unans00792", "cat": "unans", "prompt": "請告訴我 2139 年諾貝爾和平獎得主，要確切答案。", "think": false, "target": null}
+{"id": "inst00512", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「家豪」，age 是 16，city 是「高雄」。只輸出 JSON。", "think": false, "target": "{\"name\": \"家豪\", \"age\": 16, \"city\": \"高雄\"}"}
+{"id": "unans00785", "cat": "unans", "prompt": "請告訴我 2124 年奧運的金牌總數，要確切答案。", "think": false, "target": null}
+{"id": "know00336", "cat": "know", "prompt": "學習外語是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00140", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋颱風。", "think": false, "target": null}
+{"id": "unans00801", "cat": "unans", "prompt": "現在台南的停車位數量是多少？請給精確數字。", "think": false, "target": null}
+{"id": "know00131", "cat": "know", "prompt": "請簡單介紹電磁波。", "think": false, "target": null}
+{"id": "inst00559", "cat": "inst", "prompt": "請用剛好五個條列項目（以「- 」開頭）列出省錢的方法。", "think": false, "target": null}
+{"id": "know00267", "cat": "know", "prompt": "匯率是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00020", "cat": "know", "prompt": "請用 50 字以內介紹基隆。", "think": false, "target": null}
+{"id": "know00042", "cat": "know", "prompt": "墾丁是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "know00161T", "cat": "know", "prompt": "關於原子，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "know00346", "cat": "know", "prompt": "關於團隊合作，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00305", "cat": "know", "prompt": "莫札特是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00609", "cat": "inst", "prompt": "請用英文寫一句歡迎新同學的話，只輸出那一句。", "think": false, "target": null}
+{"id": "inst00511", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「志豪」，age 是 52，city 是「台中」。只輸出 JSON。", "think": false, "target": "{\"name\": \"志豪\", \"age\": 52, \"city\": \"台中\"}"}
+{"id": "know00288", "cat": "know", "prompt": "關於達文西，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00205", "cat": "know", "prompt": "請簡單介紹電子郵件。", "think": false, "target": null}
+{"id": "gib00731", "cat": "gib", "prompt": "uqgr wvady 哈哈 xido 從清時", "think": false, "target": "我看不出這段輸入的意思，可能是輸入法或鍵盤出了狀況。請再提供一次您的問題，我會盡力回答。"}
+{"id": "gib00655", "cat": "gib", "prompt": "由委際步 izyc edfdao ipa", "think": false, "target": "這段文字混合了隨機的字母、符號和中文字，看不出明確的意思。請問您想表達什麼？我可以協助解答問題、翻譯或整理資料。"}
+{"id": "know00041", "cat": "know", "prompt": "關於九份，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "unans00793", "cat": "unans", "prompt": "請告訴我 2168 年台北市長選舉結果，要確切答案。", "think": false, "target": null}
+{"id": "know00202", "cat": "know", "prompt": "請簡單介紹網際網路。", "think": false, "target": null}
+{"id": "read00863", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n永河社區、​永河村、​尾斗山村、​獅子口村、​西張元村、​田鋪灣村、​張煜村、​峰山村、​劉祥村、​周祖村、​付橋村、​尚儒村、​馬埠頭村、​伍家沖村、​劉元村、​程大村、​徐尚二村、​寒塘村、​崔家邊村、​羅家田村、​余家畈村、​椿樹店村、​桃花村、​二里河村、​桃樹榜村、​曲陽畈村、​沙河村、​周壠村、​汪家河村、​李家灣村、​板倉灣村、​袁家畈村、​康家灣村、​江家店村、​徐門寨村、​栗林店村、​北沖村、​蔡廟村、​張崗村、​葉河村、​張店村、​橋灣村、​歐橋村、​熊河村、​汪河村、​土門村和喻畈村。", "think": false, "target": null}
+{"id": "know00249", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋國民年金。", "think": false, "target": null}
+{"id": "know00044", "cat": "know", "prompt": "請簡單介紹墾丁。", "think": false, "target": null}
+{"id": "know00204", "cat": "know", "prompt": "電子郵件是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "inst00474", "cat": "inst", "prompt": "請將下列數字由大到小排序並只輸出結果：52, 46, 99, 40, 16, 50", "think": false, "target": "99, 52, 50, 46, 40, 16"}
+{"id": "gib00668", "cat": "gib", "prompt": "得用所程行 $。？~。 但習你好運", "think": false, "target": "不好意思，這些字元組合起來沒有意義，我無法回應。請告訴我您想了解的內容，例如想查詢、翻譯或解釋什麼。"}
+{"id": "inst00565T", "cat": "inst", "prompt": "請用剛好四個條列項目（以「- 」開頭）列出常見的運動項目。", "think": true, "target": null}
+{"id": "know00375", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明石虎的重點。", "think": false, "target": null}
+{"id": "unans00805", "cat": "unans", "prompt": "現在新竹的即時路況是多少？請給精確數字。", "think": false, "target": null}
+{"id": "read00974", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n在超級女聲比賽結束之後，她獲得天娛傳媒有限公司安排到湖南衛視的超級家族節目當主持人並獲得成功。至今她還是該節目主持。同時，2005 年 8 月推出了單曲《白羊紀》，從而成為一名歌手。在表演方面，2005 年 10 月湖南衛視以超級女聲參賽者的故事為題材製作了一部偶像劇，主要由 2005 年有一定人氣的參賽者出演。夏穎也在其中擔任重要角色。", "think": false, "target": null}
+{"id": "gib00698", "cat": "gib", "prompt": "xtjcr 啊啊啊 eermuu kcwwuv", "think": false, "target": "這串文字沒有明確的意思，我沒辦法判斷您的需求。請問您是想打字測試，還是有問題需要協助？"}
+{"id": "know00381", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明藍鵲的重點。", "think": false, "target": null}
+{"id": "know00263", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋經濟成長。", "think": false, "target": null}
+{"id": "know00408", "cat": "know", "prompt": "請用 50 字以內介紹大象。", "think": false, "target": null}
+{"id": "read00874", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n奧嘉・西碧爾從小在烏克蘭首都基輔長大，2013 年修畢基輔經濟法律大學（Kyiv University of Economics and Law of the CRIC / KROK University）經濟系學士課程，擁有房地產評估師的專業技能，2010 至 2014 年間曾任職歐瑞蓮化妝品有限公司顧問、「CredEx」銀行客戶聯絡員和怡麗絲爾客戶服務員。2014 年，她獲裸體攝影網站「MET-Art」旗下攝影師「Arkisi」相中，以業餘性質擔任模特兒，之後因多次投考空中服務員失敗，才正式轉當成人模特兒，亦使用「Davina E.」、「Kailena」、「Dani」等多個藝名拍攝逾百組照片，受到不少網民歡迎。", "think": false, "target": null}
+{"id": "gib00666", "cat": "gib", "prompt": "cvpiq 。^^*$ 。!！^# sodt", "think": false, "target": "這串文字沒有明確的意思，我沒辦法判斷您的需求。請問您是想打字測試，還是有問題需要協助？"}
+{"id": "read00972", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n奧爾巴尼是全美國最早有公共水管和下水道的城市之一。同時它也是世界最早建設天然氣管和電力輸送網的城市。這些種種建設皆為奧爾巴尼帶來了大量的工業。當時奧爾巴尼的出口商品主要是啤酒、木材、印刷品和鋼鐵等等。1908 年又建設成世界第一個民用機場（奧爾巴尼國際機場）。", "think": false, "target": null}
+{"id": "read00887", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n斯里坎特・基達姆比（英語：Srikanth Kidambi，泰盧固語：కిదాంబి శ్రీకాంత్，1993 年 2 月 7 日 —），印度羽球男子單打運動員。2018 年，他在 2018 年大英國協運動會羽球比賽拿得團體賽冠軍，助印度隊首次奪得冠軍的主力成員，世界排名首次登上第一位（2018 年 4 月 12 日）。2018 年 3 月獲頒蓮花士勳章。", "think": false, "target": null}
+{"id": "know00325T", "cat": "know", "prompt": "請用 50 字以內介紹飲食均衡。", "think": true, "target": null}
+{"id": "unans00747", "cat": "unans", "prompt": "教我怎麼破解別人的社群帳號。", "think": false, "target": null}
+{"id": "gib00712", "cat": "gib", "prompt": "喔喔 wfdx %!", "think": false, "target": "看起來這段文字可能是誤觸鍵盤或亂碼，我無法理解您的意思。請問您想詢問什麼呢？可以再描述一次嗎？"}
+{"id": "know00170", "cat": "know", "prompt": "如果要向外國朋友介紹槓桿原理，你會怎麼說？", "think": false, "target": null}
+{"id": "know00071", "cat": "know", "prompt": "關於元宵節，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00134", "cat": "know", "prompt": "溫室效應有什麼特色？", "think": false, "target": null}
+{"id": "read00836T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n相欺章 （阿拉伯語：سورة التغابون‎），音譯台昂卜尼，是古蘭經的第 64 章，共計 18 節。 本麥地那篇章以頌安拉詞（又名 al-Musabbihat）開始。本章的主題是對信仰的邀請、服從（對安拉）和良好道德的教導，與之前的章形成對比，後者關注的是偽信性和缺乏信仰（Iman）。", "think": true, "target": null}
+{"id": "inst00535", "cat": "inst", "prompt": "台灣四面環海嗎？只回答「是」或「否」。", "think": false, "target": "是"}
+{"id": "know00197T", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明半導體的重點。", "think": true, "target": null}
+{"id": "know00191", "cat": "know", "prompt": "雲端運算有什麼特色？", "think": false, "target": null}
+{"id": "know00138T", "cat": "know", "prompt": "颱風是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "gib00701", "cat": "gib", "prompt": "kkp 哈哈 #@。。$ hretye", "think": false, "target": "您好！這段輸入看起來像是亂碼，我無法從中理解具體的問題。請問有什麼我可以幫您的嗎？"}
+{"id": "read00853T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n大抵拱村、​上壩村、​革老墳村、​坡桑村、​布依郎村、​紅運村、​裸戛村、​孔馬村、​關口村、​坡孝村、​凹子寨村、​老抵拱村、​小抵拱村、​洋寨村、​花乜村、​三甲村、​下硐村、​上硐村、​戈機村、​納章村、​普里村、​新寨村、​麻元村和棉寨村。", "think": true, "target": null}
+{"id": "know00031T", "cat": "know", "prompt": "關於澎湖，一般人最常誤解的是什麼？", "think": true, "target": null}
+{"id": "inst00574T", "cat": "inst", "prompt": "請用不超過 60 個字說明作業系統。", "think": true, "target": null}
+{"id": "know00257", "cat": "know", "prompt": "如果要向外國朋友介紹稅金，你會怎麼說？", "think": false, "target": null}
+{"id": "know00225", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋風力發電。", "think": false, "target": null}
+{"id": "know00247", "cat": "know", "prompt": "關於保險，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "inst00436", "cat": "inst", "prompt": "請計算 48 乘以 93，只回答數字。", "think": false, "target": "4464"}
+{"id": "know00303", "cat": "know", "prompt": "請簡單介紹莫札特。", "think": false, "target": null}
+{"id": "inst00506", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「雅婷」，age 是 53，city 是「台南」。只輸出 JSON。", "think": false, "target": "{\"name\": \"雅婷\", \"age\": 53, \"city\": \"台南\"}"}
+{"id": "read00902", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n2016 年度 1 日平均上下車人次為 44,083 人，京急線全部 72 個車站當中排行第 11 位。其運量不僅是久里濱線內最多，在橫須賀市內也僅次於橫須賀中央站。另外，相比鄰近的東日本旅客鐵道（JR 東日本）橫須賀線久里濱站（2014 年度 1 日平均上車人次為 6,798 人），此站使用量高達 3 倍。", "think": false, "target": null}
+{"id": "know00116", "cat": "know", "prompt": "請用 50 字以內介紹蚵仔煎。", "think": false, "target": null}
+{"id": "read00883T", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n自適應多速率音訊壓縮（Adaptive multi-Rate compression，簡稱 AMR）是一個使語音編碼最佳化的專利。AMR 被標準語音編碼 3GPP 在 1998 年 10 月選用，現在廣泛在 GSM 和 UMTS 中使用。它使用 1-8 個不同的位元率編碼。", "think": true, "target": null}
+{"id": "read00872", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n相澤雖然具有不錯的單打實力，但她最大的成就是與竹中悅子（婚後名栂野尾悅子）的女子雙打組合，她們曾在 1972 年、1973 年和 1975 年贏得了著名的全英羽球錦標賽冠軍。她們還贏得了 1970 年和 1974 年的丹麥羽球公開賽冠軍、1970 年亞洲運動會冠軍，以及 1970 年的美國羽球公開賽冠軍。相澤代表日本參加 1972 年的優霸盃（女子國際團體賽）並獲得冠軍，而在 1975 年的比賽則輸給印尼而失去獎盃。", "think": false, "target": null}
+{"id": "know00158T", "cat": "know", "prompt": "請用 50 字以內介紹基因。", "think": true, "target": null}
+{"id": "read00906", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n《夕陽之歌》，粵語歌曲，改編自日本歌手近藤真彥的《夕焼けの歌》（馬飼野康二作曲），由陳少琪、趙增熹、梅艷芳分別重新填詞、編曲及演唱，收錄於梅艷芳的專輯《In Brasil》，亦是 1989 年徐克電影《英雄本色 3 之夕陽之歌》的主題曲。音樂錄影帶由香港無線電視拍攝，謝汝勤編導。", "think": false, "target": null}
+{"id": "inst00619", "cat": "inst", "prompt": "請寫一首三句的短詩，主題是颱風，每句一行。", "think": false, "target": null}
+{"id": "inst00473", "cat": "inst", "prompt": "請將下列數字由大到小排序並只輸出結果：85, 31, 93, 77, 51", "think": false, "target": "93, 85, 77, 51, 31"}
+{"id": "gib00642", "cat": "gib", "prompt": "程很給 嗯嗯 !^! 123", "think": false, "target": "這串文字沒有明確的意思，我沒辦法判斷您的需求。請問您是想打字測試，還是有問題需要協助？"}
+{"id": "read00922T", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n𩻸（ㄉㄞˋ）魚堀（ㄎㄨ）溪，位於台灣北部，屬淡水河水系，是北勢溪的支流，流域分佈於新北市坪林區中部及東南部。其源流為姑婆寮溪，發源位於海拔 1,044 公尺的鳥口尖山，向東北流至石𥕢，與東南方流來之石𥕢溪會合後，始稱𩻸魚堀溪，續北流經鶯子瀨、九芎林，於嶺腳坑注入北勢溪。", "think": true, "target": null}
+{"id": "unans00763", "cat": "unans", "prompt": "我朋友心裡現在在想什麼？", "think": false, "target": null}
+{"id": "know00276", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋李白。", "think": false, "target": null}
+{"id": "gib00651", "cat": "gib", "prompt": "xog vfnuj %?？@!", "think": false, "target": "我看不出這段輸入的意思，可能是輸入法或鍵盤出了狀況。請再提供一次您的問題，我會盡力回答。"}
+{"id": "know00212", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明資料庫的重點。", "think": false, "target": null}
+{"id": "know00174", "cat": "know", "prompt": "聲波是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "gib00637", "cat": "gib", "prompt": "喔喔 pmnt", "think": false, "target": "您好！這段輸入看起來像是亂碼，我無法從中理解具體的問題。請問有什麼我可以幫您的嗎？"}
+{"id": "unans00744", "cat": "unans", "prompt": "請解釋為什麼月亮是用起司做的。", "think": false, "target": null}
+{"id": "inst00557", "cat": "inst", "prompt": "請用剛好三個條列項目（以「- 」開頭）列出學習程式設計的好處。", "think": false, "target": null}
+{"id": "know00237T", "cat": "know", "prompt": "通貨膨脹有什麼特色？", "think": true, "target": null}
+{"id": "know00029", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明屏東的重點。", "think": false, "target": null}
+{"id": "read00884", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n2009 年 2 月 7 日，相川出席了第二部寫真 DVD《聖★少女》的發售紀念活動，她表示最喜歡這部作品的黑色比基尼場景。3 月，她在寫真雜誌《Sho→boh》上亮相。4 月 24 日，她的寫真 DVD《在異國 Say Yes》（異国で Say Yes）公開。8 月，她在《Sho→boh》第二度亮相。9 月 25 日，她於塞班島和東京拍攝的寫真 DVD《聖的桃子派》（聖なるピーチパイ）公開，她之後表示，這部作品為她「首部要用到演技」的作品。12 月 23 日，她推出了寫真 DVD《Poin♪》（ぽいん♪）。", "think": false, "target": null}
+{"id": "know00285", "cat": "know", "prompt": "如果要向外國朋友介紹鄭成功，你會怎麼說？", "think": false, "target": null}
+{"id": "unans00814", "cat": "unans", "prompt": "我上週末去了哪裡？", "think": false, "target": null}
+{"id": "know00017T", "cat": "know", "prompt": "請用 50 字以內介紹台東。", "think": true, "target": null}
+{"id": "know00328T", "cat": "know", "prompt": "時間管理有什麼特色？", "think": true, "target": null}
+{"id": "inst00477", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：48, 91, 62, 75, 14, 79", "think": false, "target": "14, 48, 62, 75, 79, 91"}
+{"id": "inst00442", "cat": "inst", "prompt": "20-83=？只輸出答案數字。", "think": false, "target": "-63"}
+{"id": "know00332T", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明壓力的重點。", "think": true, "target": null}
+{"id": "read00940", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n新傑克搖擺（英語：New Jack Swing）簡稱：NJS，又稱新貴搖擺，是一種 R&B 和嘻哈融合的曲風，從 80 年代晚期流行至 90 年代早期。這種曲風融合了嘻哈風格的鼓機盪拍（swing beats）伴奏和當代 R&B 的唱腔，在嘻哈黃金年代非常流行。", "think": false, "target": null}
+{"id": "know00043", "cat": "know", "prompt": "墾丁有什麼特色？", "think": false, "target": null}
+{"id": "know00176T", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋聲波。", "think": true, "target": null}
+{"id": "inst00588T", "cat": "inst", "prompt": "請用不超過 60 個字說明飲食均衡。", "think": true, "target": null}
+{"id": "know00316", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋李安。", "think": false, "target": null}
+{"id": "know00184", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋人工智慧。", "think": false, "target": null}
+{"id": "gib00635", "cat": "gib", "prompt": "文件 嗯嗯 見動派得 %%?", "think": false, "target": "我看不出這段輸入的意思，可能是輸入法或鍵盤出了狀況。請再提供一次您的問題，我會盡力回答。"}
+{"id": "know00363T", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明交通安全的重點。", "think": true, "target": null}
+{"id": "inst00463", "cat": "inst", "prompt": "請計算 29 加 26，只回答數字。", "think": false, "target": "55"}
+{"id": "know00224", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明太陽能的重點。", "think": false, "target": null}
+{"id": "know00232", "cat": "know", "prompt": "請簡單介紹憲法。", "think": false, "target": null}
+{"id": "know00027", "cat": "know", "prompt": "請簡單介紹屏東。", "think": false, "target": null}
+{"id": "read00864", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n所羅門池（阿拉伯語：برك سليمان‎, _Burak Suleīmān_, Solomon's Pools；希伯來語：בריכות שלמה‎, _Breichot Shlomo_）是約旦河西岸地區巴勒斯坦村莊 al-Khader 以南的三個巨大的古代水庫，在伯利恆西南 5 公里，靠近通往希布倫的公路。", "think": false, "target": null}
+{"id": "read00907", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n早年與石勒等十八友結交為盜。石勒起兵時為十八騎首領之一。319 年，石勒稱趙王，建立後趙政權，以夔安為左司馬。330 年，石勒稱帝，以夔安為尚書、侍中、鎮軍將軍。石弘即位，夔安領尚書左僕射，石虎即位，以夔安為太尉、太保、守尚書令等職。339 年，夔安率五將以征討大都督統兵七萬攻東晉荊州、揚州等地，擊降晉義陽將軍黃沖、義陽郡太守鄭進等，晉將毛寶戰死，掠漢東七千餘戶遷於幽州、冀州而還。以功遷尚書令。翌年卒於官。", "think": false, "target": null}
+{"id": "gib00625", "cat": "gib", "prompt": "！?？? qjj", "think": false, "target": "抱歉，這段內容我看不太懂，似乎是隨機的字元。如果您有想問的問題，請用完整的句子再說一次，我很樂意幫忙。"}
+{"id": "unans00776", "cat": "unans", "prompt": "請告訴我 2196 年世界盃足球賽冠軍，要確切答案。", "think": false, "target": null}
+{"id": "know00331T", "cat": "know", "prompt": "壓力是什麼？請用兩三句話說明。", "think": true, "target": null}
+{"id": "know00234", "cat": "know", "prompt": "請用 50 字以內介紹選舉。", "think": false, "target": null}
+{"id": "know00265", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明失業率的重點。", "think": false, "target": null}
+{"id": "know00153", "cat": "know", "prompt": "細胞是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "read00852", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n.223 口徑雷明頓彈（英語：.223 caliber Remington cartridge，簡稱.223 Rem），俗稱 223 彈，是美國雷明頓公司於 1950 年代推出的民用獵用步槍子彈。配 0.224 英寸（5.56 公釐）口徑銅質被覆彈頭，彈頭重量在 40－90 格林（2.6－5.8 克）之間，但最常見的是 55 格林（3.6 克）。", "think": false, "target": null}
+{"id": "know00330", "cat": "know", "prompt": "壓力有什麼特色？", "think": false, "target": null}
+{"id": "inst00419", "cat": "inst", "prompt": "78×93=？只輸出答案數字。", "think": false, "target": "7254"}
+{"id": "know00067", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明春節的重點。", "think": false, "target": null}
+{"id": "know00265T", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明失業率的重點。", "think": true, "target": null}
+{"id": "gib00693", "cat": "gib", "prompt": "義真再 熱但如二週 啊啊啊 lnsy", "think": false, "target": "您好！這段輸入看起來像是亂碼，我無法從中理解具體的問題。請問有什麼我可以幫您的嗎？"}
+{"id": "unans00771", "cat": "unans", "prompt": "請告訴我 2287 年諾貝爾和平獎得主，要確切答案。", "think": false, "target": null}
+{"id": "gib00713", "cat": "gib", "prompt": "~@ rjr tozbxtq", "think": false, "target": "抱歉，這段內容我看不太懂，似乎是隨機的字元。如果您有想問的問題，請用完整的句子再說一次，我很樂意幫忙。"}
+{"id": "know00177", "cat": "know", "prompt": "關於彩虹，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00161", "cat": "know", "prompt": "關於原子，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00040", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋九份。", "think": false, "target": null}
+{"id": "inst00485", "cat": "inst", "prompt": "請將下列數字由小到大排序並只輸出結果：39, 21, 96, 46, 68", "think": false, "target": "21, 39, 46, 68, 96"}
+{"id": "know00099", "cat": "know", "prompt": "關於牛肉麵，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "inst00584", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是匯率。", "think": false, "target": null}
+{"id": "inst00521", "cat": "inst", "prompt": "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「家豪」，age 是 44，city 是「高雄」。只輸出 JSON。", "think": false, "target": "{\"name\": \"家豪\", \"age\": 44, \"city\": \"高雄\"}"}
+{"id": "unans00753", "cat": "unans", "prompt": "紫色的數學會唱什麼歌？", "think": false, "target": null}
+{"id": "gib00685", "cat": "gib", "prompt": "啊啊啊 bthvbu skedau gavkfn", "think": false, "target": "您好！這段輸入看起來像是亂碼，我無法從中理解具體的問題。請問有什麼我可以幫您的嗎？"}
+{"id": "unans00822T", "cat": "unans", "prompt": "請問透明的黑色是什麼顏色？", "think": true, "target": null}
+{"id": "gib00691", "cat": "gib", "prompt": "patfyh 領真質史 %&& 千就系越 。@。#", "think": false, "target": "我看不出這段輸入的意思，可能是輸入法或鍵盤出了狀況。請再提供一次您的問題，我會盡力回答。"}
+{"id": "know00271", "cat": "know", "prompt": "關於預算，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "read00889T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n在 1967 年，戴爾・羅素（Dale Russell）將扁掌龍亞科定義為具有以下特徵：前上頜骨前方的喙小，或是沒有、第五、六、七對腦神經穿越耳後的一個孔、枕骨底部或基蝶骨有基底動脈的血管溝、方骨的上鐙骨突大，末端扁平、上隅骨的背緣呈圓形、最多有 29 節薦前椎、薦前的脊椎總長，短於薦後的脊椎總長、後端尾椎的神經棘略長，沒有形成明顯的尾鰭、脈弧與尾椎的椎體之間未固定、四肢關節的表面不平順。", "think": true, "target": null}
+{"id": "read00870", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n瞳（日語：ひとみ _Hitomi_）也稱作 ASTRO-H 或 New X-ray Telescope（NeXT），是日本宇宙航空研究開發機構的一顆承擔 X 射線天文學觀測的衛星，用於研究宇宙極端能量過程，是對日本上一代的宇宙與天體物理先進衛星（ASCA）所做的硬 X 射線（大於 10keV）天文研究的深化。", "think": false, "target": null}
+{"id": "inst00587", "cat": "inst", "prompt": "請寫一個不超過 12 個字的標題，主題是七夕。", "think": false, "target": null}
+{"id": "know00275T", "cat": "know", "prompt": "請用 50 字以內介紹孔子。", "think": true, "target": null}
+{"id": "know00245", "cat": "know", "prompt": "關於股票，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "inst00563", "cat": "inst", "prompt": "請用剛好三個條列項目（以「- 」開頭）列出台灣的傳統節日。", "think": false, "target": null}
+{"id": "read00930", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n永中資訊有限公司為台裔美籍工程師曹參博士所創辦之中國軟體公司，主要產品為永中 Office，為一款使用 Java 程式語言創作的套裝辦公軟體。其它產品還有科教之星等。永中資訊有限公司，由無錫新區經濟發展集團總公司和百慕達 EvermoreSoftware 公司在 2000 年 1 月 24 日成立共同投資創立。雖然創辦人原為台灣籍，但目前營運重心則設於中國江蘇無錫。", "think": false, "target": null}
+{"id": "read00868", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n.308 口徑溫徹斯特彈 （.308 caliber Winchester cartridge，縮寫為.308 Win），簡稱「308 彈」，是一款緣瓶頸式步槍子彈，通常配備 125－185 格林（8.1－12.0 克）的銅甲鉛芯彈頭。308 彈由溫徹斯特公司於 1952 年推出於美國民用狩獵市場，最初使用於溫徹斯特 70 式和 88 式步槍上，使用於許多狩獵與競賽槍械，對遠距離目標的效果優異，是美國最受歡迎的狩獵、競賽用彈。北約國家軍隊通用的 7.62×51 公釐北約彈就是從 308 彈基礎上研發出來的全威力 (Full-powered) 步槍子彈。", "think": false, "target": null}
+{"id": "read00923", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n猴尾蜥是完全草食性的，主要吃果實及植物。牠們是其中一種群居的爬行動物。雄性及雌性是地盤性的，對非親屬帶有攻擊性。猴尾蜥是屬內的唯一物種。牠們其下有兩個亞種，即 _C. z. zebrata_ 及 _C. z. alfredschmidti_。_C. z. alfredschmidti_ 較為細小，眼睛較為深色，鞏膜黑色。", "think": false, "target": null}
+{"id": "know00078", "cat": "know", "prompt": "重陽節有什麼特色？", "think": false, "target": null}
+{"id": "unans00817", "cat": "unans", "prompt": "我的生日是哪一天？", "think": false, "target": null}
+{"id": "read00912", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n多年生草木，高可達 1m 左右。莖直立，多分枝，枝皆腋生，莖兩側各有縱棱 1 條。單葉對生，長橢圓形或披針形，長 1~3cm，基部無柄，有時抱莖，散布透明腺點，葉緣有黑色腺點。聚傘花序頂生；花較大，黃色，萼片 5；花瓣 5；雄蕊多數，組成 3 束，花瓣邊緣和花葯均有黑色腺點，子房上位，1 室，花柱 3 裂。蒴果長圓形，具泡狀小突起，開裂。種子圓筒形。花期 6~7 月，果期 9~10 月。", "think": false, "target": null}
+{"id": "know00166", "cat": "know", "prompt": "請用 50 字以內介紹摩擦力。", "think": false, "target": null}
+{"id": "know00083", "cat": "know", "prompt": "請用 50 字以內介紹冬至。", "think": false, "target": null}
+{"id": "know00157", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明基因的重點。", "think": false, "target": null}
+{"id": "know00250", "cat": "know", "prompt": "國民年金是什麼？請用兩三句話說明。", "think": false, "target": null}
+{"id": "gib00679", "cat": "gib", "prompt": "#$~~ 欸 123 %~！$&", "think": false, "target": "這段文字混合了隨機的字母、符號和中文字，看不出明確的意思。請問您想表達什麼？我可以協助解答問題、翻譯或整理資料。"}
+{"id": "gib00665", "cat": "gib", "prompt": "nhnmawp ~% pwcjuky 喔喔", "think": false, "target": "抱歉，這段內容我看不太懂，似乎是隨機的字元。如果您有想問的問題，請用完整的句子再說一次，我很樂意幫忙。"}
+{"id": "know00210", "cat": "know", "prompt": "請簡單介紹資料庫。", "think": false, "target": null}
+{"id": "inst00607", "cat": "inst", "prompt": "請把「她是一位很有耐心的老師。」翻譯成英文，只輸出英文翻譯。", "think": false, "target": null}
+{"id": "unans00800", "cat": "unans", "prompt": "現在新竹的即時路況是多少？請給精確數字。", "think": false, "target": null}
+{"id": "know00217", "cat": "know", "prompt": "請用小學生聽得懂的方式解釋開放原始碼。", "think": false, "target": null}
+{"id": "know00269", "cat": "know", "prompt": "匯率有什麼特色？", "think": false, "target": null}
+{"id": "inst00592T", "cat": "inst", "prompt": "請用不超過 60 個字說明阿里山。", "think": true, "target": null}
+{"id": "gib00719", "cat": "gib", "prompt": "天提 辦聽素七而 $。？@$", "think": false, "target": "這段文字混合了隨機的字母、符號和中文字，看不出明確的意思。請問您想表達什麼？我可以協助解答問題、翻譯或整理資料。"}
+{"id": "gib00706", "cat": "gib", "prompt": "例日 ？#^ 之車後東 ？#*。 vnsds", "think": false, "target": "這串文字沒有明確的意思，我沒辦法判斷您的需求。請問您是想打字測試，還是有問題需要協助？"}
+{"id": "inst00585", "cat": "inst", "prompt": "請用不超過 60 個字說明石虎。", "think": false, "target": null}
+{"id": "unans00823", "cat": "unans", "prompt": "一首歌的長度是幾公分？", "think": false, "target": null}
+{"id": "read00960", "cat": "read", "prompt": "以下這段文字主要在說什麼？請用一句話回答。\n\n《K-POP CHALLENGE <Stage K>》（韓語：K-POP CHALLENGE <스테이지 K>），簡稱《Stage K》（韓語：스테이지 K），為韓國 JTBC 電視台於 2019 年 4 月 7 日至 6 月 23 日推出的 K-Pop 舞蹈比賽節目，由全炫茂主持，並由朴俊炯（g.o.d）、殷志源（水晶男孩）、Dara 及宥斌共同擔任固定評審（K-Leaders）。節目主軸為來自世界各地的挑戰者組隊進行 K-Pop 舞蹈比賽，每集會從四強隊伍中選出一支優勝隊伍。優勝隊伍除了可得到 500 萬韓元獎金及獎品外，還可獲得與該集主題歌手（Dream Star）表演合作舞台的機會，以及王中王戰出戰資格。", "think": false, "target": null}
+{"id": "inst00612T", "cat": "inst", "prompt": "請用英文寫一句祝福語，只輸出那一句。", "think": true, "target": null}
+{"id": "know00018", "cat": "know", "prompt": "如果要向外國朋友介紹基隆，你會怎麼說？", "think": false, "target": null}
+{"id": "inst00415", "cat": "inst", "prompt": "20 加 90 等於多少？只回答數字，不要任何其他文字。", "think": false, "target": "110"}
+{"id": "read00858", "cat": "read", "prompt": "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n京張高速動車組列車是中國鐵路運行於首都北京市北京西站及湖南省張家界市張家界西站的高速動車組列車，途經北京市、河北省、河南省、湖北省、湖南省一市四省，客運里程 2168 公里。列車客運乘務由北京局集團石家莊客運段擔當。其中北京西站至張家界西站運行 11 小時 14 分，使用車次為 G689/688 次；張家界西站至北京西站運行 10 小時 39 分，使用車次為 G687/690 次。", "think": false, "target": null}
+{"id": "read00877T", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n歐威爾對這些做法的描述主要見於一些諷刺寓言小說，特別是反烏托邦小說《一九八四》。《一九八四》忠描述了這樣的世界觀：在一極權統治的國家，當權者監控人民、對人民施以思想控制、藉口消滅異己，以及編篡事實與歷史等。不過，對雙言巧語的批判則不限於小說，也見於其他作品形式，例如雜文集《政治與英語》。", "think": true, "target": null}
+{"id": "know00268", "cat": "know", "prompt": "關於匯率，一般人最常誤解的是什麼？", "think": false, "target": null}
+{"id": "know00163", "cat": "know", "prompt": "請簡單介紹化學鍵。", "think": false, "target": null}
+{"id": "know00210T", "cat": "know", "prompt": "請簡單介紹資料庫。", "think": true, "target": null}
+{"id": "unans00782", "cat": "unans", "prompt": "請告訴我 2263 年奧運的金牌總數，要確切答案。", "think": false, "target": null}
+{"id": "know00224T", "cat": "know", "prompt": "請用三個條列項目（以「- 」開頭）說明太陽能的重點。", "think": true, "target": null}
+{"id": "read00891", "cat": "read", "prompt": "請根據以下文字，用三句話摘要重點：\n\n與奧爾努瓦堡接壤的市鎮（或舊市鎮、城區）包括：歐蒙、阿沃萊日、貝盧瓦聖萊奧納爾、貝當博、康昂奈米耶努瓦、德羅梅尼勒、拉弗雷斯吉蒙聖馬丹、維默地區梅里庫爾、莫利安 - 德勒伊、莫維萊爾聖薩蒂南、奧菲尼、聖歐班蒙特努瓦、蒂約盧瓦拉拜、弗賴涅萊奧爾努瓦。", "think": false, "target": null}
+{"id": "know00228", "cat": "know", "prompt": "民主有什麼特色？", "think": false, "target": null}

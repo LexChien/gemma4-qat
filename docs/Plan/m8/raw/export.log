@@ -1,0 +1,3 @@
+{"ckpt": "out/m8/ckpt/step_000486", "targets": 205, "blocks": 57360384, "blocks_changed_vs_official": 11743439, "levels_changed_vs_official": 44540751, "max_abs_dequant_vs_train": 0.0, "clipped_levels": 1811374, "lossless": true, "size_bytes": 2893390749}
+{"tokens": 23, "max_abs_logit_diff": 0.8125, "max_abs_prob_diff": 0.04175412654876709, "argmax_agree": 1.0}
+2.7G	out/m8/mlx-m8-g32exact

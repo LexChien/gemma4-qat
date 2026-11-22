@@ -1,0 +1,20 @@
+{
+ "dir": "out/m4/smoke-hf",
+ "n": 278,
+ "min_on_grid": 1.0,
+ "mean_on_grid": 1.0,
+ "worst": [
+  [
+   "model.embed_tokens.weight",
+   1.0
+  ],
+  [
+   "model.embed_tokens_per_layer.weight",
+   1.0
+  ],
+  [
+   "model.layers.0.mlp.down_proj.weight",
+   1.0
+  ]
+ ]
+}

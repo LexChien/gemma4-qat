@@ -1,0 +1,1 @@
+{"ckpt": "out/m13/work/ckpt/step_000185", "targets": 205, "blocks": 57360384, "blocks_changed_vs_official": 346987, "levels_changed_vs_official": 884260, "max_abs_dequant_vs_train": 0.0, "clipped_levels": 42193, "lossless": true, "size_bytes": 2893390749}

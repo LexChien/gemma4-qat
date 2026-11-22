@@ -1,0 +1,29 @@
+=== convert it bf16 Sat Oct 17 14:19:08 CST 2026
+[1000/2011] model.vision_tower.encoder.layers.9.mlp.up_proj.output_max () 23s
+[1200/2011] model.vision_tower.encoder.layers.14.mlp.gate_proj.output_max () 23s
+[1400/2011] model.audio_tower.layers.2.feed_forward2.ffw_layer_2.linear.weight (1024, 4096) 24s
+[1600/2011] model.audio_tower.layers.5.lconv1d.linear_end.linear.weight (1024, 1024) 25s
+[1800/2011] model.audio_tower.layers.8.self_attn.k_proj.linear.weight (1024, 1024) 26s
+[2000/2011] model.audio_tower.layers.11.self_attn.post.output_min () 26s
+{"orbax": "weights/orbax/checkpoints/gemma4-e2b-it", "hf_ref": "weights/gemma-4-E2B-it", "dtype": "bf16", "text_only": false, "drop_shared_kv": false, "n_tensors": 2011, "n_params": 5123178979, "orbax_leaves": 1318, "seconds": 28.0} unused: ['embedder.audio_input_embedding_extra', 'embedder.mm_input_embedding_extra']
+       29.18 real        29.44 user        14.16 sys
+         19517882368  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2759294  page reclaims
+                  99  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 928  voluntary context switches
+              191402  involuntary context switches
+        280315915035  instructions retired
+        132456807784  cycles elapsed
+         19468295104  peak memory footprint
+=== compare it Sat Oct 17 14:19:37 CST 2026
+{'n_converted': 2011, 'n_reference': 2011, 'missing_in_converted': 0, 'extra_in_converted': 0, 'shape_mismatch': 0, 'dtype_mismatch': 0, 'value_mismatch': 0, 'exact': 2011, 'pass': True}
+M3_IT_DONE Sat Oct 17 14:19:47 CST 2026

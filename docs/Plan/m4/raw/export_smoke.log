@@ -1,0 +1,30 @@
++ cd /Users/lexchien/Documents/AI/gemma4-qat
++ NAME=smoke
++ ORB=out/m4/smoke_orbax
++ .venv-m0/bin/python tools/convert_jax_to_hf.py --orbax out/m4/smoke_orbax --out out/m4/smoke-hf --hf_ref weights/gemma-4-E2B-it --dtype bf16 --text_only --drop_shared_kv
+[0/540] model.language_model.embed_tokens.weight (262144, 1536) 1s
+[200/540] model.language_model.layers.11.mlp.down_proj.weight (1536, 6144) 5s
+[400/540] model.language_model.layers.25.self_attn.q_proj.weight (2048, 1536) 9s
+{"orbax": "out/m4/smoke_orbax", "hf_ref": "weights/gemma-4-E2B-it", "dtype": "bf16", "text_only": true, "drop_shared_kv": true, "n_tensors": 540, "n_params": 4628569379, "orbax_leaves": 530, "seconds": 13.9} orbax leaves unused: 40 ['layer_15.attn.key_norm.scale', 'layer_15.attn.kv_einsum.w', 'layer_16.attn.key_norm.scale', 'layer_16.attn.kv_einsum.w']
++ rm -rf out/m4/mlx-smoke-q4g64
++ .venv-m0/bin/python -m mlx_lm convert --hf-path out/m4/smoke-hf --mlx-path out/m4/mlx-smoke-q4g64 -q --q-bits 4 --q-group-size 64
+[transformers] The tokenizer you are loading from 'out/m4/smoke-hf' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[INFO] Loading
+[INFO] Quantizing
+[INFO] Quantized model with 4.501 bits per weight.
++ du -sh out/m4/mlx-smoke-q4g64
+2.5G	out/m4/mlx-smoke-q4g64
++ .venv-m0/bin/python docs/Plan/m0/tools/m0_bench_mlx.py m4-smoke-q4g64 out/m4/mlx-smoke-q4g64
+[transformers] The tokenizer you are loading from 'out/m4/mlx-smoke-q4g64' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+{"name": "m4-smoke-q4g64", "path": "out/m4/mlx-smoke-q4g64", "framework": "mlx", "mlx": "0.32.4", "load_lazy_s": 2.2454769169999054, "load_s": 2.246301584000321, "mem_after_load_GB": 2.604104382, "n_params_bytes_GB": 2.603981382, "gen_tokens": 128, "gen_tps": 117.74930483063697, "prompt_tokens": 36, "prompt_tps": 851.3967802650703, "gen_peak_mem_GB": 2.701841149, "ppl_wikitext": 60.31301955737417, "ppl_wikitext_tokens": 40960, "ppl_zh_tw": 120.40498378905528, "ppl_zh_tw_tokens": 20480, "ppl_time_s": 241.79284237499996, "ppl_peak_mem_GB": 5.701093207, "max_rss_GB": 3.816620032}
+<|channel>thought
+Here's a thinking process that leads to the suggested response:
+
+1.  **Analyze the Request:**
+    *   **Topic:** Taiwan (地理、歷史、文化 - Geography, History, and Culture).
+    *   **Length Requirement:** At least five paragraphs (五段).
+    *   **Language:** Traditional Chinese (繁體中文).
+   
++ cp docs/Plan/m0/raw/bench_m4-smoke-q4g64.json docs/Plan/m4/raw/
++ echo EXPORT_DONE
+EXPORT_DONE

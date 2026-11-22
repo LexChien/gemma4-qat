@@ -1,0 +1,11 @@
+patch 0/213 c_embedding changed=2846136/7421952
+patch 25/213 ple_gate_3 changed=21577481/55656448
+patch 50/213 ple_proj_7 changed=23488049/60411904
+patch 75/213 gating_ein_12 changed=25625289/65744896
+patch 100/213 qkv_ein_16 changed=28135716/72036352
+patch 125/213 att_ein_20 changed=31440121/80293888
+patch 150/213 linear_w_24 changed=34945602/89042944
+patch 175/213 ple_gate_28 changed=38131943/97017856
+patch 200/213 ple_proj_32 changed=41373353/105189376
+{"patched_tensors": 213, "blocks_total": 109367296, "blocks_rewritten_vs_converter": 43029197}
+PATCH_DONE

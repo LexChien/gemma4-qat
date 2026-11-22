@@ -1,0 +1,16 @@
+{
+ "model": "weights/gemma-4-E2B-it-qat-mobile-ct",
+ "tag": "offct",
+ "device": "mps",
+ "load_cpu_s": 15.34,
+ "load_s": 19.15,
+ "rss_after_load_GB": 23.335,
+ "param_bytes_GB": 11.036,
+ "ppl_wikitext": 59.55580730191691,
+ "ppl_wikitext_tokens": 40960,
+ "ppl_zh_tw": 61.717241785787344,
+ "ppl_zh_tw_tokens": 20480,
+ "ppl_time_s": 7579.1,
+ "max_rss_GB": 23.335,
+ "mps_driver_peak_GB": 11.059
+}

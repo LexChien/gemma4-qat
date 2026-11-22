@@ -1,0 +1,28 @@
+{
+ "name": "ct-w4a16",
+ "path": "weights/gemma-4-E2B-it-qat-w4a16-ct",
+ "framework": "torch",
+ "torch": "2.14.1",
+ "transformers": "5.20.1",
+ "device": "mps",
+ "load_s": 3.123652375000347,
+ "model_class": "Gemma4ForConditionalGeneration",
+ "mem_after_load_GB": 8.594276352,
+ "param_bytes_GB": 7.51067072,
+ "param_dtypes": [
+  "torch.bfloat16",
+  "torch.int32",
+  "torch.int64"
+ ],
+ "gen_tokens": 8,
+ "gen_tps_incl_prefill": 15.812453767228865,
+ "gen_text": "## 台灣：地理、歷史與",
+ "gen_peak_mem_GB": 11.135188992,
+ "ppl_wikitext": 47.43587924716843,
+ "ppl_wikitext_tokens": 2048,
+ "ppl_zh_tw": 33.678900241703,
+ "ppl_zh_tw_tokens": 2048,
+ "ppl_time_s": 20.52734879200034,
+ "ppl_peak_mem_GB": 16.450076672,
+ "max_rss_GB": 9.049817088
+}

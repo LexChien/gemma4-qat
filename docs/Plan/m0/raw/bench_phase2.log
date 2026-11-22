@@ -1,0 +1,31 @@
+=== CT load attempt (transformers + compressed-tensors) 2026年10月17日 週六 13時48分05秒 CST
+/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m0/tools/m0_run_phase2.sh: line 23: 61817 Segmentation fault: 11  $PY docs/Plan/m0/tools/m0_bench_torch.py ct-mobile weights/gemma-4-E2B-it-qat-mobile-ct --device mps --smoke > $RAW/ct_load_attempt_mobile.log 2>&1
+exit 139
+exit 0
+=== ct-w4a16-dequant-bf16 2026年10月17日 週六 13時48分45秒 CST
+ValueError: Received 1 parameters not in model: 
+lm_head.weight.
+=== ct-mobile-dequant-bf16 2026年10月17日 週六 13時48分48秒 CST
+ValueError: Received 1 parameters not in model: 
+lm_head.weight.
+=== xcheck torch vs mlx (first 4096 tokens) 2026年10月17日 週六 13時48分51秒 CST
+
+台灣位於東亞的太平洋上，形狀呈長條形，地勢崎嶇，擁有豐富的自然景觀。其地理位置使其成為亞熱帶氣候的典型代表，全年溫暖，降雨量適中，這為台灣的農業發展提供了有利的條件。台灣的地理環境極為多元，從崎嶇的山脈（如中央山脈、玉山等）到平坦的沖積平原，再到美麗的海岸線和豐富的海洋資源，
+    *   **Required Content:** Geography (地理), History (歷史), and Culture (文化).
+    *   **Format Requirement:** Detailed introduction (詳細介紹), at least five pa
+=== speed pass 2026年10月17日 週六 13時50分46秒 CST
+    *   **Format Requirement:** Detailed introduction (詳細介紹), at least five pa
+    *   **Format Requirement:** Detailed introduction (詳細介紹), at least five pa
+
+
+2.  **Determine the Structure (The Five Paragraphs):** A go
+2.  **Determine the Structure (The Five Paragraphs):** A go
+  
+  
+    
+    
+
+
+Taiwan's geography, history, and culture are a rich topic. The request requires at least five paragraphs, covering different aspects while remaining comprehensive. I'll aim to structure the content by grouping different elements: geography (island and its features), history (archae
+Taiwan's geography, history, and culture are a rich topic. The request requires at least five paragraphs, covering different aspects while remaining comprehensive. I'll aim to structure the content by grouping different elements: geography (island and its features), history (archae
+PHASE2_DONE 2026年10月17日 週六 13時52分49秒 CST

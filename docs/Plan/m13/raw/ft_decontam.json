@@ -1,0 +1,734 @@
+{
+ "zh_in": 848,
+ "en_in": 128,
+ "dropped": {
+  "prompt_overlap": [
+   [
+    "請將下列數字由小到大排序並只輸出結果：14, 25, 63, 55",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「志豪」，age 是 52，city",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由大到小排序並只輸出結果：29, 55, 93, 87, 77",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「雅婷」，age 是 75，city",
+    "prompt_overlap"
+   ],
+   [
+    "請用三個條列項目（以「- 」開頭）說明國民年金的重點。",
+    "prompt_overlap"
+   ],
+   [
+    "請用英文寫一句祝福語，只輸出那一句。",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「建宏」，age 是 12，city",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由大到小排序並只輸出結果：3, 97, 2, 91, 78",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：43, 47, 12, 22",
+    "prompt_overlap"
+   ],
+   [
+    "請把「我每天早上七點起床。」翻譯成英文，只輸出英文翻譯。",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「淑芬」，age 是 73，city",
+    "prompt_overlap"
+   ],
+   [
+    "請把「我的貓很喜歡睡覺。」翻譯成英文，只輸出英文翻譯。",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「家豪」，age 是 44，city",
+    "prompt_overlap"
+   ],
+   [
+    "請用英文寫一句祝福語，只輸出那一句。",
+    "prompt_overlap"
+   ],
+   [
+    "請用「是」或「否」回答：月亮會自己發光嗎？",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：67, 45, 40, 16",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：81, 10, 8, 43, 45",
+    "prompt_overlap"
+   ],
+   [
+    "請把「她是一位很有耐心的老師。」翻譯成英文，只輸出英文翻譯。",
+    "prompt_overlap"
+   ],
+   [
+    "請把「週末我想去爬山。」翻譯成英文，只輸出英文翻譯。",
+    "prompt_overlap"
+   ],
+   [
+    "請用三個條列項目（以「- 」開頭）說明志工服務的重點。",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「志豪」，age 是 71，city",
+    "prompt_overlap"
+   ],
+   [
+    "請用三個條列項目（以「- 」開頭）說明槓桿原理的重點。",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「阿明」，age 是 8，city ",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「怡君」，age 是 14，city",
+    "prompt_overlap"
+   ],
+   [
+    "請把「這家餐廳的牛肉麵很好吃。」翻譯成英文，只輸出英文翻譯。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：48, 91, 62, 75, 14, 79",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「小華」，age 是 20，city",
+    "prompt_overlap"
+   ],
+   [
+    "請用英文寫一句祝福語，只輸出那一句。",
+    "prompt_overlap"
+   ],
+   [
+    "請用剛好四個條列項目（以「- 」開頭）列出學習程式設計的好處。",
+    "prompt_overlap"
+   ],
+   [
+    "請用剛好五個條列項目（以「- 」開頭）列出適合雨天的室內活動。",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「淑芬」，age 是 48，city",
+    "prompt_overlap"
+   ],
+   [
+    "請用英文寫一句歡迎新同學的話，只輸出那一句。",
+    "prompt_overlap"
+   ],
+   [
+    "請用三個條列項目（以「- 」開頭）說明媽祖遶境的重點。",
+    "prompt_overlap"
+   ],
+   [
+    "請用三個條列項目（以「- 」開頭）說明居禮夫人的重點。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由大到小排序並只輸出結果：52, 46, 99, 40, 16, 50",
+    "prompt_overlap"
+   ],
+   [
+    "請用三個條列項目（以「- 」開頭）說明環境保護的重點。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：36, 78, 72, 86, 20",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「雅婷」，age 是 34，city",
+    "prompt_overlap"
+   ],
+   [
+    "請用「是」或「否」回答：人類需要氧氣才能生存嗎？",
+    "prompt_overlap"
+   ],
+   [
+    "請寫一首三句的短詩，主題是颱風，每句一行。",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「淑芬」，age 是 9，city ",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由大到小排序並只輸出結果：53, 77, 2, 63, 44, 71, 92",
+    "prompt_overlap"
+   ],
+   [
+    "請用剛好四個條列項目（以「- 」開頭）列出常見的資源回收物品。",
+    "prompt_overlap"
+   ],
+   [
+    "請用剛好兩個條列項目（以「- 」開頭）列出台灣的水果。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：87, 82, 54, 17, 10, 93, 24",
+    "prompt_overlap"
+   ],
+   [
+    "請用剛好四個條列項目（以「- 」開頭）列出常見的運動項目。",
+    "prompt_overlap"
+   ],
+   [
+    "請用「是」或「否」回答：太陽是一顆行星嗎？",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：74, 6, 75, 13, 57, 94, 48",
+    "prompt_overlap"
+   ],
+   [
+    "請用三個條列項目（以「- 」開頭）說明通貨膨脹的重點。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：78, 36, 10, 32, 71, 92, 89",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「阿明」，age 是 46，city",
+    "prompt_overlap"
+   ],
+   [
+    "請用剛好四個條列項目（以「- 」開頭）列出颱風天的準備事項。",
+    "prompt_overlap"
+   ],
+   [
+    "請把「火車誤點了二十分鐘。」翻譯成英文，只輸出英文翻譯。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：39, 21, 96, 46, 68",
+    "prompt_overlap"
+   ],
+   [
+    "請把「明天下午三點開會。」翻譯成英文，只輸出英文翻譯。",
+    "prompt_overlap"
+   ],
+   [
+    "請用英文寫一句祝福語，只輸出那一句。",
+    "prompt_overlap"
+   ],
+   [
+    "請用三個條列項目（以「- 」開頭）說明溫室效應的重點。",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「家豪」，age 是 16，city",
+    "prompt_overlap"
+   ],
+   [
+    "請用剛好五個條列項目（以「- 」開頭）列出台灣的傳統節日。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由大到小排序並只輸出結果：43, 86, 67, 89, 55, 77, 15",
+    "prompt_overlap"
+   ],
+   [
+    "請把「請問最近的捷運站在哪裡？」翻譯成英文，只輸出英文翻譯。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：90, 25, 62, 71, 9, 84",
+    "prompt_overlap"
+   ],
+   [
+    "請用「是」或「否」回答：鯨魚是魚類嗎？",
+    "prompt_overlap"
+   ],
+   [
+    "請用「是」或「否」回答：台灣四面環海嗎？",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「小華」，age 是 12，city",
+    "prompt_overlap"
+   ],
+   [
+    "請用剛好五個條列項目（以「- 」開頭）列出省錢的方法。",
+    "prompt_overlap"
+   ],
+   [
+    "請用「是」或「否」回答：水在攝氏 100 度（一大氣壓）會沸騰嗎？",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「家豪」，age 是 60，city",
+    "prompt_overlap"
+   ],
+   [
+    "請用剛好四個條列項目（以「- 」開頭）列出保持健康的習慣。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：9, 24, 51, 13, 71, 16",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「小華」，age 是 40，city",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由大到小排序並只輸出結果：42, 73, 31, 91, 25, 57, 32",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「家豪」，age 是 51，city",
+    "prompt_overlap"
+   ],
+   [
+    "請用剛好兩個條列項目（以「- 」開頭）列出常見的資源回收物品。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由大到小排序並只輸出結果：63, 78, 21, 95, 36, 81",
+    "prompt_overlap"
+   ],
+   [
+    "請用剛好四個條列項目（以「- 」開頭）列出省錢的方法。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：29, 9, 99, 21, 83",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：86, 21, 16, 74, 79, 66, 90",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「雅婷」，age 是 76，city",
+    "prompt_overlap"
+   ],
+   [
+    "請寫一首三句的短詩，主題是海邊，每句一行。",
+    "prompt_overlap"
+   ],
+   [
+    "請用「是」或「否」回答：蜘蛛有六隻腳嗎？",
+    "prompt_overlap"
+   ],
+   [
+    "請用「是」或「否」回答：冰的密度比水小嗎？",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由大到小排序並只輸出結果：66, 99, 84, 52",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「雅婷」，age 是 53，city",
+    "prompt_overlap"
+   ],
+   [
+    "請用英文寫一句感謝同事的話，只輸出那一句。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：89, 17, 73, 35, 10, 57",
+    "prompt_overlap"
+   ],
+   [
+    "請用英文寫一句歡迎新同學的話，只輸出那一句。",
+    "prompt_overlap"
+   ],
+   [
+    "請寫一首三句的短詩，主題是雨季，每句一行。",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「雅婷」，age 是 18，city",
+    "prompt_overlap"
+   ],
+   [
+    "請把「這本書非常有趣。」翻譯成英文，只輸出英文翻譯。",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「志豪」，age 是 45，city",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「小華」，age 是 73，city",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「淑芬」，age 是 62，city",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：89, 17, 4, 46",
+    "prompt_overlap"
+   ],
+   [
+    "請輸出一個 JSON 物件，包含 name、age、city 三個欄位，name 是「家豪」，age 是 24，city",
+    "prompt_overlap"
+   ],
+   [
+    "請把「今天天氣很好，我們去公園散步吧。」翻譯成英文，只輸出英文翻譯。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由大到小排序並只輸出結果：85, 31, 93, 77, 51",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：95, 38, 73, 70, 52, 80",
+    "prompt_overlap"
+   ],
+   [
+    "請用英文寫一句歡迎新同學的話，只輸出那一句。",
+    "prompt_overlap"
+   ],
+   [
+    "請把「我正在學習寫程式。」翻譯成英文，只輸出英文翻譯。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：62, 60, 75, 98",
+    "prompt_overlap"
+   ],
+   [
+    "請用「是」或「否」回答：企鵝會飛嗎？",
+    "prompt_overlap"
+   ],
+   [
+    "請用三個條列項目（以「- 」開頭）說明珍珠奶茶的重點。",
+    "prompt_overlap"
+   ],
+   [
+    "請寫一首三句的短詩，主題是山城，每句一行。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由大到小排序並只輸出結果：70, 50, 12, 57, 91, 37",
+    "prompt_overlap"
+   ],
+   [
+    "請用三個條列項目（以「- 」開頭）說明團隊合作的重點。",
+    "prompt_overlap"
+   ],
+   [
+    "請將下列數字由小到大排序並只輸出結果：93, 39, 18, 29, 49, 2, 76",
+    "prompt_overlap"
+   ],
+   [
+    "請把「謝謝你的幫忙。」翻譯成英文，只輸出英文翻譯。",
+    "prompt_overlap"
+   ],
+   [
+    "請用剛好五個條列項目（以「- 」開頭）列出台灣的國家公園。",
+    "prompt_overlap"
+   ],
+   [
+    "請用「是」或「否」回答：一星期有七天嗎？",
+    "prompt_overlap"
+   ],
+   [
+    "請寫一首三句的短詩，主題是春天，每句一行。",
+    "prompt_overlap"
+   ],
+   [
+    "請用三個條列項目（以「- 」開頭）說明交通安全的重點。",
+    "prompt_overlap"
+   ],
+   [
+    "What is 45 divided by 9? Answer with a number only.",
+    "prompt_overlap"
+   ],
+   [
+    "What is 12 plus 30? Answer with a number only.",
+    "prompt_overlap"
+   ],
+   [
+    "How many hours are in two days? Answer with a number only.",
+    "prompt_overlap"
+   ],
+   [
+    "What is the past tense of 'run'? Reply with one word.",
+    "prompt_overlap"
+   ],
+   [
+    "Give a synonym for 'happy'. Reply with one word.",
+    "prompt_overlap"
+   ],
+   [
+    "What is a noun? Explain in one sentence.",
+    "prompt_overlap"
+   ],
+   [
+    "What is photosynthesis used for by plants? One sentence.",
+    "prompt_overlap"
+   ]
+  ],
+  "answer_keyword": [
+   [
+    "李白有什麼特色？",
+    "answer_keyword:李白"
+   ],
+   [
+    "以下這段文字主要在說什麼？請用一句話回答。\n\n.308 口徑溫徹斯特彈 （.308 caliber Winchester",
+    "answer_keyword:距離"
+   ],
+   [
+    "海龜有什麼特色？",
+    "answer_keyword:距離"
+   ],
+   [
+    "關於長頸鹿，一般人最常誤解的是什麼？",
+    "answer_keyword:距離"
+   ],
+   [
+    "以下這段文字主要在說什麼？請用一句話回答。\n\n相對論（英語：Theory of relativity）是關於時空和引力的",
+    "answer_keyword:愛因斯坦"
+   ],
+   [
+    "請用小學生聽得懂的方式解釋李白。",
+    "answer_keyword:李白"
+   ],
+   [
+    "關於海龜，一般人最常誤解的是什麼？",
+    "answer_keyword:距離"
+   ],
+   [
+    "請根據以下文字，用三句話摘要重點：\n\n奧莉薇亞・瑪麗・德・哈維蘭女爵士，DBE（英語：Dame Olivia Mary ",
+    "answer_keyword:東京"
+   ],
+   [
+    "請根據以下文字，用三句話摘要重點：\n\n所羅門七十二柱魔神，是神秘學書籍《所羅門的小鑰匙》的第一部份「Ars Goetia",
+    "answer_keyword:十二"
+   ],
+   [
+    "槓桿原理是什麼？請用兩三句話說明。",
+    "answer_keyword:長度"
+   ],
+   [
+    "請簡單介紹電磁波。",
+    "answer_keyword:length"
+   ],
+   [
+    "請用小學生聽得懂的方式解釋中秋節。",
+    "answer_keyword:月餅"
+   ],
+   [
+    "愛因斯坦有什麼特色？",
+    "answer_keyword:愛因斯坦"
+   ],
+   [
+    "光合作用是什麼？請用兩三句話說明。",
+    "answer_keyword:二氧化碳"
+   ],
+   [
+    "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n道光十二年（1832 年）中式壬辰恩科進士，即用知縣，歷任山西榮河、",
+    "answer_keyword:十二"
+   ],
+   [
+    "溫室效應是什麼？請用兩三句話說明。",
+    "answer_keyword:二氧化碳"
+   ],
+   [
+    "以下這段文字主要在說什麼？請用一句話回答。\n\n春田步槍彈是一種美國陸軍所開發使用的子彈。又名「.30-06 彈」，「.3",
+    "answer_keyword:長度"
+   ],
+   [
+    "請用小學生聽得懂的方式解釋孔子。",
+    "answer_keyword:孔子"
+   ],
+   [
+    "關於化學鍵，一般人最常誤解的是什麼？",
+    "answer_keyword:距離"
+   ],
+   [
+    "如果要向外國朋友介紹大象，你會怎麼說？",
+    "answer_keyword:皮膚"
+   ],
+   [
+    "請用 50 字以內介紹孔子。",
+    "answer_keyword:孔子"
+   ],
+   [
+    "請用 50 字以內介紹光合作用。",
+    "answer_keyword:二氧化碳"
+   ],
+   [
+    "關於地心引力，一般人最常誤解的是什麼？",
+    "answer_keyword:愛因斯坦"
+   ],
+   [
+    "如果要向外國朋友介紹冬至，你會怎麼說？",
+    "answer_keyword:十二"
+   ],
+   [
+    "請根據以下文字，用三句話摘要重點：\n\n本魚分布於印度西太平洋海域，包括東非、紅海、馬爾地夫、塞席爾群島、斯里蘭卡、印度、",
+    "answer_keyword:太平洋"
+   ],
+   [
+    "溫室效應有什麼特色？",
+    "answer_keyword:二氧化碳"
+   ],
+   [
+    "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n京成電鐵（日語：京成電鉄／けいせいでんてつ _Keisei Dent",
+    "answer_keyword:東京"
+   ],
+   [
+    "請根據以下文字，用三句話摘要重點：\n\n房總半島（日語：房総半島／ぼうそうはんとう _Bōsō hantō_ \\*/?）是",
+    "answer_keyword:太平洋"
+   ],
+   [
+    "請簡單介紹愛因斯坦。",
+    "answer_keyword:einstein"
+   ],
+   [
+    "以下這段文字主要在說什麼？請用一句話回答。\n\n開業當時，車站周邊屬東葛飾郡葛飾町（之前為葛飾村），因此命名為葛飾站。之後",
+    "answer_keyword:東京"
+   ],
+   [
+    "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n原是日本電子遊戲開發、發行及經銷的株式會社史克威爾艾尼克斯（日語：株",
+    "answer_keyword:東京"
+   ],
+   [
+    "請用小學生聽得懂的方式解釋人工智慧。",
+    "answer_keyword:一千"
+   ],
+   [
+    "請用 50 字以內介紹愛因斯坦。",
+    "answer_keyword:愛因斯坦"
+   ],
+   [
+    "環境保護有什麼特色？",
+    "answer_keyword:二氧化碳"
+   ],
+   [
+    "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n中國鐵路北京局集團有限公司，原名北京鐵路局，是中國國家鐵路集團下屬公",
+    "answer_keyword:長度"
+   ],
+   [
+    "中秋節有什麼特色？",
+    "answer_keyword:月餅"
+   ],
+   [
+    "請根據以下文字，用三句話摘要重點：\n\n尼克頻道兒童票選獎（Nickelodeon Kids' Choice Awards",
+    "answer_keyword:周六"
+   ],
+   [
+    "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n1961 年起任神奈川縣立橫濱綠丘高等學校教師。1977 年起任東京",
+    "answer_keyword:東京"
+   ],
+   [
+    "請從以下文字中整理出三個重點（以「- 」開頭）：\n\n當常規彈簧沒有剛度變化特性時，從其靜止位置被壓縮或拉伸時，它施加與它",
+    "answer_keyword:距離"
+   ],
+   [
+    "以下這段文字主要在說什麼？請用一句話回答。\n\n2009 年 2 月 7 日，相川出席了第二部寫真 DVD《聖★少女》的發",
+    "answer_keyword:東京"
+   ],
+   [
+    "如果要向外國朋友介紹環境保護，你會怎麼說？",
+    "answer_keyword:長度"
+   ],
+   [
+    "關於抗生素，一般人最常誤解的是什麼？",
+    "answer_keyword:皮膚"
+   ],
+   [
+    "How do I make a cup of green tea?",
+    "answer_keyword:cold"
+   ],
+   [
+    "Summarize the benefits of regular exercise in one paragraph.",
+    "answer_keyword:heart"
+   ],
+   [
+    "What is the difference between a virus and bacteria?",
+    "answer_keyword:cold"
+   ],
+   [
+    "Explain cloud computing to a beginner.",
+    "answer_keyword:amazon"
+   ],
+   [
+    "Write a polite reply declining a meeting invitation.",
+    "answer_keyword:thank"
+   ],
+   [
+    "How does a refrigerator keep food cold?",
+    "answer_keyword:cold"
+   ],
+   [
+    "Suggest a name for a coffee shop.",
+    "answer_keyword:heart"
+   ],
+   [
+    "Describe a healthy breakfast.",
+    "answer_keyword:apple"
+   ],
+   [
+    "Write a short thank-you note to a customer.",
+    "answer_keyword:thank"
+   ],
+   [
+    "What is a good password policy?",
+    "answer_keyword:length"
+   ],
+   [
+    "How does GPS work?",
+    "answer_keyword:distance"
+   ],
+   [
+    "How do I politely ask a client for payment?",
+    "answer_keyword:thank"
+   ],
+   [
+    "What is the greenhouse effect?",
+    "answer_keyword:cold"
+   ],
+   [
+    "What is the difference between a list and a tuple in Python?",
+    "answer_keyword:apple"
+   ],
+   [
+    "Give me a bullet list of three fruits.",
+    "answer_keyword:apple"
+   ],
+   [
+    "What is the purpose of version control like Git?",
+    "answer_keyword:paris"
+   ],
+   [
+    "What is latency in networking?",
+    "answer_keyword:distance"
+   ],
+   [
+    "What is a podcast?",
+    "answer_keyword:apple"
+   ]
+  ]
+ },
+ "keywords_checked": 104,
+ "kept": 797,
+ "kept_zh": 694,
+ "kept_en": 103,
+ "n_dropped": {
+  "prompt_overlap": 119,
+  "answer_keyword": 60
+ }
+}

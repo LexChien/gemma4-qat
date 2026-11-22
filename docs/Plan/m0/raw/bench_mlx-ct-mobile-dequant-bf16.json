@@ -1,0 +1,23 @@
+{
+ "name": "mlx-ct-mobile-dequant-bf16",
+ "path": "out/m0/ct-mobile-dequant-bf16",
+ "framework": "mlx",
+ "mlx": "0.32.4",
+ "load_lazy_s": 3.489267791999737,
+ "load_s": 3.489879499999006,
+ "mem_after_load_GB": 9.257138878,
+ "n_params_bytes_GB": 9.257138758,
+ "gen_tokens": 128,
+ "gen_tps": 54.39321631604389,
+ "prompt_tokens": 36,
+ "prompt_tps": 649.0184722198891,
+ "gen_peak_mem_GB": 9.310049019,
+ "gen_text": "<|channel>thought\nHere's a thinking process that leads to the suggested response:\n\n1.  **Analyze the Request:** The user wants a detailed introduction to Taiwan (Taiwan) covering its geography, history, and culture. The request specifies a minimum of five paragraphs.\n\n2.  **Determine the Structure (The Five Paragraphs):** I need to structure the information logically.\n    *   Paragraph 1: Introduction/Geography/Geography.\n    *   Paragraph 2: History/History (Historical context).\n    *   Paragraph 3: Culture/Culture (Culture, people, food).\n    *   ",
+ "ppl_wikitext": 88.33690409198253,
+ "ppl_wikitext_tokens": 40960,
+ "ppl_zh_tw": 90.5972603869561,
+ "ppl_zh_tw_tokens": 20480,
+ "ppl_time_s": 331.88731158300106,
+ "ppl_peak_mem_GB": 12.257134415,
+ "max_rss_GB": 10.470178816
+}

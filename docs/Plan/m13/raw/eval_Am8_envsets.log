@@ -1,0 +1,121 @@
+z01 complete 4.865 False 蔣介石
+z02 complete 4.889 False 蔣介石
+z03 complete 4.756 True 玉山
+z04 complete 4.711 False 長江
+z05 complete 4.722 False 臺中
+z06 complete 4.803 False 臺北市
+z07 complete 4.902 True 新台幣
+z08 complete 5.06 True 10月10日
+z09 complete 4.619 False 台南
+z10 complete 4.471 False 東
+z11 complete 4.641 True 曹雪芹
+z12 complete 4.52 False 詩人
+z13 complete 4.517 True 孔子
+z14 complete 4.521 True 指南針
+z15 complete 4.537 True 粽子
+z16 complete 4.506 True 月餅
+z17 complete 4.399 True 東京
+z18 complete 4.397 True 巴黎
+z19 complete 4.51 False 悉尼
+z20 complete 4.618 True 渥太華
+z21 complete 4.391 True 太平洋
+z22 complete 4.872 True 珠穆朗瑪峰
+z23 complete 4.516 False 約一年
+z24 complete 4.538 True H2O
+z25 complete 4.545 True 二氧化碳
+z26 complete 4.522 False 大腦
+z27 complete 4.985 True 尼爾·阿姆斯特朗
+z28 complete 4.727 True 愛因斯坦
+z29 complete 4.822 True 1000
+z30 complete 4.652 True 24
+z31 complete 3.021 True 391
+z32 complete 4.449 True 12
+z33 complete 2.831 True 63
+z34 complete 2.911 True 63
+z35 complete 4.371 False unknown
+z36 complete 4.409 True 藍
+z37 complete 4.351 True Apple
+z38 complete 4.518 True Thank you
+z39 complete 4.363 True 7
+z40 complete 4.587 True 180
+z41 complete 4.773 False 星期五
+z42 complete 4.809 True 20
+z43 complete 4.646 True 40
+z44 complete 4.853 False 紅藍黃
+z45 complete 4.948 False 2^10
+z46 complete 4.812 False 曹植
+z47 complete 4.747 False 詩人
+z48 complete 4.581 True 行政院
+z49 complete 4.778 False 20年
+z50 complete 4.505 True 太平洋
+z51 complete 4.592 True 7
+z52 complete 5.063 True 100
+z53 complete 4.7 True 早安
+z54 complete 4.948 False 一石二鳥
+z55 complete 4.655 True 鯨魚
+z56 complete 4.621 False 時間單位
+z57 complete 4.523 False unknown
+z58 complete 4.535 False +8
+z59 complete 4.566 True 水星
+z60 complete 5.924 True 植物利用光能將二氧化碳和水轉化為有機物。
+e01 complete 4.221 True Paris
+e02 complete 4.175 True Tokyo
+e03 complete 4.373 True Canberra
+e04 complete 4.168 True Ottawa
+e05 complete 4.21 True Berlin
+e06 complete 4.432 True Pacific Ocean
+e07 complete 4.164 True Mount Everest
+e08 complete 4.19 True William Shakespeare
+e09 complete 4.345 True Albert Einstein
+e10 complete 4.386 True Neil Armstrong
+e11 complete 4.254 True Au
+e12 complete 4.446 True H2O
+e13 complete 4.588 True Carbon dioxide
+e14 complete 4.166 True Mars
+e15 complete 4.357 True Jupiter
+e16 complete 4.227 True 7
+e17 complete 4.195 True 0
+e18 complete 4.313 True 100
+e19 complete 4.235 True Leonardo da Vinci
+e20 complete 4.236 True Egypt
+e21 complete 4.291 True Blue whale
+e22 complete 4.164 True Diamond
+e23 complete 4.435 True Taipei
+e24 complete 4.309 True Jade Mountain
+e25 complete 4.305 True Japanese Yen
+e26 complete 4.86 False Chiang Ka-ku
+e27 complete 4.257 True 6
+e28 complete 4.48 True 391
+e29 complete 4.356 True 12
+e30 complete 4.353 True 63
+e31 complete 4.411 True 366
+e32 complete 4.182 True 60
+e33 complete 4.277 True Thank you
+e34 complete 4.19 True cold
+e35 complete 4.224 True Portuguese
+e36 complete 4.448 True Heart
+e37 complete 5.221 True J.K. Rowling wrote the Harry Potter books.
+e38 complete 4.349 True Nile
+e39 complete 4.805 True 299792
+e40 complete 4.36 True Hydrogen
+e41 complete 4.214 False Friday
+e42 complete 4.647 True 20
+e43 complete 4.418 True 40
+e44 complete 4.49 True Red, green, blue
+e45 complete 4.992 False 100000000
+e46 complete 4.186 True Jane Austen
+e47 complete 4.288 True George Orwell
+e48 complete 4.033 True 2
+e49 complete 4.254 True 206
+e50 complete 4.193 True Mercury
+e51 complete 4.162 True Seoul
+e52 complete 4.286 True India
+e53 complete 4.306 True Good morning
+e54 complete 4.19 True mice
+e55 complete 4.192 True distance
+e56 complete 4.565 True 11
+e57 complete 4.451 True +886
+e58 complete 4.361 True 212
+e59 complete 4.115 False Yellow
+e60 complete 5.688 True Photosynthesis is the process where plants convert light energy into c
+EVAL_DONE Am8 envsets

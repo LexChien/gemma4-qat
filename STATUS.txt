@@ -1,0 +1,10 @@
+# gemma4-qat publish STATUS
+# timezone: Asia/Taipei
+
+[1/7] 2026-11-22 開始：建立 /Users/lexchien/Documents/AI/gemma4-qat-publish
+[2/7] rsync 完成（已排除 weights/out/venv/模型檔/上游 src/gemma/網站政策 envelope）
+[3/7] 已撰寫 .gitignore、README、src/gemma 說明、publish log
+[4/7] 已同步更新原專案 docs/logs 索引（僅新增 log 與索引，不改其餘檔）
+[5/7] 安全掃描完成：無金鑰／無政策正文；User-Agent 含 lex@xsoin.com（已註記）
+[ ] 本地 git commit
+[ ] 建立公開 GitHub repo 並 push（gh 未安裝；改用已驗證的 git SSH + GitHub connector）

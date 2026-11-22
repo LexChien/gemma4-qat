@@ -1,0 +1,21 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.16, pytest-9.1.1, pluggy-1.7.0 -- /Users/lexchien/Documents/AI/gemma4-qat/.venv-jax/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/lexchien/Documents/AI/gemma4-qat/src/gemma-qat
+configfile: pyproject.toml
+plugins: jaxtyping-0.3.11, typeguard-4.6.0, anyio-4.15.1
+collecting ... collected 7 items
+
+src/gemma-qat/gemma/gm/nn/gemma4/_qat_test.py::test_contraction_axes PASSED [ 14%]
+src/gemma-qat/gemma/gm/nn/gemma4/_qat_test.py::test_block_quantize_minmax_levels PASSED [ 28%]
+src/gemma-qat/gemma/gm/nn/gemma4/_qat_test.py::test_ste_gradient_identity PASSED [ 42%]
+src/gemma-qat/gemma/gm/nn/gemma4/_qat_test.py::test_wrapper_replaces_and_keeps_param_tree PASSED [ 57%]
+src/gemma-qat/gemma/gm/nn/gemma4/_qat_test.py::test_qat_forward_equals_fake_quantized_params PASSED [ 71%]
+src/gemma-qat/gemma/gm/nn/gemma4/_qat_test.py::test_int_wrapper_shapes PASSED [ 85%]
+src/gemma-qat/gemma/gm/nn/gemma4/_qat_test.py::test_clipped_einsum PASSED [100%]
+
+============================== 7 passed in 13.16s ==============================
+clipped: 0.0
+fwd-equiv (err, |qat-fp|, n_wrapped): (3.8743019104003906e-07, 0.5741188526153564, 36)
+intwrapper leaves: 116
+wrapper: (Counter({'Einsum': 246}), 530)

@@ -1,0 +1,13 @@
+{
+ "converted": "out/m3/it-text-bf16",
+ "reference": "weights/gemma-4-E2B-it",
+ "n_converted": 600,
+ "n_reference": 600,
+ "missing_in_converted": [],
+ "extra_in_converted": [],
+ "shape_mismatch": [],
+ "dtype_mismatch": [],
+ "value_mismatch": [],
+ "exact": 600,
+ "pass": true
+}

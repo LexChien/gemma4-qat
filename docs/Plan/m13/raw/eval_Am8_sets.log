@@ -1,0 +1,81 @@
+z01 complete 1.938 True 中華民國的國父是**孫中山**。
+z02 complete 5.469 False 中華民國沒有明確的「國父」指定。  如果您指的是中華民國的建國或重要歷史人物，請提供更具體的背景，以便我為您提供相關資訊。
+z03 complete 2.471 False 台灣最高的山是**太魯閣山**（或稱太魯閣）。
+z04 complete 2.729 False 台灣最長的河流是**金瓜石溪**（或稱金瓜石溪）。
+z05 complete 1.811 True 日月潭位於臺灣的**南投縣**。
+z06 complete 2.061 True 台北101位於臺北市**信義區**。
+z07 complete 2.296 True 臺灣使用的法定貨幣是**新臺幣**（NTD）。
+z08 complete 2.24 True 中華民國國慶日是**10月10日**。
+z09 complete 2.172 False 台灣高鐵目前最南端的車站是**高雄站**。
+z10 complete 1.768 False 澎湖群島位於臺灣本島的**東邊**。
+z11 complete 1.758 True 《紅樓夢》的作者是**曹雪芹**。
+z12 complete 1.264 True 這句詩出自**李白**。
+z13 complete 1.847 True 《論語》主要記錄**孔子**的思想和言行。
+z14 complete 2.195 True 中國古代四大發明中，用來辨別方向的是**指南針**。
+z15 complete 1.732 True 端午節最具代表性的傳統食物是**粽子**。
+z16 complete 1.858 True 中秋節最具代表性的傳統食物是**月餅**。
+z17 complete 0.576 True 東京。
+z18 complete 0.562 True 巴黎。
+z19 complete 1.225 True 澳洲的首都是**堪培拉**。
+z20 complete 1.319 True 加拿大的首都是**渥太華**。
+z21 complete 0.549 True 太平洋。
+z22 complete 1.227 True 珠穆朗瑪峰（Mount Everest）。
+z23 complete 1.339 True 大約需要 **365 天**。
+z24 complete 2.037 True 水的化學式是 $\text{H}_2\text{O}$。
+z25 complete 2.49 True 植物進行光合作用時主要吸收**二氧化碳**（$\text{CO}_2$）。
+z26 complete 0.445 True 皮膚
+z27 complete 3.604 True 美國的**阿波羅11號**任務上的**尼爾·阿姆斯特朗 (Neil Armstrong)** 是第一位登上月球的人。
+z28 complete 1.774 True 相對論是由**愛因斯坦 (Albert Einstein)** 提出的。
+z29 complete 0.768 True 1000
+z30 complete 0.528 True 24
+z31 complete 0.648 True 391
+z32 complete 0.532 True 12
+z33 complete 0.539 True 63
+z34 complete 0.545 True 63
+z35 complete 0.522 True 12
+z36 complete 0.461 True 藍
+z37 complete 0.456 True Apple
+z38 complete 0.555 True Thank you
+z39 complete 0.431 True 七
+z40 complete 0.639 True 180
+e01 complete 0.417 True Paris
+e02 complete 0.435 True Tokyo
+e03 complete 0.526 True Canberra
+e04 complete 0.432 True Ottawa
+e05 complete 0.437 True Berlin
+e06 complete 1.403 True The largest ocean on Earth is the Pacific Ocean.
+e07 complete 0.63 True Mount Everest.
+e08 complete 1.134 True William Shakespeare wrote "Romeo and Juliet."
+e09 complete 1.165 True Albert Einstein developed the theory of relativity.
+e10 complete 1.543 True Neil Armstrong was the first person to walk on the Moon.
+e11 complete 0.451 True Au
+e12 complete 1.491 True $\text{H}_2\text{O}$
+e13 complete 2.255 True Plants absorb **carbon dioxide** ($\text{CO}_2$) from the air for phot
+e14 complete 1.138 True Mars is known as the Red Planet.
+e15 complete 0.467 True Jupiter
+e16 complete 0.454 True 7
+e17 complete 0.527 True 0
+e18 complete 0.718 True 100
+e19 complete 1.147 True Leonardo da Vinci painted the Mona Lisa.
+e20 complete 0.491 True Egypt
+e21 complete 1.351 True The largest mammal on Earth is the blue whale.
+e22 complete 1.013 True Diamond is the hardest natural substance.
+e23 complete 0.572 True Taipei
+e24 complete 1.038 True Jade Mountain (Yushan).
+e25 complete 0.828 True Japanese Yen (¥).
+e26 complete 1.963 True Sun Yat-sen is known as the founding father of the Republic of China.
+e27 complete 0.453 True 6
+e28 complete 0.661 True 391
+e29 complete 0.588 True 12
+e30 complete 0.568 True 63
+e31 complete 0.636 True 366
+e32 complete 0.561 True 60
+e33 complete 0.558 True Thank you
+e34 complete 0.457 True Cold
+e35 complete 0.584 True Portuguese.
+e36 complete 1.254 True The heart pumps blood through the human body.
+e37 complete 1.605 True J.K. Rowling wrote the "Harry Potter" books.
+e38 complete 1.442 True The longest river in the world is the Nile River.
+e39 complete 1.668 True Approximately 299,792 kilometers per second.
+e40 complete 0.548 True Hydrogen.
+EVAL_DONE Am8 sets

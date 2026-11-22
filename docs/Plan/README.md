@@ -1,0 +1,12 @@
+# 計畫索引
+- [01_optimization_goals.md](01_optimization_goals.md)：優化目標（v0.1 草案）
+- [trace/00_index.md](trace/00_index.md)：Trace code（架構、呼叫鏈、API、權重對照、量化內部、待解問題）v1.0
+- [02_baseline_M0.md](02_baseline_M0.md)：M0 基準量測報告 v1.0（原始數據 `m0/raw/`、腳本 `m0/tools/`）
+- [03_converter_M3.md](03_converter_M3.md)：M3 JAX→HF 轉換器 v1.0（`tools/convert_jax_to_hf.py`；驗證 `m3/`）
+- [04_qat_M4.md](04_qat_M4.md)：M4（第一部分）Gemma 4 QAT 支援、官方格點比對、冒煙訓練、匯出 MLX 4-bit v1.0（`src/gemma-qat`、`m4/`）
+- [05_small_qat_lora_M5.md](05_small_qat_lora_M5.md)：M5 小規模 LoRA-QAT（官方 QAT 起點、可合併 LoRA-QAT、MLX g32 exact-grid 2.89GB、PPL 13.4/22.7）v1.0（`m5/`）
+- [06_mlx_lora_chat_M6.md](06_mlx_lora_chat_M6.md)：M6 MLX-LM LoRA（Metal 錯誤，18.1 萬 tokens；思考關結論已由 M7 勘誤）、50 題中文對話評測、端到端延遲與 flash 槓桿（思考上限 128 讓 TTFA 8.2→3.1 秒）v1.0（`m6/`）
+- [07_nothink_M7.md](07_nothink_M7.md)：M7 思考關閉追蹤。根因是 mlx_lm 預設 enable_thinking=True，正確格式下 50/50 遵從，首個答案 token 0.043 秒，交付預設不思考的打包版；未訓練 v1.0（`m7/`）
+- [08_zhtw_sft_qatlora_M8.md](08_zhtw_sft_qatlora_M8.md)：M8 zh-TW 蒸餾 SFT × 官方格點 LoRA-QAT（MLX，打包無損 2.89GB）。思考關 0 英文、0 簡體、亂碼 10/10，但 PPL 47→103、知識 12→10，不建議取代官方；Metal 0000000e 以分塊 lm_head 修正 v1.0（`m8/`）
+- [09_zhtw_sft_kl_M9.md](09_zhtw_sft_kl_M9.md)：M9 清理後 zh-TW SFT（維基 fact-check、trace 去指引、s2tw）× rank 8 LoRA-QAT＋KL-to-teacher，多 checkpoint 選點取 step 100（打包無損 2.89GB）。PPL 47.19／40.34（官方 +0.03%／+0.17%）、知識 12/15、思考關 0 英文 0 簡體、亂碼 9/10；思考開亂碼仍 2/5。建議作為思考關預設 v1.0（`m9/`）
+- [10_refactor_plan.md](10_refactor_plan.md)：從原始碼重建／重構計畫（A JAX QAT、B 自寫 MLX 模型與訓練、C 工具整併為 `src/g4qat` 套件＋CLI＋測試），與 M10 任務 1–5 的交錯順序 v0.1

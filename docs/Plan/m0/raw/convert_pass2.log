@@ -1,0 +1,27 @@
++ cd /Users/lexchien/Documents/AI/gemma4-qat
++ PY=.venv-m0/bin/python
++ W=weights
++ for src in it:gemma-4-E2B-it qat:gemma-4-E2B-it-qat-q4_0-unquantized
++ n=it
++ d=gemma-4-E2B-it
++ for g in 64 32
++ '[' -d out/m0/mlx-it-q4g64 ']'
++ for g in 64 32
++ '[' -d out/m0/mlx-it-q4g32 ']'
++ for src in it:gemma-4-E2B-it qat:gemma-4-E2B-it-qat-q4_0-unquantized
++ n=qat
++ d=gemma-4-E2B-it-qat-q4_0-unquantized
++ for g in 64 32
++ '[' -d out/m0/mlx-qat-q4g64 ']'
++ for g in 64 32
++ '[' -d out/m0/mlx-qat-q4g32 ']'
++ '[' -d out/m0/mlx-qat-safe-g64 ']'
++ '[' -d out/m0/mlx-qat-mobile-g64 ']'
++ .venv-m0/bin/python docs/Plan/m0/tools/m0_quant_mixed.py --hf weights/gemma-4-E2B-it-qat-q4_0-unquantized --out out/m0/mlx-qat-mobile-g64 --profile mobile --group 64
+[INFO] Loading
+[INFO] Using dtype: bfloat16
+[INFO] Quantizing
+[INFO] Quantized model with 3.734 bits per weight.
+bits histogram: Counter({4: 147, 8: 70, 2: 61})
++ echo CONVERT_ALL_DONE
+CONVERT_ALL_DONE

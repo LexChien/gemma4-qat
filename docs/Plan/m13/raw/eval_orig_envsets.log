@@ -1,0 +1,121 @@
+z01 complete 4.88 False 蔣介石
+z02 complete 4.735 False 蔣介石
+z03 complete 4.582 True 玉山
+z04 complete 4.767 False 長江
+z05 complete 4.788 True 南投
+z06 complete 4.789 True 信義區
+z07 complete 5.0 True 新台幣
+z08 complete 5.497 True 10月10日
+z09 complete 6.163 False 台鐵最南端的車站是高雄車站。
+z10 complete 5.335 False 東邊
+z11 complete 5.547 False 作者：白居易
+z12 complete 5.199 False 詩人
+z13 complete 5.328 True 孔子
+z14 complete 5.288 True 指南針
+z15 complete 5.213 True 粽子
+z16 complete 5.204 True 月餅
+z17 complete 5.132 False 日本
+z18 complete 5.055 True 巴黎
+z19 complete 5.418 True 堪培拉
+z20 complete 5.33 True 渥太華
+z21 complete 5.174 True 太平洋
+z22 complete 5.463 True 珠穆朗瑪峰
+z23 complete 5.238 False 約87天
+z24 complete 5.095 True H2O
+z25 complete 5.031 True 二氧化碳
+z26 complete 4.772 False 骨
+z27 complete 5.209 False 阿波羅
+z28 complete 5.033 True 愛因斯坦
+z29 complete 5.765 False 1000000
+z30 complete 5.391 True 24
+z31 complete 3.356 True 391
+z32 complete 5.103 True 12
+z33 complete 3.229 True 63
+z34 complete 3.217 True 63
+z35 complete 4.8 False unknown
+z36 complete 5.059 True 藍
+z37 complete 4.845 True Apple
+z38 complete 4.907 True Thank you
+z39 complete 4.759 True 7
+z40 complete 5.039 True 180
+z41 complete 5.127 True 星期六
+z42 complete 5.069 True 20
+z43 complete 5.222 True 40
+z44 complete 5.107 False 紅藍黃
+z45 complete 5.682 True 1024
+z46 complete 5.355 False 作者：蘇夢成
+z47 complete 5.483 False 詩人
+z48 complete 5.996 True 行政院
+z49 complete 6.317 False 22
+z50 complete 5.657 True 太平洋
+z51 complete 5.839 True 七
+z52 complete 5.889 True 100
+z53 complete 5.486 True 早安
+z54 complete 5.879 False 一石二鳥
+z55 complete 5.406 False 哺乳類
+z56 complete 5.598 False 時間單位
+z57 complete 5.258 False unknown
+z58 complete 5.115 False +8
+z59 complete 5.186 True 水星
+z60 complete 9.584 False 光合作用是植物利用光能將二氧化碳和水轉化為有機物並釋放氧氣的過程。
+e01 complete 4.854 True Paris
+e02 complete 4.744 True Tokyo
+e03 complete 4.881 True Canberra
+e04 complete 4.755 True Ottawa
+e05 complete 4.758 True Berlin
+e06 complete 4.997 True Pacific Ocean
+e07 complete 5.208 True Mount Everest
+e08 complete 5.525 True William Shakespeare
+e09 complete 4.92 True Albert Einstein
+e10 complete 4.965 True Neil Armstrong
+e11 complete 4.731 True Au
+e12 complete 5.166 True H2O
+e13 complete 4.927 True Carbon dioxide
+e14 complete 5.281 True Mars
+e15 complete 5.444 True Jupiter
+e16 complete 5.473 True 7
+e17 complete 6.339 True 0
+e18 complete 5.619 True 100
+e19 complete 5.882 True Leonardo da Vinci
+e20 complete 5.871 True Egypt
+e21 complete 5.889 True Blue whale
+e22 complete 5.514 True Diamond
+e23 complete 5.444 True Taipei
+e24 complete 5.49 True Jade Mountain
+e25 complete 4.682 False JPY
+e26 complete 5.119 False Chiang Kai-shek
+e27 complete 4.54 True 6
+e28 complete 4.725 True 391
+e29 complete 4.721 True 12
+e30 complete 4.781 True 63
+e31 complete 4.844 True 366
+e32 complete 4.723 True 60
+e33 complete 4.635 True Thank you
+e34 complete 4.597 True cold
+e35 complete 4.532 True Portuguese
+e36 complete 5.563 True The heart pumps blood through the human body.
+e37 complete 5.021 True J.K. Rowling
+e38 complete 4.823 True Nile
+e39 complete 5.355 False 299792458
+e40 complete 4.229 True Hydrogen
+e41 complete 4.335 True Saturday
+e42 complete 4.538 True 20
+e43 complete 4.533 True 40
+e44 complete 4.785 True Red, Green, Blue
+e45 complete 5.316 False 100000000
+e46 complete 4.495 True Jane Austen
+e47 complete 4.429 True George Orwell
+e48 complete 4.242 True 2
+e49 complete 4.538 True 206
+e50 complete 4.242 True Mercury
+e51 complete 4.258 True Seoul
+e52 complete 4.294 True India
+e53 complete 4.395 True Good morning
+e54 complete 4.234 True mice
+e55 complete 4.264 True distance
+e56 complete 4.523 True 11
+e57 complete 4.574 True 886
+e58 complete 4.591 True 212
+e59 complete 4.302 False Yellow
+e60 complete 6.302 True Photosynthesis is the process where plants convert light energy into c
+EVAL_DONE orig envsets

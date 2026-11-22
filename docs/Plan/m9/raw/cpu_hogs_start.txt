@@ -1,0 +1,11 @@
+2026-10-18 22:13:10 Asia/Taipei
+  PID  %CPU %MEM COMM
+62716 100.1  0.3 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.41/Helpers/Google
+55138  98.8  0.0 /bin/zsh
+74215  81.5  0.5 /System/Library/PrivateFrameworks/MediaAnalysisAccess.framework/Versions/A/XPCServices/mediaanalysisd-access.xpc/Contents/M
+  659  60.4  0.1 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+  906  45.4  0.2 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/Frameworks/logioptionspl
+  701  42.7  0.4 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+  866  36.2  1.1 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+24029  17.8  0.5 /Applications/ChatGPT.app/Contents/Frameworks/Codex Framework.framework/Versions/155.0.8059.80/Helpers/Codex (Renderer).app
+72924  12.4  0.2 /Applications/ChatGPT.app/Contents/Frameworks/Codex Framework.framework/Versions/155.0.8059.80/Helpers/Codex (Service).app/

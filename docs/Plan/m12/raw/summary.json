@@ -1,0 +1,199 @@
+{
+ "Cm8": {
+  "bytes": 1996816384,
+  "GiB": 1.8597,
+  "facts": "17/22",
+  "facts_wrong": [
+   "f07",
+   "f08",
+   "f09",
+   "f21",
+   "f22"
+  ],
+  "guofu": {
+   "f01": "中華民國的國父是**孫中山**。",
+   "f21": "中華民國沒有明確的「國父」指定。\n\n不過，在中華民國的建國過程中，**蔣介石**",
+   "f22": "中華民國的國父是**蔣介石**。"
+  },
+  "knowledge": "10/15",
+  "instruction": "15/15",
+  "garbage": "10/10",
+  "trad_ratio": 1.0,
+  "english_reply": 0,
+  "status": {
+   "complete": 43,
+   "deadline": 7
+  },
+  "k08": "中華民國的國父是**孫中山**。",
+  "ttft_median_s": 0.415,
+  "total_median_s": 4.01,
+  "decode_tps_median": 8.2,
+  "peak_rss_gb_max": 1.577
+ },
+ "Bm8": {
+  "bytes": 1984823296,
+  "GiB": 1.8485,
+  "facts": "19/22",
+  "facts_wrong": [
+   "f07",
+   "f08",
+   "f21"
+  ],
+  "guofu": {
+   "f01": "中華民國的國父是**孫中山**。",
+   "f21": "中華民國沒有明確的「國父」指定。\n\n如果您指的是中華民國的建國或重要歷史人物，請",
+   "f22": "中華民國的國父是**孫中山**。"
+  },
+  "knowledge": "10/15",
+  "instruction": "15/15",
+  "garbage": "10/10",
+  "trad_ratio": 1.0,
+  "english_reply": 0,
+  "status": {
+   "complete": 44,
+   "length": 6
+  },
+  "k08": "中華民國的國父是**孫中山**。",
+  "ttft_median_s": 0.347,
+  "total_median_s": 3.139,
+  "decode_tps_median": 10.45,
+  "peak_rss_gb_max": 1.376
+ },
+ "Bm9": {
+  "bytes": 1984823296,
+  "GiB": 1.8485,
+  "facts": "18/22",
+  "facts_wrong": [
+   "f01",
+   "f08",
+   "f21",
+   "f22"
+  ],
+  "guofu": {
+   "f01": "中華民國的國父是**蔣介石**。",
+   "f21": "中華民國國父被稱為**蔣介石**。",
+   "f22": "中華民國的國父是**蔣介石**。"
+  },
+  "knowledge": "11/15",
+  "instruction": "14/15",
+  "garbage": "9/10",
+  "trad_ratio": 0.9992,
+  "english_reply": 1,
+  "status": {
+   "complete": 41,
+   "length": 9
+  },
+  "k08": "中華民國的國父是**蔣介石**。",
+  "ttft_median_s": 0.361,
+  "total_median_s": 2.962,
+  "decode_tps_median": 10.37,
+  "peak_rss_gb_max": 1.376
+ },
+ "Am9": {
+  "bytes": 2622554112,
+  "GiB": 2.4424,
+  "facts": "18/22",
+  "facts_wrong": [
+   "f01",
+   "f08",
+   "f21",
+   "f22"
+  ],
+  "guofu": {
+   "f01": "中華民國的國父是**蔣介石**。",
+   "f21": "中華民國國父被稱為**蔣介石**。",
+   "f22": "中華民國的國父是**蔣介石**。"
+  },
+  "knowledge": "11/15",
+  "instruction": "14/15",
+  "garbage": "9/10",
+  "trad_ratio": 0.9991,
+  "english_reply": 1,
+  "status": {
+   "complete": 41,
+   "deadline": 8,
+   "length": 1
+  },
+  "k08": "中華民國的國父是**蔣介石**。",
+  "ttft_median_s": 0.42,
+  "total_median_s": 3.552,
+  "decode_tps_median": 8.39,
+  "peak_rss_gb_max": 1.496
+ },
+ "orig_newbin": {
+  "bytes": 3221159936,
+  "GiB": 2.9999,
+  "facts": "20/22",
+  "facts_wrong": [
+   "f08",
+   "f21"
+  ],
+  "guofu": {
+   "f01": "中華民國的國父是**孫中山**。",
+   "f21": "中華民國國父被認為是**蔣介石**。",
+   "f22": "中華民國的國父是**孫中山**。"
+  },
+  "knowledge": "12/15",
+  "instruction": "14/15",
+  "garbage": "6/10",
+  "trad_ratio": 0.9982,
+  "english_reply": 1,
+  "status": {
+   "complete": 35,
+   "deadline": 15
+  },
+  "k08": "中華民國的國父是**孫中山**。",
+  "ttft_median_s": 0.433,
+  "total_median_s": 15.729,
+  "decode_tps_median": 7.36,
+  "peak_rss_gb_max": 2.096
+ },
+ "orig_oldbin": {
+  "bytes": 3221159936,
+  "GiB": 2.9999,
+  "facts": "20/22",
+  "facts_wrong": [
+   "f08",
+   "f21"
+  ],
+  "guofu": {
+   "f01": "中華民國的國父是**孫中山**。",
+   "f21": "中華民國國父被認為是**蔣介石**。",
+   "f22": "中華民國的國父是**孫中山**。"
+  }
+ },
+ "m11m9_oldbin": {
+  "bytes": 3221159936,
+  "GiB": 2.9999,
+  "facts": "18/22",
+  "facts_wrong": [
+   "f01",
+   "f08",
+   "f09",
+   "f21"
+  ],
+  "guofu": {
+   "f01": "中華民國的國父是**蔣介石**。",
+   "f21": "中華民國國父被稱為**蔣介石**。",
+   "f22": "中華民國的國父是**孫中山**。"
+  }
+ },
+ "m11m8_oldbin": {
+  "bytes": 3221159936,
+  "GiB": 2.9999,
+  "facts": "18/22",
+  "facts_wrong": [
+   "f07",
+   "f08",
+   "f15",
+   "f21"
+  ],
+  "guofu": {
+   "f01": "中華民國的國父是**孫中山**。",
+   "f21": "中華民國沒有明確的「國父」指定。\n\n如果您指的是中華民國的建國或重要歷史人物，請",
+   "f22": "中華民國的國父是**孫中山**。"
+  }
+ },
+ "_equiv_orig_newbin_vs_m11_shipped_bin": "35/50 identical answers",
+ "_equiv_facts_orig_new_vs_old_bin": "22/22 identical answers"
+}
