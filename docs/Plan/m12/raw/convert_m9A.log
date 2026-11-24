@@ -2,7 +2,7 @@ M12 overrides: Q4 ['c_embedding', 'ple_model_proj'] vocab unchanged
 I1120 18:39:03.307223 8397817920 convert_from_safetensors.py:1759] Restoring pure python logging
 I1120 18:39:03.307334 8397817920 convert_from_safetensors.py:1784] 
 ====
-Reading gemma4-2b-lm-q4_0-it from out/m11/work/m9-hf-text.safetensors and /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/models/gemma4-e2b-qat/tokenizer.json, writing to out/m12/work/m9-A-pipeline.sbs.partial
+Reading gemma4-2b-lm-q4_0-it from out/m11/work/m9-hf-text.safetensors and ~/Documents/AI/ALife-Platform/Google-Gemma4/originals/models/gemma4-e2b-qat/tokenizer.json, writing to out/m12/work/m9-A-pipeline.sbs.partial
 ====
 Gemma4 LM: vocab=262144 dim=1536 layers=35 has_ple=True
 Writing model.language_model.embed_tokens.weight with shape torch.Size([262144, 1536]) e:(262144, 1536)

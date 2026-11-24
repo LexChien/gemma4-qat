@@ -1,6 +1,6 @@
 #!/bin/bash
 # M8 resumable pipeline: distill -> sft -> train (auto-resume loop) -> export(+verify) -> eval. Stage markers raw/<stage>.DONE.
-cd /Users/lexchien/Documents/AI/gemma4-qat; PY=.venv-m0/bin/python; R=docs/Plan/m8/raw; T=docs/Plan/m8/tools; T7=docs/Plan/m7/tools
+cd ~/Documents/AI/gemma4-qat; PY=.venv-m0/bin/python; R=docs/Plan/m8/raw; T=docs/Plan/m8/tools; T7=docs/Plan/m7/tools
 OFF=out/m5/mlx-qat-g32exact; M8=out/m8/mlx-m8-g32exact
 while pgrep -f m8_distill.py >/dev/null; do sleep 20; done
 if [ ! -f $R/distill.DONE ]; then $PY $T/m8_distill.py --batch 32 2>&1 | grep --line-buffered -v regex | tee -a $R/distill.log

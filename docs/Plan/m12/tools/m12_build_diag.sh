@@ -3,10 +3,10 @@
 # + the 3-hunk vocab patch (docs/Plan/m12/raw/gemma_native_m12.diff), same flags/deps as ALife build.mjs. Output: out/m12/bin/<platform>/
 # usage: m12_build.sh mac|linux
 set -eu
-P=$1; Q=/Users/lexchien/Documents/AI/gemma4-qat; A=/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4
+P=$1; Q=~/Documents/AI/gemma4-qat; A=~/Documents/AI/ALife-Platform/Google-Gemma4
 SRC=$Q/out/m12/work/src-diag/gemma-native; B=$Q/out/m12/work/build-$P-diag; T=$A/originals/tools/native-20261014-r1
 L=$A/build/legacy-20261013/_deps
-SPM=/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece
+SPM=~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece
 ARGS="-S $SRC -B $B -DCMAKE_BUILD_TYPE=Release -DCMAKE_DISABLE_FIND_PACKAGE_OpenSSL=ON -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DHWY_ENABLE_TESTS=OFF -DHWY_ENABLE_EXAMPLES=OFF -DNATIVE_SQLITE_SOURCE=$T/sqlite-amalgamation-3500400 -DNATIVE_ABSL_SOURCE=$T/abseil-source -DFETCHCONTENT_SOURCE_DIR_HIGHWAY=$L/highway-src -DFETCHCONTENT_SOURCE_DIR_JSON=$L/json-src -DFETCHCONTENT_SOURCE_DIR_HTTPLIB=$L/httplib-src -DFETCHCONTENT_SOURCE_DIR_BENCHMARK=$L/benchmark-src -DFETCHCONTENT_SOURCE_DIR_SENTENCEPIECE=$SPM"
 mkdir -p $Q/out/m12/bin/diag
 if [ $P = mac ]; then

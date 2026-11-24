@@ -1,7 +1,7 @@
 # M0 基準量測報告（Gemma 4 E2B，Mac M1 Max）
 
 - 版本：v1.0
-- 執行：2026-10-17 12:51–14:10（台北時間），全部在 Lex 的 MacBookPro 上執行
+- 執行：2026-10-17 12:51–14:10（UTC+8），全部在 Lex 的 MacBookPro 上執行
 - 硬體：Apple M1 Max、64GB 統一記憶體、macOS 15.3.1
 - 限制：**完全沒用 llama.cpp／GGUF**；`src/` 與既有權重沒有修改（只在 `weights/` 新增兩個官方 ct 資料夾）
 - 原始數據：`docs/Plan/m0/raw/`；腳本：`docs/Plan/m0/tools/`；量化產物：`out/m0/`

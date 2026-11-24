@@ -1,7 +1,7 @@
 ============================= test session starts ==============================
-platform darwin -- Python 3.13.16, pytest-9.1.1, pluggy-1.7.0 -- /Users/lexchien/Documents/AI/gemma4-qat/.venv-jax/bin/python
+platform darwin -- Python 3.13.16, pytest-9.1.1, pluggy-1.7.0 -- ~/Documents/AI/gemma4-qat/.venv-jax/bin/python
 cachedir: .pytest_cache
-rootdir: /Users/lexchien/Documents/AI/gemma4-qat/src/gemma-qat
+rootdir: ~/Documents/AI/gemma4-qat/src/gemma-qat
 configfile: pyproject.toml
 plugins: jaxtyping-0.3.11, typeguard-4.6.0, anyio-4.15.1
 collecting ... collected 7 items

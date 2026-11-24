@@ -2,12 +2,12 @@
 -- The CXX compiler identification is Clang 20.1.2
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/zig - skipped
+-- Check for working C compiler: ~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/zig - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/zig - skipped
+-- Check for working CXX compiler: ~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/zig - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17
@@ -18,7 +18,7 @@
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE
 -- [--------------------] 0% | dependency 1/5: highway -- fetching and configuring, please wait
-CMake Deprecation Warning at /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/highway-src/CMakeLists.txt:28 (cmake_policy):
+CMake Deprecation Warning at ~/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/highway-src/CMakeLists.txt:28 (cmake_policy):
   The OLD behavior for policy CMP0111 will be removed from a future version
   of CMake.
 
@@ -46,7 +46,7 @@ CMake Deprecation Warning at /Users/lexchien/Documents/AI/ALife-Platform/Google-
 -- Not Found TCMalloc: TCMALLOC_LIB-NOTFOUND
 --          sentencepiece ready (0s)
 -- [========------------] 40% | dependency 3/5: json -- fetching and configuring, please wait
--- Using the multi-header code from /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/json-src/include/
+-- Using the multi-header code from ~/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/json-src/include/
 --          json ready (0s)
 -- OpenSSL not found, HTTPS support disabled
 -- [============--------] 60% | dependency 4/5: httplib -- fetching and configuring, please wait
@@ -90,70 +90,70 @@ CMake Deprecation Warning at /Users/lexchien/Documents/AI/ALife-Platform/Google-
 -- Performing Test HAVE_CXX_FLAG_WD654 - Failed
 -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
 -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Success
--- Enabling additional flags: -DINCLUDE_DIRECTORIES=/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/include
+-- Enabling additional flags: -DINCLUDE_DIRECTORIES=~/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/include
 -- Cross-compiling to test HAVE_THREAD_SAFETY_ATTRIBUTES
-CMake Warning at /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
+CMake Warning at ~/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
   If you see build failures due to cross compilation, try setting
   HAVE_THREAD_SAFETY_ATTRIBUTES to 0
 Call Stack (most recent call first):
-  /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:217 (cxx_feature_check)
+  ~/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:217 (cxx_feature_check)
 
 
 -- Performing Test HAVE_THREAD_SAFETY_ATTRIBUTES -- success
 -- Performing Test HAVE_CXX_FLAG_COVERAGE
 -- Performing Test HAVE_CXX_FLAG_COVERAGE - Failed
 -- Cross-compiling to test HAVE_STD_REGEX
-CMake Warning at /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
+CMake Warning at ~/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
   If you see build failures due to cross compilation, try setting
   HAVE_STD_REGEX to 0
 Call Stack (most recent call first):
-  /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:295 (cxx_feature_check)
+  ~/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:295 (cxx_feature_check)
 
 
 -- Performing Test HAVE_STD_REGEX -- success
 -- Cross-compiling to test HAVE_GNU_POSIX_REGEX
 -- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
 -- Cross-compiling to test HAVE_POSIX_REGEX
-CMake Warning at /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
+CMake Warning at ~/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
   If you see build failures due to cross compilation, try setting
   HAVE_POSIX_REGEX to 0
 Call Stack (most recent call first):
-  /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:297 (cxx_feature_check)
+  ~/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:297 (cxx_feature_check)
 
 
 -- Performing Test HAVE_POSIX_REGEX -- success
 -- Cross-compiling to test HAVE_STEADY_CLOCK
-CMake Warning at /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
+CMake Warning at ~/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
   If you see build failures due to cross compilation, try setting
   HAVE_STEADY_CLOCK to 0
 Call Stack (most recent call first):
-  /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:306 (cxx_feature_check)
+  ~/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:306 (cxx_feature_check)
 
 
 -- Performing Test HAVE_STEADY_CLOCK -- success
 -- Cross-compiling to test HAVE_PTHREAD_AFFINITY
-CMake Warning at /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
+CMake Warning at ~/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:49 (message):
   If you see build failures due to cross compilation, try setting
   HAVE_PTHREAD_AFFINITY to 0
 Call Stack (most recent call first):
-  /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:310 (cxx_feature_check)
+  ~/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/benchmark-src/CMakeLists.txt:310 (cxx_feature_check)
 
 
 -- Performing Test HAVE_PTHREAD_AFFINITY -- success
 --          benchmark ready (8s)
 -- Configuring done (70.1s)
 -- Generating done (0.7s)
--- Build files have been written to: /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/build-linux
+-- Build files have been written to: ~/Documents/AI/gemma4-qat/out/m12/work/build-linux
 [  0%] Building CXX object absl/absl/base/CMakeFiles/absl_spinlock_wait.dir/internal/spinlock_wait.cc.o
 [  0%] Building CXX object absl/absl/types/CMakeFiles/absl_source_location.dir/source_location.cc.o
 [  1%] Building CXX object absl/absl/base/CMakeFiles/absl_log_severity.dir/log_severity.cc.o
-[  1%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/arena.cc.o
+[  1%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/arena.cc.o
 [  1%] Linking CXX static library libabsl_source_location.a
 [  1%] Linking CXX static library libabsl_spinlock_wait.a
 [  1%] Built target absl_source_location
-[  1%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/arenastring.cc.o
+[  1%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/arenastring.cc.o
 [  1%] Built target absl_spinlock_wait
-[  1%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/bytestream.cc.o
+[  1%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/bytestream.cc.o
 [  1%] Linking CXX static library libabsl_log_severity.a
 [  1%] Built target absl_log_severity
 [  2%] Building CXX object absl/absl/random/CMakeFiles/absl_random_internal_platform.dir/internal/randen_round_keys.cc.o
@@ -162,108 +162,108 @@ Call Stack (most recent call first):
 [  2%] Linking CXX static library libabsl_utf8_for_code_point.a
 [  2%] Built target absl_random_internal_platform
 [  2%] Built target absl_utf8_for_code_point
-[  3%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/coded_stream.cc.o
+[  3%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/coded_stream.cc.o
 [  5%] Building CXX object absl/absl/time/CMakeFiles/absl_civil_time.dir/internal/cctz/src/civil_time_detail.cc.o
 [  5%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_fixed.cc.o
-[  6%] Building C object CMakeFiles/native_sqlite.dir/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/sqlite-amalgamation-3500400/sqlite3.c.o
+[  6%] Building C object CMakeFiles/native_sqlite.dir~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/sqlite-amalgamation-3500400/sqlite3.c.o
 [  6%] Linking CXX static library libabsl_civil_time.a
 [  6%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_format.cc.o
 [  6%] Built target absl_civil_time
 [  6%] Building CXX object absl/absl/base/CMakeFiles/absl_strerror.dir/internal/strerror.cc.o
-[  6%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/common.cc.o
+[  6%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/common.cc.o
 [  7%] Linking CXX static library libabsl_strerror.a
 [  7%] Built target absl_strerror
 [  7%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_if.cc.o
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/common.cc:185:47: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/common.cc:185:47: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
   185 | static std::atomic<int> log_silencer_count_ = ATOMIC_VAR_INIT(0);
       |                                               ^
-/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
    22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
       |                                           ^
 1 warning generated.
-[  7%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/extension_set.cc.o
+[  7%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/extension_set.cc.o
 [  7%] Building CXX object absl/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o
 [  8%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_impl.cc.o
 [  8%] Linking CXX static library libabsl_exponential_biased.a
 [  8%] Built target absl_exponential_biased
-[  8%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/generated_enum_util.cc.o
+[  8%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/generated_enum_util.cc.o
 [  8%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_info.cc.o
 [  8%] Building CXX object absl/absl/debugging/CMakeFiles/absl_leak_check.dir/leak_check.cc.o
 [  8%] Linking CXX static library libabsl_leak_check.a
 [  8%] Built target absl_leak_check
-[  8%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/generated_message_table_driven_lite.cc.o
+[  8%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/generated_message_table_driven_lite.cc.o
 [  8%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_libc.cc.o
 [  8%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_lookup.cc.o
 [ 10%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_posix.cc.o
-[ 11%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/generated_message_util.cc.o
+[ 11%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/generated_message_util.cc.o
 [ 11%] Building CXX object absl/absl/flags/CMakeFiles/absl_flags_commandlineflag_internal.dir/internal/commandlineflag.cc.o
 [ 12%] Linking CXX static library libabsl_flags_commandlineflag_internal.a
 [ 12%] Built target absl_flags_commandlineflag_internal
-[ 12%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/implicit_weak_message.cc.o
+[ 12%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/implicit_weak_message.cc.o
 [ 12%] Building CXX object absl/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/zone_info_source.cc.o
 [ 12%] Linking CXX static library libabsl_time_zone.a
 [ 12%] Built target absl_time_zone
-[ 12%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/int128.cc.o
+[ 12%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/int128.cc.o
 [ 12%] Building CXX object absl/absl/log/CMakeFiles/absl_log_internal_nullguard.dir/internal/nullguard.cc.o
 [ 14%] Linking CXX static library libabsl_log_internal_nullguard.a
 [ 14%] Built target absl_log_internal_nullguard
-[ 14%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/io_win32.cc.o
+[ 14%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/io_win32.cc.o
 [ 14%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/abort.cc.o
 [ 14%] Building CXX object absl/absl/base/CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o
-[ 15%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/message_lite.cc.o
+[ 15%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/message_lite.cc.o
 [ 15%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/aligned_allocator.cc.o
 [ 15%] Linking CXX static library libabsl_raw_logging_internal.a
 [ 15%] Built target absl_raw_logging_internal
-[ 15%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/parse_context.cc.o
+[ 15%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/parse_context.cc.o
 [ 15%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/nanobenchmark.cc.o
 [ 15%] Building CXX object absl/absl/random/CMakeFiles/absl_random_internal_randen_hwaes_impl.dir/internal/randen_hwaes.cc.o
-[ 15%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/repeated_field.cc.o
+[ 15%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/repeated_field.cc.o
 [ 16%] Linking CXX static library libabsl_random_internal_randen_hwaes_impl.a
 [ 16%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/os_rng.cc.o
 [ 16%] Built target absl_random_internal_randen_hwaes_impl
-[ 16%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/status.cc.o
+[ 16%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/status.cc.o
 [ 17%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/per_target.cc.o
 [ 17%] Building CXX object absl/absl/random/CMakeFiles/absl_random_internal_randen_slow.dir/internal/randen_slow.cc.o
-[ 17%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/statusor.cc.o
+[ 17%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/statusor.cc.o
 [ 17%] Linking CXX static library libabsl_random_internal_randen_slow.a
 [ 17%] Built target absl_random_internal_randen_slow
 [ 17%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/perf_counters.cc.o
 [ 17%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/print.cc.o
-[ 19%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/stringpiece.cc.o
+[ 19%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/stringpiece.cc.o
 [ 19%] Building CXX object absl/absl/random/CMakeFiles/absl_random_internal_randen_hwaes.dir/internal/randen_detect.cc.o
 [ 19%] Linking CXX static library libabsl_random_internal_randen_hwaes.a
 [ 19%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/profiler.cc.o
 [ 19%] Built target absl_random_internal_randen_hwaes
-[ 19%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/stringprintf.cc.o
-[ 19%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/structurally_valid.cc.o
+[ 19%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/stringprintf.cc.o
+[ 19%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/structurally_valid.cc.o
 [ 20%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/stats.cc.o
-[ 20%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/strutil.cc.o
+[ 20%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/strutil.cc.o
 [ 20%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/targets.cc.o
 [ 20%] Building CXX object absl/absl/strings/CMakeFiles/absl_cordz_functions.dir/internal/cordz_functions.cc.o
 [ 20%] Building CXX object _deps/highway-build/CMakeFiles/hwy.dir/hwy/timer.cc.o
 [ 20%] Linking CXX static library libabsl_cordz_functions.a
 [ 20%] Built target absl_cordz_functions
-[ 21%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/time.cc.o
+[ 21%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/time.cc.o
 [ 21%] Building CXX object absl/absl/base/CMakeFiles/absl_base.dir/casts.cc.o
 [ 21%] Linking CXX static library libhwy.a
 [ 21%] Built target hwy
-[ 21%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/wire_format_lite.cc.o
+[ 21%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/wire_format_lite.cc.o
 [ 21%] Building CXX object absl/absl/base/CMakeFiles/absl_base.dir/internal/cycleclock.cc.o
 [ 21%] Building CXX object absl/absl/base/CMakeFiles/absl_throw_delegate.dir/throw_delegate.cc.o
 [ 21%] Building CXX object absl/absl/base/CMakeFiles/absl_base.dir/internal/spinlock.cc.o
 [ 23%] Linking CXX static library libabsl_throw_delegate.a
-[ 23%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/zero_copy_stream.cc.o
+[ 23%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/zero_copy_stream.cc.o
 [ 23%] Linking C static library libnative_sqlite.a
 [ 23%] Built target absl_throw_delegate
 [ 23%] Building CXX object absl/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.o
 [ 23%] Built target native_sqlite
 [ 23%] Building CXX object absl/absl/base/CMakeFiles/absl_base.dir/internal/sysinfo.cc.o
-[ 23%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/zero_copy_stream_impl.cc.o
+[ 23%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/zero_copy_stream_impl.cc.o
 [ 24%] Building CXX object absl/absl/random/CMakeFiles/absl_random_seed_gen_exception.dir/seed_gen_exception.cc.o
 [ 24%] Building CXX object absl/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.o
 [ 25%] Building CXX object absl/absl/base/CMakeFiles/absl_base.dir/internal/thread_identity.cc.o
 [ 25%] Linking CXX static library libabsl_random_seed_gen_exception.a
-[ 25%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/zero_copy_stream_impl_lite.cc.o
+[ 25%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/third_party/protobuf-lite/zero_copy_stream_impl_lite.cc.o
 [ 26%] Building CXX object absl/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.o
 [ 26%] Built target absl_random_seed_gen_exception
 [ 26%] Building CXX object absl/absl/base/CMakeFiles/absl_base.dir/internal/unscaledcycleclock.cc.o
@@ -275,58 +275,58 @@ Call Stack (most recent call first):
 [ 28%] Building CXX object absl/absl/random/CMakeFiles/absl_random_internal_randen.dir/internal/randen.cc.o
 [ 28%] Built target absl_debugging_internal
 [ 28%] Building CXX object _deps/sentencepiece-build/src/CMakeFiles/sentencepiece-static.dir/bpe_model.cc.o
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece.pb.cc:41:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece.pb.cc:41:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
    41 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_NBestSentencePieceText_sentencepiece_2eproto}, {
       |       ^
-/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
    22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
       |                                           ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece.pb.cc:55:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece.pb.cc:55:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
    55 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_SentencePieceText_sentencepiece_2eproto}, {
       |       ^
-/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
    22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
       |                                           ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece.pb.cc:69:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece.pb.cc:69:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
    69 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_SentencePieceText_SentencePiece_sentencepiece_2eproto}, {}};
       |       ^
-/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
    22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
       |                                           ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:56:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:56:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
    56 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 4, 0, InitDefaultsscc_info_ModelProto_sentencepiece_5fmodel_2eproto}, {
       |       ^
-/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
    22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
       |                                           ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:73:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:73:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
    73 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_ModelProto_SentencePiece_sentencepiece_5fmodel_2eproto}, {}};
       |       ^
-/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
    22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
       |                                           ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:86:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:86:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
    86 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_NormalizerSpec_sentencepiece_5fmodel_2eproto}, {}};
       |       ^
-/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
    22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
       |                                           ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:99:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:99:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
    99 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 1, 0, InitDefaultsscc_info_SelfTestData_sentencepiece_5fmodel_2eproto}, {
       |       ^
-/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
    22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
       |                                           ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:113:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:113:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
   113 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_SelfTestData_Sample_sentencepiece_5fmodel_2eproto}, {}};
       |       ^
-/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
    22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
       |                                           ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:126:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/builtin_pb/sentencepiece_model.pb.cc:126:7: warning: macro 'ATOMIC_VAR_INIT' has been marked as deprecated [-Wdeprecated-pragma]
   126 |     {{ATOMIC_VAR_INIT(::PROTOBUF_NAMESPACE_ID::internal::SCCInfoBase::kUninitialized), 0, 0, InitDefaultsscc_info_TrainerSpec_sentencepiece_5fmodel_2eproto}, {}};
       |       ^
-/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
+~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libcxx/include/__atomic/atomic_init.h:22:43: note: macro marked 'deprecated' here
    22 | #  pragma clang deprecated(ATOMIC_VAR_INIT)
       |                                           ^
 3 warnings generated.
@@ -564,16 +564,16 @@ Call Stack (most recent call first):
 [ 76%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/thread_pool/thread_pool.cc.o
 [ 76%] Built target absl_log_globals
 [ 76%] Building CXX object _deps/highway-build/CMakeFiles/hwy_contrib.dir/hwy/contrib/thread_pool/topology.cc.o
-/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/highway-src/hwy/contrib/thread_pool/topology.cc:291:22: warning: implicit conversion loses integer precision: 'unsigned long' to 'const int' [-Wshorten-64-to-32]
+~/Documents/AI/ALife-Platform/Google-Gemma4/build/legacy-20261013/_deps/highway-src/hwy/contrib/thread_pool/topology.cc:291:22: warning: implicit conversion loses integer precision: 'unsigned long' to 'const int' [-Wshorten-64-to-32]
   291 |   const int is_set = CPU_ISSET(static_cast<int>(lp), set);
       |             ~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libc/include/generic-musl/sched.h:131:27: note: expanded from macro 'CPU_ISSET'
+~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libc/include/generic-musl/sched.h:131:27: note: expanded from macro 'CPU_ISSET'
   131 | #define CPU_ISSET(i, set) CPU_ISSET_S(i,sizeof(cpu_set_t),set)
       |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libc/include/generic-musl/sched.h:98:60: note: expanded from macro 'CPU_ISSET_S'
+~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libc/include/generic-musl/sched.h:98:60: note: expanded from macro 'CPU_ISSET_S'
    98 | #define CPU_ISSET_S(i, size, set) __CPU_op_S(i, size, set, &)
       |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~^~
-/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libc/include/generic-musl/sched.h:94:48: note: expanded from macro '__CPU_op_S'
+~/Documents/AI/ALife-Platform/Google-Gemma4/originals/tools/native-20261014-r1/zig-aarch64-macos-0.15.2/lib/libc/include/generic-musl/sched.h:94:48: note: expanded from macro '__CPU_op_S'
    94 |         (((unsigned long *)(set))[(i)/8/sizeof(long)] op (1UL<<((i)%(8*sizeof(long))))) )
       |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [ 78%] Building CXX object absl/absl/strings/CMakeFiles/absl_cord.dir/cord.cc.o
@@ -661,77 +661,77 @@ Call Stack (most recent call first):
 [ 97%] Building CXX object kernels/CMakeFiles/libgemma.dir/tokenizer/sentencepiece_tokenizer.cc.o
 [ 98%] Building CXX object kernels/CMakeFiles/libgemma.dir/util/allocator.cc.o
 [ 98%] Building CXX object kernels/CMakeFiles/libgemma.dir/util/basics.cc.o
-In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/tokenizer/sentencepiece_tokenizer.cc:28:
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:562:33: warning: 'SampleEncodeAndScore' is deprecated: WARNING: SampleEncodeAndScore is deprecated and will be removed. [-Wdeprecated-declarations]
+In file included from ~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/tokenizer/sentencepiece_tokenizer.cc:28:
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:562:33: warning: 'SampleEncodeAndScore' is deprecated: WARNING: SampleEncodeAndScore is deprecated and will be removed. [-Wdeprecated-declarations]
   562 |     DEFINE_SPP_DIRECT_FUNC_IMPL(SampleEncodeAndScore, _T, input, num_samples,
       |                                 ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:400:5: note: 'SampleEncodeAndScore' has been explicitly marked deprecated here
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:400:5: note: 'SampleEncodeAndScore' has been explicitly marked deprecated here
   400 |   [[deprecated(
       |     ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:570:33: warning: 'SampleEncodeAndScore' is deprecated: WARNING: SampleEncodeAndScore is deprecated and will be removed. [-Wdeprecated-declarations]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:570:33: warning: 'SampleEncodeAndScore' is deprecated: WARNING: SampleEncodeAndScore is deprecated and will be removed. [-Wdeprecated-declarations]
   570 |     DEFINE_SPP_DIRECT_FUNC_IMPL(SampleEncodeAndScore, _T, input, num_samples,
       |                                 ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:408:5: note: 'SampleEncodeAndScore' has been explicitly marked deprecated here
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:408:5: note: 'SampleEncodeAndScore' has been explicitly marked deprecated here
   408 |   [[deprecated(
       |     ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:590:33: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:590:33: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
   590 |     DEFINE_SPP_DIRECT_FUNC_IMPL(Decode, std::string, pieces);
       |                                 ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:321:5: note: 'Decode' has been explicitly marked deprecated here
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:321:5: note: 'Decode' has been explicitly marked deprecated here
   321 |   [[deprecated(
       |     ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:595:33: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:595:33: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
   595 |     DEFINE_SPP_DIRECT_FUNC_IMPL(Decode, std::string, pieces);
       |                                 ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:329:5: note: 'Decode' has been explicitly marked deprecated here
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:329:5: note: 'Decode' has been explicitly marked deprecated here
   329 |   [[deprecated(
       |     ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:600:33: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:600:33: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
   600 |     DEFINE_SPP_DIRECT_FUNC_IMPL(Decode, std::string, ids);
       |                                 ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:337:5: note: 'Decode' has been explicitly marked deprecated here
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:337:5: note: 'Decode' has been explicitly marked deprecated here
   337 |   [[deprecated(
       |     ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:605:33: warning: 'CalculateEntropy' is deprecated: WARNING: CalculateEntropy is deprecated and will be removed. [-Wdeprecated-declarations]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:605:33: warning: 'CalculateEntropy' is deprecated: WARNING: CalculateEntropy is deprecated and will be removed. [-Wdeprecated-declarations]
   605 |     DEFINE_SPP_DIRECT_FUNC_IMPL(CalculateEntropy, float, text, alpha);
       |                                 ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:420:5: note: 'CalculateEntropy' has been explicitly marked deprecated here
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:420:5: note: 'CalculateEntropy' has been explicitly marked deprecated here
   420 |   [[deprecated("WARNING: CalculateEntropy is deprecated and will be removed.")]]
       |     ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:633:38: warning: 'SampleEncodeAndScore' is deprecated: WARNING: SampleEncodeAndScore is deprecated and will be removed. [-Wdeprecated-declarations]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:633:38: warning: 'SampleEncodeAndScore' is deprecated: WARNING: SampleEncodeAndScore is deprecated and will be removed. [-Wdeprecated-declarations]
   633 |     DEFINE_SPP_SERIALIZED_PROTO_IMPL(SampleEncodeAndScore,
       |                                      ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:446:5: note: 'SampleEncodeAndScore' has been explicitly marked deprecated here
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:446:5: note: 'SampleEncodeAndScore' has been explicitly marked deprecated here
   446 |   [[deprecated(
       |     ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:647:38: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:647:38: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
   647 |     DEFINE_SPP_SERIALIZED_PROTO_IMPL(Decode, ImmutableSentencePieceText,
       |                                      ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:463:5: note: 'Decode' has been explicitly marked deprecated here
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:463:5: note: 'Decode' has been explicitly marked deprecated here
   463 |   [[deprecated(
       |     ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:653:38: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:653:38: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
   653 |     DEFINE_SPP_SERIALIZED_PROTO_IMPL(Decode, ImmutableSentencePieceText,
       |                                      ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:471:5: note: 'Decode' has been explicitly marked deprecated here
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:471:5: note: 'Decode' has been explicitly marked deprecated here
   471 |   [[deprecated(
       |     ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:659:38: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:659:38: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
   659 |     DEFINE_SPP_SERIALIZED_PROTO_IMPL(Decode, ImmutableSentencePieceText, ids);
       |                                      ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:479:5: note: 'Decode' has been explicitly marked deprecated here
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:479:5: note: 'Decode' has been explicitly marked deprecated here
   479 |   [[deprecated(
       |     ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:723:37: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:723:37: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
   723 |     DEFINE_SPP_IMMUTABLE_PROTO_IMPL(Decode, ImmutableSentencePieceText, ids);
       |                                     ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:479:5: note: 'Decode' has been explicitly marked deprecated here
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:479:5: note: 'Decode' has been explicitly marked deprecated here
   479 |   [[deprecated(
       |     ^
-/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/tokenizer/sentencepiece_tokenizer.cc:54:17: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
+~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/tokenizer/sentencepiece_tokenizer.cc:54:17: warning: 'Decode' is deprecated: WARNING: Decode with std::vector<> input is deprecated and will be removed. [-Wdeprecated-declarations]
    54 |     return spp_.Decode(std::vector<int>(ids.begin(), ids.end()),
       |                 ^
-/Users/lexchien/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:337:5: note: 'Decode' has been explicitly marked deprecated here
+~/Documents/AI/ALife-Platform/runs/google_gemma4_private_upload/20261014/export-repo/Google-Gemma4/work/source/native-dependencies/native-20261014-r1/sentencepiece/src/sentencepiece_processor.h:337:5: note: 'Decode' has been explicitly marked deprecated here
   337 |   [[deprecated(
       |     ^
 12 warnings generated.
@@ -743,38 +743,38 @@ In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/g
 [100%] Linking CXX static library libgemma.a
 [100%] Built target libgemma
 [100%] Building CXX object CMakeFiles/native_executor.dir/executor.cc.o
-In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma-native/executor.cc:5:
-In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma.h:25:
-In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/activations.h:28:
-In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./deepseek/deepseek_dims.h:25:
-/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/configs.h:373:37: warning: unused parameter 'model' [-Wunused-parameter]
+In file included from ~/Documents/AI/gemma4-qat/out/m12/work/src/gemma-native/executor.cc:5:
+In file included from ~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma.h:25:
+In file included from ~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/activations.h:28:
+In file included from ~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./deepseek/deepseek_dims.h:25:
+~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/configs.h:373:37: warning: unused parameter 'model' [-Wunused-parameter]
   373 | static inline bool IsInternal(Model model) { return false; }
       |                                     ^
-/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/configs.h:390:36: warning: unused parameter 'visitor' [-Wunused-parameter]
+~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/configs.h:390:36: warning: unused parameter 'visitor' [-Wunused-parameter]
   390 |   void VisitFields(IFieldsVisitor& visitor) override {
       |                                    ^
-/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/configs.h:625:36: warning: unused parameter 'visitor' [-Wunused-parameter]
+~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/configs.h:625:36: warning: unused parameter 'visitor' [-Wunused-parameter]
   625 |   void VisitFields(IFieldsVisitor& visitor) override {
       |                                    ^
-In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma-native/executor.cc:5:
-In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma.h:25:
-In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/activations.h:31:
-In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma_args.h:35:
-In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./util/threading_context.h:30:
-/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./util/threading.h:156:32: warning: unused parameter 'pkg_idx' [-Wunused-parameter]
+In file included from ~/Documents/AI/gemma4-qat/out/m12/work/src/gemma-native/executor.cc:5:
+In file included from ~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma.h:25:
+In file included from ~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/activations.h:31:
+In file included from ~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma_args.h:35:
+In file included from ~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./util/threading_context.h:30:
+~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./util/threading.h:156:32: warning: unused parameter 'pkg_idx' [-Wunused-parameter]
   156 |   hwy::ThreadPool& Pool(size_t pkg_idx = 0) {
       |                                ^
-In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma-native/executor.cc:5:
-In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma.h:25:
-/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/activations.h:79:63: warning: unused parameter 'runtime_config' [-Wunused-parameter]
+In file included from ~/Documents/AI/gemma4-qat/out/m12/work/src/gemma-native/executor.cc:5:
+In file included from ~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma.h:25:
+~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/activations.h:79:63: warning: unused parameter 'runtime_config' [-Wunused-parameter]
    79 |       size_t batch_size, size_t seq_len, const RuntimeConfig& runtime_config,
       |                                                               ^
-In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma-native/executor.cc:5:
-In file included from /Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma.h:34:
-/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./ops/matmul.h:86:20: warning: unused parameter 'inner_tasks' [-Wunused-parameter]
+In file included from ~/Documents/AI/gemma4-qat/out/m12/work/src/gemma-native/executor.cc:5:
+In file included from ~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./gemma/gemma.h:34:
+~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./ops/matmul.h:86:20: warning: unused parameter 'inner_tasks' [-Wunused-parameter]
    86 |             size_t inner_tasks, size_t cluster_idx, const Func& func) const {
       |                    ^
-/Users/lexchien/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./ops/matmul.h:505:19: warning: unused parameter 'M' [-Wunused-parameter]
+~/Documents/AI/gemma4-qat/out/m12/work/src/gemma.cpp/./ops/matmul.h:505:19: warning: unused parameter 'M' [-Wunused-parameter]
   505 |   MMConfig(size_t M, size_t K, size_t N, size_t mr, size_t mc, size_t kc,
       |                   ^
 7 warnings generated.

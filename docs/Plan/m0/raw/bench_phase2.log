@@ -1,5 +1,5 @@
 === CT load attempt (transformers + compressed-tensors) 2026年10月17日 週六 13時48分05秒 CST
-/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m0/tools/m0_run_phase2.sh: line 23: 61817 Segmentation fault: 11  $PY docs/Plan/m0/tools/m0_bench_torch.py ct-mobile weights/gemma-4-E2B-it-qat-mobile-ct --device mps --smoke > $RAW/ct_load_attempt_mobile.log 2>&1
+~/Documents/AI/gemma4-qat/docs/Plan/m0/tools/m0_run_phase2.sh: line 23: 61817 Segmentation fault: 11  $PY docs/Plan/m0/tools/m0_bench_torch.py ct-mobile weights/gemma-4-E2B-it-qat-mobile-ct --device mps --smoke > $RAW/ct_load_attempt_mobile.log 2>&1
 exit 139
 exit 0
 === ct-w4a16-dequant-bf16 2026年10月17日 週六 13時48分45秒 CST

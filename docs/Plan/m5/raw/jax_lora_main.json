@@ -175,6 +175,6 @@
  "tokens_seen": 17920,
  "peak_rss_gb": 38.05,
  "val_final": 2.9283031821250916,
- "export_dir": "/Users/lexchien/Documents/AI/gemma4-qat/out/m5/jax_lora_main/orbax",
+ "export_dir": "~/Documents/AI/gemma4-qat/out/m5/jax_lora_main/orbax",
  "total_s": 3860.0
 }

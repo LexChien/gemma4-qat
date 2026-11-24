@@ -2,7 +2,7 @@
 # M13 fine-tune pipeline (resumable; markers in out/m13/work/ft): wait for the website-envelope eval chain -> train (auto-resume)
 # -> export candidates (step 100 + final; lossless on-grid check) -> SBS build+verify (m13_build.sh) -> wait for plain-text experiment
 # -> native website-profile evals (sets, envsets, p50, envp50) -> grading.
-cd /Users/lexchien/Documents/AI/gemma4-qat; PY=.venv-m0/bin/python; R=docs/Plan/m13/raw; T=docs/Plan/m13/tools; W=out/m13/work/ft; ST=$T/status.sh
+cd ~/Documents/AI/gemma4-qat; PY=.venv-m0/bin/python; R=docs/Plan/m13/raw; T=docs/Plan/m13/tools; W=out/m13/work/ft; ST=$T/status.sh
 while pgrep -f "m13_eval_env.sh|m13_eval_txt.sh" >/dev/null; do sleep 20; done
 [ -f $W/train.DONE ] || { $ST 5 7 "fine-tune start (737 train / 40 valid, 185 steps, rank 8, lr 4e-5, beta 1)"; bash $T/m13_train_loop.sh --rank 8 --lr 4e-5 --batch 4 --epochs 1 --save-every 25 --eval-every 25; }
 [ -f $W/train.DONE ] || { $ST 5 7 "TRAIN NOT DONE"; exit 1; }

@@ -2,7 +2,7 @@
 # M5 export + eval: HF text dir (bf16) -> MLX g32 exact-grid (+--snap if off-grid), MLX g64 affine, ct g32; PPL (M0 method)
 # usage: m5_export.sh NAME HF_DIR [snap]
 set -ex
-cd /Users/lexchien/Documents/AI/gemma4-qat
+cd ~/Documents/AI/gemma4-qat
 NAME=$1; HF=$2; SNAP=${3:+--snap}; PY=.venv-m0/bin/python
 rm -rf out/m5/_tmp_g32_$NAME out/m5/mlx-$NAME-g32exact out/m5/mlx-$NAME-g64
 $PY -m mlx_lm convert --hf-path $HF --mlx-path out/m5/_tmp_g32_$NAME -q --q-bits 4 --q-group-size 32

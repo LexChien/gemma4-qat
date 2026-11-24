@@ -1,6 +1,6 @@
 # M7：讓 Gemma 4 E2B QAT「真正關閉思考」v1.0
 
-> 日期：2026-10-18（時間皆為 Asia/Taipei）｜機器：MacBook Pro M1 Max 64GB｜目錄：`docs/Plan/m7/`（`tools/`、`raw/`），輸出在 `out/m7/`
+> 日期：2026-10-18（時間皆為 UTC+8）｜機器：MacBook Pro M1 Max 64GB｜目錄：`docs/Plan/m7/`（`tools/`、`raw/`），輸出在 `out/m7/`
 > 限制：不使用 llama.cpp／GGUF；未修改 `src/gemma`、`weights/`、`src/gemma-qat`。
 
 ## 1. 結論（重要更正）

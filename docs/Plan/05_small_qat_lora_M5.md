@@ -1,6 +1,6 @@
 # M5：在 Mac（M1 Max 64GB）上做小規模 LoRA-QAT — v1.0
 
-日期：2026-10-17（台北時間）｜ 起點：**官方 QAT 權重** `gemma-4-E2B-it-qat-q4_0-unquantized`（不是 IT）
+日期：2026-10-17（UTC+8）｜ 起點：**官方 QAT 權重** `gemma-4-E2B-it-qat-q4_0-unquantized`（不是 IT）
 程式碼：`src/gemma-qat` 新分支 `m5`（commit `60e24b1`）；專案工具：`tools/convert_hf_to_jax.py`、`tools/mlx_exact_grid.py`、`tools/pack_compressed_tensors.py`
 限制遵守：沒有使用 llama.cpp；`src/gemma` 和 `weights/` 都沒有修改；所有產出都寫在 Mac 上。
 

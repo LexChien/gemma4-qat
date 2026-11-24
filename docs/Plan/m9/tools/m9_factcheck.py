@@ -16,7 +16,7 @@ def fetch(title):
     q = urllib.parse.urlencode({"action": "query", "prop": "extracts", "explaintext": 1, "format": "json", "titles": title, "variant": "zh-tw", "redirects": 1})
     for k in range(6):
         try:
-            req = urllib.request.Request("https://zh.wikipedia.org/w/api.php?" + q, headers={"User-Agent": "gemma4-qat-M9/0.1 (research; lex@xsoin.com)"})
+            req = urllib.request.Request("https://zh.wikipedia.org/w/api.php?" + q, headers={"User-Agent": "gemma4-qat-M9/0.1 (research; github.com/LexChien)"})
             pg = list(json.load(urllib.request.urlopen(req, timeout=60))["query"]["pages"].values())[0]
             time.sleep(1.5); return dict(title=pg.get("title", title), text=pg.get("extract", ""))
         except Exception as e:

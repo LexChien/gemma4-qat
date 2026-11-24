@@ -1,9 +1,9 @@
-// M13: build the exact website native prompt (xsoin-chat-v1 envelope, policy xsoin-public-v29) for each eval item by importing the
+// M13: build the exact website native prompt (site-chat-v1 envelope, policy site-policy) for each eval item by importing the
 // website's own read-only helpers (scripts/gemma-native-api.mjs: effectiveLocale, resolveTask/resolveResponseContract, nativeEnvelope).
 // First turn of a fresh session (empty history); runtime clock fixed at 2026-11-21T02:00:00Z for reproducibility. Page locale: zh-tw for
 // zh items and the 50 prompts, en for en items.  usage: node m13_envelopes.mjs <in.json> <out.json>
 import fs from 'node:fs';
-const W = '/Users/lexchien/Documents/ChatGPT/XsOin/scripts/';
+const W = '$WEBSITE_ROOT/scripts/';
 const api = await import(W + 'gemma-native-api.mjs'); const ctx = await import(W + 'gemma-task-context.mjs');
 const [inp, outp] = process.argv.slice(2); const src = JSON.parse(fs.readFileSync(inp, 'utf8')); const T = Date.parse('2026-11-21T02:00:00Z');
 const out = {};

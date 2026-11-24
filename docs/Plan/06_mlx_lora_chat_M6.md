@@ -1,6 +1,6 @@
 # M6：MLX-LM LoRA、中文對話評測與端到端延遲 v1.0
 
-> 日期：2026-10-17（時間皆為 Asia/Taipei）｜機器：MacBook Pro M1 Max 64GB，macOS 15.3.1｜目錄：`docs/Plan/m6/`（`tools/` 腳本、`raw/` 原始輸出）
+> 日期：2026-10-17（時間皆為 UTC+8）｜機器：MacBook Pro M1 Max 64GB，macOS 15.3.1｜目錄：`docs/Plan/m6/`（`tools/` 腳本、`raw/` 原始輸出）
 > 限制：不使用 llama.cpp／GGUF；未修改 `src/gemma`、`weights/`。M6 沒有改 `src/gemma-qat` 的程式碼，所以沒有開 `m6` 分支。
 
 ## 1. 結論摘要

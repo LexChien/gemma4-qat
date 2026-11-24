@@ -1,6 +1,6 @@
 #!/bin/bash
 # M0: run MLX benchmarks sequentially (one process per model for clean peak-memory numbers)
-cd /Users/lexchien/Documents/AI/gemma4-qat
+cd ~/Documents/AI/gemma4-qat
 PY=.venv-m0/bin/python; B=docs/Plan/m0/tools/m0_bench_mlx.py; L=docs/Plan/m0/raw/bench_mlx_all.log
 run(){ [ -f docs/Plan/m0/raw/bench_$1.json ] && { echo "skip $1"; return; }; echo "=== $1 $(date)"; $PY $B $1 $2 2>&1 | grep -v Warning | tail -3; }
 {

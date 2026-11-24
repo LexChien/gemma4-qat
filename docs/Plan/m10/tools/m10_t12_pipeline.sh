@@ -1,8 +1,8 @@
 #!/bin/bash
 # M10 tasks 1+2: G3 compressed-tensors build from M9 + HF load/PPL/chat; P1/P3/Q2 measurements. Markers docs/Plan/m10/raw/*.DONE
-cd /Users/lexchien/Documents/AI/gemma4-qat; PY=.venv-m0/bin/python; R=docs/Plan/m10/raw; export PYTHONPATH=src HF_DATASETS_OFFLINE=1
+cd ~/Documents/AI/gemma4-qat; PY=.venv-m0/bin/python; R=docs/Plan/m10/raw; export PYTHONPATH=src HF_DATASETS_OFFLINE=1
 M9=out/m9/mlx-m9-g32exact; CT=out/m10/m9-ct-g256; CT32=out/m10/m9-ct-g32; OFFCT=weights/gemma-4-E2B-it-qat-mobile-ct
-snap() { { echo "== $1 $(date '+%F %T') Asia/Taipei"; ps -Ao pid,pcpu,pmem,comm -r | head -9 | cut -c1-130; } >> $R/cpu_load.txt; }
+snap() { { echo "== $1 $(date '+%F %T') UTC+8"; ps -Ao pid,pcpu,pmem,comm -r | head -9 | cut -c1-130; } >> $R/cpu_load.txt; }
 snap start
 [ -f $R/ct_export.DONE ] || { $PY -m g4qat.export_ct $M9 $CT --ple-group 256 2>&1 | grep -v NOTE | tee $R/ct_export.log | grep -E "embed|layers.0\.|DONE|size"; grep -q EXPORT_CT_DONE $R/ct_export.log && touch $R/ct_export.DONE || exit 1; }
 [ -f $R/ct32_export.DONE ] || { $PY -m g4qat.export_ct $M9 $CT32 --ple-group 32 2>&1 | grep -v NOTE > $R/ct32_export.log; grep -q EXPORT_CT_DONE $R/ct32_export.log && touch $R/ct32_export.DONE || exit 1; }

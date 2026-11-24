@@ -1,6 +1,6 @@
 {
  "tag": "native_m9",
- "weights": "/Users/lexchien/Documents/AI/gemma4-qat/out/m11/gemma4-e2b-m9-q4_0.sbs",
+ "weights": "~/Documents/AI/gemma4-qat/out/m11/gemma4-e2b-m9-q4_0.sbs",
  "status": "complete",
  "text": "391",
  "rc": 0,
@@ -26,7 +26,7 @@
   "quota_bytes": 100000000,
   "retention_days": 0,
   "state_disk_bytes": 0,
-  "target": "xsoin-510805/xsoin-web-1",
+  "target": "site-target",
   "tasks": 1,
   "threads": 2,
   "version": "0.2.1",

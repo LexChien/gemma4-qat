@@ -1,7 +1,7 @@
 W1017 17:34:43.321000 62229 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
 Loading weights:   0%|          | 0/540 [00:00<?, ?it/s]Loading weights:  68%|██████▊   | 369/540 [00:00<00:00, 3644.63it/s]Loading weights: 100%|██████████| 540/540 [00:00<00:00, 4712.33it/s]
 val0 [0, 3.7138888835906982]
-/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m5/tools/m5_peft_mps.py:54: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+~/Documents/AI/gemma4-qat/docs/Plan/m5/tools/m5_peft_mps.py:54: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
 Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
   if s % 10 == 0: dump(); print(f"step {s} loss {float(loss):.4f} {R['step_s'][-1]}s mps {R['mps_driver_gb']}GB", flush=True)
 step 10 loss 2.8979 14.31s mps 16.16GB

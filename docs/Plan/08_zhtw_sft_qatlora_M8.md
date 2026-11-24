@@ -1,6 +1,6 @@
 # M8：zh-TW 蒸餾 SFT × 官方格點可合併 LoRA-QAT（MLX）v1.0
 
-> 日期：2026-10-18（Asia/Taipei）｜機器：M1 Max 64GB｜框架：MLX 0.32.4／mlx_lm 0.32
+> 日期：2026-10-18（UTC+8）｜機器：M1 Max 64GB｜框架：MLX 0.32.4／mlx_lm 0.32
 > 工具：`m8/tools/`｜原始數據：`m8/raw/`｜交付：`out/m8/mlx-m8-g32exact`（2.89GB）｜日誌：`../logs/2026-10-18_M8.md`
 > 依據：`07_nothink_M7.md` 第 5 節（Lex 核准）
 

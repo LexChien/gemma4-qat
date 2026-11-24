@@ -13,4 +13,4 @@ dequant 220/278 model.language_model.layers.34.per_layer_projection.weight
 dequant 240/278 model.language_model.layers.5.self_attn.v_proj.weight
 dequant 260/278 model.language_model.layers.8.mlp.gate_proj.weight
 tensors 540
-BUILD_HF_DONE /Users/lexchien/Documents/AI/gemma4-qat/out/m11/work/m8-hf-text.safetensors
+BUILD_HF_DONE ~/Documents/AI/gemma4-qat/out/m11/work/m8-hf-text.safetensors

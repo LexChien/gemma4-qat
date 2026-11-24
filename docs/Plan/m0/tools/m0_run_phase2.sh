@@ -1,6 +1,6 @@
 #!/bin/bash
 # M0 phase 2 (runs after m0_run_mlx_all.sh): official-CT (dequantized) PPL, torch cross-check, clean speed pass
-cd /Users/lexchien/Documents/AI/gemma4-qat
+cd ~/Documents/AI/gemma4-qat
 PY=.venv-m0/bin/python; B=docs/Plan/m0/tools/m0_bench_mlx.py; RAW=docs/Plan/m0/raw; L=$RAW/bench_phase2.log
 until grep -q MLX_ALL_DONE $RAW/bench_mlx_all.log 2>/dev/null; do sleep 20; done
 {

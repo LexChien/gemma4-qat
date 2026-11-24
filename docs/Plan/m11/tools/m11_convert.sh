@@ -4,9 +4,9 @@
 # usage: m11_convert.sh <tag> <model.safetensors> <out.sbs> <out.csv>
 set -eu
 TAG=$1; IN=$2; OUT=$3; CSV=$4
-ALIFE=/Users/lexchien/Documents/AI/ALife-Platform
+ALIFE=~/Documents/AI/ALife-Platform
 ASSETS=$ALIFE/Google-Gemma4
-STATUS=/Users/lexchien/Documents/AI/gemma4-qat/out/m11/STATUS.txt
+STATUS=~/Documents/AI/gemma4-qat/out/m11/STATUS.txt
 test ! -e "$OUT" || { echo "refuse overwrite $OUT" >&2; exit 1; }
 echo "$(date '+%F %T %Z') stage=convert:$TAG pct=0 start" >> "$STATUS"
 export GEMMA_CPP_BUILD_DIR="$ASSETS/runtime/bindings"

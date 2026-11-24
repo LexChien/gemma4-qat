@@ -6,8 +6,8 @@ sys.path.insert(0, 'docs/Plan/m12/tools'); from m12_facts import FACTS
 R = 'docs/Plan/m12/raw'; KW = {i: k for i, _, k in FACTS}
 def norm(s): return re.sub(r'\\text|[${}_\s]', '', s)
 SIZES = {'Cm8': 'out/m12/gemma4-e2b-m8-v114176-embbf16-q4_0.sbs', 'Bm8': 'out/m12/gemma4-e2b-m8-v154624-q4_0.sbs', 'Bm9': 'out/m12/gemma4-e2b-m9-v154624-q4_0.sbs', 'Am9': 'out/m12/gemma4-e2b-m9-q4emb.sbs',
-         'orig_newbin': '/Users/lexchien/Documents/ChatGPT/XsOin/packages/Gemma4-Portable/models/gemma4-e2b-q4_0.sbs',
-         'orig_oldbin': '/Users/lexchien/Documents/ChatGPT/XsOin/packages/Gemma4-Portable/models/gemma4-e2b-q4_0.sbs',
+         'orig_newbin': '$WEBSITE_ROOT/packages/Gemma4-Portable/models/gemma4-e2b-q4_0.sbs',
+         'orig_oldbin': '$WEBSITE_ROOT/packages/Gemma4-Portable/models/gemma4-e2b-q4_0.sbs',
          'm11m9_oldbin': 'out/m11/gemma4-e2b-m9-q4_0.sbs', 'm11m8_oldbin': 'out/m11/gemma4-e2b-m8-q4_0.sbs'}
 out = {}
 for t, path in SIZES.items():

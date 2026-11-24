@@ -1,6 +1,6 @@
 #!/bin/bash
 # M6 post-train pipeline; each step skips if its output exists (resumable). usage: m6_post.sh
-set -x; cd /Users/lexchien/Documents/AI/gemma4-qat; PY=.venv-m0/bin/python; R=docs/Plan/m6/raw; T=docs/Plan/m6/tools
+set -x; cd ~/Documents/AI/gemma4-qat; PY=.venv-m0/bin/python; R=docs/Plan/m6/raw; T=docs/Plan/m6/tools
 OFF=out/m5/mlx-qat-g32exact; M5=out/m5/mlx-jaxlora-g32exact; M6=out/m6/mlx-mlxlora-g32exact
 # 1 fuse + snap/pack
 [ -d out/m6/mlxlora-fused ] || $PY -m mlx_lm fuse --model out/m5/qat-text-hf --adapter-path out/m6/mlx_lora --save-path out/m6/mlxlora-fused

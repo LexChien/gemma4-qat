@@ -1,5 +1,5 @@
 HF start google/gemma-4-E2B-it-qat-q4_0-unquantized -> weights/gemma-4-E2B-it-qat-q4_0-unquantized
-/Users/lexchien/.pyenv/versions/3.14.0/lib/python3.14/site-packages/huggingface_hub/utils/_validators.py:189: UserWarning: The `resume_download` argument is deprecated and ignored in `snapshot_download`. Downloads always resume whenever possible.
+~/.pyenv/versions/3.14.0/lib/python3.14/site-packages/huggingface_hub/utils/_validators.py:189: UserWarning: The `resume_download` argument is deprecated and ignored in `snapshot_download`. Downloads always resume whenever possible.
   warnings.warn(
 Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [03:43<00:00, 24.86s/it]Fetching 9 files: 100%|██████████| 9/9 [03:43<00:00, 24.86s/it]
 HF done google/gemma-4-E2B-it-qat-q4_0-unquantized

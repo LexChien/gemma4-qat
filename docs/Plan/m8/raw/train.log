@@ -2,7 +2,7 @@
 setup 3.6s deployed-dense 278 qat-lora 205 trainable 24158208 train 971 valid 51 steps/epoch 243 total 486
 step 0 val 0.8014
 Traceback (most recent call last):
-  File "/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 67, in <module>
+  File "~/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 67, in <module>
     (l, k), g = lg(model, x, m); opt.update(model, g); mx.eval(model.trainable_parameters(), opt.state, l)
                                                        ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:Internal Error).
@@ -11,7 +11,7 @@ RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:
 setup 3.8s deployed-dense 278 qat-lora 205 trainable 24158208 train 971 valid 51 steps/epoch 243 total 486
 step 0 val 0.8014
 Traceback (most recent call last):
-  File "/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 67, in <module>
+  File "~/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 67, in <module>
     (l, k), g = lg(model, x, m); opt.update(model, g); mx.eval(model.trainable_parameters(), opt.state, l)
                                                        ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:Internal Error).
@@ -22,7 +22,7 @@ setup 3.7s deployed-dense 278 qat-lora 205 trainable 24158208 train 971 valid 51
 setup 3.9s deployed-dense 278 qat-lora 205 trainable 24158208 train 971 valid 51 steps/epoch 243 total 486
 step 0 val 0.8023
 Traceback (most recent call last):
-  File "/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 71, in <module>
+  File "~/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 71, in <module>
     mx.eval(gacc, l); lsum += l.item(); mx.clear_cache()
     ~~~~~~~^^^^^^^^^
 RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:Internal Error).
@@ -31,7 +31,7 @@ RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:
 RESUME from global step 5 (out/m8/ckpt/step_000005)
 setup 3.7s deployed-dense 278 qat-lora 205 trainable 24158208 train 971 valid 51 steps/epoch 243 total 486
 Traceback (most recent call last):
-  File "/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 71, in <module>
+  File "~/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 71, in <module>
     mx.eval(gacc, l); lsum += l.item(); mx.clear_cache()
     ~~~~~~~^^^^^^^^^
 RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:Internal Error).
@@ -40,7 +40,7 @@ RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:
 RESUME from global step 5 (out/m8/ckpt/step_000005)
 setup 3.7s deployed-dense 278 qat-lora 205 trainable 24158208 train 971 valid 51 steps/epoch 243 total 486
 Traceback (most recent call last):
-  File "/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 71, in <module>
+  File "~/Documents/AI/gemma4-qat/docs/Plan/m8/tools/m8_train.py", line 71, in <module>
     mx.eval(gacc, l); lsum += l.item(); mx.clear_cache()
     ~~~~~~~^^^^^^^^^
 RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:Internal Error).

@@ -1,7 +1,7 @@
 #!/bin/bash
 # M0: MLX conversions (no llama.cpp). Output: out/m0/<name>
 set -x
-cd /Users/lexchien/Documents/AI/gemma4-qat
+cd ~/Documents/AI/gemma4-qat
 PY=.venv-m0/bin/python
 W=weights
 for src in it:gemma-4-E2B-it qat:gemma-4-E2B-it-qat-q4_0-unquantized; do

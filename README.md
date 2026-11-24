@@ -126,4 +126,10 @@ envelope 下中文回答長度約從 A-M8 的 24 字回到約 105–108 字。�
 
 ## 公開範圍與安全
 
-上傳前已排除權重、SBS、虛擬環境、快取、大於 50 MB 的檔案，以及網站政策 envelope 正文。詳見 [`docs/logs/2026-11-22_github_publish.md`](docs/logs/2026-11-22_github_publish.md)。部分文件含本機絕對路徑（例如 `/Users/lexchien/...`），屬環境紀錄，不是密鑰。
+上傳前已排除權重、SBS、虛擬環境、快取、大於 50 MB 的檔案，以及網站政策 envelope 正文。詳見 [`docs/logs/2026-11-22_github_publish.md`](docs/logs/2026-11-22_github_publish.md)。文件與腳本中的本機絕對路徑已改寫為 `~/`；指向網站專案的路徑改為 `$WEBSITE_ROOT`（重現時請設成自己的網站專案路徑），網站政策與對話格式的內部名稱改為 `site-policy`、`site-chat-v1`。
+
+## 聯絡 / Contact
+
+@LexChien - Lex Chien, XsOin Inc.  
+QQ : 2809065720  
+WeChat : LexChien

@@ -5,7 +5,7 @@ Gemma 4 E2B QAT／LoRA-QAT／匯出工具包。這是專案重構（`docs/Plan/1
 ## 安裝（專案的 `.venv-m0`）
 
 ```bash
-cd /Users/lexchien/Documents/AI/gemma4-qat
+cd ~/Documents/AI/gemma4-qat
 .venv-m0/bin/pip install -e src/g4qat
 ```
 

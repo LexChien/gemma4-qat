@@ -1,4 +1,4 @@
-+ cd /Users/lexchien/Documents/AI/gemma4-qat
++ cd ~/Documents/AI/gemma4-qat
 + NAME=smoke
 + ORB=out/m4/smoke_orbax
 + .venv-m0/bin/python tools/convert_jax_to_hf.py --orbax out/m4/smoke_orbax --out out/m4/smoke-hf --hf_ref weights/gemma-4-E2B-it --dtype bf16 --text_only --drop_shared_kv

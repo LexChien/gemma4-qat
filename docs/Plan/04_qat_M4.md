@@ -1,6 +1,6 @@
 # M4（第一部分）：讓 google-deepmind/gemma 的 QAT 支援 Gemma 4 E2B — v1.0
 
-日期：2026-10-17（台北時間）｜ 環境：MacBook Pro M1 Max 64GB，macOS 15.3.1，`.venv-jax`（jax/jaxlib 0.11.2 CPU、flax 0.12.10、kauldron 1.4.4、orbax-checkpoint 0.12.7、optax 0.2.8）
+日期：2026-10-17（UTC+8）｜ 環境：MacBook Pro M1 Max 64GB，macOS 15.3.1，`.venv-jax`（jax/jaxlib 0.11.2 CPU、flax 0.12.10、kauldron 1.4.4、orbax-checkpoint 0.12.7、optax 0.2.8）
 程式碼：`src/gemma-qat`（從 `src/gemma` 9e1f741 複製，分支 `m4-gemma4-qat`）；`src/gemma` 和 `weights/` 都沒有修改。
 
 ## 1. 結論摘要

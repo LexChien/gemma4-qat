@@ -1,6 +1,6 @@
 #!/bin/bash
 # M3 step 3: transformers logits + MLX PPL on converted checkpoints
-cd /Users/lexchien/Documents/AI/gemma4-qat
+cd ~/Documents/AI/gemma4-qat
 PY=".venv-m0/bin/python -u"; RAW=docs/Plan/m3/raw; B=docs/Plan/m0/tools/m0_bench_mlx.py
 {
 echo "=== transformers logits $(date)"

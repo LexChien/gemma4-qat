@@ -1,4 +1,4 @@
-2026-10-18 22:13:10 Asia/Taipei
+2026-10-18 22:13:10 UTC+8
   PID  %CPU %MEM COMM
 62716 100.1  0.3 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/155.0.8059.41/Helpers/Google
 55138  98.8  0.0 /bin/zsh

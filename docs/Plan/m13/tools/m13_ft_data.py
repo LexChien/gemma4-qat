@@ -1,4 +1,4 @@
-"""M13 fine-tune data ("website-envelope distillation"): teach the model to answer the same way inside the website's xsoin-chat-v1
+"""M13 fine-tune data ("website-envelope distillation"): teach the model to answer the same way inside the website's site-chat-v1
 envelope as it does on the bare question. Inputs = website envelope (built by the website's own code, m13_envelopes.mjs) around
 (a) the M9 cleaned zh-TW SFT prompts (thinking off) with their existing curated answers, (b) hand-written English prompts with the M8
 model's own bare-prompt greedy answers. 25% of examples are kept bare (no envelope) to preserve the bare behaviour.

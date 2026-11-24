@@ -24,7 +24,7 @@
   ]
  },
  {
-  "set": "xsoin-site-zh-lines",
+  "set": "site-zh-lines",
   "texts": 20000,
   "identical_token_seq": 20000,
   "tokens_orig": 1273510,

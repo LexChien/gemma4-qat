@@ -1,4 +1,4 @@
-"""M13 experiment (NOT a website change): render the SAME website envelope content (policy xsoin-public-v29 + runtime clock + task)
+"""M13 experiment (NOT a website change): render the SAME website envelope content (policy site-policy + runtime clock + task)
 as plain labelled text instead of a JSON object, to measure how much the JSON format itself costs answer quality.
 in: docs/Plan/m13/raw/envelopes.json -> out: docs/Plan/m13/raw/envelopes_txt.json (same structure)"""
 import json

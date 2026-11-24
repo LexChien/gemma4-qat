@@ -1,4 +1,4 @@
-+ cd /Users/lexchien/Documents/AI/gemma4-qat
++ cd ~/Documents/AI/gemma4-qat
 + PY=.venv-m0/bin/python
 + W=weights
 + for src in it:gemma-4-E2B-it qat:gemma-4-E2B-it-qat-q4_0-unquantized
@@ -48,10 +48,10 @@ bits histogram: Counter({4: 278})
 [INFO] Using dtype: bfloat16
 [INFO] Quantizing
 Traceback (most recent call last):
-  File "/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m0/tools/m0_quant_mixed.py", line 26, in <module>
+  File "~/Documents/AI/gemma4-qat/docs/Plan/m0/tools/m0_quant_mixed.py", line 26, in <module>
     convert(hf_path=a.hf, mlx_path=a.out, quantize=True, q_bits=4, q_group_size=a.group, quant_predicate=predicate)
     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/convert.py", line 152, in convert
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/convert.py", line 152, in convert
     model, config = quantize_model(
                     ~~~~~~~~~~~~~~^
         model,
@@ -61,7 +61,7 @@ Traceback (most recent call last):
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     )
     ^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/utils.py", line 1077, in quantize_model
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/utils.py", line 1077, in quantize_model
     nn.quantize(
     ~~~~~~~~~~~^
         model,
@@ -71,40 +71,40 @@ Traceback (most recent call last):
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     )
     ^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/quantized.py", line 101, in quantize
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/quantized.py", line 101, in quantize
     leaves = tree_map_with_path(_maybe_quantize, leaves, is_leaf=Module.is_module)
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/utils.py", line 110, in tree_map_with_path
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/utils.py", line 110, in tree_map_with_path
     k: tree_map_with_path(
        ~~~~~~~~~~~~~~~~~~^
         fn, child, *(r[k] for r in rest), is_leaf=is_leaf, path=f"{prefix}{k}"
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     )
     ^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/utils.py", line 110, in tree_map_with_path
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/utils.py", line 110, in tree_map_with_path
     k: tree_map_with_path(
        ~~~~~~~~~~~~~~~~~~^
         fn, child, *(r[k] for r in rest), is_leaf=is_leaf, path=f"{prefix}{k}"
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     )
     ^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/utils.py", line 110, in tree_map_with_path
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/utils.py", line 110, in tree_map_with_path
     k: tree_map_with_path(
        ~~~~~~~~~~~~~~~~~~^
         fn, child, *(r[k] for r in rest), is_leaf=is_leaf, path=f"{prefix}{k}"
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     )
     ^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/utils.py", line 96, in tree_map_with_path
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/utils.py", line 96, in tree_map_with_path
     return fn(path, tree, *rest)
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/quantized.py", line 89, in _maybe_quantize
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/quantized.py", line 89, in _maybe_quantize
     return m.to_quantized(**bool_or_params)
            ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/embedding.py", line 55, in to_quantized
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/embedding.py", line 55, in to_quantized
     return QuantizedEmbedding.from_embedding(self, group_size, bits, mode)
            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/quantized.py", line 196, in from_embedding
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/quantized.py", line 196, in from_embedding
     ql = cls(embedding_dims, dims, group_size, bits, mode=mode)
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/quantized.py", line 141, in __init__
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx/nn/layers/quantized.py", line 141, in __init__
     self.weight, self.scales, *biases = mx.quantize(
                                         ~~~~~~~~~~~^
         weight, group_size, bits, mode=mode

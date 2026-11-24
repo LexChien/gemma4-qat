@@ -1,4 +1,4 @@
-== start 2026-11-04 22:55:48 Asia/Taipei
+== start 2026-11-04 22:55:48 UTC+8
   PID  %CPU %MEM COMM
   415  49.3  0.2 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
  2603  35.6  0.1 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/MacOS/logiopti
@@ -8,7 +8,7 @@
 78768  17.1  0.7 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/156.0.8078.76/Help
 61106  15.2  0.0 -zsh
 61086  14.2  0.1 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
-== start 2026-11-04 23:01:13 Asia/Taipei
+== start 2026-11-04 23:01:13 UTC+8
   PID  %CPU %MEM COMM
   415  47.5  0.2 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
   526  39.9  0.1 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/Frameworks/log
@@ -18,7 +18,7 @@
 65678  11.4  0.0 -zsh
  2994  10.6  0.1 /Applications/Grok Bot.app/Contents/Frameworks/Grok Bot Helper.app/Contents/MacOS/Grok Bot Helper
  3111   4.7  0.0 /usr/libexec/trustd
-== after_m9ct 2026-11-04 23:01:55 Asia/Taipei
+== after_m9ct 2026-11-04 23:01:55 UTC+8
   PID  %CPU %MEM COMM
   758  92.6  0.4 /Applications/LINE.app/Contents/MacOS/LINE
   415  48.0  0.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
@@ -28,7 +28,7 @@
  2997  19.3  0.5 /Applications/Grok Bot.app/Contents/Frameworks/Grok Bot Helper (Renderer).app/Contents/MacOS/Grok Bot Helper (Ren
   734  15.2  1.0 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
   526  13.0  0.0 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/Frameworks/log
-== before_mlx_bench 2026-11-04 23:02:18 Asia/Taipei
+== before_mlx_bench 2026-11-04 23:02:18 UTC+8
   PID  %CPU %MEM COMM
   758  98.1  0.4 /Applications/LINE.app/Contents/MacOS/LINE
   415  49.0  0.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
@@ -38,7 +38,7 @@
  2997  20.7  0.5 /Applications/Grok Bot.app/Contents/Frameworks/Grok Bot Helper (Renderer).app/Contents/MacOS/Grok Bot Helper (Ren
  1553  20.2  0.2 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/156.0.8078.76/Help
  2994  11.7  0.1 /Applications/Grok Bot.app/Contents/Frameworks/Grok Bot Helper.app/Contents/MacOS/Grok Bot Helper
-== end 2026-11-04 23:07:08 Asia/Taipei
+== end 2026-11-04 23:07:08 UTC+8
   PID  %CPU %MEM COMM
  2603  64.7  0.1 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/MacOS/logiopti
   415  37.4  0.2 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
@@ -48,7 +48,7 @@
  2994   9.8  0.1 /Applications/Grok Bot.app/Contents/Frameworks/Grok Bot Helper.app/Contents/MacOS/Grok Bot Helper
   526   4.1  0.1 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/Frameworks/log
   758   3.5  0.5 /Applications/LINE.app/Contents/MacOS/LINE
-== start 2026-11-04 23:07:11 Asia/Taipei
+== start 2026-11-04 23:07:11 UTC+8
   PID  %CPU %MEM COMM
  2603  66.6  0.1 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/MacOS/logiopti
   415  37.2  0.2 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
@@ -58,7 +58,7 @@
  2994   9.5  0.1 /Applications/Grok Bot.app/Contents/Frameworks/Grok Bot Helper.app/Contents/MacOS/Grok Bot Helper
   550   9.0  0.0 /usr/libexec/syspolicyd
 63258   6.4  0.0 /usr/libexec/sysmond
-== start 2026-11-05 01:39:54 Asia/Taipei
+== start 2026-11-05 01:39:54 UTC+8
   PID  %CPU %MEM COMM
   415  49.3  0.2 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
   526  34.8  0.1 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/Frameworks/log
@@ -68,7 +68,7 @@
  2994  12.1  0.1 /Applications/Grok Bot.app/Contents/Frameworks/Grok Bot Helper.app/Contents/MacOS/Grok Bot Helper
  2603  12.1  0.1 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/MacOS/logiopti
 41781   9.6  0.0 -zsh
-== after_m9ct 2026-11-05 01:42:50 Asia/Taipei
+== after_m9ct 2026-11-05 01:42:50 UTC+8
   PID  %CPU %MEM COMM
   758  65.9  0.3 /Applications/LINE.app/Contents/MacOS/LINE
   415  24.1  0.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
@@ -78,7 +78,7 @@
  2726   4.3  0.1 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/../Frameworks/Creative Cloud U
 25572   3.8  0.0 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/V
   744   3.7  0.1 /Applications/iTerm.app/Contents/MacOS/iTerm2
-== before_mlx_bench 2026-11-05 01:45:31 Asia/Taipei
+== before_mlx_bench 2026-11-05 01:45:31 UTC+8
   PID  %CPU %MEM COMM
   415  34.0  0.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
   526  31.3  0.1 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/Frameworks/log
@@ -88,7 +88,7 @@
 25572   4.2  0.0 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/V
  8509   2.7  0.3 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (R
  2610   2.6  0.1 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud
-== end 2026-11-05 01:45:31 Asia/Taipei
+== end 2026-11-05 01:45:31 UTC+8
   PID  %CPU %MEM COMM
   415  34.0  0.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
   526  31.3  0.1 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/Frameworks/log
@@ -98,7 +98,7 @@
  3111   4.5  0.0 /usr/libexec/trustd
 25572   3.1  0.0 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/V
 61086   2.7  0.1 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
-== start 2026-11-05 03:10:17 Asia/Taipei
+== start 2026-11-05 03:10:17 UTC+8
   PID  %CPU %MEM COMM
   415  47.3  0.2 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
 61086  44.2  0.1 /System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
@@ -108,7 +108,7 @@
  2997  13.2  0.6 /Applications/Grok Bot.app/Contents/Frameworks/Grok Bot Helper (Renderer).app/Contents/MacOS/Grok Bot Helper (Ren
 73475  13.0  0.0 -zsh
   734   9.7  1.2 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-== after_m9ct 2026-11-05 07:51:03 Asia/Taipei
+== after_m9ct 2026-11-05 07:51:03 UTC+8
   PID  %CPU %MEM COMM
   415  21.2  0.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
  1553  20.5  0.2 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/156.0.8078.76/Help
@@ -118,7 +118,7 @@
 25572   3.8  0.0 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/V
 43131   2.7  0.0 /System/Library/Frameworks/SafariServices.framework/Versions/A/XPCServices/com.apple.SafariServices.ExtensionHelp
  2726   1.9  0.5 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/../Frameworks/Creative Cloud U
-== before_mlx_bench 2026-11-05 16:48:08 Asia/Taipei
+== before_mlx_bench 2026-11-05 16:48:08 UTC+8
   PID  %CPU %MEM COMM
   526  21.4  0.0 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/Frameworks/log
   415  18.0  0.2 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
@@ -128,7 +128,7 @@
   734   9.2  1.2 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
   436   7.9  0.0 /usr/sbin/coreaudiod
 36635   6.0  0.1 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/156.0.8078.76/Help
-== end 2026-11-05 16:48:08 Asia/Taipei
+== end 2026-11-05 16:48:08 UTC+8
   PID  %CPU %MEM COMM
   526  21.4  0.0 /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/Frameworks/log
   415  18.0  0.2 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer

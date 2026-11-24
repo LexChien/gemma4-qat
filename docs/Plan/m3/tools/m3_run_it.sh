@@ -1,6 +1,6 @@
 #!/bin/bash
 # M3 step 1: convert orbax it -> bf16 HF, then tensor-by-tensor compare vs weights/gemma-4-E2B-it
-cd /Users/lexchien/Documents/AI/gemma4-qat
+cd ~/Documents/AI/gemma4-qat
 PY=.venv-m0/bin/python; RAW=docs/Plan/m3/raw
 {
 echo "=== convert it bf16 $(date)"

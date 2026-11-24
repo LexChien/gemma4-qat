@@ -1,9 +1,9 @@
 #!/bin/sh
 # Resumable sequential eval chain (no other heavy jobs in parallel, so timings are comparable).
 set -u
-cd /Users/lexchien/Documents/AI/gemma4-qat; PY=.venv-m0/bin/python; R=docs/Plan/m12/raw; ST=docs/Plan/m12/tools/status.sh
-NB=$PWD/out/m12/bin/mac/gemma_native; OB=/Users/lexchien/Documents/ChatGPT/XsOin/packages/Gemma4-Portable/mac/bin/gemma_native
-ORIG=/Users/lexchien/Documents/ChatGPT/XsOin/packages/Gemma4-Portable/models/gemma4-e2b-q4_0.sbs
+cd ~/Documents/AI/gemma4-qat; PY=.venv-m0/bin/python; R=docs/Plan/m12/raw; ST=docs/Plan/m12/tools/status.sh
+NB=$PWD/out/m12/bin/mac/gemma_native; OB=$WEBSITE_ROOT/packages/Gemma4-Portable/mac/bin/gemma_native
+ORIG=$WEBSITE_ROOT/packages/Gemma4-Portable/models/gemma4-e2b-q4_0.sbs
 run() { T=$1; W=$2; B=$3; X=${4:-}; [ -f $R/eval_$T.DONE ] && return
   $ST 7 9 "stage7 eval $T start"
   $PY docs/Plan/m12/tools/m12_native_eval.py $T $W $B $X > $R/eval_$T.log 2>&1 && grep -q EVAL_DONE $R/eval_$T.log && touch $R/eval_$T.DONE

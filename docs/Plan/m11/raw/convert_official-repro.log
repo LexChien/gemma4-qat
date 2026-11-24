@@ -1,7 +1,7 @@
 I1120 00:45:21.820265 8397817920 convert_from_safetensors.py:1759] Restoring pure python logging
 I1120 00:45:21.820569 8397817920 convert_from_safetensors.py:1784] 
 ====
-Reading gemma4-2b-lm-q4_0-it from /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/models/gemma4-e2b-qat/model.safetensors and /Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/models/gemma4-e2b-qat/tokenizer.json, writing to /Users/lexchien/Documents/AI/gemma4-qat/out/m11/repro/official-repro.sbs.partial
+Reading gemma4-2b-lm-q4_0-it from ~/Documents/AI/ALife-Platform/Google-Gemma4/originals/models/gemma4-e2b-qat/model.safetensors and ~/Documents/AI/ALife-Platform/Google-Gemma4/originals/models/gemma4-e2b-qat/tokenizer.json, writing to ~/Documents/AI/gemma4-qat/out/m11/repro/official-repro.sbs.partial
 ====
 Gemma4 LM: vocab=262144 dim=1536 layers=35 has_ple=True
 Writing model.language_model.embed_tokens.weight with shape torch.Size([262144, 1536]) e:(262144, 1536)

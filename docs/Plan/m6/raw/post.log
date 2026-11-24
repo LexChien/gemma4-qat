@@ -1,4 +1,4 @@
-+ cd /Users/lexchien/Documents/AI/gemma4-qat
++ cd ~/Documents/AI/gemma4-qat
 + PY=.venv-m0/bin/python
 + R=docs/Plan/m6/raw
 + T=docs/Plan/m6/tools
@@ -247,7 +247,7 @@ s04 None 2 0 0.1542 256 "<|channel>thought\nHere's a thinking process that leads
 s05 None 5 0 0.2026 256 "<|channel>thought\nHere's a thinking process that leads to th"
 s06 None 10 0 0.1547 256 '<|channel>thought\nThinking Process:\n\n1.  **Analyze the Reque'
 s07 None 8 0 0.1459 256 "<|channel>thought\nHere's a thinking process that leads to th"
-+ cd /Users/lexchien/Documents/AI/gemma4-qat
++ cd ~/Documents/AI/gemma4-qat
 + PY=.venv-m0/bin/python
 + R=docs/Plan/m6/raw
 + T=docs/Plan/m6/tools

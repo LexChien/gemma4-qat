@@ -1,6 +1,6 @@
 #!/bin/bash
 # M3 step 2: pt bf16, it f32, it text_only, it drop_shared_kv; compare each; file hashes
-cd /Users/lexchien/Documents/AI/gemma4-qat
+cd ~/Documents/AI/gemma4-qat
 PY=.venv-m0/bin/python; RAW=docs/Plan/m3/raw; C=docs/Plan/m3/tools/m3_compare_tensors.py; CV=tools/convert_jax_to_hf.py
 O=weights/orbax/checkpoints
 {

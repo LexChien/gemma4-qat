@@ -1,12 +1,12 @@
 """M13: website-profile eval on the STOCK gemma_native (one process per prompt, 30 s default deadline, --output 256):
 M13 zh40+en40 set (m13_sets) and optionally the M7/M9 50-prompt set (graded by m7_grade.py).
 usage: m13_native_eval.py <tag> <weights.sbs> [sets|p50|all|envsets|envp50]
-env*: the prompt is the exact website xsoin-chat-v1 envelope from docs/Plan/m13/raw/envelopes.json (m13_envelopes.mjs)   (resumable; appends to docs/Plan/m13/raw/{set,lat}_<tag>.jsonl)"""
+env*: the prompt is the exact website site-chat-v1 envelope from docs/Plan/m13/raw/envelopes.json (m13_envelopes.mjs)   (resumable; appends to docs/Plan/m13/raw/{set,lat}_<tag>.jsonl)"""
 import sys, os, json, subprocess, time
 sys.path.insert(0, 'docs/Plan/m7/tools'); sys.path.insert(0, 'docs/Plan/m13/tools')
 from m6_chat_prompts import P
 import m13_sets as S13
-BIN = '/Users/lexchien/Documents/ChatGPT/XsOin/packages/Gemma4-Portable/mac/bin/gemma_native'
+BIN = '$WEBSITE_ROOT/packages/Gemma4-Portable/mac/bin/gemma_native'
 tag, w = sys.argv[1:3]; mode = sys.argv[3] if len(sys.argv) > 3 else 'sets'
 PROF = ['--threads', '2', '--context', '2048', '--prefill', '4', '--packed-q4', '1', '--tasks', '1', '--output', '256']
 RAW = 'docs/Plan/m13/raw'; ST = 'out/m13/STATUS.txt'

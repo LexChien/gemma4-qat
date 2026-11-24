@@ -1,7 +1,7 @@
 # M11 probe: compare MLX g32exact dequant vs official unquantized bf16 for selected tensors.
 import sys, numpy as np, torch, safetensors
 sys.path.insert(0, 'src'); from g4qat.grid import unpack_mlx
-OFF = '/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/models/gemma4-e2b-qat/model.safetensors'
+OFF = '~/Documents/AI/ALife-Platform/Google-Gemma4/originals/models/gemma4-e2b-qat/model.safetensors'
 M = sys.argv[1]
 fo = safetensors.safe_open(OFF, 'pt'); fm = safetensors.safe_open(M + '/model.safetensors', 'pt')
 names = sys.argv[2:]

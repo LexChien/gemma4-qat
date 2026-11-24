@@ -1,6 +1,6 @@
 {
  "tag": "native_orig",
- "weights": "/Users/lexchien/Documents/ChatGPT/XsOin/packages/Gemma4-Portable/models/gemma4-e2b-q4_0.sbs",
+ "weights": "$WEBSITE_ROOT/packages/Gemma4-Portable/models/gemma4-e2b-q4_0.sbs",
  "status": "complete",
  "text": "391",
  "rc": 0,
@@ -26,7 +26,7 @@
   "quota_bytes": 100000000,
   "retention_days": 0,
   "state_disk_bytes": 0,
-  "target": "xsoin-510805/xsoin-web-1",
+  "target": "site-target",
   "tasks": 1,
   "threads": 2,
   "version": "0.2.1",

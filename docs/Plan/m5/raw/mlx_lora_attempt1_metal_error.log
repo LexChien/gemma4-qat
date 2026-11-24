@@ -355,19 +355,19 @@ pre-splitting your data to save memory.
 [?25hTraceback (most recent call last):
   File "<frozen runpy>", line 203, in _run_module_as_main
   File "<frozen runpy>", line 88, in _run_code
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/__main__.py", line 6, in <module>
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/__main__.py", line 6, in <module>
     cli.main()
     ~~~~~~~~^^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/cli.py", line 40, in main
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/cli.py", line 40, in main
     submodule.main()
     ~~~~~~~~~~~~~~^^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/lora.py", line 392, in main
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/lora.py", line 392, in main
     run(types.SimpleNamespace(**args))
     ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/lora.py", line 364, in run
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/lora.py", line 364, in run
     train_model(args, model, train_set, valid_set, training_callback)
     ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/lora.py", line 306, in train_model
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/lora.py", line 306, in train_model
     train(
     ~~~~~^
         model=model,
@@ -377,7 +377,7 @@ pre-splitting your data to save memory.
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     )
     ^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/tuner/trainer.py", line 331, in train
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/tuner/trainer.py", line 331, in train
     mx.eval(state, losses, n_tokens, grad_accum)
     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:Internal Error).

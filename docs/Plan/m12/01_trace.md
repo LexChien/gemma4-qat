@@ -1,6 +1,6 @@
 # M12-01 原始碼追蹤：gemma_native v0.2.1 能吃哪些權重格式、為什麼 SBS 壓不到 2GB、國父差異從哪來
 
-日期 2026-11-20（Asia/Taipei）。全部結論來自讀原始碼或實測，行號以下列快照為準。
+日期 2026-11-20（UTC+8）。全部結論來自讀原始碼或實測，行號以下列快照為準。
 
 ## 0. 原始碼來源（已驗證，不是猜的）
 - 網站包 `Gemma4-Portable/metadata/manifest.json`：version 0.2.1、`sourceSnapshotSHA256 = 92f6d81f…2efcc`、`upstreamMathematicalBaseCommit = e0d9d1af…`。

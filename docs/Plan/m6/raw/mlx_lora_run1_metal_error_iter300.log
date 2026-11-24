@@ -750,16 +750,16 @@ pre-splitting your data to save memory.
 pre-splitting your data to save memory.
 [1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  311[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500[2K[1mtrain[0m ██████▏░░░░░░░░░░░░░░░░░░░░░░░ [1m 21%[0m · [1m  312[0m/1,500
 [?25hTraceback (most recent call last):
-  File "/Users/lexchien/Documents/AI/gemma4-qat/docs/Plan/m6/tools/m6_mlx_lora_run.py", line 19, in <module>
+  File "~/Documents/AI/gemma4-qat/docs/Plan/m6/tools/m6_mlx_lora_run.py", line 19, in <module>
     lora.main()
     ~~~~~~~~~^^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/lora.py", line 392, in main
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/lora.py", line 392, in main
     run(types.SimpleNamespace(**args))
     ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/lora.py", line 364, in run
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/lora.py", line 364, in run
     train_model(args, model, train_set, valid_set, training_callback)
     ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/lora.py", line 306, in train_model
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/lora.py", line 306, in train_model
     train(
     ~~~~~^
         model=model,
@@ -769,7 +769,7 @@ pre-splitting your data to save memory.
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     )
     ^
-  File "/Users/lexchien/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/tuner/trainer.py", line 331, in train
+  File "~/Documents/AI/gemma4-qat/.venv-m0/lib/python3.13/site-packages/mlx_lm/tuner/trainer.py", line 331, in train
     mx.eval(state, losses, n_tokens, grad_accum)
     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 RuntimeError: [METAL] Command buffer execution failed: Internal Error (0000000e:Internal Error).

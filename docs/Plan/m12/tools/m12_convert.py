@@ -4,8 +4,8 @@
 Everything else (layout, writer, tokenizer packing) is the converter's own code. Never overwrites.
 usage: m12_convert.py <in.safetensors> <tokenizer.json> <out.sbs> <out.csv>"""
 import sys, os, importlib.util
-CONV = '/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/work/source/gemma.cpp/python/convert_from_safetensors.py'
-os.environ.setdefault('GEMMA_CPP_BUILD_DIR', '/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/runtime/bindings')
+CONV = '~/Documents/AI/ALife-Platform/Google-Gemma4/work/source/gemma.cpp/python/convert_from_safetensors.py'
+os.environ.setdefault('GEMMA_CPP_BUILD_DIR', '~/Documents/AI/ALife-Platform/Google-Gemma4/runtime/bindings')
 src, tok, out, csv = sys.argv[1:5]
 assert not os.path.exists(out), 'refuse overwrite'
 spec = importlib.util.spec_from_file_location('cfs', CONV); cfs = importlib.util.module_from_spec(spec); spec.loader.exec_module(cfs)

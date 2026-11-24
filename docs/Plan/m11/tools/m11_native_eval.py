@@ -5,7 +5,7 @@ usage: m11_native_eval.py <tag> <weights.sbs>"""
 import sys, os, json, subprocess, time
 sys.path.insert(0, 'docs/Plan/m7/tools'); from m6_chat_prompts import P
 tag, w = sys.argv[1], sys.argv[2]
-BIN = '/Users/lexchien/Documents/ChatGPT/XsOin/packages/Gemma4-Portable/mac/bin/gemma_native'
+BIN = '$WEBSITE_ROOT/packages/Gemma4-Portable/mac/bin/gemma_native'
 PROF = ['--threads', '2', '--context', '2048', '--prefill', '4', '--packed-q4', '1', '--tasks', '1', '--output', '256']
 RAW = 'docs/Plan/m11/raw'; out = f'{RAW}/lat_{tag}.jsonl'; S = 'out/m11/STATUS.txt'
 done = set()

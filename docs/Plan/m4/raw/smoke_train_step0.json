@@ -41,6 +41,6 @@
  "export_keys_equal_official_text_keys": true,
  "export_missing": [],
  "export_extra": [],
- "export_dir": "/Users/lexchien/Documents/AI/gemma4-qat/out/m4/smoke_step0_orbax",
+ "export_dir": "~/Documents/AI/gemma4-qat/out/m4/smoke_step0_orbax",
  "total_s": 89.7
 }

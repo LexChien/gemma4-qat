@@ -2,7 +2,7 @@
 [200/540] model.language_model.layers.11.mlp.down_proj.weight (1536, 6144) 6s
 [400/540] model.language_model.layers.25.self_attn.q_proj.weight (2048, 1536) 9s
 {"orbax": "out/m5/jax_lora_main/orbax", "hf_ref": "weights/gemma-4-E2B-it-qat-q4_0-unquantized", "dtype": "bf16", "text_only": true, "drop_shared_kv": true, "n_tensors": 540, "n_params": 4628569379, "orbax_leaves": 530, "seconds": 14.1} orbax leaves unused: 40 ['layer_15.attn.key_norm.scale', 'layer_15.attn.kv_einsum.w', 'layer_16.attn.key_norm.scale', 'layer_16.attn.kv_einsum.w']
-+ cd /Users/lexchien/Documents/AI/gemma4-qat
++ cd ~/Documents/AI/gemma4-qat
 + NAME=jaxlora
 + HF=out/m5/jaxlora-hf
 + SNAP=

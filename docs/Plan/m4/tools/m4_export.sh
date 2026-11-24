@@ -1,7 +1,7 @@
 #!/bin/bash
 # M4: smoke orbax -> HF (tools/convert_jax_to_hf.py) -> MLX 4-bit g64 (M0 route) -> PPL (m0_bench_mlx.py)
 set -ex
-cd /Users/lexchien/Documents/AI/gemma4-qat
+cd ~/Documents/AI/gemma4-qat
 NAME=${1:-smoke}; ORB=${2:-out/m4/smoke_orbax}
 .venv-m0/bin/python tools/convert_jax_to_hf.py --orbax $ORB --out out/m4/$NAME-hf --hf_ref weights/gemma-4-E2B-it --dtype bf16 --text_only --drop_shared_kv
 rm -rf out/m4/mlx-$NAME-q4g64

@@ -1,6 +1,6 @@
 # M9：清理後 zh-TW 蒸餾 SFT × rank 8 LoRA-QAT ＋ KL-to-teacher（MLX）v1.0
 
-> 日期：2026-10-18～19（Asia/Taipei）｜機器：M1 Max 64GB｜框架：MLX 0.32.4／mlx_lm 0.32
+> 日期：2026-10-18～19（UTC+8）｜機器：M1 Max 64GB｜框架：MLX 0.32.4／mlx_lm 0.32
 > 工具：`m9/tools/`｜原始數據：`m9/raw/`｜交付：`out/m9/mlx-m9-g32exact`（step 100，2.89GB）｜全部 checkpoint：`out/m9/ckpt/`（10 個，未刪）｜日誌：`../logs/2026-10-18_M9.md`
 > 依據：`08_zhtw_sft_qatlora_M8.md` 第 5 節（Lex 核准）。目標：保留 M8 的 zh-TW 改善，PPL 增幅 ≤ 10%、知識 ≥ 官方 12/15。未使用 llama.cpp／GGUF。
 

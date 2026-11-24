@@ -1,5 +1,5 @@
 Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files:   9%|▉         | 1/11 [00:00<00:08,  1.23it/s]Fetching 11 files:  55%|█████▍    | 6/11 [00:01<00:00,  7.31it/s]Fetching 11 files:  73%|███████▎  | 8/11 [00:01<00:00,  6.19it/s]Fetching 11 files:  91%|█████████ | 10/11 [00:03<00:00,  2.55it/s]Fetching 11 files: 100%|██████████| 11/11 [01:11<00:00, 13.11s/it]Fetching 11 files: 100%|██████████| 11/11 [01:11<00:00,  6.50s/it]
-DONE google/gemma-4-E2B-it-qat-mobile-ct /Users/lexchien/Documents/AI/gemma4-qat/weights/gemma-4-E2B-it-qat-mobile-ct 72s
+DONE google/gemma-4-E2B-it-qat-mobile-ct ~/Documents/AI/gemma4-qat/weights/gemma-4-E2B-it-qat-mobile-ct 72s
 Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files:  11%|█         | 1/9 [00:00<00:05,  1.54it/s]Fetching 9 files:  33%|███▎      | 3/9 [00:00<00:01,  4.75it/s]Fetching 9 files:  78%|███████▊  | 7/9 [00:01<00:00,  6.32it/s]Fetching 9 files:  89%|████████▉ | 8/9 [00:04<00:00,  1.48it/s]Fetching 9 files: 100%|██████████| 9/9 [02:50<00:00, 36.75s/it]Fetching 9 files: 100%|██████████| 9/9 [02:50<00:00, 18.92s/it]
-DONE google/gemma-4-E2B-it-qat-w4a16-ct /Users/lexchien/Documents/AI/gemma4-qat/weights/gemma-4-E2B-it-qat-w4a16-ct 171s
+DONE google/gemma-4-E2B-it-qat-w4a16-ct ~/Documents/AI/gemma4-qat/weights/gemma-4-E2B-it-qat-w4a16-ct 171s
 ALL DONE

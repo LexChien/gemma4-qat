@@ -4,7 +4,7 @@ Rules (all verified by m12_vocab_check.py):
  2. all added/special tokens and all 256 <0xHH> byte-fallback tokens kept; <unusedN> dropped.
  3. a token containing any letter/mark outside {ASCII, CJK, Bopomofo, Fullwidth/Halfwidth, Ideographic, Hiragana, Katakana} is dropped
     (other scripts / accented Latin fall back to UTF-8 byte tokens, which stay).
- 4. remaining candidates: tokens seen in the frequency corpus (wikitext-2 train+valid + XsOin site/docs text + gemma4-qat docs/src; eval prompts, factual set and wikitext test are held out) kept first,
+ 4. remaining candidates: tokens seen in the frequency corpus (wikitext-2 train+valid + XsOin Inc. site/docs text + gemma4-qat docs/src; eval prompts, factual set and wikitext test are held out) kept first,
     then unseen ones by ascending old id (BPE id order ~ training frequency) until the target size.
  5. BPE closure: for every kept token t and every merge (l, r) with l+r == t, l and r are kept (so text made only of kept
     tokens tokenizes identically); iterate 4-5 until |keep| == TARGET.
@@ -12,7 +12,7 @@ New id = rank of the old id among kept ids (order preserved).
 usage: m12_vocab.py <target_vocab> <out_dir>"""
 import sys, os, json, re, unicodedata, glob, numpy as np, collections
 from tokenizers import Tokenizer
-TOK = '/Users/lexchien/Documents/AI/ALife-Platform/Google-Gemma4/originals/models/gemma4-e2b-qat/tokenizer.json'
+TOK = '~/Documents/AI/ALife-Platform/Google-Gemma4/originals/models/gemma4-e2b-qat/tokenizer.json'
 TARGET, OUT = int(sys.argv[1]), sys.argv[2]; os.makedirs(OUT, exist_ok=True)
 j = json.load(open(TOK)); vocab = j['model']['vocab']; merges = j['model']['merges']
 id2t = {i: t for t, i in vocab.items()}; V = len(vocab); assert V == 262144
@@ -37,7 +37,7 @@ for f in glob.glob(os.path.expanduser('~/.cache/huggingface/hub/datasets--Salesf
     if '/test-' in f: continue  # held out for m12_vocab_check
     feed('\n'.join(pq.read_table(f).column('text').to_pylist()))
 src = []
-for root in ['/Users/lexchien/Documents/ChatGPT/XsOin/site', '/Users/lexchien/Documents/ChatGPT/XsOin/docs', 'docs', 'src']:
+for root in ['$WEBSITE_ROOT/site', '$WEBSITE_ROOT/docs', 'docs', 'src']:
     for f in glob.glob(root + '/**/*', recursive=True):
         if f.endswith(('.html', '.md', '.txt', '.py', '.json', '.mjs', '.js', '.css')) and os.path.getsize(f) < 5_000_000:
             try: src.append(open(f, encoding='utf-8').read())

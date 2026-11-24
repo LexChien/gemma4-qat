@@ -1,7 +1,7 @@
 # M3 JAX（orbax）→ HF safetensors 轉換器（Gemma 4 E2B）
 
 - 版本：v1.0
-- 執行：2026-10-17 14:15–14:50（台北時間），全部在 Lex 的 MacBookPro 上執行
+- 執行：2026-10-17 14:15–14:50（UTC+8），全部在 Lex 的 MacBookPro 上執行
 - 轉換器：`tools/convert_jax_to_hf.py`（專案根目錄）
 - 驗證腳本：`docs/Plan/m3/tools/`；原始結果：`docs/Plan/m3/raw/`；輸出：`out/m3/`
 - 限制：沒有使用 llama.cpp；`src/` 和 `weights/` 都只讀取、沒有修改

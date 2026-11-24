@@ -1,6 +1,6 @@
 #!/bin/bash
 # M0 phase 3: re-dequantize official CT (lm_head tie fix) -> MLX PPL; base PT bf16 reference
-cd /Users/lexchien/Documents/AI/gemma4-qat
+cd ~/Documents/AI/gemma4-qat
 PY=.venv-m0/bin/python; B=docs/Plan/m0/tools/m0_bench_mlx.py; RAW=docs/Plan/m0/raw; L=$RAW/bench_phase3.log
 until grep -q PHASE2_DONE $RAW/bench_phase2.log 2>/dev/null; do sleep 15; done
 {

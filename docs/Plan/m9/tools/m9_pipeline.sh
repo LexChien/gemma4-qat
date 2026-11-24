@@ -1,7 +1,7 @@
 #!/bin/bash
 # M9 resumable pipeline: clean (fact-check + rebuild SFT + general text) -> train (auto-resume) -> select (quick PPL + knowledge per ckpt)
 # -> export/verify chosen -> full eval (M9 + official, M8 reused). Stage markers docs/Plan/m9/raw/<stage>.DONE.
-cd /Users/lexchien/Documents/AI/gemma4-qat; PY=.venv-m0/bin/python; R=docs/Plan/m9/raw; T=docs/Plan/m9/tools; T7=docs/Plan/m7/tools; B=docs/Plan/m0/tools/m0_bench_mlx.py
+cd ~/Documents/AI/gemma4-qat; PY=.venv-m0/bin/python; R=docs/Plan/m9/raw; T=docs/Plan/m9/tools; T7=docs/Plan/m7/tools; B=docs/Plan/m0/tools/m0_bench_mlx.py
 OFF=out/m5/mlx-qat-g32exact; M9=out/m9/mlx-m9-g32exact; C=$R/cand; export HF_DATASETS_OFFLINE=1; mkdir -p $C out/m9/cand
 if [ ! -f $R/clean.DONE ]; then $PY $T/m9_factcheck.py 2>&1 | grep --line-buffered -v regex | tee -a $R/factcheck.log
   grep -q FACTCHECK_DONE $R/factcheck.log || exit 1
