@@ -133,3 +133,10 @@ envelope 下中文回答長度約從 A-M8 的 24 字回到約 105–108 字。�
 @LexChien - Lex Chien, XsOin Inc.  
 QQ : 2809065720  
 WeChat : LexChien
+
+<table>
+  <tr>
+    <td align="center"><img src="assets/contact/qq.png" width="200" alt="QQ 2809065720"><br>QQ : 2809065720</td>
+    <td align="center"><img src="assets/contact/wechat.png" width="200" alt="WeChat LexChien"><br>WeChat : LexChien</td>
+  </tr>
+</table>
